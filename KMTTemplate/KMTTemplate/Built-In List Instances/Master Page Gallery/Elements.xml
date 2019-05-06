@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance FeatureId="{00000000-0000-0000-0000-000000000000}" TemplateType="116" Title="Master Page Gallery" Description="Use the master page gallery to store master pages. The master pages in this gallery are available to this site and any sites underneath it." Url="_catalogs/masterpage" CustomSchema="Files\_catalogs\masterpage\Schema.xml" HyperlinkBaseUrl="http://devshpt02:44444" RootWebOnly="FALSE" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<Data>
+			<Rows>
+				<Row>
+					<Field Name="ContentTypeId">0x012000C820BA03F633B64FA3C7392B5D1B5BDA</Field>
+					<Field Name="FileLeafRef">Preview Images</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="ID">13</Field>
+					<Field Name="FSObjType">1</Field>
+					<Field Name="MetaInfo">13;#</Field>
+					<Field Name="Order">1300.00000000000</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x012000C820BA03F633B64FA3C7392B5D1B5BDA</Field>
+					<Field Name="FileLeafRef">en-us</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="ID">26</Field>
+					<Field Name="FSObjType">1</Field>
+					<Field Name="MetaInfo">26;#</Field>
+					<Field Name="Order">2600.00000000000</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x012000C820BA03F633B64FA3C7392B5D1B5BDA</Field>
+					<Field Name="FileLeafRef">Preview Images</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="ID">28</Field>
+					<Field Name="FileDirRef">en-us</Field>
+					<Field Name="FSObjType">1</Field>
+					<Field Name="MetaInfo">28;#</Field>
+					<Field Name="Order">2800.00000000000</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x012000C820BA03F633B64FA3C7392B5D1B5BDA</Field>
+					<Field Name="FileLeafRef">Editing Menu</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="ID">36</Field>
+					<Field Name="FSObjType">1</Field>
+					<Field Name="MetaInfo">36;#</Field>
+					<Field Name="Order">3600.00000000000</Field>
+				</Row>
+			</Rows>
+		</Data>
+	</ListInstance>
+</Elements>

@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="Style LibraryImages_Features\PublishingLayouts\Images" Url="Style Library/Images" SetupPath="Features\PublishingLayouts\Images" RootWebOnly="TRUE" Path="Files\12StyleLibrary\Images" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="nd_breadcrumbs.gif" Type="GhostableInLibrary" Path="nd_breadcrumbs.gif">
+			<Property Name="ID" Value="54" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="nd_breadcrumbs.gif" />
+			<Property Name="MetaInfo" Value="54;#" />
+			<Property Name="Order" Value="5400.00000000000" />
+		</File>
+		<File Url="nd_bullet.png" Type="GhostableInLibrary" Path="nd_bullet.png">
+			<Property Name="ID" Value="40" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="nd_bullet.png" />
+			<Property Name="MetaInfo" Value="40;#" />
+			<Property Name="Order" Value="4000.00000000000" />
+		</File>
+		<File Url="nd_calnumbttntoday.png" Type="GhostableInLibrary" Path="nd_calnumbttntoday.png">
+			<Property Name="ID" Value="41" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="nd_calnumbttntoday.png" />
+			<Property Name="MetaInfo" Value="41;#" />
+			<Property Name="Order" Value="4100.00000000000" />
+		</File>
+		<File Url="nd_calnumbttntodayover.png" Type="GhostableInLibrary" Path="nd_calnumbttntodayover.png">
+			<Property Name="ID" Value="42" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="nd_calnumbttntodayover.png" />
+			<Property Name="MetaInfo" Value="42;#" />
+			<Property Name="Order" Value="4200.00000000000" />
+		</File>
+		<File Url="nd_footerbg.png" Type="GhostableInLibrary" Path="nd_footerbg.png">
+			<Property Name="ID" Value="43" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="nd_footerbg.png" />
+			<Property Name="MetaInfo" Value="43;#" />
+			<Property Name="Order" Value="4300.00000000000" />
+		</File>
+		<File Url="nd_groupheaderbg.png" Type="GhostableInLibrary" Path="nd_groupheaderbg.png">
+			<Property Name="ID" Value="44" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="nd_groupheaderbg.png" />
+			<Property Name="MetaInfo" Value="44;#" />
+			<Property Name="Order" Value="4400.00000000000" />
+		</File>
+		<File Url="nd_headerbg.png" Type="GhostableInLibrary" Path="nd_headerbg.png">
+			<Property Name="ID" Value="45" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="nd_headerbg.png" />
+			<Property Name="MetaInfo" Value="45;#" />
+			<Property Name="Order" Value="4500.00000000000" />
+		</File>
+		<File Url="nd_levelbullet.png" Type="GhostableInLibrary" Path="nd_levelbullet.png">
+			<Property Name="ID" Value="46" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="nd_levelbullet.png" />
+			<Property Name="MetaInfo" Value="46;#" />
+			<Property Name="Order" Value="4600.00000000000" />
+		</File>
+		<File Url="nd_logo.png" Type="GhostableInLibrary" Path="nd_logo.png">
+			<Property Name="ID" Value="47" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="nd_logo.png" />
+			<Property Name="MetaInfo" Value="47;#" />
+			<Property Name="Order" Value="4700.00000000000" />
+		</File>
+		<File Url="nd_magglasssearch.png" Type="GhostableInLibrary" Path="nd_magglasssearch.png">
+			<Property Name="ID" Value="48" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="nd_magglasssearch.png" />
+			<Property Name="MetaInfo" Value="48;#" />
+			<Property Name="Order" Value="4800.00000000000" />
+		</File>
+		<File Url="nd_menubuttonhover.png" Type="GhostableInLibrary" Path="nd_menubuttonhover.png">
+			<Property Name="ID" Value="49" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="nd_menubuttonhover.png" />
+			<Property Name="MetaInfo" Value="49;#" />
+			<Property Name="Order" Value="4900.00000000000" />
+		</File>
+		<File Url="nd_menubuttonhover2.png" Type="GhostableInLibrary" Path="nd_menubuttonhover2.png">
+			<Property Name="ID" Value="50" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="nd_menubuttonhover2.png" />
+			<Property Name="MetaInfo" Value="50;#" />
+			<Property Name="Order" Value="5000.00000000000" />
+		</File>
+		<File Url="nd_pageinfobg.png" Type="GhostableInLibrary" Path="nd_pageinfobg.png">
+			<Property Name="ID" Value="51" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="nd_pageinfobg.png" />
+			<Property Name="MetaInfo" Value="51;#" />
+			<Property Name="Order" Value="5100.00000000000" />
+		</File>
+		<File Url="nd_siteinfo.gif" Type="GhostableInLibrary" Path="nd_siteinfo.gif">
+			<Property Name="ID" Value="55" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="nd_siteinfo.gif" />
+			<Property Name="MetaInfo" Value="55;#" />
+			<Property Name="Order" Value="5500.00000000000" />
+		</File>
+		<File Url="nd_vertnavright.png" Type="GhostableInLibrary" Path="nd_vertnavright.png">
+			<Property Name="ID" Value="52" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="nd_vertnavright.png" />
+			<Property Name="MetaInfo" Value="52;#" />
+			<Property Name="Order" Value="5200.00000000000" />
+		</File>
+		<File Url="Search_Arrow.jpg" Type="GhostableInLibrary" Path="Search_Arrow.jpg">
+			<Property Name="ID" Value="22" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Search_Arrow.jpg" />
+			<Property Name="MetaInfo" Value="22;#" />
+			<Property Name="Order" Value="2200.00000000000" />
+		</File>
+		<File Url="Search_Arrow_RTL.jpg" Type="GhostableInLibrary" Path="Search_Arrow_RTL.jpg">
+			<Property Name="ID" Value="23" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Search_Arrow_RTL.jpg" />
+			<Property Name="MetaInfo" Value="23;#" />
+			<Property Name="Order" Value="2300.00000000000" />
+		</File>
+	</Module>
+</Elements>

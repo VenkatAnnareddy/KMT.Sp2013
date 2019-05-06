@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance FeatureId="{00bfea71-de22-43b2-a848-c05709900100}" TemplateType="100" Title="Reusable Content" Description="Items in this list contain HTML or text content which can be inserted into web pages. If an item has automatic update selected, the content will be inserted into web pages as a read-only reference, and the content will update if the item is changed. If the item does not have automatic update selected, the content will be inserted as a copy in the web page, and the content will not update if the item is changed." Url="ReusableContent" CustomSchema="Files\ReusableContent\Schema.xml" HyperlinkBaseUrl="http://devshpt02:44444" RootWebOnly="FALSE" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<Data>
+			<Rows>
+				<Row>
+					<Field Name="ContentTypeId">0x01002CF74A4DAE39480396EEA7A4BA2BE5FB00C6B30ECEC3690F439967BE3666B3B80C</Field>
+					<Field Name="Title">Copyright</Field>
+					<Field Name="ContentCategory">None</Field>
+					<Field Name="AutomaticUpdate">TRUE</Field>
+					<Field Name="ShowInRibbon">TRUE</Field>
+					<Field Name="ReusableHtml">Copyright© 2009 Contoso Corporation - All Rights Reserved</Field>
+					<Field Name="ID">1</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">100.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">1_.000</Field>
+					<Field Name="MetaInfo">1;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x01002CF74A4DAE39480396EEA7A4BA2BE5FB00C6B30ECEC3690F439967BE3666B3B80C</Field>
+					<Field Name="Title">Byline</Field>
+					<Field Name="ContentCategory">None</Field>
+					<Field Name="AutomaticUpdate">TRUE</Field>
+					<Field Name="ShowInRibbon">TRUE</Field>
+					<Field Name="ReusableHtml">By Rich Haddock</Field>
+					<Field Name="ID">2</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">200.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">2_.000</Field>
+					<Field Name="MetaInfo">2;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x01002CF74A4DAE39480396EEA7A4BA2BE5FB00C6B30ECEC3690F439967BE3666B3B80C</Field>
+					<Field Name="Title">Quote</Field>
+					<Field Name="ContentCategory">None</Field>
+					<Field Name="AutomaticUpdate">TRUE</Field>
+					<Field Name="ShowInRibbon">TRUE</Field>
+					<Field Name="ReusableHtml">"Example quotation"</Field>
+					<Field Name="ID">3</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">300.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">3_.000</Field>
+					<Field Name="MetaInfo">3;#</Field>
+				</Row>
+			</Rows>
+		</Data>
+	</ListInstance>
+</Elements>

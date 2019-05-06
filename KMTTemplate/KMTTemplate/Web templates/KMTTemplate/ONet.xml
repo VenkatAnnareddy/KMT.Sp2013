@@ -1,0 +1,121 @@
+﻿<Project Title="KMTTemplate" Description="KMTTemplate" Revision="0" UIVersion="4" SiteLogoUrl="" SiteLogoDescription="" xmlns="http://schemas.microsoft.com/sharepoint/">
+	<NavBars>
+		<NavBar Name="SharePoint Top Navigation Bar" Url="/" ID="1002">
+			<NavBarPage Name="CSC Home" Url="" />
+			<NavBarLink Name="Call Handling" ID="2020" Url="Documents/CallHandling.aspx" />
+		</NavBar>
+		<NavBar Name="Payment/Billing" Url="/">
+			<NavBarLink Name="EBPP Login" ID="2004" Url="alw/billerconsole.html" />
+			<NavBarLink Name="EBPP Reference Guide" ID="2007" Url="SitePages/EBPPReference.aspx" />
+		</NavBar>
+		<NavBar Name="Employee List" Url="/">
+			<NavBarLink Name="CS Associates" ID="2008" Url="Lists/Employees/CS Associates.aspx" />
+			<NavBarLink Name="CS Specialists" ID="2009" Url="Lists/Employees/CS Specialists.aspx" />
+			<NavBarLink Name="CS Consultants" ID="2010" Url="Lists/Employees/CS Consultants.aspx" />
+			<NavBarLink Name="National Accounts" ID="2011" Url="Lists/Employees/National Accounts.aspx" />
+			<NavBarLink Name="Support Team" ID="2012" Url="Lists/Employees/Support Team.aspx" />
+			<NavBarLink Name="Call Centre Teams" ID="2013" Url="Lists/Teams/AllItems.aspx" />
+		</NavBar>
+		<NavBar Name="General" Url="/">
+			<NavBarLink Name="Common Documents" ID="2014" Url="Documents/Forms/AllItems.aspx" />
+			<NavBarLink Name="Divisional Documents" ID="2015" Url="DivisionalDocuments/Forms/AllItems.aspx" />
+			<NavBarLink Name="Tools" ID="2016" Url="Tools/Forms/AllItems.aspx" />
+			<NavBarLink Name="CS Contacts" ID="2017" Url="Documents/Customer Service Contact List 4 2 13.xls" />
+			<NavBarLink Name="All Cities" ID="2019" Url="CityPages/AllCities.aspx" />
+		</NavBar>
+	</NavBars>
+	<Configurations>
+		<Configuration ID="1" Name="Default" MasterUrl="_catalogs/masterpage/v4.master" ThemedCssFolderUrl="">
+			<SiteFeatures>
+				<!--DocumentRoutingResources Feature-->
+				<Feature ID="{0c8a9a47-22a9-4798-82f1-00e62a96006e}" Name="FeatureDefinition/0c8a9a47-22a9-4798-82f1-00e62a96006e" SourceVersion="14.0.0.0" />
+				<!--WebPartAdderGroups Feature-->
+				<Feature ID="{2ed1c45e-a73b-4779-ae81-1524e4de467a}" Name="FeatureDefinition/2ed1c45e-a73b-4779-ae81-1524e4de467a" SourceVersion="14.0.0.0" />
+				<!--CTypes Feature-->
+				<Feature ID="{695b6570-a48b-4a8e-8ea5-26ea7fc1d162}" Name="FeatureDefinition/695b6570-a48b-4a8e-8ea5-26ea7fc1d162" SourceVersion="14.0.1.0" />
+				<!--Fields Feature-->
+				<Feature ID="{ca7bd552-10b1-4563-85b9-5ed1d39c962a}" Name="FeatureDefinition/ca7bd552-10b1-4563-85b9-5ed1d39c962a" SourceVersion="14.0.1.0" />
+				<!--BaseSite Feature-->
+				<Feature ID="{b21b090c-c796-4b0f-ac0f-7ef1659c20ae}" Name="FeatureDefinition/b21b090c-c796-4b0f-ac0f-7ef1659c20ae" SourceVersion="14.0.0.0" />
+				<!--PortalLayouts Feature-->
+				<Feature ID="{5f3b0127-2f1d-4cfd-8dd2-85ad1fb00bfc}" Name="FeatureDefinition/5f3b0127-2f1d-4cfd-8dd2-85ad1fb00bfc" SourceVersion="14.0.0.0" />
+				<!--RecordResources Feature-->
+				<Feature ID="{5bccb9a4-b903-4fd1-8620-b795fa33c9ba}" Name="FeatureDefinition/5bccb9a4-b903-4fd1-8620-b795fa33c9ba" SourceVersion="14.0.0.0" />
+				<!--BasicWebParts Feature-->
+				<Feature ID="{00bfea71-1c5e-4a24-b310-ba51c3eb7a57}" Name="FeatureDefinition/00bfea71-1c5e-4a24-b310-ba51c3eb7a57" SourceVersion="14.0.1.0" />
+				<!--WACustomReports Feature-->
+				<Feature ID="{af6d9aec-7c38-4dda-997f-cc1ddbb87c92}" Name="FeatureDefinition/af6d9aec-7c38-4dda-997f-cc1ddbb87c92" SourceVersion="14.0.0.0" />
+				<!--LocalSiteDirectoryControl Feature-->
+				<Feature ID="{14aafd3a-fcb9-4bb7-9ad7-d8e36b663bbd}" Name="FeatureDefinition/14aafd3a-fcb9-4bb7-9ad7-d8e36b663bbd" SourceVersion="14.0.0.0" />
+				<!--AccSrvSolutionGallery Feature-->
+				<Feature ID="{744b5fd3-3b09-4da6-9bd1-de18315b045d}" Name="FeatureDefinition/744b5fd3-3b09-4da6-9bd1-de18315b045d" SourceVersion="1.0.0.0" />
+			</SiteFeatures>
+			<WebFeatures>
+				<!--WebPageLibrary Feature-->
+				<Feature ID="{00bfea71-c796-4402-9f2f-0eb9a6e71b18}" Name="FeatureDefinition/00bfea71-c796-4402-9f2f-0eb9a6e71b18" SourceVersion="1.0.0.0" />
+				<!--IssuesList Feature-->
+				<Feature ID="{00bfea71-5932-4f9c-ad71-1557e5751100}" Name="FeatureDefinition/00bfea71-5932-4f9c-ad71-1557e5751100" SourceVersion="0.0.0.0" />
+				<!--WorkflowHistoryList Feature-->
+				<Feature ID="{00bfea71-4ea5-48d4-a4ad-305cf7030140}" Name="FeatureDefinition/00bfea71-4ea5-48d4-a4ad-305cf7030140" SourceVersion="0.0.0.0" />
+				<!--NoCodeWorkflowLibrary Feature-->
+				<Feature ID="{00bfea71-f600-43f6-a895-40c0de7b0117}" Name="FeatureDefinition/00bfea71-f600-43f6-a895-40c0de7b0117" SourceVersion="0.0.0.0" />
+				<!--SurveysList Feature-->
+				<Feature ID="{00bfea71-eb8a-40b1-80c7-506be7590102}" Name="FeatureDefinition/00bfea71-eb8a-40b1-80c7-506be7590102" SourceVersion="1.0.0.0" />
+				<!--GridList Feature-->
+				<Feature ID="{00bfea71-3a1d-41d3-a0ee-651d11570120}" Name="FeatureDefinition/00bfea71-3a1d-41d3-a0ee-651d11570120" SourceVersion="1.0.0.0" />
+				<!--GanttTasksList Feature-->
+				<Feature ID="{00bfea71-513d-4ca0-96c2-6a47775c0119}" Name="FeatureDefinition/00bfea71-513d-4ca0-96c2-6a47775c0119" SourceVersion="0.0.0.0" />
+				<!--LinksList Feature-->
+				<Feature ID="{00bfea71-2062-426c-90bf-714c59600103}" Name="FeatureDefinition/00bfea71-2062-426c-90bf-714c59600103" SourceVersion="1.0.0.0" />
+				<!--MobilityRedirect Feature-->
+				<Feature ID="{f41cc668-37e5-4743-b4a8-74d1db3fd8a4}" Name="FeatureDefinition/f41cc668-37e5-4743-b4a8-74d1db3fd8a4" SourceVersion="1.0.0.0" />
+				<!--workflowProcessList Feature-->
+				<Feature ID="{00bfea71-2d77-4a75-9fca-76516689e21a}" Name="FeatureDefinition/00bfea71-2d77-4a75-9fca-76516689e21a" SourceVersion="1.0.0.0" />
+				<!--TasksList Feature-->
+				<Feature ID="{00bfea71-a83e-497e-9ba0-7a5c597d0107}" Name="FeatureDefinition/00bfea71-a83e-497e-9ba0-7a5c597d0107" SourceVersion="1.0.0.0" />
+				<!--TeamCollab Feature-->
+				<Feature ID="{00bfea71-4ea5-48d4-a4ad-7ea5c011abe5}" Name="FeatureDefinition/00bfea71-4ea5-48d4-a4ad-7ea5c011abe5" SourceVersion="14.0.0.0" />
+				<!--AnnouncementsList Feature-->
+				<Feature ID="{00bfea71-d1ce-42de-9c63-a44004ce0104}" Name="FeatureDefinition/00bfea71-d1ce-42de-9c63-a44004ce0104" SourceVersion="1.0.0.0" />
+				<!--PictureLibrary Feature-->
+				<Feature ID="{00bfea71-52d4-45b3-b544-b1c71b620109}" Name="FeatureDefinition/00bfea71-52d4-45b3-b544-b1c71b620109" SourceVersion="1.0.0.0" />
+				<!--ContactsList Feature-->
+				<Feature ID="{00bfea71-7e6d-4186-9ba8-c047ac750105}" Name="FeatureDefinition/00bfea71-7e6d-4186-9ba8-c047ac750105" SourceVersion="1.0.0.0" />
+				<!--CustomList Feature-->
+				<Feature ID="{00bfea71-de22-43b2-a848-c05709900100}" Name="FeatureDefinition/00bfea71-de22-43b2-a848-c05709900100" SourceVersion="1.0.0.0" />
+				<!--DocumentLibrary Feature-->
+				<Feature ID="{00bfea71-e717-4e80-aa17-d0c71b360101}" Name="FeatureDefinition/00bfea71-e717-4e80-aa17-d0c71b360101" SourceVersion="1.0.0.0" />
+				<!--DiscussionsList Feature-->
+				<Feature ID="{00bfea71-6a49-43fa-b535-d15c05500108}" Name="FeatureDefinition/00bfea71-6a49-43fa-b535-d15c05500108" SourceVersion="1.0.0.0" />
+				<!--DataSourceLibrary Feature-->
+				<Feature ID="{00bfea71-f381-423d-b9d1-da7a54c50110}" Name="FeatureDefinition/00bfea71-f381-423d-b9d1-da7a54c50110" SourceVersion="0.0.0.0" />
+				<!--DataConnectionLibrary Feature-->
+				<Feature ID="{00bfea71-dbd7-4f72-b8cb-da7ac0440130}" Name="FeatureDefinition/00bfea71-dbd7-4f72-b8cb-da7ac0440130" SourceVersion="14.0.0.0" />
+				<!--ExternalList Feature-->
+				<Feature ID="{00bfea71-9549-43f8-b978-e47e54a10600}" Name="FeatureDefinition/00bfea71-9549-43f8-b978-e47e54a10600" SourceVersion="1.0.0.0" />
+				<!--EventsList Feature-->
+				<Feature ID="{00bfea71-ec85-4903-972d-ebe475780106}" Name="FeatureDefinition/00bfea71-ec85-4903-972d-ebe475780106" SourceVersion="3.0.0.0" />
+				<!--XmlFormLibrary Feature-->
+				<Feature ID="{00bfea71-1e1d-4562-b56a-f05371bb0115}" Name="FeatureDefinition/00bfea71-1e1d-4562-b56a-f05371bb0115" SourceVersion="0.0.0.0" />
+				<!--List Feature-->
+				<Feature ID="{c13984a3-6c20-4c30-a57a-18a290c1a5cd}" Name="List Feature">
+					<Properties>
+						<Property Key="GeneratedBySaveAsTemplate" Value="1" />
+					</Properties>
+				</Feature>
+				<!--Module Feature-->
+				<Feature ID="{30d1d25f-6d2c-46b9-88d4-b02568056c9c}" Name="Module Feature">
+					<Properties>
+						<Property Key="GeneratedBySaveAsTemplate" Value="1" />
+					</Properties>
+				</Feature>
+				<!--Property Bag Feature-->
+				<Feature ID="{ef170153-9bd8-4653-9130-78e4029efd78}" Name="Property Bag Feature">
+					<Properties>
+						<Property Key="GeneratedBySaveAsTemplate" Value="1" />
+					</Properties>
+				</Feature>
+			</WebFeatures>
+		</Configuration>
+	</Configurations>
+</Project>

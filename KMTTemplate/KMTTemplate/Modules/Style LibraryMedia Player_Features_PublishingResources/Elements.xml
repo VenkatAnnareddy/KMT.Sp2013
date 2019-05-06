@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="Style LibraryMedia Player_Features\PublishingResources" Url="Style Library/Media Player" SetupPath="Features\PublishingResources" RootWebOnly="TRUE" Path="Files\12StyleLibrary\14MediaPlayer" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="AlternateMediaPlayer.xaml" Type="GhostableInLibrary" Path="AlternateMediaPlayer.xaml">
+			<Property Name="ID" Value="14" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Media Player" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="AlternateMediaPlayer.xaml" />
+			<Property Name="MetaInfo" Value="14;#" />
+			<Property Name="Order" Value="1400.00000000000" />
+		</File>
+		<File Url="AudioPreview.png" Type="GhostableInLibrary" Path="AudioPreview.png">
+			<Property Name="ID" Value="16" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Media Player" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="AudioPreview.png" />
+			<Property Name="MetaInfo" Value="16;#" />
+			<Property Name="Order" Value="1600.00000000000" />
+		</File>
+		<File Url="MediaWebPartPreview.png" Type="GhostableInLibrary" Path="MediaWebPartPreview.png">
+			<Property Name="ID" Value="20" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Media Player" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="MediaWebPartPreview.png" />
+			<Property Name="MetaInfo" Value="20;#" />
+			<Property Name="Order" Value="2000.00000000000" />
+		</File>
+		<File Url="VideoPreview.png" Type="GhostableInLibrary" Path="VideoPreview.png">
+			<Property Name="ID" Value="18" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/Media Player" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="VideoPreview.png" />
+			<Property Name="MetaInfo" Value="18;#" />
+			<Property Name="Order" Value="1800.00000000000" />
+		</File>
+	</Module>
+</Elements>

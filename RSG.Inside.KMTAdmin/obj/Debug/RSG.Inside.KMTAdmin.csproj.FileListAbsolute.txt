@@ -1,0 +1,6 @@
+D:\RP\KMT.SP2013\RSG.Inside.KMTAdmin\bin\Debug\RSG.Inside.KMTAdmin.dll.config
+D:\RP\KMT.SP2013\RSG.Inside.KMTAdmin\bin\Debug\RSG.Inside.KMTAdmin.dll
+D:\RP\KMT.SP2013\RSG.Inside.KMTAdmin\bin\Debug\RSG.Inside.KMTAdmin.pdb
+D:\RP\KMT.SP2013\RSG.Inside.KMTAdmin\obj\Debug\RSG.Inside.KMTAdmin.csprojResolveAssemblyReference.cache
+D:\RP\KMT.SP2013\RSG.Inside.KMTAdmin\obj\Debug\RSG.Inside.KMTAdmin.dll
+D:\RP\KMT.SP2013\RSG.Inside.KMTAdmin\obj\Debug\RSG.Inside.KMTAdmin.pdb

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="AnalyticsReportsForms_1033\STS\doctemp\xl" Url="AnalyticsReports/Forms" SetupPath="1033\STS\doctemp\xl" RootWebOnly="FALSE" Path="Files\AnalyticsReports\Forms" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="template.xls" DocumentTemplateForList="AnalyticsReports/Forms" Type="Ghostable" Path="xltmpl.xls" />
+	</Module>
+</Elements>

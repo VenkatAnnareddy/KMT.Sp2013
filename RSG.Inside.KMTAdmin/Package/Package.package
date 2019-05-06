@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="e4735627-e404-4407-b3f3-ba1b92641239" solutionId="e4735627-e404-4407-b3f3-ba1b92641239" resetWebServer="false" sharePointProductVersion="15.0" name="RSG.Inside.KMTAdmin" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="3d051a56-624b-4de0-87fe-849960f55224" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="09a3328e-b6fd-4fbd-b388-87d0e0c6e98b" />
+  </projectItems>
+</package>

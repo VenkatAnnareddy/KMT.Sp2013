@@ -1,0 +1,4 @@
+D:\RP\KMT.SP2013\RSG.Inside.KMTTemplateWebParts\bin\Debug\RSG.Inside.KMTTemplateWebParts.dll
+D:\RP\KMT.SP2013\RSG.Inside.KMTTemplateWebParts\bin\Debug\RSG.Inside.KMTTemplateWebParts.pdb
+D:\RP\KMT.SP2013\RSG.Inside.KMTTemplateWebParts\obj\Debug\RSG.Inside.KMTTemplateWebParts.dll
+D:\RP\KMT.SP2013\RSG.Inside.KMTTemplateWebParts\obj\Debug\RSG.Inside.KMTTemplateWebParts.pdb

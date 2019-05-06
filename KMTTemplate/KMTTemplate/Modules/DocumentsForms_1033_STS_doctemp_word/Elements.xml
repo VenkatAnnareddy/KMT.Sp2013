@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="DocumentsForms_1033\STS\doctemp\word" Url="Documents/Forms" SetupPath="1033\STS\doctemp\word" RootWebOnly="FALSE" Path="Files\Documents\Forms" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="template.dotx" DocumentTemplateForList="Documents/Forms" Type="Ghostable" Path="wdtmpl.dotx" />
+	</Module>
+</Elements>

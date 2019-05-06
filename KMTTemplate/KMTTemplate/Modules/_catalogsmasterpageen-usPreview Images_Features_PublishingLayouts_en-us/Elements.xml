@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="_catalogsmasterpageen-usPreview Images_Features\PublishingLayouts\en-us" Url="_catalogs/masterpage/en-us/Preview Images" SetupPath="Features\PublishingLayouts\en-us" RootWebOnly="FALSE" Path="Files\_catalogs\masterpage\en-us\6PreviewImages" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="ArticleBodyOnly.png" Type="GhostableInLibrary" Path="ArticleBodyOnly.png">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="ArticleBodyOnly.png" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="64" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/en-us/Preview Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="64;#" />
+			<Property Name="Order" Value="6400.00000000000" />
+		</File>
+		<File Url="ArticleLeft.png" Type="GhostableInLibrary" Path="ArticleLeft.png">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="ArticleLeft.png" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="55" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/en-us/Preview Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="55;#" />
+			<Property Name="Order" Value="5500.00000000000" />
+		</File>
+		<File Url="ArticleLinks.png" Type="GhostableInLibrary" Path="ArticleLinks.png">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="ArticleLinks.png" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="52" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/en-us/Preview Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="52;#" />
+			<Property Name="Order" Value="5200.00000000000" />
+		</File>
+		<File Url="ArticleRight.png" Type="GhostableInLibrary" Path="ArticleRight.png">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="ArticleRight.png" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="61" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/en-us/Preview Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="61;#" />
+			<Property Name="Order" Value="6100.00000000000" />
+		</File>
+		<File Url="BlankWebPartPage.png" Type="GhostableInLibrary" Path="BlankWebPartPage.png">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="BlankWebPartPage.png" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="58" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/en-us/Preview Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="58;#" />
+			<Property Name="Order" Value="5800.00000000000" />
+		</File>
+		<File Url="RedirectPage.png" Type="GhostableInLibrary" Path="RedirectPage.png">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="RedirectPage.png" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="67" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/en-us/Preview Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="67;#" />
+			<Property Name="Order" Value="6700.00000000000" />
+		</File>
+		<File Url="WelcomeSplash.png" Type="GhostableInLibrary" Path="WelcomeSplash.png">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="WelcomeSplash.png" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="73" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/en-us/Preview Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="73;#" />
+			<Property Name="Order" Value="7300.00000000000" />
+		</File>
+		<File Url="WelcomeTOC.png" Type="GhostableInLibrary" Path="WelcomeTOC.png">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="WelcomeTOC.png" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="70" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/en-us/Preview Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="70;#" />
+			<Property Name="Order" Value="7000.00000000000" />
+		</File>
+	</Module>
+</Elements>

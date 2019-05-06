@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance FeatureId="{00bfea71-ec85-4903-972d-ebe475780106}" TemplateType="106" Title="CallCentreUpcomingEvents" Description="CallCentreUpcomingEvents" Url="Lists/CallCentreUpcomingEvents" CustomSchema="Files\Lists\CallCentreUpcomingEvents\Schema.xml" HyperlinkBaseUrl="http://devshpt02:44444" RootWebOnly="FALSE" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<Data>
+			<Rows>
+				<Row>
+					<Field Name="ContentTypeId">0x0102002948F6EA15C2E544B4FD4EB89F73DDA6</Field>
+					<Field Name="Title">May Day</Field>
+					<Field Name="EventDate">2013-05-01T13:00:00Z</Field>
+					<Field Name="EndDate">2013-05-01T14:00:00Z</Field>
+					<Field Name="Description">&lt;div&gt;&lt;/div&gt;</Field>
+					<Field Name="fAllDayEvent">false</Field>
+					<Field Name="fRecurrence">false</Field>
+					<Field Name="EventType">0</Field>
+					<Field Name="Duration">3,600</Field>
+					<Field Name="Category">Holiday</Field>
+					<Field Name="ID">1</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">100.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">1_.000</Field>
+					<Field Name="MetaInfo">1;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0102002948F6EA15C2E544B4FD4EB89F73DDA6</Field>
+					<Field Name="Title">Mother's Day</Field>
+					<Field Name="EventDate">2013-05-12T15:00:00Z</Field>
+					<Field Name="EndDate">2013-05-13T01:00:00Z</Field>
+					<Field Name="Description">&lt;div&gt;&lt;/div&gt;</Field>
+					<Field Name="fAllDayEvent">false</Field>
+					<Field Name="fRecurrence">false</Field>
+					<Field Name="EventType">0</Field>
+					<Field Name="Duration">36,000</Field>
+					<Field Name="Category">Get-together</Field>
+					<Field Name="ID">2</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">200.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">2_.000</Field>
+					<Field Name="MetaInfo">2;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0102002948F6EA15C2E544B4FD4EB89F73DDA6</Field>
+					<Field Name="Title">National Maritime Day</Field>
+					<Field Name="EventDate">2013-05-22T00:00:00Z</Field>
+					<Field Name="EndDate">2013-05-22T23:59:00Z</Field>
+					<Field Name="Description">&lt;div&gt;&lt;/div&gt;</Field>
+					<Field Name="fAllDayEvent">TRUE</Field>
+					<Field Name="fRecurrence">false</Field>
+					<Field Name="EventType">0</Field>
+					<Field Name="Duration">86,340</Field>
+					<Field Name="TimeZone">0</Field>
+					<Field Name="Category">Meeting</Field>
+					<Field Name="ID">3</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">300.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">3_.000</Field>
+					<Field Name="MetaInfo">3;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0102002948F6EA15C2E544B4FD4EB89F73DDA6</Field>
+					<Field Name="Title">Memorial Day *</Field>
+					<Field Name="EventDate">2013-05-27T00:00:00Z</Field>
+					<Field Name="EndDate">2013-05-27T23:59:00Z</Field>
+					<Field Name="Description">&lt;div&gt;&lt;/div&gt;</Field>
+					<Field Name="fAllDayEvent">TRUE</Field>
+					<Field Name="fRecurrence">false</Field>
+					<Field Name="EventType">0</Field>
+					<Field Name="Duration">86,340</Field>
+					<Field Name="TimeZone">0</Field>
+					<Field Name="Category">Get-together</Field>
+					<Field Name="ID">4</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">400.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">4_.000</Field>
+					<Field Name="MetaInfo">4;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0102002948F6EA15C2E544B4FD4EB89F73DDA6</Field>
+					<Field Name="Title">Victoria Day</Field>
+					<Field Name="EventDate">2013-05-20T00:00:00Z</Field>
+					<Field Name="EndDate">2013-05-20T23:59:00Z</Field>
+					<Field Name="Description">&lt;div&gt;&lt;/div&gt;</Field>
+					<Field Name="fAllDayEvent">TRUE</Field>
+					<Field Name="fRecurrence">false</Field>
+					<Field Name="EventType">0</Field>
+					<Field Name="Duration">86,340</Field>
+					<Field Name="TimeZone">0</Field>
+					<Field Name="Category">Work hours</Field>
+					<Field Name="ID">5</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">500.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">5_.000</Field>
+					<Field Name="MetaInfo">5;#</Field>
+				</Row>
+			</Rows>
+		</Data>
+	</ListInstance>
+</Elements>

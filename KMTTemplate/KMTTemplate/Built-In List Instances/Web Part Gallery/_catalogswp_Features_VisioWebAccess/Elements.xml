@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="_catalogswp_Features\VisioWebAccess" Url="_catalogs/wp" SetupPath="Features\VisioWebAccess" RootWebOnly="TRUE" Path="Files\_catalogs\wp" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="VisioWebAccess.dwp" Type="GhostableInLibrary" Path="VisioWebAccess.dwp">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="VisioWebAccess.dwp" />
+			<Property Name="Title" Value="Visio Web Access" />
+			<Property Name="WebPartDescription" Value="Enables viewing and refreshing of Visio Web Drawings." />
+			<Property Name="Group" Value="Business Data" />
+			<Property Name="QuickAddGroups" Value=";#Dashboard;#" />
+			<Property Name="ID" Value="65" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="65;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Business Data&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;WebPartPartImageLarge:SW|/_layouts/images/vwasmall.png&#xD;&#xA;QuickAddGroups:SR|;#Dashboard;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\VisioWebAccess\\VisioWebAccess.dwp&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartAssembly:SW|&quot;Microsoft.Office.Visio.Server, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c&quot;&#xD;&#xA;WebPartTypeName:SW|Microsoft.Office.Visio.Server.WebControls.VisioWebAccess&#xD;&#xA;WebPartDescription:SW|Enables viewing and refreshing of Visio Web Drawings.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|WebPartPartImageLarge vti_title WebPartAssembly WebPartTypeName WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Visio Web Access&#xD;&#xA;vti_title:SR|Visio Web Access&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="6500.00000000000" />
+		</File>
+	</Module>
+</Elements>

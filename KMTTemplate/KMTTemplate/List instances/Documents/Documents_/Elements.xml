@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="Documents_" HyperlinkBaseUrl="http://devshpt02:44444" Url="Documents" RootWebOnly="FALSE" Path="Files\Documents" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="Customer Service Contact List 4 2 13.xls" Type="GhostableInLibrary" Path="2CustomerServiceContactList4213.xls">
+			<Property Name="ContentTypeId" Value="0x010100F50BB2863D1B4E46987D570D42A4B628" />
+			<Property Name="FileLeafRef" Value="Customer Service Contact List 4 2 13.xls" />
+			<Property Name="ID" Value="1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Documents" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="1;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_lmt:SW|Fri, 26 Apr 2013 14:30:32 GMT&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_error0:SX|Could not process the file Documents/Customer Service Contact List 4 2 13.xls as a Microsoft Office document.&#xD;&#xA;vti_contenttag:SW|{76647F9A-A7A7-4790-9288-046310287359},3,2&#xD;&#xA;_Category:SW|&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_error:IX|1&#xD;&#xA;vti_winfileattribs:SW|00000000&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;Keywords:SW|&#xD;&#xA;_Status:SW|&#xD;&#xA;vti_cachedcustomprops:VX|Subject Keywords _Status _Author _Category _Comments&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_docstoreversion:IR|3&#xD;&#xA;vti_metainfoversion:IW|3&#xD;&#xA;ContentTypeId:SW|0x010100F50BB2863D1B4E46987D570D42A4B628&#xD;&#xA;vti_ct:SW|Fri, 26 Apr 2013 14:30:32 GMT&#xD;&#xA;vti_lat:SW|Sun, 09 Jun 2013 17:35:48 GMT&#xD;&#xA;_Author:SW|jl00092&#xD;&#xA;vti_sourcecontrolmultiuserchkoutby:VR|REPSRV\\\\udhatsu&#xD;&#xA;_Comments:SW|&#xD;&#xA;Subject:SW|&#xD;&#xA;" />
+			<Property Name="Order" Value="100.000000000000" />
+		</File>
+		<File Url="CommercialBilling.aspx" Type="GhostableInLibrary" Path="CommercialBilling.aspx">
+			<View List="Lists/CallHandlingLinks" DisplayName="" Url="" DefaultView="FALSE" BaseViewID="1" Type="HTML" WebPartOrder="0" WebPartZoneID="LeftColumn" ContentTypeID="0x" ID="g_ad53741e_c90f_4709_ad10_cec00e653bb9" Hidden="TRUE">
+				<BinarySerializedWebPart>
+					<GUIDMap>
+						<GUID Id="1273f97f_b672_494c_aeef_03157c4381e6" ListUrl="Lists/CallHandlingLinks" />
+					</GUIDMap>
+					<WebPart ID="{ad53741e-c90f-4709-ad10-cec00e653bb9}" WebPartIdProperty="" List="{$ListId:Lists/CallHandlingLinks;}" Type="1" Flags="8388617" DisplayName="" Version="5" Url="/Documents/CommercialBilling.aspx" WebPartOrder="0" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{874f5460-71f9-fecc-e894-e7e858d9713e}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="B6Dt/kkAAAABAAAAAAAAAAIAAAAvTGlzdHMvQ2FsbEhhbmRsaW5nTGlua3MAL19sYXlvdXRzL2ltYWdlcy9pdGxpbmsucG5nAP8BFCsAHQICAgMCAwEEAAICAg4CEAEBAAICBQhWaWV3R3VpZAUme0FENTM3NDFFLUM5MEYtNDcwOS1BRDEwLUNFQzAwRTY1M0JCOX0BAAACEAJ9BRgvTGlzdHMvQ2FsbEhhbmRsaW5nTGlua3MCggEFGy9fbGF5b3V0cy9pbWFnZXMvaXRsaW5rLnBuZwIZBQc4Mzg4NjE3BQlWaWV3RmxhZ3MoKXpNaWNyb3NvZnQuU2hhcmVQb2ludC5TUFZpZXdGbGFncywgTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5YxRIdG1sLCBIaWRkZW4sIE1vYmlsZQKVAQUmezEyNzNGOTdGLUI2NzItNDk0Qy1BRUVGLTAzMTU3QzQzODFFNn0FBkxpc3RJZCgpWFN5c3RlbS5HdWlkLCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkkMTI3M2Y5N2YtYjY3Mi00OTRjLWFlZWYtMDMxNTdjNDM4MWU2BQ1YbWxEZWZpbml0aW9uBbQEPFZpZXcgTmFtZT0ie0FENTM3NDFFLUM5MEYtNDcwOS1BRDEwLUNFQzAwRTY1M0JCOX0iIE1vYmlsZVZpZXc9IlRSVUUiIFR5cGU9IkhUTUwiIEhpZGRlbj0iVFJVRSIgVGFidWxhclZpZXc9IkZBTFNFIiBEaXNwbGF5TmFtZT0iIiBVcmw9Ii9Eb2N1bWVudHMvQ29tbWVyY2lhbEJpbGxpbmcuYXNweCIgTGV2ZWw9IjEiIEJhc2VWaWV3SUQ9IjEiIENvbnRlbnRUeXBlSUQ9IjB4IiBJbWFnZVVybD0iL19sYXlvdXRzL2ltYWdlcy9saW5rcy5wbmciPjxRdWVyeT48R3JvdXBCeSBDb2xsYXBzZT0iRkFMU0UiIEdyb3VwTGltaXQ9IjMwIj48RmllbGRSZWYgTmFtZT0iQ2F0ZWdvcnkiLz48L0dyb3VwQnk+PE9yZGVyQnk+PEZpZWxkUmVmIE5hbWU9IkNhdGVnb3J5Ii8+PEZpZWxkUmVmIE5hbWU9IlVSTHdNZW51Ii8+PC9PcmRlckJ5PjwvUXVlcnk+PFZpZXdGaWVsZHM+PEZpZWxkUmVmIE5hbWU9IlVSTHdNZW51Ii8+PC9WaWV3RmllbGRzPjxSb3dMaW1pdCBQYWdlZD0iVFJVRSI+MzA8L1Jvd0xpbWl0PjxBZ2dyZWdhdGlvbnMgVmFsdWU9Ik9mZiIvPjxUb29sYmFyIFR5cGU9Ik5vbmUiLz48L1ZpZXc+BRFQYXJhbWV0ZXJCaW5kaW5ncwWuBjxQYXJhbWV0ZXJCaW5kaW5nIE5hbWU9ImR2dF9zb3J0ZGlyIiBMb2NhdGlvbj0iUG9zdGJhY2s7Q29ubmVjdGlvbiIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJkdnRfc29ydGZpZWxkIiBMb2NhdGlvbj0iUG9zdGJhY2s7Q29ubmVjdGlvbiIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJkdnRfc3RhcnRwb3NpdGlvbiIgTG9jYXRpb249IlBvc3RiYWNrIiBEZWZhdWx0VmFsdWU9IiIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJkdnRfZmlyc3Ryb3ciIExvY2F0aW9uPSJQb3N0YmFjaztDb25uZWN0aW9uIiAvPjxQYXJhbWV0ZXJCaW5kaW5nIE5hbWU9Ik9wZW5NZW51S2V5QWNjZXNzaWJsZSIgTG9jYXRpb249IlJlc291cmNlKHdzcyxPcGVuTWVudUtleUFjY2Vzc2libGUpIiAvPjxQYXJhbWV0ZXJCaW5kaW5nIE5hbWU9Im9wZW5fbWVudSIgTG9jYXRpb249IlJlc291cmNlKHdzcyxvcGVuX21lbnUpIiAvPjxQYXJhbWV0ZXJCaW5kaW5nIE5hbWU9InNlbGVjdF9kZXNlbGVjdF9hbGwiIExvY2F0aW9uPSJSZXNvdXJjZSh3c3Msc2VsZWN0X2Rlc2VsZWN0X2FsbCkiIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iaWRQcmVzRW5hYmxlZCIgTG9jYXRpb249IlJlc291cmNlKHdzcyxpZFByZXNFbmFibGVkKSIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJOb0Fubm91bmNlbWVudHMiIExvY2F0aW9uPSJSZXNvdXJjZSh3c3Msbm9YaW52aWV3b2ZZX0xJU1QpIiAvPjxQYXJhbWV0ZXJCaW5kaW5nIE5hbWU9Ik5vQW5ub3VuY2VtZW50c0hvd1RvIiBMb2NhdGlvbj0iUmVzb3VyY2Uod3NzLG5vWGludmlld29mWV9ERUZBVUxUKSIgLz4=" PerUser="/wEUKwAHAgICAwIBAQAAAgIChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAg==" View="qKkwMQwAAABuAQAAeJx9kNEKgzAMRX+l9AcUxt5qwYmOgZubOt8rxlKoRqoi/v3UOdkY+JSQnHu5CUsRdS4MSccGHHrDGqjFWaZgCBToouVsqTGU5CaqCXnG4XCFup8x65t79GBGzs4G++Y0Eg+1Fk07KQI3THxKlkWoKtU59GDTP2NPdCDRjIvx6sJZZAowc7ND7yXc9Naaz5XSgBSdwrolmdD9pIjKcoZjHJZ85C4kFA5N46dP+cFm1mfD2RVzpYG8y6WDar3oSNdZoqpGw/aYnzgvaht7dA==" />
+				</BinarySerializedWebPart>
+			</View>
+			<AllUsersWebPart WebPartOrder="0" WebPartZoneID="Body" ID="g_03ab7c8b_164d_4d81_a587_cf24149fd82b"><![CDATA[<WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+  <Title>Content Editor</Title>
+  <FrameType>None</FrameType>
+  <Description>Allows authors to enter rich text content.</Description>
+  <IsIncluded>true</IsIncluded>
+  <ZoneID>Body</ZoneID>
+  <PartOrder>0</PartOrder>
+  <FrameState>Normal</FrameState>
+  <Height />
+  <Width />
+  <AllowRemove>true</AllowRemove>
+  <AllowZoneChange>true</AllowZoneChange>
+  <AllowMinimize>true</AllowMinimize>
+  <AllowConnect>true</AllowConnect>
+  <AllowEdit>true</AllowEdit>
+  <AllowHide>true</AllowHide>
+  <IsVisible>true</IsVisible>
+  <DetailLink />
+  <HelpLink />
+  <HelpMode>Modeless</HelpMode>
+  <Dir>Default</Dir>
+  <PartImageSmall />
+  <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+  <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+  <IsIncludedFilter />
+  <Assembly>Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+  <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+  <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor">Commercial/Billing.html</ContentLink>
+  <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+  <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+</WebPart>]]></AllUsersWebPart>
+			<Property Name="ContentTypeId" Value="0x010100F50BB2863D1B4E46987D570D42A4B628" />
+			<Property Name="FileLeafRef" Value="CommercialBilling.aspx" />
+			<Property Name="ID" Value="19" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Documents" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="19;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_lmt:SW|Tue, 11 Jun 2013 10:01:12 GMT&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_cachednolayoutzones:VR|TitleBar&#xD;&#xA;vti_contenttag:SW|{D33E20C8-40A8-478C-9BA5-780B37DD1620},3,2&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_progid:SR|SharePoint.WebPartPage.Document&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedzones:VR|TitleBar Header LeftColumn Body&#xD;&#xA;vti_winfileattribs:SW|00000000&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_generator:SR|Microsoft SharePoint&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_docstoreversion:IR|3&#xD;&#xA;vti_metainfoversion:IW|3&#xD;&#xA;ContentTypeId:SW|0x010100F50BB2863D1B4E46987D570D42A4B628&#xD;&#xA;vti_ct:SW|Tue, 11 Jun 2013 10:01:12 GMT&#xD;&#xA;vti_lat:SW|Thu, 13 Jun 2013 08:00:48 GMT&#xD;&#xA;vti_metatags:VR|GENERATOR Microsoft\\ SharePoint ProgId SharePoint.WebPartPage.Document HTTP-EQUIV=Content-Type text/html;\\ charset=utf-8 CollaborationServer SharePoint\\ Team\\ Web\\ Site&#xD;&#xA;vti_cachednoperszones:VR|TitleBar&#xD;&#xA;vti_sourcecontrolmultiuserchkoutby:VR|REPSRV\\\\udhatsu&#xD;&#xA;vti_linkinfo:VX|USUS|_layouts/images/blank.gif&#xD;&#xA;" />
+			<Property Name="Order" Value="1900.00000000000" />
+		</File>
+		<File Url="CommercialGeneral.aspx" Type="GhostableInLibrary" Path="CommercialGeneral.aspx">
+			<View List="Lists/CallHandlingLinks" DisplayName="" Url="" DefaultView="FALSE" BaseViewID="1" Type="HTML" WebPartOrder="0" WebPartZoneID="LeftColumn" ContentTypeID="0x" ID="g_3df3232c_317e_4849_b454_d6494a8c46e4" Hidden="TRUE">
+				<BinarySerializedWebPart>
+					<GUIDMap>
+						<GUID Id="1273f97f_b672_494c_aeef_03157c4381e6" ListUrl="Lists/CallHandlingLinks" />
+					</GUIDMap>
+					<WebPart ID="{3df3232c-317e-4849-b454-d6494a8c46e4}" WebPartIdProperty="" List="{$ListId:Lists/CallHandlingLinks;}" Type="1" Flags="8388617" DisplayName="" Version="3" Url="/Documents/CommercialGeneral.aspx" WebPartOrder="0" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{874f5460-71f9-fecc-e894-e7e858d9713e}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="B6Dt/kkAAAABAAAAAAAAAAIAAAAvTGlzdHMvQ2FsbEhhbmRsaW5nTGlua3MAL19sYXlvdXRzL2ltYWdlcy9pdGxpbmsucG5nAP8BFCsAHQICAgMCAwEEAAICAg4CEAEBAAICBQhWaWV3R3VpZAUmezNERjMyMzJDLTMxN0UtNDg0OS1CNDU0LUQ2NDk0QThDNDZFNH0BAAACEAJ9BRgvTGlzdHMvQ2FsbEhhbmRsaW5nTGlua3MCggEFGy9fbGF5b3V0cy9pbWFnZXMvaXRsaW5rLnBuZwIZBQc4Mzg4NjE3BQlWaWV3RmxhZ3MoKXpNaWNyb3NvZnQuU2hhcmVQb2ludC5TUFZpZXdGbGFncywgTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5YxRIdG1sLCBIaWRkZW4sIE1vYmlsZQKVAQUmezEyNzNGOTdGLUI2NzItNDk0Qy1BRUVGLTAzMTU3QzQzODFFNn0FBkxpc3RJZCgpWFN5c3RlbS5HdWlkLCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkkMTI3M2Y5N2YtYjY3Mi00OTRjLWFlZWYtMDMxNTdjNDM4MWU2BQ1YbWxEZWZpbml0aW9uBbQEPFZpZXcgTmFtZT0iezNERjMyMzJDLTMxN0UtNDg0OS1CNDU0LUQ2NDk0QThDNDZFNH0iIE1vYmlsZVZpZXc9IlRSVUUiIFR5cGU9IkhUTUwiIEhpZGRlbj0iVFJVRSIgVGFidWxhclZpZXc9IkZBTFNFIiBEaXNwbGF5TmFtZT0iIiBVcmw9Ii9Eb2N1bWVudHMvQ29tbWVyY2lhbEdlbmVyYWwuYXNweCIgTGV2ZWw9IjEiIEJhc2VWaWV3SUQ9IjEiIENvbnRlbnRUeXBlSUQ9IjB4IiBJbWFnZVVybD0iL19sYXlvdXRzL2ltYWdlcy9saW5rcy5wbmciPjxRdWVyeT48R3JvdXBCeSBDb2xsYXBzZT0iRkFMU0UiIEdyb3VwTGltaXQ9IjMwIj48RmllbGRSZWYgTmFtZT0iQ2F0ZWdvcnkiLz48L0dyb3VwQnk+PE9yZGVyQnk+PEZpZWxkUmVmIE5hbWU9IkNhdGVnb3J5Ii8+PEZpZWxkUmVmIE5hbWU9IlVSTHdNZW51Ii8+PC9PcmRlckJ5PjwvUXVlcnk+PFZpZXdGaWVsZHM+PEZpZWxkUmVmIE5hbWU9IlVSTHdNZW51Ii8+PC9WaWV3RmllbGRzPjxSb3dMaW1pdCBQYWdlZD0iVFJVRSI+MzA8L1Jvd0xpbWl0PjxBZ2dyZWdhdGlvbnMgVmFsdWU9Ik9mZiIvPjxUb29sYmFyIFR5cGU9Ik5vbmUiLz48L1ZpZXc+BRFQYXJhbWV0ZXJCaW5kaW5ncwWuBjxQYXJhbWV0ZXJCaW5kaW5nIE5hbWU9ImR2dF9zb3J0ZGlyIiBMb2NhdGlvbj0iUG9zdGJhY2s7Q29ubmVjdGlvbiIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJkdnRfc29ydGZpZWxkIiBMb2NhdGlvbj0iUG9zdGJhY2s7Q29ubmVjdGlvbiIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJkdnRfc3RhcnRwb3NpdGlvbiIgTG9jYXRpb249IlBvc3RiYWNrIiBEZWZhdWx0VmFsdWU9IiIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJkdnRfZmlyc3Ryb3ciIExvY2F0aW9uPSJQb3N0YmFjaztDb25uZWN0aW9uIiAvPjxQYXJhbWV0ZXJCaW5kaW5nIE5hbWU9Ik9wZW5NZW51S2V5QWNjZXNzaWJsZSIgTG9jYXRpb249IlJlc291cmNlKHdzcyxPcGVuTWVudUtleUFjY2Vzc2libGUpIiAvPjxQYXJhbWV0ZXJCaW5kaW5nIE5hbWU9Im9wZW5fbWVudSIgTG9jYXRpb249IlJlc291cmNlKHdzcyxvcGVuX21lbnUpIiAvPjxQYXJhbWV0ZXJCaW5kaW5nIE5hbWU9InNlbGVjdF9kZXNlbGVjdF9hbGwiIExvY2F0aW9uPSJSZXNvdXJjZSh3c3Msc2VsZWN0X2Rlc2VsZWN0X2FsbCkiIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iaWRQcmVzRW5hYmxlZCIgTG9jYXRpb249IlJlc291cmNlKHdzcyxpZFByZXNFbmFibGVkKSIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJOb0Fubm91bmNlbWVudHMiIExvY2F0aW9uPSJSZXNvdXJjZSh3c3Msbm9YaW52aWV3b2ZZX0xJU1QpIiAvPjxQYXJhbWV0ZXJCaW5kaW5nIE5hbWU9Ik5vQW5ub3VuY2VtZW50c0hvd1RvIiBMb2NhdGlvbj0iUmVzb3VyY2Uod3NzLG5vWGludmlld29mWV9ERUZBVUxUKSIgLz4=" PerUser="/wEUKwAHAgICAwIBAQAAAgIChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAg==" View="qKkwMQwAAABuAQAAeJx9kNEKgzAMRX+l9AcUxt5qwYmOgZubOt8rxlKoRqoi/v3UOdkY+JSQnHu5CUsRdS4MSccGHHrDGqjFWaZgCBToouVsqTGU5CaqCXnG4XCFup8x65t79GBGzs4G++Y0Eg+1Fk07KQI3THxKlkWoKtU59GDTP2NPdCDRjIvx6sJZZAowc7ND7yXc9Naaz5XSgBSdwrolmdD9pIjKcoZjHJZ85C4kFA5N46dP+cFm1mfD2RVzpYG8y6WDar3oSNdZoqpGw/aYnzgvaht7dA==" />
+				</BinarySerializedWebPart>
+			</View>
+			<AllUsersWebPart WebPartOrder="0" WebPartZoneID="Body" ID="g_1863aad0_4c8e_446d_9701_f2d78368539c"><![CDATA[<WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+  <Title>Content Editor</Title>
+  <FrameType>None</FrameType>
+  <Description>Allows authors to enter rich text content.</Description>
+  <IsIncluded>true</IsIncluded>
+  <ZoneID>Body</ZoneID>
+  <PartOrder>0</PartOrder>
+  <FrameState>Normal</FrameState>
+  <Height />
+  <Width />
+  <AllowRemove>true</AllowRemove>
+  <AllowZoneChange>true</AllowZoneChange>
+  <AllowMinimize>true</AllowMinimize>
+  <AllowConnect>true</AllowConnect>
+  <AllowEdit>true</AllowEdit>
+  <AllowHide>true</AllowHide>
+  <IsVisible>true</IsVisible>
+  <DetailLink />
+  <HelpLink />
+  <HelpMode>Modeless</HelpMode>
+  <Dir>Default</Dir>
+  <PartImageSmall />
+  <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+  <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+  <IsIncludedFilter />
+  <Assembly>Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+  <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+  <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor">commercial/General.html</ContentLink>
+  <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+  <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+</WebPart>]]></AllUsersWebPart>
+			<Property Name="ContentTypeId" Value="0x010100F50BB2863D1B4E46987D570D42A4B628" />
+			<Property Name="FileLeafRef" Value="CommercialGeneral.aspx" />
+			<Property Name="ID" Value="20" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Documents" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="20;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_lmt:SW|Tue, 11 Jun 2013 10:01:12 GMT&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_cachednolayoutzones:VR|TitleBar&#xD;&#xA;vti_contenttag:SW|{396EADDB-C562-447A-93BA-AD08EFDF6EF3},3,2&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_progid:SR|SharePoint.WebPartPage.Document&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedzones:VR|TitleBar Header LeftColumn Body&#xD;&#xA;vti_winfileattribs:SW|00000000&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_generator:SR|Microsoft SharePoint&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_docstoreversion:IR|3&#xD;&#xA;vti_metainfoversion:IW|3&#xD;&#xA;ContentTypeId:SW|0x010100F50BB2863D1B4E46987D570D42A4B628&#xD;&#xA;vti_ct:SW|Tue, 11 Jun 2013 10:01:12 GMT&#xD;&#xA;vti_lat:SW|Thu, 13 Jun 2013 08:00:50 GMT&#xD;&#xA;vti_metatags:VR|GENERATOR Microsoft\\ SharePoint ProgId SharePoint.WebPartPage.Document HTTP-EQUIV=Content-Type text/html;\\ charset=utf-8 CollaborationServer SharePoint\\ Team\\ Web\\ Site&#xD;&#xA;vti_cachednoperszones:VR|TitleBar&#xD;&#xA;vti_sourcecontrolmultiuserchkoutby:VR|REPSRV\\\\udhatsu&#xD;&#xA;vti_linkinfo:VX|USUS|_layouts/images/blank.gif&#xD;&#xA;" />
+			<Property Name="Order" Value="2000.00000000000" />
+		</File>
+		<File Url="CommercialSales.aspx" Type="GhostableInLibrary" Path="CommercialSales.aspx">
+			<View List="Lists/CallHandlingLinks" DisplayName="" Url="" DefaultView="FALSE" BaseViewID="1" Type="HTML" WebPartOrder="0" WebPartZoneID="LeftColumn" ContentTypeID="0x" ID="g_66b9166b_fff8_436d_92a2_7230d0cfa446" Hidden="TRUE">
+				<BinarySerializedWebPart>
+					<GUIDMap>
+						<GUID Id="1273f97f_b672_494c_aeef_03157c4381e6" ListUrl="Lists/CallHandlingLinks" />
+					</GUIDMap>
+					<WebPart ID="{66b9166b-fff8-436d-92a2-7230d0cfa446}" WebPartIdProperty="" List="{$ListId:Lists/CallHandlingLinks;}" Type="1" Flags="8388617" DisplayName="" Version="3" Url="/Documents/CommercialSales.aspx" WebPartOrder="0" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{874f5460-71f9-fecc-e894-e7e858d9713e}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="B6Dt/kkAAAABAAAAAAAAAAIAAAAvTGlzdHMvQ2FsbEhhbmRsaW5nTGlua3MAL19sYXlvdXRzL2ltYWdlcy9pdGxpbmsucG5nAP8BFCsAHQICAgMCAwEEAAICAg4CEAEBAAICBQhWaWV3R3VpZAUmezY2QjkxNjZCLUZGRjgtNDM2RC05MkEyLTcyMzBEMENGQTQ0Nn0BAAACEAJ9BRgvTGlzdHMvQ2FsbEhhbmRsaW5nTGlua3MCggEFGy9fbGF5b3V0cy9pbWFnZXMvaXRsaW5rLnBuZwIZBQc4Mzg4NjE3BQlWaWV3RmxhZ3MoKXpNaWNyb3NvZnQuU2hhcmVQb2ludC5TUFZpZXdGbGFncywgTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5YxRIdG1sLCBIaWRkZW4sIE1vYmlsZQKVAQUmezEyNzNGOTdGLUI2NzItNDk0Qy1BRUVGLTAzMTU3QzQzODFFNn0FBkxpc3RJZCgpWFN5c3RlbS5HdWlkLCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkkMTI3M2Y5N2YtYjY3Mi00OTRjLWFlZWYtMDMxNTdjNDM4MWU2BQ1YbWxEZWZpbml0aW9uBbIEPFZpZXcgTmFtZT0iezY2QjkxNjZCLUZGRjgtNDM2RC05MkEyLTcyMzBEMENGQTQ0Nn0iIE1vYmlsZVZpZXc9IlRSVUUiIFR5cGU9IkhUTUwiIEhpZGRlbj0iVFJVRSIgVGFidWxhclZpZXc9IkZBTFNFIiBEaXNwbGF5TmFtZT0iIiBVcmw9Ii9Eb2N1bWVudHMvQ29tbWVyY2lhbFNhbGVzLmFzcHgiIExldmVsPSIxIiBCYXNlVmlld0lEPSIxIiBDb250ZW50VHlwZUlEPSIweCIgSW1hZ2VVcmw9Ii9fbGF5b3V0cy9pbWFnZXMvbGlua3MucG5nIj48UXVlcnk+PEdyb3VwQnkgQ29sbGFwc2U9IkZBTFNFIiBHcm91cExpbWl0PSIzMCI+PEZpZWxkUmVmIE5hbWU9IkNhdGVnb3J5Ii8+PC9Hcm91cEJ5PjxPcmRlckJ5PjxGaWVsZFJlZiBOYW1lPSJDYXRlZ29yeSIvPjxGaWVsZFJlZiBOYW1lPSJVUkx3TWVudSIvPjwvT3JkZXJCeT48L1F1ZXJ5PjxWaWV3RmllbGRzPjxGaWVsZFJlZiBOYW1lPSJVUkx3TWVudSIvPjwvVmlld0ZpZWxkcz48Um93TGltaXQgUGFnZWQ9IlRSVUUiPjMwPC9Sb3dMaW1pdD48QWdncmVnYXRpb25zIFZhbHVlPSJPZmYiLz48VG9vbGJhciBUeXBlPSJOb25lIi8+PC9WaWV3PgURUGFyYW1ldGVyQmluZGluZ3MFrgY8UGFyYW1ldGVyQmluZGluZyBOYW1lPSJkdnRfc29ydGRpciIgTG9jYXRpb249IlBvc3RiYWNrO0Nvbm5lY3Rpb24iIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iZHZ0X3NvcnRmaWVsZCIgTG9jYXRpb249IlBvc3RiYWNrO0Nvbm5lY3Rpb24iIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iZHZ0X3N0YXJ0cG9zaXRpb24iIExvY2F0aW9uPSJQb3N0YmFjayIgRGVmYXVsdFZhbHVlPSIiIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iZHZ0X2ZpcnN0cm93IiBMb2NhdGlvbj0iUG9zdGJhY2s7Q29ubmVjdGlvbiIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJPcGVuTWVudUtleUFjY2Vzc2libGUiIExvY2F0aW9uPSJSZXNvdXJjZSh3c3MsT3Blbk1lbnVLZXlBY2Nlc3NpYmxlKSIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJvcGVuX21lbnUiIExvY2F0aW9uPSJSZXNvdXJjZSh3c3Msb3Blbl9tZW51KSIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJzZWxlY3RfZGVzZWxlY3RfYWxsIiBMb2NhdGlvbj0iUmVzb3VyY2Uod3NzLHNlbGVjdF9kZXNlbGVjdF9hbGwpIiAvPjxQYXJhbWV0ZXJCaW5kaW5nIE5hbWU9ImlkUHJlc0VuYWJsZWQiIExvY2F0aW9uPSJSZXNvdXJjZSh3c3MsaWRQcmVzRW5hYmxlZCkiIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iTm9Bbm5vdW5jZW1lbnRzIiBMb2NhdGlvbj0iUmVzb3VyY2Uod3NzLG5vWGludmlld29mWV9MSVNUKSIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJOb0Fubm91bmNlbWVudHNIb3dUbyIgTG9jYXRpb249IlJlc291cmNlKHdzcyxub1hpbnZpZXdvZllfREVGQVVMVCkiIC8+" PerUser="/wEUKwAHAgICAwIBAQAAAgIChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAg==" View="qKkwMQwAAABuAQAAeJx9kNEKgzAMRX+l9AcUxt5qwYmOgZubOt8rxlKoRqoi/v3UOdkY+JSQnHu5CUsRdS4MSccGHHrDGqjFWaZgCBToouVsqTGU5CaqCXnG4XCFup8x65t79GBGzs4G++Y0Eg+1Fk07KQI3THxKlkWoKtU59GDTP2NPdCDRjIvx6sJZZAowc7ND7yXc9Naaz5XSgBSdwrolmdD9pIjKcoZjHJZ85C4kFA5N46dP+cFm1mfD2RVzpYG8y6WDar3oSNdZoqpGw/aYnzgvaht7dA==" />
+				</BinarySerializedWebPart>
+			</View>
+			<AllUsersWebPart WebPartOrder="0" WebPartZoneID="Body" ID="g_a79dff9e_40d4_4790_ae1c_380d734e6e93"><![CDATA[<WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+  <Title>Content Editor</Title>
+  <FrameType>None</FrameType>
+  <Description>Allows authors to enter rich text content.</Description>
+  <IsIncluded>true</IsIncluded>
+  <ZoneID>Body</ZoneID>
+  <PartOrder>0</PartOrder>
+  <FrameState>Normal</FrameState>
+  <Height />
+  <Width />
+  <AllowRemove>true</AllowRemove>
+  <AllowZoneChange>true</AllowZoneChange>
+  <AllowMinimize>true</AllowMinimize>
+  <AllowConnect>true</AllowConnect>
+  <AllowEdit>true</AllowEdit>
+  <AllowHide>true</AllowHide>
+  <IsVisible>true</IsVisible>
+  <DetailLink />
+  <HelpLink />
+  <HelpMode>Modeless</HelpMode>
+  <Dir>Default</Dir>
+  <PartImageSmall />
+  <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+  <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+  <IsIncludedFilter />
+  <Assembly>Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+  <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+  <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor">commercial/sales.html</ContentLink>
+  <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+  <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+</WebPart>]]></AllUsersWebPart>
+			<Property Name="ContentTypeId" Value="0x010100F50BB2863D1B4E46987D570D42A4B628" />
+			<Property Name="FileLeafRef" Value="CommercialSales.aspx" />
+			<Property Name="ID" Value="21" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Documents" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="21;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_lmt:SW|Tue, 11 Jun 2013 10:01:12 GMT&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_cachednolayoutzones:VR|TitleBar&#xD;&#xA;vti_contenttag:SW|{9A4EC8D4-FC10-4624-A04A-1A4D0BB2B7BA},3,2&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_progid:SR|SharePoint.WebPartPage.Document&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedzones:VR|TitleBar Header LeftColumn Body&#xD;&#xA;vti_winfileattribs:SW|00000000&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_generator:SR|Microsoft SharePoint&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_docstoreversion:IR|3&#xD;&#xA;vti_metainfoversion:IW|3&#xD;&#xA;ContentTypeId:SW|0x010100F50BB2863D1B4E46987D570D42A4B628&#xD;&#xA;vti_ct:SW|Tue, 11 Jun 2013 10:01:12 GMT&#xD;&#xA;vti_lat:SW|Thu, 13 Jun 2013 08:00:52 GMT&#xD;&#xA;vti_metatags:VR|GENERATOR Microsoft\\ SharePoint ProgId SharePoint.WebPartPage.Document HTTP-EQUIV=Content-Type text/html;\\ charset=utf-8 CollaborationServer SharePoint\\ Team\\ Web\\ Site&#xD;&#xA;vti_cachednoperszones:VR|TitleBar&#xD;&#xA;vti_sourcecontrolmultiuserchkoutby:VR|REPSRV\\\\udhatsu&#xD;&#xA;vti_linkinfo:VX|USUS|_layouts/images/blank.gif&#xD;&#xA;" />
+			<Property Name="Order" Value="2100.00000000000" />
+		</File>
+		<File Url="NaSLAs.aspx" Type="GhostableInLibrary" Path="NaSLAs.aspx">
+			<View List="Lists/CallHandlingLinks" DisplayName="" Url="" DefaultView="FALSE" BaseViewID="1" Type="HTML" WebPartOrder="0" WebPartZoneID="LeftColumn" ContentTypeID="0x" ID="g_cafd70aa_8098_42c7_a2f8_a9afba63e6ce" Hidden="TRUE">
+				<BinarySerializedWebPart>
+					<GUIDMap>
+						<GUID Id="1273f97f_b672_494c_aeef_03157c4381e6" ListUrl="Lists/CallHandlingLinks" />
+					</GUIDMap>
+					<WebPart ID="{cafd70aa-8098-42c7-a2f8-a9afba63e6ce}" WebPartIdProperty="" List="{$ListId:Lists/CallHandlingLinks;}" Type="1" Flags="8388617" DisplayName="" Version="3" Url="/Documents/NaSLAs.aspx" WebPartOrder="0" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{874f5460-71f9-fecc-e894-e7e858d9713e}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="B6Dt/kkAAAABAAAAAAAAAAIAAAAvTGlzdHMvQ2FsbEhhbmRsaW5nTGlua3MAL19sYXlvdXRzL2ltYWdlcy9pdGxpbmsucG5nAP8BFCsAHQICAgMCAwEEAAICAg4CEAEBAAICBQhWaWV3R3VpZAUme0NBRkQ3MEFBLTgwOTgtNDJDNy1BMkY4LUE5QUZCQTYzRTZDRX0BAAACEAJ9BRgvTGlzdHMvQ2FsbEhhbmRsaW5nTGlua3MCggEFGy9fbGF5b3V0cy9pbWFnZXMvaXRsaW5rLnBuZwIZBQc4Mzg4NjE3BQlWaWV3RmxhZ3MoKXpNaWNyb3NvZnQuU2hhcmVQb2ludC5TUFZpZXdGbGFncywgTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5YxRIdG1sLCBIaWRkZW4sIE1vYmlsZQKVAQUmezEyNzNGOTdGLUI2NzItNDk0Qy1BRUVGLTAzMTU3QzQzODFFNn0FBkxpc3RJZCgpWFN5c3RlbS5HdWlkLCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkkMTI3M2Y5N2YtYjY3Mi00OTRjLWFlZWYtMDMxNTdjNDM4MWU2BQ1YbWxEZWZpbml0aW9uBakEPFZpZXcgTmFtZT0ie0NBRkQ3MEFBLTgwOTgtNDJDNy1BMkY4LUE5QUZCQTYzRTZDRX0iIE1vYmlsZVZpZXc9IlRSVUUiIFR5cGU9IkhUTUwiIEhpZGRlbj0iVFJVRSIgVGFidWxhclZpZXc9IkZBTFNFIiBEaXNwbGF5TmFtZT0iIiBVcmw9Ii9Eb2N1bWVudHMvTmFTTEFzLmFzcHgiIExldmVsPSIxIiBCYXNlVmlld0lEPSIxIiBDb250ZW50VHlwZUlEPSIweCIgSW1hZ2VVcmw9Ii9fbGF5b3V0cy9pbWFnZXMvbGlua3MucG5nIj48UXVlcnk+PEdyb3VwQnkgQ29sbGFwc2U9IkZBTFNFIiBHcm91cExpbWl0PSIzMCI+PEZpZWxkUmVmIE5hbWU9IkNhdGVnb3J5Ii8+PC9Hcm91cEJ5PjxPcmRlckJ5PjxGaWVsZFJlZiBOYW1lPSJDYXRlZ29yeSIvPjxGaWVsZFJlZiBOYW1lPSJVUkx3TWVudSIvPjwvT3JkZXJCeT48L1F1ZXJ5PjxWaWV3RmllbGRzPjxGaWVsZFJlZiBOYW1lPSJVUkx3TWVudSIvPjwvVmlld0ZpZWxkcz48Um93TGltaXQgUGFnZWQ9IlRSVUUiPjMwPC9Sb3dMaW1pdD48QWdncmVnYXRpb25zIFZhbHVlPSJPZmYiLz48VG9vbGJhciBUeXBlPSJOb25lIi8+PC9WaWV3PgURUGFyYW1ldGVyQmluZGluZ3MFrgY8UGFyYW1ldGVyQmluZGluZyBOYW1lPSJkdnRfc29ydGRpciIgTG9jYXRpb249IlBvc3RiYWNrO0Nvbm5lY3Rpb24iIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iZHZ0X3NvcnRmaWVsZCIgTG9jYXRpb249IlBvc3RiYWNrO0Nvbm5lY3Rpb24iIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iZHZ0X3N0YXJ0cG9zaXRpb24iIExvY2F0aW9uPSJQb3N0YmFjayIgRGVmYXVsdFZhbHVlPSIiIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iZHZ0X2ZpcnN0cm93IiBMb2NhdGlvbj0iUG9zdGJhY2s7Q29ubmVjdGlvbiIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJPcGVuTWVudUtleUFjY2Vzc2libGUiIExvY2F0aW9uPSJSZXNvdXJjZSh3c3MsT3Blbk1lbnVLZXlBY2Nlc3NpYmxlKSIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJvcGVuX21lbnUiIExvY2F0aW9uPSJSZXNvdXJjZSh3c3Msb3Blbl9tZW51KSIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJzZWxlY3RfZGVzZWxlY3RfYWxsIiBMb2NhdGlvbj0iUmVzb3VyY2Uod3NzLHNlbGVjdF9kZXNlbGVjdF9hbGwpIiAvPjxQYXJhbWV0ZXJCaW5kaW5nIE5hbWU9ImlkUHJlc0VuYWJsZWQiIExvY2F0aW9uPSJSZXNvdXJjZSh3c3MsaWRQcmVzRW5hYmxlZCkiIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iTm9Bbm5vdW5jZW1lbnRzIiBMb2NhdGlvbj0iUmVzb3VyY2Uod3NzLG5vWGludmlld29mWV9MSVNUKSIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJOb0Fubm91bmNlbWVudHNIb3dUbyIgTG9jYXRpb249IlJlc291cmNlKHdzcyxub1hpbnZpZXdvZllfREVGQVVMVCkiIC8+" PerUser="/wEUKwAHAgICAwIBAQAAAgIChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAg==" View="qKkwMQwAAABuAQAAeJx9kNEKgzAMRX+l9AcUxt5qwYmOgZubOt8rxlKoRqoi/v3UOdkY+JSQnHu5CUsRdS4MSccGHHrDGqjFWaZgCBToouVsqTGU5CaqCXnG4XCFup8x65t79GBGzs4G++Y0Eg+1Fk07KQI3THxKlkWoKtU59GDTP2NPdCDRjIvx6sJZZAowc7ND7yXc9Naaz5XSgBSdwrolmdD9pIjKcoZjHJZ85C4kFA5N46dP+cFm1mfD2RVzpYG8y6WDar3oSNdZoqpGw/aYnzgvaht7dA==" />
+				</BinarySerializedWebPart>
+			</View>
+			<AllUsersWebPart WebPartOrder="0" WebPartZoneID="Body" ID="g_072d7e13_afb1_477b_8e73_ac2d82faea23"><![CDATA[<WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+  <Title>Content Editor</Title>
+  <FrameType>None</FrameType>
+  <Description>Allows authors to enter rich text content.</Description>
+  <IsIncluded>true</IsIncluded>
+  <ZoneID>Body</ZoneID>
+  <PartOrder>0</PartOrder>
+  <FrameState>Normal</FrameState>
+  <Height />
+  <Width />
+  <AllowRemove>true</AllowRemove>
+  <AllowZoneChange>true</AllowZoneChange>
+  <AllowMinimize>true</AllowMinimize>
+  <AllowConnect>true</AllowConnect>
+  <AllowEdit>true</AllowEdit>
+  <AllowHide>true</AllowHide>
+  <IsVisible>true</IsVisible>
+  <DetailLink />
+  <HelpLink />
+  <HelpMode>Modeless</HelpMode>
+  <Dir>Default</Dir>
+  <PartImageSmall />
+  <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+  <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+  <IsIncludedFilter />
+  <Assembly>Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+  <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+  <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor">Nationalaccounts/slas.html</ContentLink>
+  <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+  <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+</WebPart>]]></AllUsersWebPart>
+			<Property Name="ContentTypeId" Value="0x010100F50BB2863D1B4E46987D570D42A4B628" />
+			<Property Name="FileLeafRef" Value="NaSLAs.aspx" />
+			<Property Name="ID" Value="22" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Documents" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="22;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_lmt:SW|Tue, 11 Jun 2013 10:01:12 GMT&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_cachednolayoutzones:VR|TitleBar&#xD;&#xA;vti_contenttag:SW|{BF2B0D3A-78DC-49AB-8BC7-AFE8E50F1B1B},3,2&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_progid:SR|SharePoint.WebPartPage.Document&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedzones:VR|TitleBar Header LeftColumn Body&#xD;&#xA;vti_winfileattribs:SW|00000000&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_generator:SR|Microsoft SharePoint&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_docstoreversion:IR|3&#xD;&#xA;vti_metainfoversion:IW|3&#xD;&#xA;ContentTypeId:SW|0x010100F50BB2863D1B4E46987D570D42A4B628&#xD;&#xA;vti_ct:SW|Tue, 11 Jun 2013 10:01:12 GMT&#xD;&#xA;vti_lat:SW|Thu, 13 Jun 2013 08:00:55 GMT&#xD;&#xA;vti_metatags:VR|GENERATOR Microsoft\\ SharePoint ProgId SharePoint.WebPartPage.Document HTTP-EQUIV=Content-Type text/html;\\ charset=utf-8 CollaborationServer SharePoint\\ Team\\ Web\\ Site&#xD;&#xA;vti_cachednoperszones:VR|TitleBar&#xD;&#xA;vti_sourcecontrolmultiuserchkoutby:VR|REPSRV\\\\udhatsu&#xD;&#xA;vti_linkinfo:VX|USUS|_layouts/images/blank.gif&#xD;&#xA;" />
+			<Property Name="Order" Value="2200.00000000000" />
+		</File>
+		<File Url="ReportingSource.xlsx" Type="GhostableInLibrary" Path="ReportingSource.xlsx">
+			<Property Name="ContentTypeId" Value="0x010100F50BB2863D1B4E46987D570D42A4B628" />
+			<Property Name="FileLeafRef" Value="ReportingSource.xlsx" />
+			<Property Name="ID" Value="2" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Documents" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="2;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_thumbnailexists:BW|false&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_lmt:SW|Tue, 14 May 2013 12:31:25 GMT&#xD;&#xA;vti_contenttag:SW|{4410EC0E-8964-47BE-9A05-13D7CB75B09D},3,3&#xD;&#xA;_Category:EW|&#xD;&#xA;vti_stickycachedpluggableparserprops:VX|Subject Keywords _Status vti_title _Author _Category ContentType ContentTypeId _Comments&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_winfileattribs:SW|00000000&#xD;&#xA;vti_previewexists:BW|false&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;_Status:EW|&#xD;&#xA;Keywords:EW|&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_docstoreversion:IR|3&#xD;&#xA;vti_metainfoversion:IW|3&#xD;&#xA;ContentTypeId:SW|0x010100F50BB2863D1B4E46987D570D42A4B628&#xD;&#xA;vti_ct:SW|Tue, 14 May 2013 12:31:25 GMT&#xD;&#xA;vti_lat:SW|Sun, 09 Jun 2013 17:35:48 GMT&#xD;&#xA;vti_title:EW|&#xD;&#xA;_Author:SW|Delta - Udatha, Suresh&#xD;&#xA;ContentType:EW|&#xD;&#xA;vti_sourcecontrolmultiuserchkoutby:VR|REPSRV\\\\udhatsu&#xD;&#xA;_Comments:EW|&#xD;&#xA;Subject:EW|&#xD;&#xA;" />
+			<Property Name="Order" Value="200.000000000000" />
+		</File>
+		<File Url="ResidentialBilling.aspx" Type="GhostableInLibrary" Path="ResidentialBilling.aspx">
+			<View List="Lists/CallHandlingLinks" DisplayName="" Url="" DefaultView="FALSE" BaseViewID="1" Type="HTML" WebPartOrder="0" WebPartZoneID="LeftColumn" ContentTypeID="0x" ID="g_0125feea_bcf1_4e26_99bd_4a62a7dfa47a" Hidden="TRUE">
+				<BinarySerializedWebPart>
+					<GUIDMap>
+						<GUID Id="1273f97f_b672_494c_aeef_03157c4381e6" ListUrl="Lists/CallHandlingLinks" />
+					</GUIDMap>
+					<WebPart ID="{0125feea-bcf1-4e26-99bd-4a62a7dfa47a}" WebPartIdProperty="" List="{$ListId:Lists/CallHandlingLinks;}" Type="1" Flags="8388617" DisplayName="" Version="3" Url="/Documents/ResidentialBilling.aspx" WebPartOrder="0" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{874f5460-71f9-fecc-e894-e7e858d9713e}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="B6Dt/kkAAAABAAAAAAAAAAIAAAAvTGlzdHMvQ2FsbEhhbmRsaW5nTGlua3MAL19sYXlvdXRzL2ltYWdlcy9pdGxpbmsucG5nAP8BFCsAHQICAgMCAwEEAAICAg4CEAEBAAICBQhWaWV3R3VpZAUmezAxMjVGRUVBLUJDRjEtNEUyNi05OUJELTRBNjJBN0RGQTQ3QX0BAAACEAJ9BRgvTGlzdHMvQ2FsbEhhbmRsaW5nTGlua3MCggEFGy9fbGF5b3V0cy9pbWFnZXMvaXRsaW5rLnBuZwIZBQc4Mzg4NjE3BQlWaWV3RmxhZ3MoKXpNaWNyb3NvZnQuU2hhcmVQb2ludC5TUFZpZXdGbGFncywgTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5YxRIdG1sLCBIaWRkZW4sIE1vYmlsZQKVAQUmezEyNzNGOTdGLUI2NzItNDk0Qy1BRUVGLTAzMTU3QzQzODFFNn0FBkxpc3RJZCgpWFN5c3RlbS5HdWlkLCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkkMTI3M2Y5N2YtYjY3Mi00OTRjLWFlZWYtMDMxNTdjNDM4MWU2BQ1YbWxEZWZpbml0aW9uBbUEPFZpZXcgTmFtZT0iezAxMjVGRUVBLUJDRjEtNEUyNi05OUJELTRBNjJBN0RGQTQ3QX0iIE1vYmlsZVZpZXc9IlRSVUUiIFR5cGU9IkhUTUwiIEhpZGRlbj0iVFJVRSIgVGFidWxhclZpZXc9IkZBTFNFIiBEaXNwbGF5TmFtZT0iIiBVcmw9Ii9Eb2N1bWVudHMvUmVzaWRlbnRpYWxCaWxsaW5nLmFzcHgiIExldmVsPSIxIiBCYXNlVmlld0lEPSIxIiBDb250ZW50VHlwZUlEPSIweCIgSW1hZ2VVcmw9Ii9fbGF5b3V0cy9pbWFnZXMvbGlua3MucG5nIj48UXVlcnk+PEdyb3VwQnkgQ29sbGFwc2U9IkZBTFNFIiBHcm91cExpbWl0PSIzMCI+PEZpZWxkUmVmIE5hbWU9IkNhdGVnb3J5Ii8+PC9Hcm91cEJ5PjxPcmRlckJ5PjxGaWVsZFJlZiBOYW1lPSJDYXRlZ29yeSIvPjxGaWVsZFJlZiBOYW1lPSJVUkx3TWVudSIvPjwvT3JkZXJCeT48L1F1ZXJ5PjxWaWV3RmllbGRzPjxGaWVsZFJlZiBOYW1lPSJVUkx3TWVudSIvPjwvVmlld0ZpZWxkcz48Um93TGltaXQgUGFnZWQ9IlRSVUUiPjMwPC9Sb3dMaW1pdD48QWdncmVnYXRpb25zIFZhbHVlPSJPZmYiLz48VG9vbGJhciBUeXBlPSJOb25lIi8+PC9WaWV3PgURUGFyYW1ldGVyQmluZGluZ3MFrgY8UGFyYW1ldGVyQmluZGluZyBOYW1lPSJkdnRfc29ydGRpciIgTG9jYXRpb249IlBvc3RiYWNrO0Nvbm5lY3Rpb24iIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iZHZ0X3NvcnRmaWVsZCIgTG9jYXRpb249IlBvc3RiYWNrO0Nvbm5lY3Rpb24iIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iZHZ0X3N0YXJ0cG9zaXRpb24iIExvY2F0aW9uPSJQb3N0YmFjayIgRGVmYXVsdFZhbHVlPSIiIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iZHZ0X2ZpcnN0cm93IiBMb2NhdGlvbj0iUG9zdGJhY2s7Q29ubmVjdGlvbiIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJPcGVuTWVudUtleUFjY2Vzc2libGUiIExvY2F0aW9uPSJSZXNvdXJjZSh3c3MsT3Blbk1lbnVLZXlBY2Nlc3NpYmxlKSIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJvcGVuX21lbnUiIExvY2F0aW9uPSJSZXNvdXJjZSh3c3Msb3Blbl9tZW51KSIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJzZWxlY3RfZGVzZWxlY3RfYWxsIiBMb2NhdGlvbj0iUmVzb3VyY2Uod3NzLHNlbGVjdF9kZXNlbGVjdF9hbGwpIiAvPjxQYXJhbWV0ZXJCaW5kaW5nIE5hbWU9ImlkUHJlc0VuYWJsZWQiIExvY2F0aW9uPSJSZXNvdXJjZSh3c3MsaWRQcmVzRW5hYmxlZCkiIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iTm9Bbm5vdW5jZW1lbnRzIiBMb2NhdGlvbj0iUmVzb3VyY2Uod3NzLG5vWGludmlld29mWV9MSVNUKSIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJOb0Fubm91bmNlbWVudHNIb3dUbyIgTG9jYXRpb249IlJlc291cmNlKHdzcyxub1hpbnZpZXdvZllfREVGQVVMVCkiIC8+" PerUser="/wEUKwAHAgICAwIBAQAAAgIChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAg==" View="qKkwMQwAAABuAQAAeJx9kNEKgzAMRX+l9AcUxt5qwYmOgZubOt8rxlKoRqoi/v3UOdkY+JSQnHu5CUsRdS4MSccGHHrDGqjFWaZgCBToouVsqTGU5CaqCXnG4XCFup8x65t79GBGzs4G++Y0Eg+1Fk07KQI3THxKlkWoKtU59GDTP2NPdCDRjIvx6sJZZAowc7ND7yXc9Naaz5XSgBSdwrolmdD9pIjKcoZjHJZ85C4kFA5N46dP+cFm1mfD2RVzpYG8y6WDar3oSNdZoqpGw/aYnzgvaht7dA==" />
+				</BinarySerializedWebPart>
+			</View>
+			<AllUsersWebPart WebPartOrder="0" WebPartZoneID="Body" ID="g_023dd444_95b4_4984_98db_4d95d940337d"><![CDATA[<WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+  <Title>Content Editor</Title>
+  <FrameType>None</FrameType>
+  <Description>Allows authors to enter rich text content.</Description>
+  <IsIncluded>true</IsIncluded>
+  <ZoneID>Body</ZoneID>
+  <PartOrder>0</PartOrder>
+  <FrameState>Normal</FrameState>
+  <Height />
+  <Width />
+  <AllowRemove>true</AllowRemove>
+  <AllowZoneChange>true</AllowZoneChange>
+  <AllowMinimize>true</AllowMinimize>
+  <AllowConnect>true</AllowConnect>
+  <AllowEdit>true</AllowEdit>
+  <AllowHide>true</AllowHide>
+  <IsVisible>true</IsVisible>
+  <DetailLink />
+  <HelpLink />
+  <HelpMode>Modeless</HelpMode>
+  <Dir>Default</Dir>
+  <PartImageSmall />
+  <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+  <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+  <IsIncludedFilter />
+  <Assembly>Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+  <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+  <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor">Residential/Billing.html</ContentLink>
+  <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+  <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+</WebPart>]]></AllUsersWebPart>
+			<Property Name="ContentTypeId" Value="0x010100F50BB2863D1B4E46987D570D42A4B628" />
+			<Property Name="FileLeafRef" Value="ResidentialBilling.aspx" />
+			<Property Name="ID" Value="23" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Documents" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="23;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_lmt:SW|Tue, 11 Jun 2013 10:01:12 GMT&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_cachednolayoutzones:VR|TitleBar&#xD;&#xA;vti_contenttag:SW|{B5E69FAE-D932-4601-ADAE-B25E609F8827},3,2&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_progid:SR|SharePoint.WebPartPage.Document&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedzones:VR|TitleBar Header LeftColumn Body&#xD;&#xA;vti_winfileattribs:SW|00000000&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_generator:SR|Microsoft SharePoint&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_docstoreversion:IR|3&#xD;&#xA;vti_metainfoversion:IW|3&#xD;&#xA;ContentTypeId:SW|0x010100F50BB2863D1B4E46987D570D42A4B628&#xD;&#xA;vti_ct:SW|Tue, 11 Jun 2013 10:01:12 GMT&#xD;&#xA;vti_lat:SW|Thu, 13 Jun 2013 08:00:57 GMT&#xD;&#xA;vti_metatags:VR|GENERATOR Microsoft\\ SharePoint ProgId SharePoint.WebPartPage.Document HTTP-EQUIV=Content-Type text/html;\\ charset=utf-8 CollaborationServer SharePoint\\ Team\\ Web\\ Site&#xD;&#xA;vti_cachednoperszones:VR|TitleBar&#xD;&#xA;vti_sourcecontrolmultiuserchkoutby:VR|REPSRV\\\\udhatsu&#xD;&#xA;vti_linkinfo:VX|USUS|_layouts/images/blank.gif&#xD;&#xA;" />
+			<Property Name="Order" Value="2300.00000000000" />
+		</File>
+		<File Url="ResidentialGeneral.aspx" Type="GhostableInLibrary" Path="ResidentialGeneral.aspx">
+			<View List="Lists/CallHandlingLinks" DisplayName="" Url="" DefaultView="FALSE" BaseViewID="1" Type="HTML" WebPartOrder="0" WebPartZoneID="LeftColumn" ContentTypeID="0x" ID="g_cc2f8a12_fba6_479d_bc8c_a20a442c7d7a" Hidden="TRUE">
+				<BinarySerializedWebPart>
+					<GUIDMap>
+						<GUID Id="1273f97f_b672_494c_aeef_03157c4381e6" ListUrl="Lists/CallHandlingLinks" />
+					</GUIDMap>
+					<WebPart ID="{cc2f8a12-fba6-479d-bc8c-a20a442c7d7a}" WebPartIdProperty="" List="{$ListId:Lists/CallHandlingLinks;}" Type="1" Flags="8388617" DisplayName="" Version="3" Url="/Documents/ResidentialGeneral.aspx" WebPartOrder="0" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{874f5460-71f9-fecc-e894-e7e858d9713e}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="B6Dt/kkAAAABAAAAAAAAAAIAAAAvTGlzdHMvQ2FsbEhhbmRsaW5nTGlua3MAL19sYXlvdXRzL2ltYWdlcy9pdGxpbmsucG5nAP8BFCsAHQICAgMCAwEEAAICAg4CEAEBAAICBQhWaWV3R3VpZAUme0NDMkY4QTEyLUZCQTYtNDc5RC1CQzhDLUEyMEE0NDJDN0Q3QX0BAAACEAJ9BRgvTGlzdHMvQ2FsbEhhbmRsaW5nTGlua3MCggEFGy9fbGF5b3V0cy9pbWFnZXMvaXRsaW5rLnBuZwIZBQc4Mzg4NjE3BQlWaWV3RmxhZ3MoKXpNaWNyb3NvZnQuU2hhcmVQb2ludC5TUFZpZXdGbGFncywgTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5YxRIdG1sLCBIaWRkZW4sIE1vYmlsZQKVAQUmezEyNzNGOTdGLUI2NzItNDk0Qy1BRUVGLTAzMTU3QzQzODFFNn0FBkxpc3RJZCgpWFN5c3RlbS5HdWlkLCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkkMTI3M2Y5N2YtYjY3Mi00OTRjLWFlZWYtMDMxNTdjNDM4MWU2BQ1YbWxEZWZpbml0aW9uBbUEPFZpZXcgTmFtZT0ie0NDMkY4QTEyLUZCQTYtNDc5RC1CQzhDLUEyMEE0NDJDN0Q3QX0iIE1vYmlsZVZpZXc9IlRSVUUiIFR5cGU9IkhUTUwiIEhpZGRlbj0iVFJVRSIgVGFidWxhclZpZXc9IkZBTFNFIiBEaXNwbGF5TmFtZT0iIiBVcmw9Ii9Eb2N1bWVudHMvUmVzaWRlbnRpYWxHZW5lcmFsLmFzcHgiIExldmVsPSIxIiBCYXNlVmlld0lEPSIxIiBDb250ZW50VHlwZUlEPSIweCIgSW1hZ2VVcmw9Ii9fbGF5b3V0cy9pbWFnZXMvbGlua3MucG5nIj48UXVlcnk+PEdyb3VwQnkgQ29sbGFwc2U9IkZBTFNFIiBHcm91cExpbWl0PSIzMCI+PEZpZWxkUmVmIE5hbWU9IkNhdGVnb3J5Ii8+PC9Hcm91cEJ5PjxPcmRlckJ5PjxGaWVsZFJlZiBOYW1lPSJDYXRlZ29yeSIvPjxGaWVsZFJlZiBOYW1lPSJVUkx3TWVudSIvPjwvT3JkZXJCeT48L1F1ZXJ5PjxWaWV3RmllbGRzPjxGaWVsZFJlZiBOYW1lPSJVUkx3TWVudSIvPjwvVmlld0ZpZWxkcz48Um93TGltaXQgUGFnZWQ9IlRSVUUiPjMwPC9Sb3dMaW1pdD48QWdncmVnYXRpb25zIFZhbHVlPSJPZmYiLz48VG9vbGJhciBUeXBlPSJOb25lIi8+PC9WaWV3PgURUGFyYW1ldGVyQmluZGluZ3MFrgY8UGFyYW1ldGVyQmluZGluZyBOYW1lPSJkdnRfc29ydGRpciIgTG9jYXRpb249IlBvc3RiYWNrO0Nvbm5lY3Rpb24iIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iZHZ0X3NvcnRmaWVsZCIgTG9jYXRpb249IlBvc3RiYWNrO0Nvbm5lY3Rpb24iIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iZHZ0X3N0YXJ0cG9zaXRpb24iIExvY2F0aW9uPSJQb3N0YmFjayIgRGVmYXVsdFZhbHVlPSIiIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iZHZ0X2ZpcnN0cm93IiBMb2NhdGlvbj0iUG9zdGJhY2s7Q29ubmVjdGlvbiIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJPcGVuTWVudUtleUFjY2Vzc2libGUiIExvY2F0aW9uPSJSZXNvdXJjZSh3c3MsT3Blbk1lbnVLZXlBY2Nlc3NpYmxlKSIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJvcGVuX21lbnUiIExvY2F0aW9uPSJSZXNvdXJjZSh3c3Msb3Blbl9tZW51KSIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJzZWxlY3RfZGVzZWxlY3RfYWxsIiBMb2NhdGlvbj0iUmVzb3VyY2Uod3NzLHNlbGVjdF9kZXNlbGVjdF9hbGwpIiAvPjxQYXJhbWV0ZXJCaW5kaW5nIE5hbWU9ImlkUHJlc0VuYWJsZWQiIExvY2F0aW9uPSJSZXNvdXJjZSh3c3MsaWRQcmVzRW5hYmxlZCkiIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iTm9Bbm5vdW5jZW1lbnRzIiBMb2NhdGlvbj0iUmVzb3VyY2Uod3NzLG5vWGludmlld29mWV9MSVNUKSIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJOb0Fubm91bmNlbWVudHNIb3dUbyIgTG9jYXRpb249IlJlc291cmNlKHdzcyxub1hpbnZpZXdvZllfREVGQVVMVCkiIC8+" PerUser="/wEUKwAHAgICAwIBAQAAAgIChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAg==" View="qKkwMQwAAABuAQAAeJx9kNEKgzAMRX+l9AcUxt5qwYmOgZubOt8rxlKoRqoi/v3UOdkY+JSQnHu5CUsRdS4MSccGHHrDGqjFWaZgCBToouVsqTGU5CaqCXnG4XCFup8x65t79GBGzs4G++Y0Eg+1Fk07KQI3THxKlkWoKtU59GDTP2NPdCDRjIvx6sJZZAowc7ND7yXc9Naaz5XSgBSdwrolmdD9pIjKcoZjHJZ85C4kFA5N46dP+cFm1mfD2RVzpYG8y6WDar3oSNdZoqpGw/aYnzgvaht7dA==" />
+				</BinarySerializedWebPart>
+			</View>
+			<AllUsersWebPart WebPartOrder="0" WebPartZoneID="Body" ID="g_733da839_30b7_4bdd_ab84_4621984c40d1"><![CDATA[<WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+  <Title>Content Editor</Title>
+  <FrameType>None</FrameType>
+  <Description>Allows authors to enter rich text content.</Description>
+  <IsIncluded>true</IsIncluded>
+  <ZoneID>Body</ZoneID>
+  <PartOrder>0</PartOrder>
+  <FrameState>Normal</FrameState>
+  <Height />
+  <Width />
+  <AllowRemove>true</AllowRemove>
+  <AllowZoneChange>true</AllowZoneChange>
+  <AllowMinimize>true</AllowMinimize>
+  <AllowConnect>true</AllowConnect>
+  <AllowEdit>true</AllowEdit>
+  <AllowHide>true</AllowHide>
+  <IsVisible>true</IsVisible>
+  <DetailLink />
+  <HelpLink />
+  <HelpMode>Modeless</HelpMode>
+  <Dir>Default</Dir>
+  <PartImageSmall />
+  <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+  <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+  <IsIncludedFilter />
+  <Assembly>Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+  <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+  <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor">Residential/General.html</ContentLink>
+  <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+  <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+</WebPart>]]></AllUsersWebPart>
+			<Property Name="ContentTypeId" Value="0x010100F50BB2863D1B4E46987D570D42A4B628" />
+			<Property Name="FileLeafRef" Value="ResidentialGeneral.aspx" />
+			<Property Name="ID" Value="24" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Documents" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="24;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_lmt:SW|Tue, 11 Jun 2013 10:01:12 GMT&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_cachednolayoutzones:VR|TitleBar&#xD;&#xA;vti_contenttag:SW|{FA613F17-A4D0-4D7C-A755-FE2D000D7F48},3,2&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_progid:SR|SharePoint.WebPartPage.Document&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedzones:VR|TitleBar Header LeftColumn Body&#xD;&#xA;vti_winfileattribs:SW|00000000&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_generator:SR|Microsoft SharePoint&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_docstoreversion:IR|3&#xD;&#xA;vti_metainfoversion:IW|3&#xD;&#xA;ContentTypeId:SW|0x010100F50BB2863D1B4E46987D570D42A4B628&#xD;&#xA;vti_ct:SW|Tue, 11 Jun 2013 10:01:12 GMT&#xD;&#xA;vti_lat:SW|Thu, 13 Jun 2013 08:01:00 GMT&#xD;&#xA;vti_metatags:VR|GENERATOR Microsoft\\ SharePoint ProgId SharePoint.WebPartPage.Document HTTP-EQUIV=Content-Type text/html;\\ charset=utf-8 CollaborationServer SharePoint\\ Team\\ Web\\ Site&#xD;&#xA;vti_cachednoperszones:VR|TitleBar&#xD;&#xA;vti_sourcecontrolmultiuserchkoutby:VR|REPSRV\\\\udhatsu&#xD;&#xA;vti_linkinfo:VX|USUS|_layouts/images/blank.gif&#xD;&#xA;" />
+			<Property Name="Order" Value="2400.00000000000" />
+		</File>
+		<File Url="ResidentialSales.aspx" Type="GhostableInLibrary" Path="ResidentialSales.aspx">
+			<View List="Lists/CallHandlingLinks" DisplayName="" Url="" DefaultView="FALSE" BaseViewID="1" Type="HTML" WebPartOrder="0" WebPartZoneID="LeftColumn" ContentTypeID="0x" ID="g_bf621cbe_071b_4956_8c76_952e0e6a353b" Hidden="TRUE">
+				<BinarySerializedWebPart>
+					<GUIDMap>
+						<GUID Id="1273f97f_b672_494c_aeef_03157c4381e6" ListUrl="Lists/CallHandlingLinks" />
+					</GUIDMap>
+					<WebPart ID="{bf621cbe-071b-4956-8c76-952e0e6a353b}" WebPartIdProperty="" List="{$ListId:Lists/CallHandlingLinks;}" Type="1" Flags="8388617" DisplayName="" Version="5" Url="/Documents/ResidentialSales.aspx" WebPartOrder="0" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{874f5460-71f9-fecc-e894-e7e858d9713e}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="B6Dt/kkAAAABAAAAAAAAAAIAAAAvTGlzdHMvQ2FsbEhhbmRsaW5nTGlua3MAL19sYXlvdXRzL2ltYWdlcy9pdGxpbmsucG5nAP8BFCsAHQICAgMCAwEEAAICAg4CEAEBAAICBQhWaWV3R3VpZAUme0JGNjIxQ0JFLTA3MUItNDk1Ni04Qzc2LTk1MkUwRTZBMzUzQn0BAAACEAJ9BRgvTGlzdHMvQ2FsbEhhbmRsaW5nTGlua3MCggEFGy9fbGF5b3V0cy9pbWFnZXMvaXRsaW5rLnBuZwIZBQc4Mzg4NjE3BQlWaWV3RmxhZ3MoKXpNaWNyb3NvZnQuU2hhcmVQb2ludC5TUFZpZXdGbGFncywgTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5YxRIdG1sLCBIaWRkZW4sIE1vYmlsZQKVAQUmezEyNzNGOTdGLUI2NzItNDk0Qy1BRUVGLTAzMTU3QzQzODFFNn0FBkxpc3RJZCgpWFN5c3RlbS5HdWlkLCBtc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkkMTI3M2Y5N2YtYjY3Mi00OTRjLWFlZWYtMDMxNTdjNDM4MWU2BQ1YbWxEZWZpbml0aW9uBbMEPFZpZXcgTmFtZT0ie0JGNjIxQ0JFLTA3MUItNDk1Ni04Qzc2LTk1MkUwRTZBMzUzQn0iIE1vYmlsZVZpZXc9IlRSVUUiIFR5cGU9IkhUTUwiIEhpZGRlbj0iVFJVRSIgVGFidWxhclZpZXc9IkZBTFNFIiBEaXNwbGF5TmFtZT0iIiBVcmw9Ii9Eb2N1bWVudHMvUmVzaWRlbnRpYWxTYWxlcy5hc3B4IiBMZXZlbD0iMSIgQmFzZVZpZXdJRD0iMSIgQ29udGVudFR5cGVJRD0iMHgiIEltYWdlVXJsPSIvX2xheW91dHMvaW1hZ2VzL2xpbmtzLnBuZyI+PFF1ZXJ5PjxHcm91cEJ5IENvbGxhcHNlPSJGQUxTRSIgR3JvdXBMaW1pdD0iMzAiPjxGaWVsZFJlZiBOYW1lPSJDYXRlZ29yeSIvPjwvR3JvdXBCeT48T3JkZXJCeT48RmllbGRSZWYgTmFtZT0iQ2F0ZWdvcnkiLz48RmllbGRSZWYgTmFtZT0iVVJMd01lbnUiLz48L09yZGVyQnk+PC9RdWVyeT48Vmlld0ZpZWxkcz48RmllbGRSZWYgTmFtZT0iVVJMd01lbnUiLz48L1ZpZXdGaWVsZHM+PFJvd0xpbWl0IFBhZ2VkPSJUUlVFIj4zMDwvUm93TGltaXQ+PEFnZ3JlZ2F0aW9ucyBWYWx1ZT0iT2ZmIi8+PFRvb2xiYXIgVHlwZT0iTm9uZSIvPjwvVmlldz4FEVBhcmFtZXRlckJpbmRpbmdzBa4GPFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iZHZ0X3NvcnRkaXIiIExvY2F0aW9uPSJQb3N0YmFjaztDb25uZWN0aW9uIiAvPjxQYXJhbWV0ZXJCaW5kaW5nIE5hbWU9ImR2dF9zb3J0ZmllbGQiIExvY2F0aW9uPSJQb3N0YmFjaztDb25uZWN0aW9uIiAvPjxQYXJhbWV0ZXJCaW5kaW5nIE5hbWU9ImR2dF9zdGFydHBvc2l0aW9uIiBMb2NhdGlvbj0iUG9zdGJhY2siIERlZmF1bHRWYWx1ZT0iIiAvPjxQYXJhbWV0ZXJCaW5kaW5nIE5hbWU9ImR2dF9maXJzdHJvdyIgTG9jYXRpb249IlBvc3RiYWNrO0Nvbm5lY3Rpb24iIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iT3Blbk1lbnVLZXlBY2Nlc3NpYmxlIiBMb2NhdGlvbj0iUmVzb3VyY2Uod3NzLE9wZW5NZW51S2V5QWNjZXNzaWJsZSkiIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0ib3Blbl9tZW51IiBMb2NhdGlvbj0iUmVzb3VyY2Uod3NzLG9wZW5fbWVudSkiIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0ic2VsZWN0X2Rlc2VsZWN0X2FsbCIgTG9jYXRpb249IlJlc291cmNlKHdzcyxzZWxlY3RfZGVzZWxlY3RfYWxsKSIgLz48UGFyYW1ldGVyQmluZGluZyBOYW1lPSJpZFByZXNFbmFibGVkIiBMb2NhdGlvbj0iUmVzb3VyY2Uod3NzLGlkUHJlc0VuYWJsZWQpIiAvPjxQYXJhbWV0ZXJCaW5kaW5nIE5hbWU9Ik5vQW5ub3VuY2VtZW50cyIgTG9jYXRpb249IlJlc291cmNlKHdzcyxub1hpbnZpZXdvZllfTElTVCkiIC8+PFBhcmFtZXRlckJpbmRpbmcgTmFtZT0iTm9Bbm5vdW5jZW1lbnRzSG93VG8iIExvY2F0aW9uPSJSZXNvdXJjZSh3c3Msbm9YaW52aWV3b2ZZX0RFRkFVTFQpIiAvPg==" PerUser="/wEUKwAHAgICAwIBAQAAAgIChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAg==" View="qKkwMQwAAABuAQAAeJx9kNEKgzAMRX+l9AcUxt5qwYmOgZubOt8rxlKoRqoi/v3UOdkY+JSQnHu5CUsRdS4MSccGHHrDGqjFWaZgCBToouVsqTGU5CaqCXnG4XCFup8x65t79GBGzs4G++Y0Eg+1Fk07KQI3THxKlkWoKtU59GDTP2NPdCDRjIvx6sJZZAowc7ND7yXc9Naaz5XSgBSdwrolmdD9pIjKcoZjHJZ85C4kFA5N46dP+cFm1mfD2RVzpYG8y6WDar3oSNdZoqpGw/aYnzgvaht7dA==" />
+				</BinarySerializedWebPart>
+			</View>
+			<AllUsersWebPart WebPartOrder="0" WebPartZoneID="Body" ID="g_007639fd_b627_4c0c_9a22_49c4d9734d4f"><![CDATA[<WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+  <Title>Content Editor</Title>
+  <FrameType>None</FrameType>
+  <Description>Allows authors to enter rich text content.</Description>
+  <IsIncluded>true</IsIncluded>
+  <ZoneID>Body</ZoneID>
+  <PartOrder>0</PartOrder>
+  <FrameState>Normal</FrameState>
+  <Height />
+  <Width />
+  <AllowRemove>true</AllowRemove>
+  <AllowZoneChange>true</AllowZoneChange>
+  <AllowMinimize>true</AllowMinimize>
+  <AllowConnect>true</AllowConnect>
+  <AllowEdit>true</AllowEdit>
+  <AllowHide>true</AllowHide>
+  <IsVisible>true</IsVisible>
+  <DetailLink />
+  <HelpLink />
+  <HelpMode>Modeless</HelpMode>
+  <Dir>Default</Dir>
+  <PartImageSmall />
+  <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+  <PartImageLarge>/_layouts/images/mscontl.gif</PartImageLarge>
+  <IsIncludedFilter />
+  <Assembly>Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+  <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+  <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor">Residential/Sales.html</ContentLink>
+  <Content xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+  <PartStorage xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor" />
+</WebPart>]]></AllUsersWebPart>
+			<Property Name="ContentTypeId" Value="0x010100F50BB2863D1B4E46987D570D42A4B628" />
+			<Property Name="FileLeafRef" Value="ResidentialSales.aspx" />
+			<Property Name="ID" Value="25" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Documents" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="25;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_lmt:SW|Tue, 11 Jun 2013 10:01:12 GMT&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_cachednolayoutzones:VR|TitleBar&#xD;&#xA;vti_contenttag:SW|{D38C5709-E705-4266-8247-EA2F9351D573},3,2&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_progid:SR|SharePoint.WebPartPage.Document&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedzones:VR|TitleBar Header LeftColumn Body&#xD;&#xA;vti_winfileattribs:SW|00000000&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_generator:SR|Microsoft SharePoint&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_docstoreversion:IR|3&#xD;&#xA;vti_metainfoversion:IW|3&#xD;&#xA;ContentTypeId:SW|0x010100F50BB2863D1B4E46987D570D42A4B628&#xD;&#xA;vti_ct:SW|Tue, 11 Jun 2013 10:01:12 GMT&#xD;&#xA;vti_lat:SW|Thu, 13 Jun 2013 08:01:02 GMT&#xD;&#xA;vti_metatags:VR|GENERATOR Microsoft\\ SharePoint ProgId SharePoint.WebPartPage.Document HTTP-EQUIV=Content-Type text/html;\\ charset=utf-8 CollaborationServer SharePoint\\ Team\\ Web\\ Site&#xD;&#xA;vti_cachednoperszones:VR|TitleBar&#xD;&#xA;vti_sourcecontrolmultiuserchkoutby:VR|REPSRV\\\\udhatsu&#xD;&#xA;vti_linkinfo:VX|USUS|_layouts/images/blank.gif&#xD;&#xA;" />
+			<Property Name="Order" Value="2500.00000000000" />
+		</File>
+	</Module>
+</Elements>

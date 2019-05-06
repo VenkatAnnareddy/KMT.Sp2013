@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance FeatureId="{00bfea71-e717-4e80-aa17-d0c71b360101}" TemplateType="101" Title="Documents" Description="" Url="Documents" CustomSchema="Files\Documents\Schema.xml" HyperlinkBaseUrl="http://devshpt02:44444" RootWebOnly="FALSE" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<Data>
+			<Rows>
+				<Row>
+					<Field Name="ContentTypeId">0x01200058856B3E0458C343A5E5245347C3DA7C</Field>
+					<Field Name="FileLeafRef">Commercial</Field>
+					<Field Name="ID">4</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="FSObjType">1</Field>
+					<Field Name="MetaInfo">4;#vti_contentversionisdirty:BW|false
+vti_winfileattribs:SW|00000000
+vti_metainfoversion:IW|1
+vti_foldersubfolderitemcount:IR|0
+vti_folderitemcount:IR|0
+vti_lmt:SW|Tue, 11 Jun 2013 09:19:56 GMT
+vti_modifiedby:SR|REPSRV\\udhatsu
+vti_ct:SW|Tue, 11 Jun 2013 09:19:56 GMT
+vti_lat:SW|Thu, 13 Jun 2013 08:00:03 GMT
+</Field>
+					<Field Name="Order">400.000000000000</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x01200058856B3E0458C343A5E5245347C3DA7C</Field>
+					<Field Name="FileLeafRef">Industrial</Field>
+					<Field Name="ID">8</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="FSObjType">1</Field>
+					<Field Name="MetaInfo">8;#vti_contentversionisdirty:BW|false
+vti_winfileattribs:SW|00000000
+vti_metainfoversion:IW|1
+vti_foldersubfolderitemcount:IR|0
+vti_folderitemcount:IR|0
+vti_lmt:SW|Tue, 11 Jun 2013 09:03:58 GMT
+vti_modifiedby:SR|REPSRV\\udhatsu
+vti_ct:SW|Tue, 11 Jun 2013 09:03:58 GMT
+vti_lat:SW|Thu, 13 Jun 2013 08:00:20 GMT
+</Field>
+					<Field Name="Order">800.000000000000</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x01200058856B3E0458C343A5E5245347C3DA7C</Field>
+					<Field Name="FileLeafRef">JQuery</Field>
+					<Field Name="ID">9</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="FSObjType">1</Field>
+					<Field Name="MetaInfo">9;#vti_contentversionisdirty:BW|false
+vti_winfileattribs:SW|00000000
+vti_metainfoversion:IW|1
+vti_foldersubfolderitemcount:IR|0
+vti_folderitemcount:IR|0
+vti_lmt:SW|Tue, 11 Jun 2013 10:12:20 GMT
+vti_modifiedby:SR|REPSRV\\udhatsu
+vti_ct:SW|Tue, 11 Jun 2013 10:12:20 GMT
+vti_lat:SW|Thu, 13 Jun 2013 08:00:21 GMT
+</Field>
+					<Field Name="Order">900.000000000000</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x01200058856B3E0458C343A5E5245347C3DA7C</Field>
+					<Field Name="FileLeafRef">NationalAccounts</Field>
+					<Field Name="ID">13</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="FSObjType">1</Field>
+					<Field Name="MetaInfo">13;#vti_contentversionisdirty:BW|false
+vti_winfileattribs:SW|00000000
+vti_metainfoversion:IW|1
+vti_foldersubfolderitemcount:IR|0
+vti_folderitemcount:IR|0
+vti_lmt:SW|Tue, 11 Jun 2013 12:38:27 GMT
+vti_modifiedby:SR|REPSRV\\udhatsu
+vti_ct:SW|Tue, 11 Jun 2013 12:38:27 GMT
+vti_lat:SW|Thu, 13 Jun 2013 08:00:33 GMT
+</Field>
+					<Field Name="Order">1300.00000000000</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x01200058856B3E0458C343A5E5245347C3DA7C</Field>
+					<Field Name="FileLeafRef">Residential</Field>
+					<Field Name="ID">15</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="FSObjType">1</Field>
+					<Field Name="MetaInfo">15;#vti_contentversionisdirty:BW|false
+vti_winfileattribs:SW|00000000
+vti_metainfoversion:IW|1
+vti_foldersubfolderitemcount:IR|0
+vti_folderitemcount:IR|0
+vti_lmt:SW|Tue, 11 Jun 2013 12:39:05 GMT
+vti_modifiedby:SR|REPSRV\\udhatsu
+vti_ct:SW|Tue, 11 Jun 2013 12:39:05 GMT
+vti_lat:SW|Thu, 13 Jun 2013 08:00:36 GMT
+</Field>
+					<Field Name="Order">1500.00000000000</Field>
+				</Row>
+			</Rows>
+		</Data>
+	</ListInstance>
+</Elements>

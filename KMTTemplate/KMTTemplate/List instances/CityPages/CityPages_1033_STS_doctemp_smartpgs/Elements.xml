@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="CityPages_1033\STS\doctemp\smartpgs" HyperlinkBaseUrl="http://devshpt02:44444" Url="CityPages" SetupPath="1033\STS\doctemp\smartpgs" RootWebOnly="FALSE" Path="Files\CityPages" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="AllCities.aspx" Type="GhostableInLibrary" Path="spstd2.aspx">
+			<AllUsersWebPart WebPartOrder="1" WebPartZoneID="TitleBar" ID="g_e26e89e9_ca87_4b56_9f80_7c17ab3987a7"><![CDATA[<WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+  <Title>Web Part Page Title Bar</Title>
+  <FrameType>None</FrameType>
+  <Description />
+  <IsIncluded>true</IsIncluded>
+  <ZoneID>TitleBar</ZoneID>
+  <PartOrder>1</PartOrder>
+  <FrameState>Normal</FrameState>
+  <Height />
+  <Width />
+  <AllowRemove>false</AllowRemove>
+  <AllowZoneChange>true</AllowZoneChange>
+  <AllowMinimize>false</AllowMinimize>
+  <AllowConnect>true</AllowConnect>
+  <AllowEdit>true</AllowEdit>
+  <AllowHide>true</AllowHide>
+  <IsVisible>true</IsVisible>
+  <DetailLink />
+  <HelpLink />
+  <HelpMode>Modeless</HelpMode>
+  <Dir>Default</Dir>
+  <PartImageSmall />
+  <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+  <PartImageLarge />
+  <IsIncludedFilter />
+  <Assembly>Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+  <TypeName>Microsoft.SharePoint.WebPartPages.TitleBarWebPart</TypeName>
+  <HeaderTitle xmlns="http://schemas.microsoft.com/WebPart/v2/TitleBar">AllCities</HeaderTitle>
+</WebPart>]]></AllUsersWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{fdb47b88-5c47-4c14-b1c1-df512da51b4e}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="10" Url="/CityPages/AllCities.aspx" WebPartOrder="0" WebPartZoneID="Header" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+xA+KAizxkaXY+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGZvbnQtc2l6ZTogMjRwdDsgZm9udC13ZWlnaHQ6IGJvbGQ7IGxhbmd1YWdlOiBlbi11cyI+Jmx0OzxlbT5EaXZpc2lvbiBOYW1lPC9lbT4mZ3Q7KDxlbT5YWFhYPC9lbT4pPC9zcGFuPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTogY2FsaWJyaTsgY29sb3I6IGJsYWNrOyBmb250LXNpemU6IDE4cHQ7IGxhbmd1YWdlOiBlbi11cyI+PHNwYW4+JiMxNjA7IDwvc3Bhbj48L3NwYW4+PC9kaXY+DQo8ZGl2PjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTogY2FsaWJyaTsgY29sb3I6IGJsYWNrOyBmb250LXNpemU6IDE4cHQ7IGxhbmd1YWdlOiBlbi11cyI+e1RoaXMgYm94IGluY2x1ZGVzIGJhc2ljIGluZm8gYWJvdXQgdGhlIGRpdmlzaW9uL0JVfTwvc3Bhbj48L2Rpdj4PDw==" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{4db8f3c0-567b-4f2a-b96b-ef346ba7453c}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="24" Url="/CityPages/AllCities.aspx" WebPartOrder="1" WebPartZoneID="MiddleColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+jCDxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0idGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ii8+PG1ldGEgaHR0cC1lcXVpdj0iQ29udGVudC1MYW5ndWFnZSIgY29udGVudD0iZW4tdXMiLz48bWV0YSBodHRwLWVxdWl2PSJDb250ZW50LVR5cGUiIGNvbnRlbnQ9InRleHQvaHRtbDsgY2hhcnNldD11dGYtOCIvPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQouYXV0by1zdHlsZTEgew0KCVRFWFQtQUxJR046IGNlbnRlcg0KfQ0KLmF1dG8tc3R5bGUyIHsNCglCQUNLR1JPVU5ELUNPTE9SOiAjNGFlNTMwDQp9PC9zdHlsZT48dGFibGUgYm9yZGVyPSIyIiBjZWxsc3BhY2luZz0iNSIgY2VsbHBhZGRpbmc9IjUiIHN0eWxlPSJ3aWR0aDogNDAwcHgiPjx0Ym9keT48dHI+PHRkIGNsYXNzPSJhdXRvLXN0eWxlMSIgc3R5bGU9ImhlaWdodDogMTAwcHgiPjxoMiBjbGFzcz0iYXV0by1zdHlsZTIiPjxzdHJvbmc+PGEgaHJlZj0iL0NpdHlQYWdlcy9SZXNpZGVudGlhbC5hc3B4Ij5SZXNpZGVudGlhbDwvYT48L3N0cm9uZz48L2gyPjwvdGQ+DQo8dGQgY2xhc3M9ImF1dG8tc3R5bGUxIiBzdHlsZT0iaGVpZ2h0OiAxMDBweCI+PGgyIGNsYXNzPSJhdXRvLXN0eWxlMiI+PHN0cm9uZyBjbGFzcz0iYXV0by1zdHlsZTIiPjxhIGhyZWY9Ii9DaXR5UGFnZXMvSW5kdXN0cmlhbC5hc3B4Ij5JbmR1c3RyaWFsPC9hPjwvc3Ryb25nPjwvaDI+PC90ZD48L3RyPg0KPHRyPjx0ZCBjbGFzcz0iYXV0by1zdHlsZTEiIHN0eWxlPSJoZWlnaHQ6IDEwMHB4Ij48aDIgY2xhc3M9ImF1dG8tc3R5bGUyIj48c3Ryb25nPjxhIGhyZWY9Ii9DaXR5UGFnZXMvQ29tbWVyY2lhbC5hc3B4Ij5Db21tZXJjaWFsPC9hPjwvc3Ryb25nPjwvaDI+PC90ZD4NCjx0ZCBjbGFzcz0iYXV0by1zdHlsZTEiIHN0eWxlPSJoZWlnaHQ6IDEwMHB4Ij48aDIgY2xhc3M9ImF1dG8tc3R5bGUyIj48c3Ryb25nIGNsYXNzPSJhdXRvLXN0eWxlMiI+PGEgaHJlZj0iL0NpdHlQYWdlcy9PcGVyYXRpb25zLmFzcHgiPk9wZXJhdGlvbnM8L2E+PC9zdHJvbmc+PC9oMj48L3RkPjwvdHI+PC90Ym9keT48L3RhYmxlPg8P" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{806351ba-a919-4963-b560-721191be0232}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="10" Url="/CityPages/AllCities.aspx" WebPartOrder="1" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+LA+KAizxkaXYgY2xhc3M9Im1zLXJ0ZUZvbnRTaXplLTMiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTogY2FsaWJyaTsgY29sb3I6IGJsYWNrOyBsYW5ndWFnZTogZW4tdXMiPkxpc3Qgb2YgPC9zcGFuPjwvZGl2Pg0KPGRpdiBjbGFzcz0ibXMtcnRlRm9udFNpemUtMyI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGxhbmd1YWdlOiBlbi11cyI+Y2l0aWVzL211bmljaXBhbGl0aWVzL0hPQXMgPC9zcGFuPjwvZGl2Pg0KPGRpdiBjbGFzcz0ibXMtcnRlRm9udFNpemUtMyI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGxhbmd1YWdlOiBlbi11cyI+c2VydmVkIGJ5IHRoZSBkaXZpc2lvbi9CVTo8L3NwYW4+PC9kaXY+Dw8=" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{34950a98-0a40-4c9c-a6c7-3389e5a9451a}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="3" Url="/CityPages/AllCities.aspx" WebPartOrder="2" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{286b59f7-7534-c7d8-b636-3b2b50a1187a}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="RSG.Inside.KMTTemplateWebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7889d2b3af6fbf88" Class="RSG.Inside.KMTTemplateWebParts.CitiesLeftNavigation.CitiesLeftNavigation" Src="" AllUsers="/wEUKwAHAgICAwIBAQAAAgICAgURTXkgVmlzdWFsIFdlYlBhcnQ=" PerUser="/wEUKwAJAgICAwIBAQAAAgQChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAgIEBRRDaXRpZXNMZWZ0TmF2aWdhdGlvbg==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{804f816a-4de0-4861-9b3f-8e52b6962222}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="6" Url="/CityPages/AllCities.aspx" WebPartOrder="2" WebPartZoneID="MiddleColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+ZB+KAizxkaXY+TG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVyIGFkaXBpc2NpbmcgZWxpdC4gVXQgdWx0cmljaWVzIGRvbG9yIGlkIHVybmEgbW9sZXN0aWUsIGV1IGdyYXZpZGEgbGFjdXMgdmVzdGlidWx1bS4gRG9uZWMgZGljdHVtIGVuaW0gaW50ZXJkdW0gZHVpIGZhdWNpYnVzIHNvbGxpY2l0dWRpbi4gTWF1cmlzIG1hdXJpcyBtZXR1cywgdGVtcG9yIHZpdGFlIGxhY3VzIG5vbiwgbW9sZXN0aWUgY29uc2VjdGV0dXIgbnVsbGEuIFBoYXNlbGx1cyB0ZW1wdXMgc2NlbGVyaXNxdWUgZmVsaXMgaWQgZmV1Z2lhdC4gTmFtIGRvbG9yIG5pYmgsIGNvbnZhbGxpcyBxdWlzIHZlc3RpYnVsdW0gdml0YWUsIGRhcGlidXMgc2l0IGFtZXQgbWV0dXMuIFByb2luIHZlbmVuYXRpcyBlcmF0IHF1aXMgZG9sb3IgZWxlbWVudHVtLCBldSBsYW9yZWV0IHNhcGllbiBwaGFyZXRyYS4gU3VzcGVuZGlzc2Ugc2VkIG5pc2kgaWQgZW5pbSBwbGFjZXJhdCBzYWdpdHRpcyBub24gZWdldCBhdWd1ZS4gUHJhZXNlbnQgZGFwaWJ1cyBtYWxlc3VhZGEgbGFjdXMsIGF0IHRyaXN0aXF1ZSBwdXJ1cyBlZ2VzdGFzIG5vbi4gUHJhZXNlbnQgdmVsIGVyb3MgbGlndWxhLiBEdWlzIHBvcnR0aXRvciwgZXJvcyBhdCBkaWduaXNzaW0gdml2ZXJyYSwgYXVndWUgdHVycGlzIG1vbGxpcyBqdXN0bywgbm9uIGJpYmVuZHVtIG1pIGR1aSBzZWQgZXJhdC4gRG9uZWMgZWxlbWVudHVtIGN1cnN1cyBqdXN0bywgaWQgZ3JhdmlkYSBsZWN0dXMgZmVybWVudHVtIGEuIFBoYXNlbGx1cyBxdWlzIHBvcnRhIGFudGUsIGF0IHZvbHV0cGF0IGVsaXQuIFZlc3RpYnVsdW0gZGljdHVtIHF1YW0gcXVpcyBtYWduYSBmcmluZ2lsbGEsIHNpdCBhbWV0IG1vbGxpcyBsb3JlbSBkaWduaXNzaW0uPC9kaXY+DQo8cD48c3Bhbj48L3NwYW4+JiMxNjA7PC9wPg8P" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<Property Name="ID" Value="7" />
+			<Property Name="ContentTypeId" Value="0x010100F4AA3E7AA6D76944889BBC89C2B668A1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="CityPages" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="AllCities.aspx" />
+			<Property Name="MetaInfo" Value="7;#" />
+			<Property Name="Order" Value="700.000000000000" />
+		</File>
+		<File Url="City1.aspx" Type="GhostableInLibrary" Path="spstd2.aspx">
+			<AllUsersWebPart WebPartOrder="1" WebPartZoneID="TitleBar" ID="g_d32dc0d9_7b97_4855_a294_633c4ebb4b5b"><![CDATA[<WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+  <Title>Web Part Page Title Bar</Title>
+  <FrameType>None</FrameType>
+  <Description />
+  <IsIncluded>true</IsIncluded>
+  <ZoneID>TitleBar</ZoneID>
+  <PartOrder>1</PartOrder>
+  <FrameState>Normal</FrameState>
+  <Height />
+  <Width />
+  <AllowRemove>false</AllowRemove>
+  <AllowZoneChange>true</AllowZoneChange>
+  <AllowMinimize>false</AllowMinimize>
+  <AllowConnect>true</AllowConnect>
+  <AllowEdit>true</AllowEdit>
+  <AllowHide>true</AllowHide>
+  <IsVisible>true</IsVisible>
+  <DetailLink />
+  <HelpLink />
+  <HelpMode>Modeless</HelpMode>
+  <Dir>Default</Dir>
+  <PartImageSmall />
+  <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+  <PartImageLarge />
+  <IsIncludedFilter />
+  <Assembly>Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+  <TypeName>Microsoft.SharePoint.WebPartPages.TitleBarWebPart</TypeName>
+  <HeaderTitle xmlns="http://schemas.microsoft.com/WebPart/v2/TitleBar">City1</HeaderTitle>
+</WebPart>]]></AllUsersWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{ffdd38d2-72e4-4327-9885-f3efdfbb110d}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="3" Url="/CityPages/City1.aspx" WebPartOrder="1" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{286b59f7-7534-c7d8-b636-3b2b50a1187a}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="RSG.Inside.KMTTemplateWebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7889d2b3af6fbf88" Class="RSG.Inside.KMTTemplateWebParts.CitiesLeftNavigation.CitiesLeftNavigation" Src="" AllUsers="/wEUKwAHAgICAwIBAQAAAgICAgURTXkgVmlzdWFsIFdlYlBhcnQ=" PerUser="/wEUKwAJAgICAwIBAQAAAgQChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAgIEBRRDaXRpZXNMZWZ0TmF2aWdhdGlvbg==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{d204da98-d940-4007-8164-cde85b295532}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="11" Url="/CityPages/City1.aspx" WebPartOrder="0" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+SA+KAiyYjMTYwOyA8ZGl2IGNsYXNzPSJtcy1ydGVGb250U2l6ZS0zIj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6IGNhbGlicmk7IGNvbG9yOiBibGFjazsgbGFuZ3VhZ2U6IGVuLXVzIj5MaXN0IG9mIDwvc3Bhbj48L2Rpdj4NCjxkaXYgY2xhc3M9Im1zLXJ0ZUZvbnRTaXplLTMiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTogY2FsaWJyaTsgY29sb3I6IGJsYWNrOyBsYW5ndWFnZTogZW4tdXMiPmNpdGllcy9tdW5pY2lwYWxpdGllcy9IT0FzIDwvc3Bhbj48L2Rpdj4NCjxkaXYgY2xhc3M9Im1zLXJ0ZUZvbnRTaXplLTMiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTogY2FsaWJyaTsgY29sb3I6IGJsYWNrOyBsYW5ndWFnZTogZW4tdXMiPnNlcnZlZCBieSB0aGUgZGl2aXNpb24vQlU6PC9zcGFuPjwvZGl2Pg8P" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{e28b9e5a-52c7-429c-a802-c7abc31e84c3}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="5" Url="/CityPages/City1.aspx" WebPartOrder="0" WebPartZoneID="Header" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+KA+KAizxkaXY+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGZvbnQtc2l6ZTogMjRwdDsgZm9udC13ZWlnaHQ6IGJvbGQ7IGxhbmd1YWdlOiBlbi11cyI+Q2l0eS0xIChYWFhYKTwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6IGNhbGlicmk7IGNvbG9yOiBibGFjazsgZm9udC1zaXplOiAxOHB0OyBsYW5ndWFnZTogZW4tdXMiPjxzcGFuPiYjMTYwOyA8L3NwYW4+PC9zcGFuPjwvZGl2Pg0KPGRpdj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6IGNhbGlicmk7IGNvbG9yOiBibGFjazsgZm9udC1zaXplOiAxOHB0OyBsYW5ndWFnZTogZW4tdXMiPntUaGlzIGJveCBpbmNsdWRlcyBiYXNpYyBpbmZvIGFib3V0IHRoZSBjaXR5fTwvc3Bhbj48L2Rpdj4PDw==" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{bff1bb88-2c9c-4b45-b7dd-c00671159c74}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="11" Url="/CityPages/City1.aspx" WebPartOrder="1" WebPartZoneID="Footer" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+nBzxici8+PGJyLz48aHIvPg0K4oCLPGRpdj5Mb3JlbSBpcHN1bSBkb2xvciBzaXQgYW1ldCwgY29uc2VjdGV0dXIgYWRpcGlzY2luZyBlbGl0LiBVdCB1bHRyaWNpZXMgZG9sb3IgaWQgdXJuYSBtb2xlc3RpZSwgZXUgZ3JhdmlkYSBsYWN1cyB2ZXN0aWJ1bHVtLiBEb25lYyBkaWN0dW0gZW5pbSBpbnRlcmR1bSBkdWkgZmF1Y2lidXMgc29sbGljaXR1ZGluLiBNYXVyaXMgbWF1cmlzIG1ldHVzLCB0ZW1wb3Igdml0YWUgbGFjdXMgbm9uLCBtb2xlc3RpZSBjb25zZWN0ZXR1ciBudWxsYS4gUGhhc2VsbHVzIHRlbXB1cyBzY2VsZXJpc3F1ZSBmZWxpcyBpZCBmZXVnaWF0LiBOYW0gZG9sb3IgbmliaCwgY29udmFsbGlzIHF1aXMgdmVzdGlidWx1bSB2aXRhZSwgZGFwaWJ1cyBzaXQgYW1ldCBtZXR1cy4gUHJvaW4gdmVuZW5hdGlzIGVyYXQgcXVpcyBkb2xvciBlbGVtZW50dW0sIGV1IGxhb3JlZXQgc2FwaWVuIHBoYXJldHJhLiBTdXNwZW5kaXNzZSBzZWQgbmlzaSBpZCBlbmltIHBsYWNlcmF0IHNhZ2l0dGlzIG5vbiBlZ2V0IGF1Z3VlLiBQcmFlc2VudCBkYXBpYnVzIG1hbGVzdWFkYSBsYWN1cywgYXQgdHJpc3RpcXVlIHB1cnVzIGVnZXN0YXMgbm9uLiBQcmFlc2VudCB2ZWwgZXJvcyBsaWd1bGEuIER1aXMgcG9ydHRpdG9yLCBlcm9zIGF0IGRpZ25pc3NpbSB2aXZlcnJhLCBhdWd1ZSB0dXJwaXMgbW9sbGlzIGp1c3RvLCBub24gYmliZW5kdW0gbWkgZHVpIHNlZCBlcmF0LiBEb25lYyBlbGVtZW50dW0gY3Vyc3VzIGp1c3RvLCBpZCBncmF2aWRhIGxlY3R1cyBmZXJtZW50dW0gYS4gUGhhc2VsbHVzIHF1aXMgcG9ydGEgYW50ZSwgYXQgdm9sdXRwYXQgZWxpdC4gVmVzdGlidWx1bSBkaWN0dW0gcXVhbSBxdWlzIG1hZ25hIGZyaW5naWxsYSwgc2l0IGFtZXQgbW9sbGlzIGxvcmVtIGRpZ25pc3NpbS4mIzE2MDs8L2Rpdj4NCjxkaXY+JiMxNjA7PC9kaXY+Dw8=" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{d9c8081a-a8d8-4d78-a890-80e7d2071f33}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="8" Url="/CityPages/City1.aspx" WebPartOrder="1" WebPartZoneID="MiddleColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//9rPGRpdiBzdHlsZT0idGV4dC1hbGlnbjogY2VudGVyIj7igIs8c3BhbiBjbGFzcz0ibXMtcnRlRm9udFNpemUtNiI+PHN0cm9uZz5SZXNpZGVudGlhbDwvc3Ryb25nPjwvc3Bhbj48L2Rpdj4PDw==" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{88bd0fd8-6dea-43f6-976c-0753636bf232}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="10" Url="/CityPages/City1.aspx" WebPartOrder="1" WebPartZoneID="RightColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+AATxkaXYgc3R5bGU9InRleHQtYWxpZ246IGNlbnRlciI+4oCLPHNwYW4gY2xhc3M9Im1zLXJ0ZUZvbnRTaXplLTYiPjxzdHJvbmc+PGZvbnQgc2l6ZT0iNyI+SW5kdXN0cmlhbDwvZm9udD48L3N0cm9uZz48L3NwYW4+PC9kaXY+Dw8=" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{edb5e036-e5fc-41da-b720-903429e6a9f3}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="9" Url="/CityPages/City1.aspx" WebPartOrder="3" WebPartZoneID="MiddleColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+AATxkaXYgc3R5bGU9InRleHQtYWxpZ246IGNlbnRlciI+4oCLPHNwYW4gY2xhc3M9Im1zLXJ0ZUZvbnRTaXplLTYiPjxzdHJvbmc+PGZvbnQgc2l6ZT0iNyI+Q29tbWVyY2lhbDwvZm9udD48L3N0cm9uZz48L3NwYW4+PC9kaXY+Dw8=" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{5814cca7-f1c6-4b90-b97d-139bb18525e6}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="8" Url="/CityPages/City1.aspx" WebPartOrder="3" WebPartZoneID="RightColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+AATxkaXYgc3R5bGU9InRleHQtYWxpZ246IGNlbnRlciI+4oCLPHNwYW4gY2xhc3M9Im1zLXJ0ZUZvbnRTaXplLTYiPjxzdHJvbmc+PGZvbnQgc2l6ZT0iNyI+T3BlcmF0aW9uczwvZm9udD48L3N0cm9uZz48L3NwYW4+PC9kaXY+Dw8=" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{f0c145fd-b04f-4fc4-83b6-b08ef8980495}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="6" Url="/CityPages/City1.aspx" WebPartOrder="4" WebPartZoneID="MiddleColumn" IsIncluded="True" FrameState="0" WPTypeId="{cb4f7761-d0c4-94e3-dd9e-ec7a69ad145c}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="RSG.Inside.KMTTemplateWebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7889d2b3af6fbf88" Class="RSG.Inside.KMTTemplateWebParts.TopDocumentsFromDocumentLibrary.TopDocumentsFromDocumentLibrary" Src="" AllUsers="/wEUKwAJAgICAwIBAQAAAgQCAgURTXkgVmlzdWFsIFdlYlBhcnQFDkxPQkNvbHVtblZhbHVlBQpDb21tZXJjaWFs" PerUser="/wEUKwAJAgICAwIBAQAAAgQChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAgIEBR9Ub3BEb2N1bWVudHNGcm9tRG9jdW1lbnRMaWJyYXJ5" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{27a87f43-6c7c-4c71-9a13-143c7b451721}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="3" Url="/CityPages/City1.aspx" WebPartOrder="2" WebPartZoneID="MiddleColumn" IsIncluded="True" FrameState="0" WPTypeId="{cb4f7761-d0c4-94e3-dd9e-ec7a69ad145c}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="RSG.Inside.KMTTemplateWebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7889d2b3af6fbf88" Class="RSG.Inside.KMTTemplateWebParts.TopDocumentsFromDocumentLibrary.TopDocumentsFromDocumentLibrary" Src="" AllUsers="/wEUKwAHAgICAwIBAQAAAgICAgURTXkgVmlzdWFsIFdlYlBhcnQ=" PerUser="/wEUKwAJAgICAwIBAQAAAgQChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAgIEBR9Ub3BEb2N1bWVudHNGcm9tRG9jdW1lbnRMaWJyYXJ5" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{93a2a141-01fd-49a6-996d-ccba47e91ed6}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="7" Url="/CityPages/City1.aspx" WebPartOrder="4" WebPartZoneID="RightColumn" IsIncluded="True" FrameState="0" WPTypeId="{cb4f7761-d0c4-94e3-dd9e-ec7a69ad145c}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="RSG.Inside.KMTTemplateWebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7889d2b3af6fbf88" Class="RSG.Inside.KMTTemplateWebParts.TopDocumentsFromDocumentLibrary.TopDocumentsFromDocumentLibrary" Src="" AllUsers="/wEUKwAJAgICAwIBAQAAAgQCAgURTXkgVmlzdWFsIFdlYlBhcnQFDkxPQkNvbHVtblZhbHVlBQtPcGVyYXRpb25hbA==" PerUser="/wEUKwAJAgICAwIBAQAAAgQChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAgIEBR9Ub3BEb2N1bWVudHNGcm9tRG9jdW1lbnRMaWJyYXJ5" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{fc77fa62-5ab9-4ed5-adcb-44330783867f}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="4" Url="/CityPages/City1.aspx" WebPartOrder="2" WebPartZoneID="RightColumn" IsIncluded="True" FrameState="0" WPTypeId="{cb4f7761-d0c4-94e3-dd9e-ec7a69ad145c}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="RSG.Inside.KMTTemplateWebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7889d2b3af6fbf88" Class="RSG.Inside.KMTTemplateWebParts.TopDocumentsFromDocumentLibrary.TopDocumentsFromDocumentLibrary" Src="" AllUsers="/wEUKwAJAgICAwIBAQAAAgQCAgURTXkgVmlzdWFsIFdlYlBhcnQFDkxPQkNvbHVtblZhbHVlBQpJbmR1c3RyaWFs" PerUser="/wEUKwAJAgICAwIBAQAAAgQChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAgIEBR9Ub3BEb2N1bWVudHNGcm9tRG9jdW1lbnRMaWJyYXJ5" />
+			</BinarySerializedWebPart>
+			<Property Name="ID" Value="1" />
+			<Property Name="ContentTypeId" Value="0x010100F4AA3E7AA6D76944889BBC89C2B668A1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="CityPages" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="City1.aspx" />
+			<Property Name="MetaInfo" Value="1;#" />
+			<Property Name="Order" Value="100.000000000000" />
+		</File>
+		<File Url="City2.aspx" Type="GhostableInLibrary" Path="spstd2.aspx">
+			<AllUsersWebPart WebPartOrder="1" WebPartZoneID="TitleBar" ID="g_643efe98_c335_4870_bcd0_c2127dfc3228"><![CDATA[<WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+  <Title>Web Part Page Title Bar</Title>
+  <FrameType>None</FrameType>
+  <Description />
+  <IsIncluded>true</IsIncluded>
+  <ZoneID>TitleBar</ZoneID>
+  <PartOrder>1</PartOrder>
+  <FrameState>Normal</FrameState>
+  <Height />
+  <Width />
+  <AllowRemove>false</AllowRemove>
+  <AllowZoneChange>true</AllowZoneChange>
+  <AllowMinimize>false</AllowMinimize>
+  <AllowConnect>true</AllowConnect>
+  <AllowEdit>true</AllowEdit>
+  <AllowHide>true</AllowHide>
+  <IsVisible>true</IsVisible>
+  <DetailLink />
+  <HelpLink />
+  <HelpMode>Modeless</HelpMode>
+  <Dir>Default</Dir>
+  <PartImageSmall />
+  <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+  <PartImageLarge />
+  <IsIncludedFilter />
+  <Assembly>Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+  <TypeName>Microsoft.SharePoint.WebPartPages.TitleBarWebPart</TypeName>
+  <HeaderTitle xmlns="http://schemas.microsoft.com/WebPart/v2/TitleBar">City2</HeaderTitle>
+</WebPart>]]></AllUsersWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{9fa6afe3-161e-4550-ac36-b91e584a07b3}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="4" Url="/CityPages/City2.aspx" WebPartOrder="2" WebPartZoneID="MiddleColumn" IsIncluded="True" FrameState="0" WPTypeId="{cb4f7761-d0c4-94e3-dd9e-ec7a69ad145c}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="RSG.Inside.KMTTemplateWebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7889d2b3af6fbf88" Class="RSG.Inside.KMTTemplateWebParts.TopDocumentsFromDocumentLibrary.TopDocumentsFromDocumentLibrary" Src="" AllUsers="/wEUKwAJAgICAwIBAQAAAgQCAgURTXkgVmlzdWFsIFdlYlBhcnQFF0NpdHlvckVudGl0eUNvbHVtblZhbHVlBQVDaXR5Mg==" PerUser="/wEUKwAJAgICAwIBAQAAAgQChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAgIEBR9Ub3BEb2N1bWVudHNGcm9tRG9jdW1lbnRMaWJyYXJ5" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{75f96e64-da8b-407e-a298-1b52294b52fd}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="7" Url="/CityPages/City2.aspx" WebPartOrder="4" WebPartZoneID="RightColumn" IsIncluded="True" FrameState="0" WPTypeId="{cb4f7761-d0c4-94e3-dd9e-ec7a69ad145c}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="RSG.Inside.KMTTemplateWebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7889d2b3af6fbf88" Class="RSG.Inside.KMTTemplateWebParts.TopDocumentsFromDocumentLibrary.TopDocumentsFromDocumentLibrary" Src="" AllUsers="/wEUKwALAgICAwIBAQAAAgYCAgURTXkgVmlzdWFsIFdlYlBhcnQFF0NpdHlvckVudGl0eUNvbHVtblZhbHVlBQVDaXR5MgUOTE9CQ29sdW1uVmFsdWUFC09wZXJhdGlvbmFs" PerUser="/wEUKwAJAgICAwIBAQAAAgQChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAgIEBR9Ub3BEb2N1bWVudHNGcm9tRG9jdW1lbnRMaWJyYXJ5" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{401bfb76-208a-4453-863a-d7959d707826}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="5" Url="/CityPages/City2.aspx" WebPartOrder="2" WebPartZoneID="RightColumn" IsIncluded="True" FrameState="0" WPTypeId="{cb4f7761-d0c4-94e3-dd9e-ec7a69ad145c}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="RSG.Inside.KMTTemplateWebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7889d2b3af6fbf88" Class="RSG.Inside.KMTTemplateWebParts.TopDocumentsFromDocumentLibrary.TopDocumentsFromDocumentLibrary" Src="" AllUsers="/wEUKwALAgICAwIBAQAAAgYCAgURTXkgVmlzdWFsIFdlYlBhcnQFF0NpdHlvckVudGl0eUNvbHVtblZhbHVlBQVDaXR5MgUOTE9CQ29sdW1uVmFsdWUFCkluZHVzdHJpYWw=" PerUser="/wEUKwAJAgICAwIBAQAAAgQChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAgIEBR9Ub3BEb2N1bWVudHNGcm9tRG9jdW1lbnRMaWJyYXJ5" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{bd2949fa-a2cf-4ca6-9672-801812226165}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="19" Url="/CityPages/City2.aspx" WebPartOrder="1" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+LA+KAizxkaXYgY2xhc3M9Im1zLXJ0ZUZvbnRTaXplLTMiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTogY2FsaWJyaTsgY29sb3I6IGJsYWNrOyBsYW5ndWFnZTogZW4tdXMiPkxpc3Qgb2YgPC9zcGFuPjwvZGl2Pg0KPGRpdiBjbGFzcz0ibXMtcnRlRm9udFNpemUtMyI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGxhbmd1YWdlOiBlbi11cyI+Y2l0aWVzL211bmljaXBhbGl0aWVzL0hPQXMgPC9zcGFuPjwvZGl2Pg0KPGRpdiBjbGFzcz0ibXMtcnRlRm9udFNpemUtMyI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGxhbmd1YWdlOiBlbi11cyI+c2VydmVkIGJ5IHRoZSBkaXZpc2lvbi9CVTo8L3NwYW4+PC9kaXY+Dw8=" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{057294d8-d5c2-47e2-a326-2b61921dbdfd}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="13" Url="/CityPages/City2.aspx" WebPartOrder="0" WebPartZoneID="Header" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+KA+KAizxkaXY+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGZvbnQtc2l6ZTogMjRwdDsgZm9udC13ZWlnaHQ6IGJvbGQ7IGxhbmd1YWdlOiBlbi11cyI+Q2l0eS0yIChYWFhYKTwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6IGNhbGlicmk7IGNvbG9yOiBibGFjazsgZm9udC1zaXplOiAxOHB0OyBsYW5ndWFnZTogZW4tdXMiPjxzcGFuPiYjMTYwOyA8L3NwYW4+PC9zcGFuPjwvZGl2Pg0KPGRpdj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6IGNhbGlicmk7IGNvbG9yOiBibGFjazsgZm9udC1zaXplOiAxOHB0OyBsYW5ndWFnZTogZW4tdXMiPntUaGlzIGJveCBpbmNsdWRlcyBiYXNpYyBpbmZvIGFib3V0IHRoZSBjaXR5fTwvc3Bhbj48L2Rpdj4PDw==" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{61208e24-1041-4daa-bdd4-d8eef98f9b3e}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="12" Url="/CityPages/City2.aspx" WebPartOrder="1" WebPartZoneID="Footer" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+ZBDxici8+PGJyLz48aHIvPg0KPGRpdj5QaGFzZWxsdXMgdG9ydG9yIG5lcXVlLCBoZW5kcmVyaXQgYWMgbWFnbmEgYXQsIHZpdmVycmEgdm9sdXRwYXQgaXBzdW0uIE51bGxhIHZpdmVycmEgbWFzc2EgdG9ydG9yLCBub24gZGljdHVtIGRvbG9yIGhlbmRyZXJpdCBldC4gTW9yYmkgdmVoaWN1bGEsIGlwc3VtIGV0IGRpZ25pc3NpbSB2aXZlcnJhLCBwdXJ1cyBqdXN0byBtYXR0aXMgZGlhbSwgYSBhdWN0b3IgbnVsbGEgbG9yZW0gYWMgaXBzdW0uIEN1cmFiaXR1ciB2dWxwdXRhdGUgaW1wZXJkaWV0IHF1YW0sIHZlbCB1bHRyaWNlcyByaXN1cyByaG9uY3VzIHZpdGFlLiBOdW5jIGxhY2luaWEgZXJvcyBzZWQgbmVxdWUgcHVsdmluYXIgdm9sdXRwYXQuIEV0aWFtIHBsYWNlcmF0IGFjY3Vtc2FuIHNlbSwgbm9uIGRpY3R1bSBvcmNpIGx1Y3R1cyBzaXQgYW1ldC4gQ3VyYWJpdHVyIGJsYW5kaXQgaXBzdW0gYXVndWUsIG5vbiBlbGVtZW50dW0gYXVndWUgcHVsdmluYXIgYS48L2Rpdj4NCjxkaXY+JiMxNjA7PC9kaXY+DQo8ZGl2PiYjMTYwOzwvZGl2Pg8P" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{10e97d55-c918-4921-b450-4995efc6f2da}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="4" Url="/CityPages/City2.aspx" WebPartOrder="2" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{286b59f7-7534-c7d8-b636-3b2b50a1187a}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="RSG.Inside.KMTTemplateWebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7889d2b3af6fbf88" Class="RSG.Inside.KMTTemplateWebParts.CitiesLeftNavigation.CitiesLeftNavigation" Src="" AllUsers="/wEUKwAHAgICAwIBAQAAAgICAgURTXkgVmlzdWFsIFdlYlBhcnQ=" PerUser="/wEUKwAJAgICAwIBAQAAAgQChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAgIEBRRDaXRpZXNMZWZ0TmF2aWdhdGlvbg==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{14514f29-2271-4060-ac27-32fab8c0e892}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="17" Url="/CityPages/City2.aspx" WebPartOrder="3" WebPartZoneID="MiddleColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+AATxkaXYgc3R5bGU9InRleHQtYWxpZ246IGNlbnRlciI+4oCLPHNwYW4gY2xhc3M9Im1zLXJ0ZUZvbnRTaXplLTYiPjxzdHJvbmc+PGZvbnQgc2l6ZT0iNyI+Q29tbWVyY2lhbDwvZm9udD48L3N0cm9uZz48L3NwYW4+PC9kaXY+Dw8=" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{d0c58cc9-549c-4fc6-9a99-808cfeb63f6d}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="12" Url="/CityPages/City2.aspx" WebPartOrder="1" WebPartZoneID="MiddleColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+BATxkaXYgc3R5bGU9InRleHQtYWxpZ246IGNlbnRlciI+4oCLPHNwYW4gY2xhc3M9Im1zLXJ0ZUZvbnRTaXplLTYiPjxzdHJvbmc+PGZvbnQgc2l6ZT0iNyI+UmVzaWRlbnRpYWw8L2ZvbnQ+PC9zdHJvbmc+PC9zcGFuPjwvZGl2Pg8P" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{1c87d192-e72a-4f62-bb95-6905fb34ad48}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="17" Url="/CityPages/City2.aspx" WebPartOrder="3" WebPartZoneID="RightColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+AATxkaXYgc3R5bGU9InRleHQtYWxpZ246IGNlbnRlciI+4oCLPHNwYW4gY2xhc3M9Im1zLXJ0ZUZvbnRTaXplLTYiPjxzdHJvbmc+PGZvbnQgc2l6ZT0iNyI+T3BlcmF0aW9uczwvZm9udD48L3N0cm9uZz48L3NwYW4+PC9kaXY+Dw8=" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{d189ed1b-f5aa-4980-b990-026c415007c8}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="12" Url="/CityPages/City2.aspx" WebPartOrder="1" WebPartZoneID="RightColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+AATxkaXYgc3R5bGU9InRleHQtYWxpZ246IGNlbnRlciI+4oCLPHNwYW4gY2xhc3M9Im1zLXJ0ZUZvbnRTaXplLTYiPjxzdHJvbmc+PGZvbnQgc2l6ZT0iNyI+SW5kdXN0cmlhbDwvZm9udD48L3N0cm9uZz48L3NwYW4+PC9kaXY+Dw8=" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{a5d87d80-f2d5-4d7e-9380-a8b53f3abc90}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="7" Url="/CityPages/City2.aspx" WebPartOrder="4" WebPartZoneID="MiddleColumn" IsIncluded="True" FrameState="0" WPTypeId="{cb4f7761-d0c4-94e3-dd9e-ec7a69ad145c}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="RSG.Inside.KMTTemplateWebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7889d2b3af6fbf88" Class="RSG.Inside.KMTTemplateWebParts.TopDocumentsFromDocumentLibrary.TopDocumentsFromDocumentLibrary" Src="" AllUsers="/wEUKwALAgICAwIBAQAAAgYCAgURTXkgVmlzdWFsIFdlYlBhcnQFF0NpdHlvckVudGl0eUNvbHVtblZhbHVlBQVDaXR5MgUOTE9CQ29sdW1uVmFsdWUFCkNvbW1lcmNpYWw=" PerUser="/wEUKwAJAgICAwIBAQAAAgQChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAgIEBR9Ub3BEb2N1bWVudHNGcm9tRG9jdW1lbnRMaWJyYXJ5" />
+			</BinarySerializedWebPart>
+			<Property Name="ID" Value="2" />
+			<Property Name="ContentTypeId" Value="0x010100F4AA3E7AA6D76944889BBC89C2B668A1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="CityPages" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="City2.aspx" />
+			<Property Name="MetaInfo" Value="2;#" />
+			<Property Name="Order" Value="200.000000000000" />
+		</File>
+		<File Url="Commercial.aspx" Type="GhostableInLibrary" Path="spstd2.aspx">
+			<AllUsersWebPart WebPartOrder="1" WebPartZoneID="TitleBar" ID="g_6b892588_5668_4630_93f4_5f4b9f2bc38e"><![CDATA[<WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+  <Title>Web Part Page Title Bar</Title>
+  <FrameType>None</FrameType>
+  <Description />
+  <IsIncluded>true</IsIncluded>
+  <ZoneID>TitleBar</ZoneID>
+  <PartOrder>1</PartOrder>
+  <FrameState>Normal</FrameState>
+  <Height />
+  <Width />
+  <AllowRemove>false</AllowRemove>
+  <AllowZoneChange>true</AllowZoneChange>
+  <AllowMinimize>false</AllowMinimize>
+  <AllowConnect>true</AllowConnect>
+  <AllowEdit>true</AllowEdit>
+  <AllowHide>true</AllowHide>
+  <IsVisible>true</IsVisible>
+  <DetailLink />
+  <HelpLink />
+  <HelpMode>Modeless</HelpMode>
+  <Dir>Default</Dir>
+  <PartImageSmall />
+  <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+  <PartImageLarge />
+  <IsIncludedFilter />
+  <Assembly>Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+  <TypeName>Microsoft.SharePoint.WebPartPages.TitleBarWebPart</TypeName>
+  <HeaderTitle xmlns="http://schemas.microsoft.com/WebPart/v2/TitleBar">Commercial</HeaderTitle>
+</WebPart>]]></AllUsersWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{a7948a58-cf18-42fa-b3bf-5b8941c032b9}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="10" Url="/CityPages/Commercial.aspx" WebPartOrder="0" WebPartZoneID="Header" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+qA+KAizxkaXY+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGZvbnQtc2l6ZTogMjRwdDsgZm9udC13ZWlnaHQ6IGJvbGQ7IGxhbmd1YWdlOiBlbi11cyI+RGl2aXNpb24gTmFtZSAtIENvbW1lcmNpYWwmIzE2MDsoWFhYWCk8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGZvbnQtc2l6ZTogMThwdDsgbGFuZ3VhZ2U6IGVuLXVzIj48c3Bhbj4mIzE2MDsgPC9zcGFuPjwvc3Bhbj48L2Rpdj4NCjxkaXY+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGZvbnQtc2l6ZTogMThwdDsgbGFuZ3VhZ2U6IGVuLXVzIj57VGhpcyBib3ggaW5jbHVkZXMgYmFzaWMgaW5mbyBhYm91dCB0aGUgZGl2aXNpb24vQlV9PC9zcGFuPjwvZGl2Pg8P" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{21736262-c7a1-4f3a-a199-9ee8d4a84c49}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="12" Url="/CityPages/Commercial.aspx" WebPartOrder="0" WebPartZoneID="MiddleColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE///HF+KAizxkaXY+TG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVyIGFkaXBpc2NpbmcgZWxpdC4gVXQgdWx0cmljaWVzIGRvbG9yIGlkIHVybmEgbW9sZXN0aWUsIGV1IGdyYXZpZGEgbGFjdXMgdmVzdGlidWx1bS4gRG9uZWMgZGljdHVtIGVuaW0gaW50ZXJkdW0gZHVpIGZhdWNpYnVzIHNvbGxpY2l0dWRpbi4gTWF1cmlzIG1hdXJpcyBtZXR1cywgdGVtcG9yIHZpdGFlIGxhY3VzIG5vbiwgbW9sZXN0aWUgY29uc2VjdGV0dXIgbnVsbGEuIFBoYXNlbGx1cyB0ZW1wdXMgc2NlbGVyaXNxdWUgZmVsaXMgaWQgZmV1Z2lhdC4gTmFtIGRvbG9yIG5pYmgsIGNvbnZhbGxpcyBxdWlzIHZlc3RpYnVsdW0gdml0YWUsIGRhcGlidXMgc2l0IGFtZXQgbWV0dXMuIFByb2luIHZlbmVuYXRpcyBlcmF0IHF1aXMgZG9sb3IgZWxlbWVudHVtLCBldSBsYW9yZWV0IHNhcGllbiBwaGFyZXRyYS4gU3VzcGVuZGlzc2Ugc2VkIG5pc2kgaWQgZW5pbSBwbGFjZXJhdCBzYWdpdHRpcyBub24gZWdldCBhdWd1ZS4gUHJhZXNlbnQgZGFwaWJ1cyBtYWxlc3VhZGEgbGFjdXMsIGF0IHRyaXN0aXF1ZSBwdXJ1cyBlZ2VzdGFzIG5vbi4gUHJhZXNlbnQgdmVsIGVyb3MgbGlndWxhLiBEdWlzIHBvcnR0aXRvciwgZXJvcyBhdCBkaWduaXNzaW0gdml2ZXJyYSwgYXVndWUgdHVycGlzIG1vbGxpcyBqdXN0bywgbm9uIGJpYmVuZHVtIG1pIGR1aSBzZWQgZXJhdC4gRG9uZWMgZWxlbWVudHVtIGN1cnN1cyBqdXN0bywgaWQgZ3JhdmlkYSBsZWN0dXMgZmVybWVudHVtIGEuIFBoYXNlbGx1cyBxdWlzIHBvcnRhIGFudGUsIGF0IHZvbHV0cGF0IGVsaXQuIFZlc3RpYnVsdW0gZGljdHVtIHF1YW0gcXVpcyBtYWduYSBmcmluZ2lsbGEsIHNpdCBhbWV0IG1vbGxpcyBsb3JlbSBkaWduaXNzaW0uPC9kaXY+DQo8ZGl2PiYjMTYwOzwvZGl2Pg0KPGRpdj4mIzE2MDs8L2Rpdj4NCjxkaXY+UHJhZXNlbnQgbGFjaW5pYSBuaXNsIGEgdmVoaWN1bGEgdmFyaXVzLiBRdWlzcXVlIGRpZ25pc3NpbSBuZWMgc2VtIG5lYyB2aXZlcnJhLiBWZXN0aWJ1bHVtIGNvbW1vZG8gY29udmFsbGlzIGFyY3UsIGluIHBvc3VlcmUgc2FwaWVuIHNlbXBlciBhYy4gSW4gc2FwaWVuIGxlY3R1cywgcG9ydGEgbm9uIGdyYXZpZGEgYWMsIHRyaXN0aXF1ZSBhIGZlbGlzLiBOdW5jIGxhb3JlZXQgcXVpcyB0ZWxsdXMgZWdldCBmYXVjaWJ1cy4gUGhhc2VsbHVzIHF1aXMgdmFyaXVzIG5pc2wsIGF0IHBvcnRhIHR1cnBpcy4gUHJvaW4gYSBhZGlwaXNjaW5nIGZlbGlzLCB1dCBhZGlwaXNjaW5nIG1pLiBOdW5jIGVsZW1lbnR1bSBpcHN1bSB0dXJwaXMsIGJsYW5kaXQgc2VtcGVyIHRvcnRvciBhdWN0b3IgbmVjLiBBbGlxdWFtIGJpYmVuZHVtIHJob25jdXMgdHVycGlzLiBTdXNwZW5kaXNzZSBsYW9yZWV0IHRlbGx1cyBpbiBlcm9zIHZlc3RpYnVsdW0gc29kYWxlcy4gQWVuZWFuIHNhcGllbiB0b3J0b3IsIGVsZWlmZW5kIHV0IG1ldHVzIHZpdGFlLCBjdXJzdXMgdmFyaXVzIGVyb3MuIEluIGZhY2lsaXNpcyBvcmNpIGV1IGRhcGlidXMgZmFjaWxpc2lzLiBBbGlxdWFtIHZlbmVuYXRpcyBsaWJlcm8gZXQgdGVtcHVzIGlhY3VsaXMuIE1vcmJpIHNvZGFsZXMgcXVpcyBlcm9zIGV1IHZpdmVycmEuPC9kaXY+DQo8ZGl2PlF1aXNxdWUgZWxlbWVudHVtIG51bGxhIHZlbCBsYWN1cyBydXRydW0sIHV0IGZyaW5naWxsYSB2ZWxpdCBwdWx2aW5hci4gRXRpYW0gc2VkIHF1YW0gY29uc2VxdWF0LCBlbGVtZW50dW0gYXVndWUgZWdldCwgYXVjdG9yIGF1Z3VlLiBTdXNwZW5kaXNzZSB1bGxhbWNvcnBlciwgbWV0dXMgYWMgcG9ydGEgcGxhY2VyYXQsIGR1aSB0dXJwaXMgYWxpcXVhbSBtYWduYSwgdml0YWUgZGFwaWJ1cyBtZXR1cyBvZGlvIGlkIHVybmEuIE1hdXJpcyB1dCBkaWFtIGFsaXF1YW0gbGFjdXMgc29kYWxlcyBmcmluZ2lsbGEgYSB2aXRhZSBkdWkuIFByb2luIHNjZWxlcmlzcXVlIGxpZ3VsYSBldSB0ZW1wdXMgZmVybWVudHVtLiBOdWxsYSBmYWNpbGlzaS4gU2VkIHNpdCBhbWV0IGVnZXN0YXMgdHVycGlzLCBlZ2V0IHRlbXBvciB0b3J0b3IuIFNlZCBub24gYXVjdG9yIG5pc2wsIG5lYyB1bGxhbWNvcnBlciB1cm5hLiBJbnRlZ2VyIGFjIG9ybmFyZSBxdWFtLjwvZGl2Pg0KPGRpdj5TdXNwZW5kaXNzZSBsYW9yZWV0IGFsaXF1YW0gdmVoaWN1bGEuIEV0aWFtIHNlZCBzZW0gcXVpcyBlcmF0IHNvZGFsZXMgaW50ZXJkdW0uIE1hZWNlbmFzIGluIHNlbSBzdXNjaXBpdCwgZGFwaWJ1cyBtYXVyaXMgcGhhcmV0cmEsIGZlcm1lbnR1bSBqdXN0by4gRHVpcyBjb25zZXF1YXQgdmVuZW5hdGlzIGR1aSBldSBsYW9yZWV0LiBJbiBzZWQgZGFwaWJ1cyBlc3QuIE51bGxhIGlhY3VsaXMgZXJhdCBlcmF0LCBxdWlzIHNjZWxlcmlzcXVlIGR1aSBzb2RhbGVzIGV0LiBQcm9pbiB1bHRyaWNlcyBlcm9zIGF1Z3VlLCBub24gY3Vyc3VzIHF1YW0gdWx0cmljZXMgdml0YWUuIER1aXMgdXQgcG9ydGEgbWF1cmlzLCBzaXQgYW1ldCBjb252YWxsaXMgbGliZXJvLjwvZGl2Pg0KPGRpdj4mIzE2MDs8L2Rpdj4NCjxkaXY+JiMxNjA7PC9kaXY+DQo8ZGl2PlBoYXNlbGx1cyB0b3J0b3IgbmVxdWUsIGhlbmRyZXJpdCBhYyBtYWduYSBhdCwgdml2ZXJyYSB2b2x1dHBhdCBpcHN1bS4gTnVsbGEgdml2ZXJyYSBtYXNzYSB0b3J0b3IsIG5vbiBkaWN0dW0gZG9sb3IgaGVuZHJlcml0IGV0LiBNb3JiaSB2ZWhpY3VsYSwgaXBzdW0gZXQgZGlnbmlzc2ltIHZpdmVycmEsIHB1cnVzIGp1c3RvIG1hdHRpcyBkaWFtLCBhIGF1Y3RvciBudWxsYSBsb3JlbSBhYyBpcHN1bS4gQ3VyYWJpdHVyIHZ1bHB1dGF0ZSBpbXBlcmRpZXQgcXVhbSwgdmVsIHVsdHJpY2VzIHJpc3VzIHJob25jdXMgdml0YWUuIE51bmMgbGFjaW5pYSBlcm9zIHNlZCBuZXF1ZSBwdWx2aW5hciB2b2x1dHBhdC4gRXRpYW0gcGxhY2VyYXQgYWNjdW1zYW4gc2VtLCBub24gZGljdHVtIG9yY2kgbHVjdHVzIHNpdCBhbWV0LiBDdXJhYml0dXIgYmxhbmRpdCBpcHN1bSBhdWd1ZSwgbm9uIGVsZW1lbnR1bSBhdWd1ZSBwdWx2aW5hciBhLjwvZGl2Pg8P" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{b8c47b1d-3451-4c49-97f1-03b7f0761984}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="10" Url="/CityPages/Commercial.aspx" WebPartOrder="1" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+LA+KAizxkaXYgY2xhc3M9Im1zLXJ0ZUZvbnRTaXplLTMiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTogY2FsaWJyaTsgY29sb3I6IGJsYWNrOyBsYW5ndWFnZTogZW4tdXMiPkxpc3Qgb2YgPC9zcGFuPjwvZGl2Pg0KPGRpdiBjbGFzcz0ibXMtcnRlRm9udFNpemUtMyI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGxhbmd1YWdlOiBlbi11cyI+Y2l0aWVzL211bmljaXBhbGl0aWVzL0hPQXMgPC9zcGFuPjwvZGl2Pg0KPGRpdiBjbGFzcz0ibXMtcnRlRm9udFNpemUtMyI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGxhbmd1YWdlOiBlbi11cyI+c2VydmVkIGJ5IHRoZSBkaXZpc2lvbi9CVTo8L3NwYW4+PC9kaXY+Dw8=" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{0284de8d-1b39-4977-951d-ab9dff23d30e}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="3" Url="/CityPages/Commercial.aspx" WebPartOrder="2" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{286b59f7-7534-c7d8-b636-3b2b50a1187a}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="RSG.Inside.KMTTemplateWebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7889d2b3af6fbf88" Class="RSG.Inside.KMTTemplateWebParts.CitiesLeftNavigation.CitiesLeftNavigation" Src="" AllUsers="/wEUKwAHAgICAwIBAQAAAgICAgURTXkgVmlzdWFsIFdlYlBhcnQ=" PerUser="/wEUKwAJAgICAwIBAQAAAgQChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAgIEBRRDaXRpZXNMZWZ0TmF2aWdhdGlvbg==" />
+			</BinarySerializedWebPart>
+			<Property Name="ID" Value="5" />
+			<Property Name="ContentTypeId" Value="0x010100F4AA3E7AA6D76944889BBC89C2B668A1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="CityPages" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Commercial.aspx" />
+			<Property Name="MetaInfo" Value="5;#" />
+			<Property Name="Order" Value="500.000000000000" />
+		</File>
+		<File Url="Industrial.aspx" Type="GhostableInLibrary" Path="spstd2.aspx">
+			<AllUsersWebPart WebPartOrder="1" WebPartZoneID="TitleBar" ID="g_9cfaa628_2df3_4efd_9a40_3800f5792f75"><![CDATA[<WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+  <Title>Web Part Page Title Bar</Title>
+  <FrameType>None</FrameType>
+  <Description />
+  <IsIncluded>true</IsIncluded>
+  <ZoneID>TitleBar</ZoneID>
+  <PartOrder>1</PartOrder>
+  <FrameState>Normal</FrameState>
+  <Height />
+  <Width />
+  <AllowRemove>false</AllowRemove>
+  <AllowZoneChange>true</AllowZoneChange>
+  <AllowMinimize>false</AllowMinimize>
+  <AllowConnect>true</AllowConnect>
+  <AllowEdit>true</AllowEdit>
+  <AllowHide>true</AllowHide>
+  <IsVisible>true</IsVisible>
+  <DetailLink />
+  <HelpLink />
+  <HelpMode>Modeless</HelpMode>
+  <Dir>Default</Dir>
+  <PartImageSmall />
+  <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+  <PartImageLarge />
+  <IsIncludedFilter />
+  <Assembly>Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+  <TypeName>Microsoft.SharePoint.WebPartPages.TitleBarWebPart</TypeName>
+  <HeaderTitle xmlns="http://schemas.microsoft.com/WebPart/v2/TitleBar">Industrial</HeaderTitle>
+</WebPart>]]></AllUsersWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{52c52e3d-d19c-406c-84ed-6cf66c01b458}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="10" Url="/CityPages/Industrial.aspx" WebPartOrder="0" WebPartZoneID="Header" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+vA+KAizxkaXY+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGZvbnQtc2l6ZTogMjRwdDsgZm9udC13ZWlnaHQ6IGJvbGQ7IGxhbmd1YWdlOiBlbi11cyI+RGl2aXNpb24gTmFtZSAtJiMxNjA7SW5kdXN0cmlhbCYjMTYwOyhYWFhYKTwvc3Bhbj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6IGNhbGlicmk7IGNvbG9yOiBibGFjazsgZm9udC1zaXplOiAxOHB0OyBsYW5ndWFnZTogZW4tdXMiPjxzcGFuPiYjMTYwOyA8L3NwYW4+PC9zcGFuPjwvZGl2Pg0KPGRpdj48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6IGNhbGlicmk7IGNvbG9yOiBibGFjazsgZm9udC1zaXplOiAxOHB0OyBsYW5ndWFnZTogZW4tdXMiPntUaGlzIGJveCBpbmNsdWRlcyBiYXNpYyBpbmZvIGFib3V0IHRoZSBkaXZpc2lvbi9CVX08L3NwYW4+PC9kaXY+Dw8=" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{d83b3506-f080-4ee8-a51c-22d5f370cbb2}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="14" Url="/CityPages/Industrial.aspx" WebPartOrder="0" WebPartZoneID="MiddleColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE///HF+KAizxkaXY+TG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVyIGFkaXBpc2NpbmcgZWxpdC4gVXQgdWx0cmljaWVzIGRvbG9yIGlkIHVybmEgbW9sZXN0aWUsIGV1IGdyYXZpZGEgbGFjdXMgdmVzdGlidWx1bS4gRG9uZWMgZGljdHVtIGVuaW0gaW50ZXJkdW0gZHVpIGZhdWNpYnVzIHNvbGxpY2l0dWRpbi4gTWF1cmlzIG1hdXJpcyBtZXR1cywgdGVtcG9yIHZpdGFlIGxhY3VzIG5vbiwgbW9sZXN0aWUgY29uc2VjdGV0dXIgbnVsbGEuIFBoYXNlbGx1cyB0ZW1wdXMgc2NlbGVyaXNxdWUgZmVsaXMgaWQgZmV1Z2lhdC4gTmFtIGRvbG9yIG5pYmgsIGNvbnZhbGxpcyBxdWlzIHZlc3RpYnVsdW0gdml0YWUsIGRhcGlidXMgc2l0IGFtZXQgbWV0dXMuIFByb2luIHZlbmVuYXRpcyBlcmF0IHF1aXMgZG9sb3IgZWxlbWVudHVtLCBldSBsYW9yZWV0IHNhcGllbiBwaGFyZXRyYS4gU3VzcGVuZGlzc2Ugc2VkIG5pc2kgaWQgZW5pbSBwbGFjZXJhdCBzYWdpdHRpcyBub24gZWdldCBhdWd1ZS4gUHJhZXNlbnQgZGFwaWJ1cyBtYWxlc3VhZGEgbGFjdXMsIGF0IHRyaXN0aXF1ZSBwdXJ1cyBlZ2VzdGFzIG5vbi4gUHJhZXNlbnQgdmVsIGVyb3MgbGlndWxhLiBEdWlzIHBvcnR0aXRvciwgZXJvcyBhdCBkaWduaXNzaW0gdml2ZXJyYSwgYXVndWUgdHVycGlzIG1vbGxpcyBqdXN0bywgbm9uIGJpYmVuZHVtIG1pIGR1aSBzZWQgZXJhdC4gRG9uZWMgZWxlbWVudHVtIGN1cnN1cyBqdXN0bywgaWQgZ3JhdmlkYSBsZWN0dXMgZmVybWVudHVtIGEuIFBoYXNlbGx1cyBxdWlzIHBvcnRhIGFudGUsIGF0IHZvbHV0cGF0IGVsaXQuIFZlc3RpYnVsdW0gZGljdHVtIHF1YW0gcXVpcyBtYWduYSBmcmluZ2lsbGEsIHNpdCBhbWV0IG1vbGxpcyBsb3JlbSBkaWduaXNzaW0uPC9kaXY+DQo8ZGl2PiYjMTYwOzwvZGl2Pg0KPGRpdj4mIzE2MDs8L2Rpdj4NCjxkaXY+UHJhZXNlbnQgbGFjaW5pYSBuaXNsIGEgdmVoaWN1bGEgdmFyaXVzLiBRdWlzcXVlIGRpZ25pc3NpbSBuZWMgc2VtIG5lYyB2aXZlcnJhLiBWZXN0aWJ1bHVtIGNvbW1vZG8gY29udmFsbGlzIGFyY3UsIGluIHBvc3VlcmUgc2FwaWVuIHNlbXBlciBhYy4gSW4gc2FwaWVuIGxlY3R1cywgcG9ydGEgbm9uIGdyYXZpZGEgYWMsIHRyaXN0aXF1ZSBhIGZlbGlzLiBOdW5jIGxhb3JlZXQgcXVpcyB0ZWxsdXMgZWdldCBmYXVjaWJ1cy4gUGhhc2VsbHVzIHF1aXMgdmFyaXVzIG5pc2wsIGF0IHBvcnRhIHR1cnBpcy4gUHJvaW4gYSBhZGlwaXNjaW5nIGZlbGlzLCB1dCBhZGlwaXNjaW5nIG1pLiBOdW5jIGVsZW1lbnR1bSBpcHN1bSB0dXJwaXMsIGJsYW5kaXQgc2VtcGVyIHRvcnRvciBhdWN0b3IgbmVjLiBBbGlxdWFtIGJpYmVuZHVtIHJob25jdXMgdHVycGlzLiBTdXNwZW5kaXNzZSBsYW9yZWV0IHRlbGx1cyBpbiBlcm9zIHZlc3RpYnVsdW0gc29kYWxlcy4gQWVuZWFuIHNhcGllbiB0b3J0b3IsIGVsZWlmZW5kIHV0IG1ldHVzIHZpdGFlLCBjdXJzdXMgdmFyaXVzIGVyb3MuIEluIGZhY2lsaXNpcyBvcmNpIGV1IGRhcGlidXMgZmFjaWxpc2lzLiBBbGlxdWFtIHZlbmVuYXRpcyBsaWJlcm8gZXQgdGVtcHVzIGlhY3VsaXMuIE1vcmJpIHNvZGFsZXMgcXVpcyBlcm9zIGV1IHZpdmVycmEuPC9kaXY+DQo8ZGl2PlF1aXNxdWUgZWxlbWVudHVtIG51bGxhIHZlbCBsYWN1cyBydXRydW0sIHV0IGZyaW5naWxsYSB2ZWxpdCBwdWx2aW5hci4gRXRpYW0gc2VkIHF1YW0gY29uc2VxdWF0LCBlbGVtZW50dW0gYXVndWUgZWdldCwgYXVjdG9yIGF1Z3VlLiBTdXNwZW5kaXNzZSB1bGxhbWNvcnBlciwgbWV0dXMgYWMgcG9ydGEgcGxhY2VyYXQsIGR1aSB0dXJwaXMgYWxpcXVhbSBtYWduYSwgdml0YWUgZGFwaWJ1cyBtZXR1cyBvZGlvIGlkIHVybmEuIE1hdXJpcyB1dCBkaWFtIGFsaXF1YW0gbGFjdXMgc29kYWxlcyBmcmluZ2lsbGEgYSB2aXRhZSBkdWkuIFByb2luIHNjZWxlcmlzcXVlIGxpZ3VsYSBldSB0ZW1wdXMgZmVybWVudHVtLiBOdWxsYSBmYWNpbGlzaS4gU2VkIHNpdCBhbWV0IGVnZXN0YXMgdHVycGlzLCBlZ2V0IHRlbXBvciB0b3J0b3IuIFNlZCBub24gYXVjdG9yIG5pc2wsIG5lYyB1bGxhbWNvcnBlciB1cm5hLiBJbnRlZ2VyIGFjIG9ybmFyZSBxdWFtLjwvZGl2Pg0KPGRpdj5TdXNwZW5kaXNzZSBsYW9yZWV0IGFsaXF1YW0gdmVoaWN1bGEuIEV0aWFtIHNlZCBzZW0gcXVpcyBlcmF0IHNvZGFsZXMgaW50ZXJkdW0uIE1hZWNlbmFzIGluIHNlbSBzdXNjaXBpdCwgZGFwaWJ1cyBtYXVyaXMgcGhhcmV0cmEsIGZlcm1lbnR1bSBqdXN0by4gRHVpcyBjb25zZXF1YXQgdmVuZW5hdGlzIGR1aSBldSBsYW9yZWV0LiBJbiBzZWQgZGFwaWJ1cyBlc3QuIE51bGxhIGlhY3VsaXMgZXJhdCBlcmF0LCBxdWlzIHNjZWxlcmlzcXVlIGR1aSBzb2RhbGVzIGV0LiBQcm9pbiB1bHRyaWNlcyBlcm9zIGF1Z3VlLCBub24gY3Vyc3VzIHF1YW0gdWx0cmljZXMgdml0YWUuIER1aXMgdXQgcG9ydGEgbWF1cmlzLCBzaXQgYW1ldCBjb252YWxsaXMgbGliZXJvLjwvZGl2Pg0KPGRpdj4mIzE2MDs8L2Rpdj4NCjxkaXY+JiMxNjA7PC9kaXY+DQo8ZGl2PlBoYXNlbGx1cyB0b3J0b3IgbmVxdWUsIGhlbmRyZXJpdCBhYyBtYWduYSBhdCwgdml2ZXJyYSB2b2x1dHBhdCBpcHN1bS4gTnVsbGEgdml2ZXJyYSBtYXNzYSB0b3J0b3IsIG5vbiBkaWN0dW0gZG9sb3IgaGVuZHJlcml0IGV0LiBNb3JiaSB2ZWhpY3VsYSwgaXBzdW0gZXQgZGlnbmlzc2ltIHZpdmVycmEsIHB1cnVzIGp1c3RvIG1hdHRpcyBkaWFtLCBhIGF1Y3RvciBudWxsYSBsb3JlbSBhYyBpcHN1bS4gQ3VyYWJpdHVyIHZ1bHB1dGF0ZSBpbXBlcmRpZXQgcXVhbSwgdmVsIHVsdHJpY2VzIHJpc3VzIHJob25jdXMgdml0YWUuIE51bmMgbGFjaW5pYSBlcm9zIHNlZCBuZXF1ZSBwdWx2aW5hciB2b2x1dHBhdC4gRXRpYW0gcGxhY2VyYXQgYWNjdW1zYW4gc2VtLCBub24gZGljdHVtIG9yY2kgbHVjdHVzIHNpdCBhbWV0LiBDdXJhYml0dXIgYmxhbmRpdCBpcHN1bSBhdWd1ZSwgbm9uIGVsZW1lbnR1bSBhdWd1ZSBwdWx2aW5hciBhLjwvZGl2Pg8P" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{223103d7-cf37-45e5-9c73-449d2044cac2}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="10" Url="/CityPages/Industrial.aspx" WebPartOrder="1" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+LA+KAizxkaXYgY2xhc3M9Im1zLXJ0ZUZvbnRTaXplLTMiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTogY2FsaWJyaTsgY29sb3I6IGJsYWNrOyBsYW5ndWFnZTogZW4tdXMiPkxpc3Qgb2YgPC9zcGFuPjwvZGl2Pg0KPGRpdiBjbGFzcz0ibXMtcnRlRm9udFNpemUtMyI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGxhbmd1YWdlOiBlbi11cyI+Y2l0aWVzL211bmljaXBhbGl0aWVzL0hPQXMgPC9zcGFuPjwvZGl2Pg0KPGRpdiBjbGFzcz0ibXMtcnRlRm9udFNpemUtMyI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGxhbmd1YWdlOiBlbi11cyI+c2VydmVkIGJ5IHRoZSBkaXZpc2lvbi9CVTo8L3NwYW4+PC9kaXY+Dw8=" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{0d1bff4c-59e2-4141-81b2-57cafde5892e}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="3" Url="/CityPages/Industrial.aspx" WebPartOrder="2" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{286b59f7-7534-c7d8-b636-3b2b50a1187a}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="RSG.Inside.KMTTemplateWebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7889d2b3af6fbf88" Class="RSG.Inside.KMTTemplateWebParts.CitiesLeftNavigation.CitiesLeftNavigation" Src="" AllUsers="/wEUKwAHAgICAwIBAQAAAgICAgURTXkgVmlzdWFsIFdlYlBhcnQ=" PerUser="/wEUKwAJAgICAwIBAQAAAgQChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAgIEBRRDaXRpZXNMZWZ0TmF2aWdhdGlvbg==" />
+			</BinarySerializedWebPart>
+			<Property Name="ID" Value="4" />
+			<Property Name="ContentTypeId" Value="0x010100F4AA3E7AA6D76944889BBC89C2B668A1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="CityPages" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Industrial.aspx" />
+			<Property Name="MetaInfo" Value="4;#" />
+			<Property Name="Order" Value="400.000000000000" />
+		</File>
+		<File Url="Operations.aspx" Type="GhostableInLibrary" Path="spstd2.aspx">
+			<AllUsersWebPart WebPartOrder="1" WebPartZoneID="TitleBar" ID="g_38dc5d03_b00f_4640_924a_6e573c23b07a"><![CDATA[<WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+  <Title>Web Part Page Title Bar</Title>
+  <FrameType>None</FrameType>
+  <Description />
+  <IsIncluded>true</IsIncluded>
+  <ZoneID>TitleBar</ZoneID>
+  <PartOrder>1</PartOrder>
+  <FrameState>Normal</FrameState>
+  <Height />
+  <Width />
+  <AllowRemove>false</AllowRemove>
+  <AllowZoneChange>true</AllowZoneChange>
+  <AllowMinimize>false</AllowMinimize>
+  <AllowConnect>true</AllowConnect>
+  <AllowEdit>true</AllowEdit>
+  <AllowHide>true</AllowHide>
+  <IsVisible>true</IsVisible>
+  <DetailLink />
+  <HelpLink />
+  <HelpMode>Modeless</HelpMode>
+  <Dir>Default</Dir>
+  <PartImageSmall />
+  <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+  <PartImageLarge />
+  <IsIncludedFilter />
+  <Assembly>Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+  <TypeName>Microsoft.SharePoint.WebPartPages.TitleBarWebPart</TypeName>
+  <HeaderTitle xmlns="http://schemas.microsoft.com/WebPart/v2/TitleBar">Operational</HeaderTitle>
+</WebPart>]]></AllUsersWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{6c035d20-efd8-4353-9b87-53daf35d4ee5}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="10" Url="/CityPages/Operations.aspx" WebPartOrder="0" WebPartZoneID="Header" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+wA+KAizxkaXY+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGZvbnQtc2l6ZTogMjRwdDsgZm9udC13ZWlnaHQ6IGJvbGQ7IGxhbmd1YWdlOiBlbi11cyI+RGl2aXNpb24gTmFtZSAtJiMxNjA7T3BlcmF0aW9uYWwmIzE2MDsoWFhYWCk8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGZvbnQtc2l6ZTogMThwdDsgbGFuZ3VhZ2U6IGVuLXVzIj48c3Bhbj4mIzE2MDsgPC9zcGFuPjwvc3Bhbj48L2Rpdj4NCjxkaXY+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGZvbnQtc2l6ZTogMThwdDsgbGFuZ3VhZ2U6IGVuLXVzIj57VGhpcyBib3ggaW5jbHVkZXMgYmFzaWMgaW5mbyBhYm91dCB0aGUgZGl2aXNpb24vQlV9PC9zcGFuPjwvZGl2Pg8P" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{53019c3e-bff0-4adf-ac30-2904d8207ac2}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="14" Url="/CityPages/Operations.aspx" WebPartOrder="0" WebPartZoneID="MiddleColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE///HF+KAizxkaXY+TG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVyIGFkaXBpc2NpbmcgZWxpdC4gVXQgdWx0cmljaWVzIGRvbG9yIGlkIHVybmEgbW9sZXN0aWUsIGV1IGdyYXZpZGEgbGFjdXMgdmVzdGlidWx1bS4gRG9uZWMgZGljdHVtIGVuaW0gaW50ZXJkdW0gZHVpIGZhdWNpYnVzIHNvbGxpY2l0dWRpbi4gTWF1cmlzIG1hdXJpcyBtZXR1cywgdGVtcG9yIHZpdGFlIGxhY3VzIG5vbiwgbW9sZXN0aWUgY29uc2VjdGV0dXIgbnVsbGEuIFBoYXNlbGx1cyB0ZW1wdXMgc2NlbGVyaXNxdWUgZmVsaXMgaWQgZmV1Z2lhdC4gTmFtIGRvbG9yIG5pYmgsIGNvbnZhbGxpcyBxdWlzIHZlc3RpYnVsdW0gdml0YWUsIGRhcGlidXMgc2l0IGFtZXQgbWV0dXMuIFByb2luIHZlbmVuYXRpcyBlcmF0IHF1aXMgZG9sb3IgZWxlbWVudHVtLCBldSBsYW9yZWV0IHNhcGllbiBwaGFyZXRyYS4gU3VzcGVuZGlzc2Ugc2VkIG5pc2kgaWQgZW5pbSBwbGFjZXJhdCBzYWdpdHRpcyBub24gZWdldCBhdWd1ZS4gUHJhZXNlbnQgZGFwaWJ1cyBtYWxlc3VhZGEgbGFjdXMsIGF0IHRyaXN0aXF1ZSBwdXJ1cyBlZ2VzdGFzIG5vbi4gUHJhZXNlbnQgdmVsIGVyb3MgbGlndWxhLiBEdWlzIHBvcnR0aXRvciwgZXJvcyBhdCBkaWduaXNzaW0gdml2ZXJyYSwgYXVndWUgdHVycGlzIG1vbGxpcyBqdXN0bywgbm9uIGJpYmVuZHVtIG1pIGR1aSBzZWQgZXJhdC4gRG9uZWMgZWxlbWVudHVtIGN1cnN1cyBqdXN0bywgaWQgZ3JhdmlkYSBsZWN0dXMgZmVybWVudHVtIGEuIFBoYXNlbGx1cyBxdWlzIHBvcnRhIGFudGUsIGF0IHZvbHV0cGF0IGVsaXQuIFZlc3RpYnVsdW0gZGljdHVtIHF1YW0gcXVpcyBtYWduYSBmcmluZ2lsbGEsIHNpdCBhbWV0IG1vbGxpcyBsb3JlbSBkaWduaXNzaW0uPC9kaXY+DQo8ZGl2PiYjMTYwOzwvZGl2Pg0KPGRpdj4mIzE2MDs8L2Rpdj4NCjxkaXY+UHJhZXNlbnQgbGFjaW5pYSBuaXNsIGEgdmVoaWN1bGEgdmFyaXVzLiBRdWlzcXVlIGRpZ25pc3NpbSBuZWMgc2VtIG5lYyB2aXZlcnJhLiBWZXN0aWJ1bHVtIGNvbW1vZG8gY29udmFsbGlzIGFyY3UsIGluIHBvc3VlcmUgc2FwaWVuIHNlbXBlciBhYy4gSW4gc2FwaWVuIGxlY3R1cywgcG9ydGEgbm9uIGdyYXZpZGEgYWMsIHRyaXN0aXF1ZSBhIGZlbGlzLiBOdW5jIGxhb3JlZXQgcXVpcyB0ZWxsdXMgZWdldCBmYXVjaWJ1cy4gUGhhc2VsbHVzIHF1aXMgdmFyaXVzIG5pc2wsIGF0IHBvcnRhIHR1cnBpcy4gUHJvaW4gYSBhZGlwaXNjaW5nIGZlbGlzLCB1dCBhZGlwaXNjaW5nIG1pLiBOdW5jIGVsZW1lbnR1bSBpcHN1bSB0dXJwaXMsIGJsYW5kaXQgc2VtcGVyIHRvcnRvciBhdWN0b3IgbmVjLiBBbGlxdWFtIGJpYmVuZHVtIHJob25jdXMgdHVycGlzLiBTdXNwZW5kaXNzZSBsYW9yZWV0IHRlbGx1cyBpbiBlcm9zIHZlc3RpYnVsdW0gc29kYWxlcy4gQWVuZWFuIHNhcGllbiB0b3J0b3IsIGVsZWlmZW5kIHV0IG1ldHVzIHZpdGFlLCBjdXJzdXMgdmFyaXVzIGVyb3MuIEluIGZhY2lsaXNpcyBvcmNpIGV1IGRhcGlidXMgZmFjaWxpc2lzLiBBbGlxdWFtIHZlbmVuYXRpcyBsaWJlcm8gZXQgdGVtcHVzIGlhY3VsaXMuIE1vcmJpIHNvZGFsZXMgcXVpcyBlcm9zIGV1IHZpdmVycmEuPC9kaXY+DQo8ZGl2PlF1aXNxdWUgZWxlbWVudHVtIG51bGxhIHZlbCBsYWN1cyBydXRydW0sIHV0IGZyaW5naWxsYSB2ZWxpdCBwdWx2aW5hci4gRXRpYW0gc2VkIHF1YW0gY29uc2VxdWF0LCBlbGVtZW50dW0gYXVndWUgZWdldCwgYXVjdG9yIGF1Z3VlLiBTdXNwZW5kaXNzZSB1bGxhbWNvcnBlciwgbWV0dXMgYWMgcG9ydGEgcGxhY2VyYXQsIGR1aSB0dXJwaXMgYWxpcXVhbSBtYWduYSwgdml0YWUgZGFwaWJ1cyBtZXR1cyBvZGlvIGlkIHVybmEuIE1hdXJpcyB1dCBkaWFtIGFsaXF1YW0gbGFjdXMgc29kYWxlcyBmcmluZ2lsbGEgYSB2aXRhZSBkdWkuIFByb2luIHNjZWxlcmlzcXVlIGxpZ3VsYSBldSB0ZW1wdXMgZmVybWVudHVtLiBOdWxsYSBmYWNpbGlzaS4gU2VkIHNpdCBhbWV0IGVnZXN0YXMgdHVycGlzLCBlZ2V0IHRlbXBvciB0b3J0b3IuIFNlZCBub24gYXVjdG9yIG5pc2wsIG5lYyB1bGxhbWNvcnBlciB1cm5hLiBJbnRlZ2VyIGFjIG9ybmFyZSBxdWFtLjwvZGl2Pg0KPGRpdj5TdXNwZW5kaXNzZSBsYW9yZWV0IGFsaXF1YW0gdmVoaWN1bGEuIEV0aWFtIHNlZCBzZW0gcXVpcyBlcmF0IHNvZGFsZXMgaW50ZXJkdW0uIE1hZWNlbmFzIGluIHNlbSBzdXNjaXBpdCwgZGFwaWJ1cyBtYXVyaXMgcGhhcmV0cmEsIGZlcm1lbnR1bSBqdXN0by4gRHVpcyBjb25zZXF1YXQgdmVuZW5hdGlzIGR1aSBldSBsYW9yZWV0LiBJbiBzZWQgZGFwaWJ1cyBlc3QuIE51bGxhIGlhY3VsaXMgZXJhdCBlcmF0LCBxdWlzIHNjZWxlcmlzcXVlIGR1aSBzb2RhbGVzIGV0LiBQcm9pbiB1bHRyaWNlcyBlcm9zIGF1Z3VlLCBub24gY3Vyc3VzIHF1YW0gdWx0cmljZXMgdml0YWUuIER1aXMgdXQgcG9ydGEgbWF1cmlzLCBzaXQgYW1ldCBjb252YWxsaXMgbGliZXJvLjwvZGl2Pg0KPGRpdj4mIzE2MDs8L2Rpdj4NCjxkaXY+JiMxNjA7PC9kaXY+DQo8ZGl2PlBoYXNlbGx1cyB0b3J0b3IgbmVxdWUsIGhlbmRyZXJpdCBhYyBtYWduYSBhdCwgdml2ZXJyYSB2b2x1dHBhdCBpcHN1bS4gTnVsbGEgdml2ZXJyYSBtYXNzYSB0b3J0b3IsIG5vbiBkaWN0dW0gZG9sb3IgaGVuZHJlcml0IGV0LiBNb3JiaSB2ZWhpY3VsYSwgaXBzdW0gZXQgZGlnbmlzc2ltIHZpdmVycmEsIHB1cnVzIGp1c3RvIG1hdHRpcyBkaWFtLCBhIGF1Y3RvciBudWxsYSBsb3JlbSBhYyBpcHN1bS4gQ3VyYWJpdHVyIHZ1bHB1dGF0ZSBpbXBlcmRpZXQgcXVhbSwgdmVsIHVsdHJpY2VzIHJpc3VzIHJob25jdXMgdml0YWUuIE51bmMgbGFjaW5pYSBlcm9zIHNlZCBuZXF1ZSBwdWx2aW5hciB2b2x1dHBhdC4gRXRpYW0gcGxhY2VyYXQgYWNjdW1zYW4gc2VtLCBub24gZGljdHVtIG9yY2kgbHVjdHVzIHNpdCBhbWV0LiBDdXJhYml0dXIgYmxhbmRpdCBpcHN1bSBhdWd1ZSwgbm9uIGVsZW1lbnR1bSBhdWd1ZSBwdWx2aW5hciBhLjwvZGl2Pg8P" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{9cb98a8d-29e5-4371-8102-b85df303ebde}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="10" Url="/CityPages/Operations.aspx" WebPartOrder="1" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+LA+KAizxkaXYgY2xhc3M9Im1zLXJ0ZUZvbnRTaXplLTMiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTogY2FsaWJyaTsgY29sb3I6IGJsYWNrOyBsYW5ndWFnZTogZW4tdXMiPkxpc3Qgb2YgPC9zcGFuPjwvZGl2Pg0KPGRpdiBjbGFzcz0ibXMtcnRlRm9udFNpemUtMyI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGxhbmd1YWdlOiBlbi11cyI+Y2l0aWVzL211bmljaXBhbGl0aWVzL0hPQXMgPC9zcGFuPjwvZGl2Pg0KPGRpdiBjbGFzcz0ibXMtcnRlRm9udFNpemUtMyI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGxhbmd1YWdlOiBlbi11cyI+c2VydmVkIGJ5IHRoZSBkaXZpc2lvbi9CVTo8L3NwYW4+PC9kaXY+Dw8=" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{e43e193f-91db-484b-b5af-d95551d0c62a}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="3" Url="/CityPages/Operations.aspx" WebPartOrder="2" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{286b59f7-7534-c7d8-b636-3b2b50a1187a}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="RSG.Inside.KMTTemplateWebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7889d2b3af6fbf88" Class="RSG.Inside.KMTTemplateWebParts.CitiesLeftNavigation.CitiesLeftNavigation" Src="" AllUsers="/wEUKwAHAgICAwIBAQAAAgICAgURTXkgVmlzdWFsIFdlYlBhcnQ=" PerUser="/wEUKwAJAgICAwIBAQAAAgQChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAgIEBRRDaXRpZXNMZWZ0TmF2aWdhdGlvbg==" />
+			</BinarySerializedWebPart>
+			<Property Name="ID" Value="6" />
+			<Property Name="ContentTypeId" Value="0x010100F4AA3E7AA6D76944889BBC89C2B668A1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="CityPages" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Operations.aspx" />
+			<Property Name="MetaInfo" Value="6;#" />
+			<Property Name="Order" Value="600.000000000000" />
+		</File>
+		<File Url="Residential.aspx" Type="GhostableInLibrary" Path="spstd2.aspx">
+			<AllUsersWebPart WebPartOrder="1" WebPartZoneID="TitleBar" ID="g_d6b7b6ab_61a7_4a23_9cc6_3739e9b06dac"><![CDATA[<WebPart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/WebPart/v2">
+  <Title>Web Part Page Title Bar</Title>
+  <FrameType>None</FrameType>
+  <Description />
+  <IsIncluded>true</IsIncluded>
+  <ZoneID>TitleBar</ZoneID>
+  <PartOrder>1</PartOrder>
+  <FrameState>Normal</FrameState>
+  <Height />
+  <Width />
+  <AllowRemove>false</AllowRemove>
+  <AllowZoneChange>true</AllowZoneChange>
+  <AllowMinimize>false</AllowMinimize>
+  <AllowConnect>true</AllowConnect>
+  <AllowEdit>true</AllowEdit>
+  <AllowHide>true</AllowHide>
+  <IsVisible>true</IsVisible>
+  <DetailLink />
+  <HelpLink />
+  <HelpMode>Modeless</HelpMode>
+  <Dir>Default</Dir>
+  <PartImageSmall />
+  <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+  <PartImageLarge />
+  <IsIncludedFilter />
+  <Assembly>Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+  <TypeName>Microsoft.SharePoint.WebPartPages.TitleBarWebPart</TypeName>
+  <HeaderTitle xmlns="http://schemas.microsoft.com/WebPart/v2/TitleBar">Residential</HeaderTitle>
+</WebPart>]]></AllUsersWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{45b4dce8-7f40-49dc-9365-1e716099372f}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="10" Url="/CityPages/Residential.aspx" WebPartOrder="0" WebPartZoneID="Header" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+wA+KAizxkaXY+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGZvbnQtc2l6ZTogMjRwdDsgZm9udC13ZWlnaHQ6IGJvbGQ7IGxhbmd1YWdlOiBlbi11cyI+RGl2aXNpb24gTmFtZSAtJiMxNjA7T3BlcmF0aW9uYWwmIzE2MDsoWFhYWCk8L3NwYW4+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGZvbnQtc2l6ZTogMThwdDsgbGFuZ3VhZ2U6IGVuLXVzIj48c3Bhbj4mIzE2MDsgPC9zcGFuPjwvc3Bhbj48L2Rpdj4NCjxkaXY+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGZvbnQtc2l6ZTogMThwdDsgbGFuZ3VhZ2U6IGVuLXVzIj57VGhpcyBib3ggaW5jbHVkZXMgYmFzaWMgaW5mbyBhYm91dCB0aGUgZGl2aXNpb24vQlV9PC9zcGFuPjwvZGl2Pg8P" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{19dd41e1-26da-410f-8b4b-e201fac828cf}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="12" Url="/CityPages/Residential.aspx" WebPartOrder="1" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE//+LA+KAizxkaXYgY2xhc3M9Im1zLXJ0ZUZvbnRTaXplLTMiPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTogY2FsaWJyaTsgY29sb3I6IGJsYWNrOyBsYW5ndWFnZTogZW4tdXMiPkxpc3Qgb2YgPC9zcGFuPjwvZGl2Pg0KPGRpdiBjbGFzcz0ibXMtcnRlRm9udFNpemUtMyI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGxhbmd1YWdlOiBlbi11cyI+Y2l0aWVzL211bmljaXBhbGl0aWVzL0hPQXMgPC9zcGFuPjwvZGl2Pg0KPGRpdiBjbGFzcz0ibXMtcnRlRm9udFNpemUtMyI+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OiBjYWxpYnJpOyBjb2xvcjogYmxhY2s7IGxhbmd1YWdlOiBlbi11cyI+c2VydmVkIGJ5IHRoZSBkaXZpc2lvbi9CVTo8L3NwYW4+PC9kaXY+Dw8=" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{c91abf35-04b4-432e-a2df-92d162d50d50}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="10" Url="/CityPages/Residential.aspx" WebPartOrder="0" WebPartZoneID="MiddleColumn" IsIncluded="True" FrameState="0" WPTypeId="{b2b35bdf-5e78-ab22-5351-6639ca63203f}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="" Class="" Src="" AllUsers="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQIAKQAD//8qQWxsb3dzIGF1dGhvcnMgdG8gZW50ZXIgcmljaCB0ZXh0IGNvbnRlbnQuDwEgACkAA///HC9fbGF5b3V0cy9pbWFnZXMvbXNjb250bC5naWYPATsAWgAE///HF+KAizxkaXY+TG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVyIGFkaXBpc2NpbmcgZWxpdC4gVXQgdWx0cmljaWVzIGRvbG9yIGlkIHVybmEgbW9sZXN0aWUsIGV1IGdyYXZpZGEgbGFjdXMgdmVzdGlidWx1bS4gRG9uZWMgZGljdHVtIGVuaW0gaW50ZXJkdW0gZHVpIGZhdWNpYnVzIHNvbGxpY2l0dWRpbi4gTWF1cmlzIG1hdXJpcyBtZXR1cywgdGVtcG9yIHZpdGFlIGxhY3VzIG5vbiwgbW9sZXN0aWUgY29uc2VjdGV0dXIgbnVsbGEuIFBoYXNlbGx1cyB0ZW1wdXMgc2NlbGVyaXNxdWUgZmVsaXMgaWQgZmV1Z2lhdC4gTmFtIGRvbG9yIG5pYmgsIGNvbnZhbGxpcyBxdWlzIHZlc3RpYnVsdW0gdml0YWUsIGRhcGlidXMgc2l0IGFtZXQgbWV0dXMuIFByb2luIHZlbmVuYXRpcyBlcmF0IHF1aXMgZG9sb3IgZWxlbWVudHVtLCBldSBsYW9yZWV0IHNhcGllbiBwaGFyZXRyYS4gU3VzcGVuZGlzc2Ugc2VkIG5pc2kgaWQgZW5pbSBwbGFjZXJhdCBzYWdpdHRpcyBub24gZWdldCBhdWd1ZS4gUHJhZXNlbnQgZGFwaWJ1cyBtYWxlc3VhZGEgbGFjdXMsIGF0IHRyaXN0aXF1ZSBwdXJ1cyBlZ2VzdGFzIG5vbi4gUHJhZXNlbnQgdmVsIGVyb3MgbGlndWxhLiBEdWlzIHBvcnR0aXRvciwgZXJvcyBhdCBkaWduaXNzaW0gdml2ZXJyYSwgYXVndWUgdHVycGlzIG1vbGxpcyBqdXN0bywgbm9uIGJpYmVuZHVtIG1pIGR1aSBzZWQgZXJhdC4gRG9uZWMgZWxlbWVudHVtIGN1cnN1cyBqdXN0bywgaWQgZ3JhdmlkYSBsZWN0dXMgZmVybWVudHVtIGEuIFBoYXNlbGx1cyBxdWlzIHBvcnRhIGFudGUsIGF0IHZvbHV0cGF0IGVsaXQuIFZlc3RpYnVsdW0gZGljdHVtIHF1YW0gcXVpcyBtYWduYSBmcmluZ2lsbGEsIHNpdCBhbWV0IG1vbGxpcyBsb3JlbSBkaWduaXNzaW0uPC9kaXY+DQo8ZGl2PiYjMTYwOzwvZGl2Pg0KPGRpdj4mIzE2MDs8L2Rpdj4NCjxkaXY+UHJhZXNlbnQgbGFjaW5pYSBuaXNsIGEgdmVoaWN1bGEgdmFyaXVzLiBRdWlzcXVlIGRpZ25pc3NpbSBuZWMgc2VtIG5lYyB2aXZlcnJhLiBWZXN0aWJ1bHVtIGNvbW1vZG8gY29udmFsbGlzIGFyY3UsIGluIHBvc3VlcmUgc2FwaWVuIHNlbXBlciBhYy4gSW4gc2FwaWVuIGxlY3R1cywgcG9ydGEgbm9uIGdyYXZpZGEgYWMsIHRyaXN0aXF1ZSBhIGZlbGlzLiBOdW5jIGxhb3JlZXQgcXVpcyB0ZWxsdXMgZWdldCBmYXVjaWJ1cy4gUGhhc2VsbHVzIHF1aXMgdmFyaXVzIG5pc2wsIGF0IHBvcnRhIHR1cnBpcy4gUHJvaW4gYSBhZGlwaXNjaW5nIGZlbGlzLCB1dCBhZGlwaXNjaW5nIG1pLiBOdW5jIGVsZW1lbnR1bSBpcHN1bSB0dXJwaXMsIGJsYW5kaXQgc2VtcGVyIHRvcnRvciBhdWN0b3IgbmVjLiBBbGlxdWFtIGJpYmVuZHVtIHJob25jdXMgdHVycGlzLiBTdXNwZW5kaXNzZSBsYW9yZWV0IHRlbGx1cyBpbiBlcm9zIHZlc3RpYnVsdW0gc29kYWxlcy4gQWVuZWFuIHNhcGllbiB0b3J0b3IsIGVsZWlmZW5kIHV0IG1ldHVzIHZpdGFlLCBjdXJzdXMgdmFyaXVzIGVyb3MuIEluIGZhY2lsaXNpcyBvcmNpIGV1IGRhcGlidXMgZmFjaWxpc2lzLiBBbGlxdWFtIHZlbmVuYXRpcyBsaWJlcm8gZXQgdGVtcHVzIGlhY3VsaXMuIE1vcmJpIHNvZGFsZXMgcXVpcyBlcm9zIGV1IHZpdmVycmEuPC9kaXY+DQo8ZGl2PlF1aXNxdWUgZWxlbWVudHVtIG51bGxhIHZlbCBsYWN1cyBydXRydW0sIHV0IGZyaW5naWxsYSB2ZWxpdCBwdWx2aW5hci4gRXRpYW0gc2VkIHF1YW0gY29uc2VxdWF0LCBlbGVtZW50dW0gYXVndWUgZWdldCwgYXVjdG9yIGF1Z3VlLiBTdXNwZW5kaXNzZSB1bGxhbWNvcnBlciwgbWV0dXMgYWMgcG9ydGEgcGxhY2VyYXQsIGR1aSB0dXJwaXMgYWxpcXVhbSBtYWduYSwgdml0YWUgZGFwaWJ1cyBtZXR1cyBvZGlvIGlkIHVybmEuIE1hdXJpcyB1dCBkaWFtIGFsaXF1YW0gbGFjdXMgc29kYWxlcyBmcmluZ2lsbGEgYSB2aXRhZSBkdWkuIFByb2luIHNjZWxlcmlzcXVlIGxpZ3VsYSBldSB0ZW1wdXMgZmVybWVudHVtLiBOdWxsYSBmYWNpbGlzaS4gU2VkIHNpdCBhbWV0IGVnZXN0YXMgdHVycGlzLCBlZ2V0IHRlbXBvciB0b3J0b3IuIFNlZCBub24gYXVjdG9yIG5pc2wsIG5lYyB1bGxhbWNvcnBlciB1cm5hLiBJbnRlZ2VyIGFjIG9ybmFyZSBxdWFtLjwvZGl2Pg0KPGRpdj5TdXNwZW5kaXNzZSBsYW9yZWV0IGFsaXF1YW0gdmVoaWN1bGEuIEV0aWFtIHNlZCBzZW0gcXVpcyBlcmF0IHNvZGFsZXMgaW50ZXJkdW0uIE1hZWNlbmFzIGluIHNlbSBzdXNjaXBpdCwgZGFwaWJ1cyBtYXVyaXMgcGhhcmV0cmEsIGZlcm1lbnR1bSBqdXN0by4gRHVpcyBjb25zZXF1YXQgdmVuZW5hdGlzIGR1aSBldSBsYW9yZWV0LiBJbiBzZWQgZGFwaWJ1cyBlc3QuIE51bGxhIGlhY3VsaXMgZXJhdCBlcmF0LCBxdWlzIHNjZWxlcmlzcXVlIGR1aSBzb2RhbGVzIGV0LiBQcm9pbiB1bHRyaWNlcyBlcm9zIGF1Z3VlLCBub24gY3Vyc3VzIHF1YW0gdWx0cmljZXMgdml0YWUuIER1aXMgdXQgcG9ydGEgbWF1cmlzLCBzaXQgYW1ldCBjb252YWxsaXMgbGliZXJvLjwvZGl2Pg0KPGRpdj4mIzE2MDs8L2Rpdj4NCjxkaXY+JiMxNjA7PC9kaXY+DQo8ZGl2PlBoYXNlbGx1cyB0b3J0b3IgbmVxdWUsIGhlbmRyZXJpdCBhYyBtYWduYSBhdCwgdml2ZXJyYSB2b2x1dHBhdCBpcHN1bS4gTnVsbGEgdml2ZXJyYSBtYXNzYSB0b3J0b3IsIG5vbiBkaWN0dW0gZG9sb3IgaGVuZHJlcml0IGV0LiBNb3JiaSB2ZWhpY3VsYSwgaXBzdW0gZXQgZGlnbmlzc2ltIHZpdmVycmEsIHB1cnVzIGp1c3RvIG1hdHRpcyBkaWFtLCBhIGF1Y3RvciBudWxsYSBsb3JlbSBhYyBpcHN1bS4gQ3VyYWJpdHVyIHZ1bHB1dGF0ZSBpbXBlcmRpZXQgcXVhbSwgdmVsIHVsdHJpY2VzIHJpc3VzIHJob25jdXMgdml0YWUuIE51bmMgbGFjaW5pYSBlcm9zIHNlZCBuZXF1ZSBwdWx2aW5hciB2b2x1dHBhdC4gRXRpYW0gcGxhY2VyYXQgYWNjdW1zYW4gc2VtLCBub24gZGljdHVtIG9yY2kgbHVjdHVzIHNpdCBhbWV0LiBDdXJhYml0dXIgYmxhbmRpdCBpcHN1bSBhdWd1ZSwgbm9uIGVsZW1lbnR1bSBhdWd1ZSBwdWx2aW5hciBhLjwvZGl2Pg8P" PerUser="AQUAAAACKgBJACkAAz4AAAIqAEoAKQADPQAAAQQAKQAD//8OQ29udGVudCBFZGl0b3IPASUAKQADRAAPDw==" />
+			</BinarySerializedWebPart>
+			<BinarySerializedWebPart>
+				<GUIDMap />
+				<WebPart ID="{1f21634a-23ce-488a-ab45-1e5cf415fd98}" WebPartIdProperty="" List="" Type="0" Flags="" DisplayName="" Version="3" Url="/CityPages/Residential.aspx" WebPartOrder="2" WebPartZoneID="LeftColumn" IsIncluded="True" FrameState="0" WPTypeId="{286b59f7-7534-c7d8-b636-3b2b50a1187a}" SolutionId="{00000000-0000-0000-0000-000000000000}" Assembly="RSG.Inside.KMTTemplateWebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7889d2b3af6fbf88" Class="RSG.Inside.KMTTemplateWebParts.CitiesLeftNavigation.CitiesLeftNavigation" Src="" AllUsers="/wEUKwAHAgICAwIBAQAAAgICAgURTXkgVmlzdWFsIFdlYlBhcnQ=" PerUser="/wEUKwAJAgICAwIBAQAAAgQChAELKjFTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLldlYlBhcnRzLlBhcnRDaHJvbWVUeXBlAgIEBRRDaXRpZXNMZWZ0TmF2aWdhdGlvbg==" />
+			</BinarySerializedWebPart>
+			<Property Name="ID" Value="3" />
+			<Property Name="ContentTypeId" Value="0x010100F4AA3E7AA6D76944889BBC89C2B668A1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="CityPages" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Residential.aspx" />
+			<Property Name="MetaInfo" Value="3;#" />
+			<Property Name="Order" Value="300.000000000000" />
+		</File>
+	</Module>
+</Elements>

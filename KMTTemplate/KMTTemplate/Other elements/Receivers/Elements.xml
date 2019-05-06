@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Receivers ListUrl="ReusableContent" Scope="Web" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<Receiver>
+			<Name>BlockDeletionOfInUseItemsEventReceiver (added via OM)</Name>
+			<Synchronization>Synchronous</Synchronization>
+			<Type>ItemDeleting</Type>
+			<SequenceNumber>1000</SequenceNumber>
+			<Assembly>Microsoft.SharePoint.Publishing, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+			<Class>Microsoft.SharePoint.Publishing.Internal.BlockDeletionOfInUseItemsEventReceiver</Class>
+			<Data />
+			<Filter />
+		</Receiver>
+	</Receivers>
+</Elements>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ContentType ID="0x010087D89D279834C94E98E5E1B4A913C67E" Name="Page Output Cache" Group="_Hidden" Description="Page Output Cache is a system content type template created by the Publishing Resources feature to define cache profiles." Sealed="TRUE" Overwrite="TRUE" FeatureId="{aebc918d-b20f-4a11-a1db-9ed84d79c87e}" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<Folder TargetName="_cts/Page Output Cache" />
+		<FieldRefs>
+			<FieldRef ID="{c042a256-787d-4a6f-8a8a-cf6ab767f12d}" Name="ContentType" />
+			<FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" Required="TRUE" ShowInNewForm="TRUE" ShowInEditForm="TRUE" />
+			<FieldRef ID="{983f490b-fc53-4820-9354-e8de646b4b82}" Name="PublishingCacheDisplayName" />
+			<FieldRef ID="{9550e77a-4d10-464f-bc0c-102d5b1aec42}" Name="PublishingCacheDisplayDescription" />
+			<FieldRef ID="{db03cb99-cf1e-40b8-adc7-913f7181dac3}" Name="PublishingCachePerformACLCheck" />
+			<FieldRef ID="{d8f18167-7cff-4c4e-bdbe-e7b0f01678f3}" Name="PublishingCacheEnabled" />
+			<FieldRef ID="{bdd1b3c3-18db-4acf-a963-e70ef4227fbc}" Name="PublishingCacheDuration" />
+			<FieldRef ID="{5b4d927c-d383-496b-bc79-1e61bd383019}" Name="PublishingCacheCheckForChanges" />
+			<FieldRef ID="{4689a812-320e-4623-aab9-10ad68941126}" Name="PublishingVaryByCustom" />
+			<FieldRef ID="{89587dfd-b9ca-4fae-8eb9-ba779e917d48}" Name="PublishingVaryByHeader" />
+			<FieldRef ID="{b8abfc64-c2bd-4c88-8cef-b040c1b9d8c0}" Name="PublishingVaryByParam" />
+			<FieldRef ID="{d4a6af1d-c6d7-4045-8def-cefa25b9ec30}" Name="PublishingVaryByRights" />
+			<FieldRef ID="{18f165be-6285-4a57-b3ab-4e9f913d299f}" Name="PublishingCacheability" />
+			<FieldRef ID="{0a90b5e8-185a-4dec-bf3c-e60aae08373f}" Name="PublishingAuthenticatedUse" />
+			<FieldRef ID="{773ed051-58db-4ff2-879b-08b21ab001e0}" Name="PublishingCacheAllowWriters" />
+		</FieldRefs>
+		<XmlDocuments>
+			<XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+				<FormTemplates xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+					<Display>ListForm</Display>
+					<Edit>ListForm</Edit>
+					<New>ListForm</New>
+				</FormTemplates>
+			</XmlDocument>
+		</XmlDocuments>
+	</ContentType>
+</Elements>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance FeatureId="{00bfea71-de22-43b2-a848-c05709900100}" TemplateType="100" Title="Cities" Description="" Url="Lists/Cities" CustomSchema="Files\Lists\Cities\Schema.xml" HyperlinkBaseUrl="http://devshpt02:44444" RootWebOnly="FALSE" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<Data>
+			<Rows>
+				<Row>
+					<Field Name="ContentTypeId">0x0100628D3CB2A52DDE4ABF919E77FF3D5CDB</Field>
+					<Field Name="Title">1</Field>
+					<Field Name="EntityName">Test City 1</Field>
+					<Field Name="NavigationLink">/CityPages/City1.aspx</Field>
+					<Field Name="ID">1</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">100.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">1_.000</Field>
+					<Field Name="MetaInfo">1;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0100628D3CB2A52DDE4ABF919E77FF3D5CDB</Field>
+					<Field Name="Title">2</Field>
+					<Field Name="EntityName">Test City 2</Field>
+					<Field Name="NavigationLink">/CityPages/City2.aspx</Field>
+					<Field Name="ID">2</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">200.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">2_.000</Field>
+					<Field Name="MetaInfo">2;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0100628D3CB2A52DDE4ABF919E77FF3D5CDB</Field>
+					<Field Name="Title">3</Field>
+					<Field Name="EntityName">All Cities</Field>
+					<Field Name="NavigationLink">/CityPages/AllCities.aspx</Field>
+					<Field Name="ID">3</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">300.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">3_.000</Field>
+					<Field Name="MetaInfo">3;#</Field>
+				</Row>
+			</Rows>
+		</Data>
+	</ListInstance>
+</Elements>

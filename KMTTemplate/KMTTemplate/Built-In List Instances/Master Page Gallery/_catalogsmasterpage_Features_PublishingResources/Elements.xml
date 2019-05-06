@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="_catalogsmasterpage_Features\PublishingResources" HyperlinkBaseUrl="http://devshpt02:44444" Url="_catalogs/masterpage" RootWebOnly="FALSE" Path="Files\_catalogs\masterpage" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="VariationRootPageLayout.aspx" Type="GhostableInLibrary" Path="VariationRootPageLayout.aspx">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="VariationRootPageLayout.aspx" />
+			<Property Name="UIVersion" Value="4" />
+			<Property Name="Title" Value="Variations Root Page" />
+			<Property Name="PublishingHidden" Value="TRUE" />
+			<Property Name="PublishingAssociatedContentType" Value="Redirect Page, 0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900FD0E870BA06948879DBD5F9813CD8799" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="25" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="25;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_setuppath:SR|Features\\PublishingResources\\VariationRootPageLayout.aspx&#xD;&#xA;PublishingHidden:BW|true&#xD;&#xA;PublishingAssociatedContentType:SW|;#Redirect Page;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900FD0E870BA06948879DBD5F9813CD8799;#&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_cachedcustomprops:VX|ContentType vti_title PublishingAssociatedContentType PublishingHidden&#xD;&#xA;vti_title:SR|Variations Root Page&#xD;&#xA;ContentType:SW|Page Layout&#xD;&#xA;vti_cachedtitle:SR|Variations Root Page&#xD;&#xA;ContentTypeId:SW|0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C&#xD;&#xA;" />
+			<Property Name="Order" Value="2500.00000000000" />
+		</File>
+	</Module>
+</Elements>

@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="_catalogsmasterpage_Features\PublishingLayouts\PageLayouts" HyperlinkBaseUrl="http://devshpt02:44444" Url="_catalogs/masterpage" SetupPath="Features\PublishingLayouts\PageLayouts" RootWebOnly="FALSE" Path="Files\_catalogs\masterpage" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="ArticleLeft.aspx" Type="GhostableInLibrary" Path="ArticleLeft.aspx">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="ArticleLeft.aspx" />
+			<Property Name="MasterPageDescription" Value="The article page with image on left contains an image field and a rich text field." />
+			<Property Name="Title" Value="Image on left" />
+			<Property Name="PublishingPreviewImage" Value="http://devshpt02:44444/_catalogs/masterpage/en-US/Preview%20Images/ArticleLeft.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/ArticleLeft.png" />
+			<Property Name="PublishingAssociatedContentType" Value="Article Page, 0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="41" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="41;#vti_encoding:SR|utf8-nl&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;PublishingPreviewImage:SW|/_catalogs/masterpage/en-US/Preview%20Images/ArticleLeft.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/ArticleLeft.png&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_title:SR|Image on left&#xD;&#xA;MasterPageDescription:SR|The article page with image on left contains an image field and a rich text field.&#xD;&#xA;ContentType:SR|Page Layout&#xD;&#xA;ContentTypeId:SW|0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_setuppath:SR|Features\\PublishingLayouts\\PageLayouts\\ArticleLeft.aspx&#xD;&#xA;PublishingAssociatedContentType:SR|;#Article Page;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D;#&#xD;&#xA;" />
+			<Property Name="Order" Value="4100.00000000000" />
+		</File>
+		<File Url="ArticleLinks.aspx" Type="GhostableInLibrary" Path="ArticleLinks.aspx">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="ArticleLinks.aspx" />
+			<Property Name="MasterPageDescription" Value="The article page with links contains an image field and summary links." />
+			<Property Name="Title" Value="Summary links" />
+			<Property Name="PublishingPreviewImage" Value="http://devshpt02:44444/_catalogs/masterpage/en-US/Preview%20Images/ArticleLinks.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/ArticleLinks.png" />
+			<Property Name="PublishingAssociatedContentType" Value="Article Page, 0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="42" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="42;#vti_encoding:SR|utf8-nl&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;PublishingPreviewImage:SW|/_catalogs/masterpage/en-US/Preview%20Images/ArticleLinks.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/ArticleLinks.png&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_title:SR|Summary links&#xD;&#xA;MasterPageDescription:SR|The article page with links contains an image field and summary links.&#xD;&#xA;ContentType:SR|Page Layout&#xD;&#xA;ContentTypeId:SW|0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_setuppath:SR|Features\\PublishingLayouts\\PageLayouts\\ArticleLinks.aspx&#xD;&#xA;PublishingAssociatedContentType:SR|;#Article Page;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D;#&#xD;&#xA;" />
+			<Property Name="Order" Value="4200.00000000000" />
+		</File>
+		<File Url="ArticleRight.aspx" Type="GhostableInLibrary" Path="ArticleRight.aspx">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="ArticleRight.aspx" />
+			<Property Name="MasterPageDescription" Value="The article page with image on right contains an image field and a rich text field." />
+			<Property Name="Title" Value="Image on right" />
+			<Property Name="PublishingPreviewImage" Value="http://devshpt02:44444/_catalogs/masterpage/en-US/Preview%20Images/ArticleRight.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/ArticleRight.png" />
+			<Property Name="PublishingAssociatedContentType" Value="Article Page, 0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="43" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="43;#vti_encoding:SR|utf8-nl&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;PublishingPreviewImage:SW|/_catalogs/masterpage/en-US/Preview%20Images/ArticleRight.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/ArticleRight.png&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_title:SR|Image on right&#xD;&#xA;MasterPageDescription:SR|The article page with image on right contains an image field and a rich text field.&#xD;&#xA;ContentType:SR|Page Layout&#xD;&#xA;ContentTypeId:SW|0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_setuppath:SR|Features\\PublishingLayouts\\PageLayouts\\ArticleRight.aspx&#xD;&#xA;PublishingAssociatedContentType:SR|;#Article Page;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D;#&#xD;&#xA;" />
+			<Property Name="Order" Value="4300.00000000000" />
+		</File>
+		<File Url="BlankWebPartPage.aspx" Type="GhostableInLibrary" Path="BlankWebPartPage.aspx">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="BlankWebPartPage.aspx" />
+			<Property Name="MasterPageDescription" Value="Page layout for creating web part pages" />
+			<Property Name="Title" Value="Blank Web Part page" />
+			<Property Name="PublishingPreviewImage" Value="http://devshpt02:44444/_catalogs/masterpage/en-US/Preview%20Images/BlankWebPartPage.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/BlankWebPartPage.png" />
+			<Property Name="PublishingAssociatedContentType" Value="Welcome Page, 0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="48" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="48;#vti_encoding:SR|utf8-nl&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_cachednolayoutzones:VR|TitleBar&#xD;&#xA;PublishingPreviewImage:SW|/_catalogs/masterpage/en-US/Preview%20Images/BlankWebPartPage.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/BlankWebPartPage.png&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;ContentType:SR|Page Layout&#xD;&#xA;vti_title:SR|Blank Web Part page&#xD;&#xA;MasterPageDescription:SR|Page layout for creating web part pages&#xD;&#xA;vti_cachednoperszones:VR|TitleBar&#xD;&#xA;ContentTypeId:SW|0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C&#xD;&#xA;PublishingAssociatedContentType:SR|;#Welcome Page;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4;#&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_setuppath:SR|Features\\PublishingLayouts\\PageLayouts\\BlankWebPartPage.aspx&#xD;&#xA;vti_cachedzones:VR|TitleBar Header TopLeftRow TopRightRow CenterLeftColumn CenterColumn CenterRightColumn Footer RightColumn&#xD;&#xA;" />
+			<Property Name="Order" Value="4800.00000000000" />
+		</File>
+		<File Url="PageFromDocLayout.aspx" Type="GhostableInLibrary" Path="PageFromDocLayout.aspx">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="PageFromDocLayout.aspx" />
+			<Property Name="MasterPageDescription" Value="The article page with body only contains a rich text field." />
+			<Property Name="Title" Value="Body only" />
+			<Property Name="PublishingPreviewImage" Value="http://devshpt02:44444/_catalogs/masterpage/en-US/Preview%20Images/ArticleBodyOnly.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/ArticleBodyOnly.png" />
+			<Property Name="PublishingAssociatedContentType" Value="Article Page, 0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="44" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="44;#vti_encoding:SR|utf8-nl&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;PublishingPreviewImage:SW|/_catalogs/masterpage/en-US/Preview%20Images/ArticleBodyOnly.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/ArticleBodyOnly.png&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_title:SR|Body only&#xD;&#xA;MasterPageDescription:SR|The article page with body only contains a rich text field.&#xD;&#xA;ContentType:SR|Page Layout&#xD;&#xA;ContentTypeId:SW|0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_setuppath:SR|Features\\PublishingLayouts\\PageLayouts\\PageFromDocLayout.aspx&#xD;&#xA;PublishingAssociatedContentType:SR|;#Article Page;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D;#&#xD;&#xA;" />
+			<Property Name="Order" Value="4400.00000000000" />
+		</File>
+		<File Url="RedirectPageLayout.aspx" Type="GhostableInLibrary" Path="RedirectPageLayout.aspx">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="RedirectPageLayout.aspx" />
+			<Property Name="MasterPageDescription" Value="This page layout contains a redirect control for automatically directing readers to any specified URL." />
+			<Property Name="Title" Value="Redirect" />
+			<Property Name="PublishingPreviewImage" Value="http://devshpt02:44444/_catalogs/masterpage/en-US/Preview%20Images/RedirectPage.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/RedirectPage.png" />
+			<Property Name="PublishingAssociatedContentType" Value="Redirect Page, 0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900FD0E870BA06948879DBD5F9813CD8799" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="47" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="47;#vti_encoding:SR|utf8-nl&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;PublishingPreviewImage:SW|/_catalogs/masterpage/en-US/Preview%20Images/RedirectPage.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/RedirectPage.png&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_title:SR|Redirect&#xD;&#xA;MasterPageDescription:SR|This page layout contains a redirect control for automatically directing readers to any specified URL.&#xD;&#xA;ContentType:SR|Page Layout&#xD;&#xA;ContentTypeId:SW|0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_setuppath:SR|Features\\PublishingLayouts\\PageLayouts\\RedirectPageLayout.aspx&#xD;&#xA;PublishingAssociatedContentType:SR|;#Redirect Page;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900FD0E870BA06948879DBD5F9813CD8799;#&#xD;&#xA;" />
+			<Property Name="Order" Value="4700.00000000000" />
+		</File>
+		<File Url="WelcomeSplash.aspx" Type="GhostableInLibrary" Path="WelcomeSplash.aspx">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="WelcomeSplash.aspx" />
+			<Property Name="MasterPageDescription" Value="The welcome with splash contains an image field on left, a rich text field and Web Part zones arranged in a header, and 2 columns.  The left navigation pane is hidden." />
+			<Property Name="Title" Value="Splash" />
+			<Property Name="PublishingPreviewImage" Value="http://devshpt02:44444/_catalogs/masterpage/en-US/Preview%20Images/WelcomeSplash.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/WelcomeSplash.png" />
+			<Property Name="PublishingAssociatedContentType" Value="Welcome Page, 0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="45" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="45;#vti_encoding:SR|utf8-nl&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;PublishingPreviewImage:SW|/_catalogs/masterpage/en-US/Preview%20Images/WelcomeSplash.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/WelcomeSplash.png&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;ContentType:SR|Page Layout&#xD;&#xA;vti_title:SR|Splash&#xD;&#xA;MasterPageDescription:SR|The welcome with splash contains an image field on left, a rich text field and Web Part zones arranged in a header, and 2 columns.  The left navigation pane is hidden.&#xD;&#xA;vti_cachednoperszones:VR|TopZone BottomLeftZone BottomRightZone&#xD;&#xA;ContentTypeId:SW|0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C&#xD;&#xA;PublishingAssociatedContentType:SR|;#Welcome Page;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4;#&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_setuppath:SR|Features\\PublishingLayouts\\PageLayouts\\WelcomeSplash.aspx&#xD;&#xA;vti_cachedzones:VR|TopZone BottomLeftZone BottomRightZone&#xD;&#xA;" />
+			<Property Name="Order" Value="4500.00000000000" />
+		</File>
+		<File Url="WelcomeTOC.aspx" Type="GhostableInLibrary" Path="WelcomeTOC.aspx">
+			<AllUsersWebPart WebPartOrder="1" WebPartZoneID="TopColumnZone" ID="g_ad4b2106_db19_4b5e_ac81_25f96c1dcdf2"><![CDATA[<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="Microsoft.SharePoint.Publishing.WebControls.TableOfContentsWebPart, Microsoft.SharePoint.Publishing, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="DataSourcesString" type="string" />
+        <property name="ShowWithSampleData" type="bool">False</property>
+        <property name="SortWebsByDirection" type="Microsoft.SharePoint.Publishing.WebControls.TableOfContentsWebPart+SortDirection, Microsoft.SharePoint.Publishing, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">Asc</property>
+        <property name="Default" type="string" />
+        <property name="NoDefaultStyle" type="string" />
+        <property name="Header" type="string" />
+        <property name="ViewContentTypeId" type="string" />
+        <property name="XmlDefinitionLink" type="string" />
+        <property name="ManualRefresh" type="bool">False</property>
+        <property name="ListUrl" type="string" null="true" />
+        <property name="IncludeHiddenPages" type="bool">False</property>
+        <property name="Height" type="string" />
+        <property name="TitleUrl" type="string" />
+        <property name="SampleData" type="string" null="true" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="SortPagesByDirection" type="Microsoft.SharePoint.Publishing.WebControls.TableOfContentsWebPart+SortDirection, Microsoft.SharePoint.Publishing, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">Asc</property>
+        <property name="DataFields" type="string" />
+        <property name="IncludeContentFromStartingLocation" type="bool">False</property>
+        <property name="AsyncRefresh" type="bool">False</property>
+        <property name="ListId" type="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">00000000-0000-0000-0000-000000000000</property>
+        <property name="AnchorLocation" type="string" />
+        <property name="HelpUrl" type="string">/_layouts/help.aspx</property>
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="ListName" type="string" null="true" />
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="HeaderXslLink" type="string" />
+        <property name="ShowPages" type="bool">True</property>
+        <property name="MainXslLink" type="string" />
+        <property name="DataSourceID" type="string" />
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="Description" type="string" />
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AutoRefresh" type="bool">False</property>
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="Xsl" type="string" null="true" />
+        <property name="ChromeState" type="chromestate">Normal</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="HelpMode" type="helpmode">Modeless</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="PageSize" type="int">-1</property>
+        <property name="Width" type="string" />
+        <property name="UseSQLDataSourcePaging" type="bool">True</property>
+        <property name="Level1Style" type="string">VerticalBold</property>
+        <property name="Title" type="string">Table of Contents</property>
+        <property name="PageType" type="Microsoft.SharePoint.PAGETYPE, Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">PAGE_NORMALVIEW</property>
+        <property name="ViewFlag" type="string">0</property>
+        <property name="InitialAsyncDataFetch" type="bool">False</property>
+        <property name="MissingAssembly" type="string">Cannot import this Web Part.</property>
+        <property name="FireInitialRow" type="bool">True</property>
+        <property name="CacheXslStorage" type="bool">True</property>
+        <property name="DisplayName" type="string" />
+        <property name="SortWebsBy" type="Microsoft.SharePoint.Publishing.WebControls.TableOfContentsWebPart+NavigationSortOption, Microsoft.SharePoint.Publishing, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">NavigationOrder</property>
+        <property name="XslLink" type="string" null="true" />
+        <property name="AllowClose" type="bool">True</property>
+        <property name="XmlDefinition" type="string" />
+        <property name="IncludeHiddenWebs" type="bool">False</property>
+        <property name="LevelsToShow" type="int">2</property>
+        <property name="HeaderTemplate" type="string">DefaultHeader</property>
+        <property name="ParameterBindings" type="string" />
+        <property name="Level2Style" type="string">Vertical</property>
+        <property name="AutoRefreshInterval" type="int">60</property>
+        <property name="Level3Style" type="string">Vertical</property>
+        <property name="ItemXslLink" type="string" />
+        <property name="ViewFlags" type="Microsoft.SharePoint.SPViewFlags, Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">None</property>
+        <property name="DisplayColumns" type="int">3</property>
+        <property name="ListDisplayName" type="string" null="true" />
+        <property name="SortPagesBy" type="Microsoft.SharePoint.Publishing.WebControls.TableOfContentsWebPart+NavigationSortOption, Microsoft.SharePoint.Publishing, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">NavigationOrder</property>
+        <property name="CacheXslTimeOut" type="int">86400</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>]]></AllUsersWebPart>
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="WelcomeTOC.aspx" />
+			<Property Name="MasterPageDescription" Value="The welcome page with table of contents contains an image field on left, a rich text field, a table of contents Web Part, and Web Part zones arranged in a header, a footer, and 2 columns." />
+			<Property Name="Title" Value="Table of contents" />
+			<Property Name="PublishingPreviewImage" Value="http://devshpt02:44444/_catalogs/masterpage/en-US/Preview%20Images/WelcomeTOC.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/WelcomeTOC.png" />
+			<Property Name="PublishingAssociatedContentType" Value="Welcome Page, 0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="46" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="46;#vti_encoding:SR|utf8-nl&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;PublishingPreviewImage:SW|/_catalogs/masterpage/en-US/Preview%20Images/WelcomeTOC.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/WelcomeTOC.png&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_title:SR|Table of contents&#xD;&#xA;MasterPageDescription:SR|The welcome page with table of contents contains an image field on left, a rich text field, a table of contents Web Part, and Web Part zones arranged in a header, a footer, and 2 columns.&#xD;&#xA;ContentType:SR|Page Layout&#xD;&#xA;ContentTypeId:SW|0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C&#xD;&#xA;PublishingAssociatedContentType:SR|;#Welcome Page;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4;#&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_setuppath:SR|Features\\PublishingLayouts\\PageLayouts\\WelcomeTOC.aspx&#xD;&#xA;vti_cachedzones:VR|TopColumnZone LeftColumnZone RightColumnZone&#xD;&#xA;" />
+			<Property Name="Order" Value="4600.00000000000" />
+		</File>
+	</Module>
+</Elements>

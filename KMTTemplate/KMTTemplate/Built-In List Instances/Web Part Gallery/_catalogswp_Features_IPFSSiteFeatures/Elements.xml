@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="_catalogswp_Features\IPFSSiteFeatures" Url="_catalogs/wp" SetupPath="Features\IPFSSiteFeatures" RootWebOnly="TRUE" Path="Files\_catalogs\wp" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="Microsoft.Office.InfoPath.Server.BrowserForm.webpart" Type="GhostableInLibrary" Path="Microsoft.Office.InfoPath.Server.BrowserForm.webpart">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="Microsoft.Office.InfoPath.Server.BrowserForm.webpart" />
+			<Property Name="Title" Value="InfoPath Form Web Part" />
+			<Property Name="WebPartDescription" Value="Use this Web Part to display an InfoPath browser-enabled form." />
+			<Property Name="Group" Value="Forms" />
+			<Property Name="QuickAddGroups" Value=";#Dashboard;#" />
+			<Property Name="ID" Value="45" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="45;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Forms&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Dashboard;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\IPFSSiteFeatures\\Microsoft.Office.InfoPath.Server.BrowserForm.webpart&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartTypeName:SW|Microsoft.Office.InfoPath.Server.Controls.WebUI.BrowserFormWebPart&#xD;&#xA;WebPartAssembly:SW|Microsoft.Office.InfoPath.Server,Version=14.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartDescription:SW|Use this Web Part to display an InfoPath browser-enabled form.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartTypeName WebPartAssembly WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|InfoPath Form Web Part&#xD;&#xA;vti_title:SR|InfoPath Form Web Part&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="4500.00000000000" />
+		</File>
+	</Module>
+</Elements>

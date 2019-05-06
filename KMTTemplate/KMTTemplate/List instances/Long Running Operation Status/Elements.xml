@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance FeatureId="{00bfea71-de22-43b2-a848-c05709900100}" TemplateType="100" Title="Long Running Operation Status" Description="" Url="Long Running Operation Status" CustomSchema="Files\Long Running Operation Status\Schema.xml" HyperlinkBaseUrl="http://devshpt02:44444" RootWebOnly="FALSE" xmlns="http://schemas.microsoft.com/sharepoint/" />
+</Elements>

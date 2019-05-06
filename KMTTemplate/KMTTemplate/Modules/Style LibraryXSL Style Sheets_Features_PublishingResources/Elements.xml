@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="Style LibraryXSL Style Sheets_Features\PublishingResources" Url="Style Library/XSL Style Sheets" SetupPath="Features\PublishingResources" RootWebOnly="TRUE" Path="Files\12StyleLibrary\15XSLStyleSheets" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="ContentQueryMain.xsl" Type="GhostableInLibrary" Path="ContentQueryMain.xsl">
+			<Property Name="ID" Value="2" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/XSL Style Sheets" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="ContentQueryMain.xsl" />
+			<Property Name="MetaInfo" Value="2;#" />
+			<Property Name="Order" Value="200.000000000000" />
+		</File>
+		<File Url="Header.xsl" Type="GhostableInLibrary" Path="Header.xsl">
+			<Property Name="ID" Value="4" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/XSL Style Sheets" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Header.xsl" />
+			<Property Name="MetaInfo" Value="4;#" />
+			<Property Name="Order" Value="400.000000000000" />
+		</File>
+		<File Url="ItemStyle.xsl" Type="GhostableInLibrary" Path="ItemStyle.xsl">
+			<Property Name="ID" Value="5" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/XSL Style Sheets" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="ItemStyle.xsl" />
+			<Property Name="MetaInfo" Value="5;#" />
+			<Property Name="Order" Value="500.000000000000" />
+		</File>
+		<File Url="LevelStyle.xsl" Type="GhostableInLibrary" Path="LevelStyle.xsl">
+			<Property Name="ID" Value="7" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/XSL Style Sheets" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="LevelStyle.xsl" />
+			<Property Name="MetaInfo" Value="7;#" />
+			<Property Name="Order" Value="700.000000000000" />
+		</File>
+		<File Url="Rss.xsl" Type="GhostableInLibrary" Path="Rss.xsl">
+			<Property Name="ID" Value="8" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/XSL Style Sheets" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Rss.xsl" />
+			<Property Name="MetaInfo" Value="8;#" />
+			<Property Name="Order" Value="800.000000000000" />
+		</File>
+		<File Url="SummaryLinkMain.xsl" Type="GhostableInLibrary" Path="SummaryLinkMain.xsl">
+			<Property Name="ID" Value="3" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/XSL Style Sheets" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="SummaryLinkMain.xsl" />
+			<Property Name="MetaInfo" Value="3;#" />
+			<Property Name="Order" Value="300.000000000000" />
+		</File>
+		<File Url="TableOfContentsMain.xsl" Type="GhostableInLibrary" Path="TableOfContentsMain.xsl">
+			<Property Name="ID" Value="6" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/XSL Style Sheets" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="TableOfContentsMain.xsl" />
+			<Property Name="MetaInfo" Value="6;#" />
+			<Property Name="Order" Value="600.000000000000" />
+		</File>
+	</Module>
+</Elements>

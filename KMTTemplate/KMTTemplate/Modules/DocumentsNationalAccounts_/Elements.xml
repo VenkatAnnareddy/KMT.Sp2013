@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="DocumentsNationalAccounts_" HyperlinkBaseUrl="http://devshpt02:44444" Url="Documents/NationalAccounts" RootWebOnly="FALSE" Path="Files\Documents\NationalAccounts" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="SLAs.html" Type="GhostableInLibrary" Path="SLAs.html">
+			<Property Name="ContentTypeId" Value="0x010100F50BB2863D1B4E46987D570D42A4B628" />
+			<Property Name="FileLeafRef" Value="SLAs.html" />
+			<Property Name="Title" Value="National Accounts - Service Level Agreements" />
+			<Property Name="ID" Value="14" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Documents/NationalAccounts" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="14;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_lmt:SW|Tue, 11 Jun 2013 12:50:53 GMT&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_contenttag:SW|{6B86B722-BBC7-4895-B450-120F533B8FA0},3,2&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_backlinkinfo:VX|Documents/NationalAccounts/SLAs.html Documents/NationalAccounts/SLAs.html Documents/NationalAccounts/SLAs.html Documents/NationalAccounts/SLAs.html Documents/NationalAccounts/SLAs.html Documents/NationalAccounts/SLAs.html Documents/NationalAccounts/SLAs.html Documents/NationalAccounts/SLAs.html Documents/NationalAccounts/SLAs.html Documents/NationalAccounts/SLAs.html Documents/NationalAccounts/SLAs.html Documents/NationalAccounts/SLAs.html Documents/NationalAccounts/SLAs.html Documents/NationalAccounts/SLAs.html&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_winfileattribs:SW|00000000&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_cachedcustomprops:VX|vti_title&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_docstoreversion:IR|3&#xD;&#xA;vti_metainfoversion:IW|3&#xD;&#xA;ContentTypeId:SW|0x010100F50BB2863D1B4E46987D570D42A4B628&#xD;&#xA;vti_ct:SW|Tue, 11 Jun 2013 12:50:53 GMT&#xD;&#xA;vti_lat:SW|Thu, 13 Jun 2013 08:00:34 GMT&#xD;&#xA;vti_cachedtitle:SR|National Accounts - Service Level Agreements&#xD;&#xA;vti_title:SR|National Accounts - Service Level Agreements&#xD;&#xA;vti_sourcecontrolmultiuserchkoutby:VR|REPSRV\\\\udhatsu&#xD;&#xA;vti_linkinfo:VX|NQUS|Documents/NationalAccounts/JQuery/jquery-ui.css NSUS|Documents/NationalAccounts/JQuery/jquery-1.9.1.min.js NSUS|Documents/NationalAccounts/JQuery/jquery-ui.js FHUS|Documents/NationalAccounts/SLAs.html FHUS|Documents/NationalAccounts/SLAs.html FHUS|Documents/NationalAccounts/SLAs.html FHUS|Documents/NationalAccounts/SLAs.html FHUS|Documents/NationalAccounts/SLAs.html FHUS|Documents/NationalAccounts/SLAs.html FHUS|Documents/NationalAccounts/SLAs.html FHUS|Documents/NationalAccounts/SLAs.html FHUS|Documents/NationalAccounts/SLAs.html FHUS|Documents/NationalAccounts/SLAs.html FHUS|Documents/NationalAccounts/SLAs.html FHUS|Documents/NationalAccounts/SLAs.html FHUS|Documents/NationalAccounts/SLAs.html FHUS|Documents/NationalAccounts/SLAs.html&#xD;&#xA;vti_cachedbodystyle:SR|&lt;body&gt;&#xD;&#xA;" />
+			<Property Name="Order" Value="1400.00000000000" />
+		</File>
+	</Module>
+</Elements>

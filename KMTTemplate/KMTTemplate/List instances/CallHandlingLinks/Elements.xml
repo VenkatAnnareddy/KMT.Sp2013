@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance FeatureId="{00bfea71-2062-426c-90bf-714c59600103}" TemplateType="103" Title="CallHandlingLinks" Description="CallHandlingLinks" Url="Lists/CallHandlingLinks" CustomSchema="Files\Lists\CallHandlingLinks\Schema.xml" HyperlinkBaseUrl="http://devshpt02:44444" RootWebOnly="FALSE" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<Data>
+			<Rows>
+				<Row>
+					<Field Name="ContentTypeId">0x010500450ED17AA6A7BF468E97203016E45E23</Field>
+					<Field Name="URL">http://devshpt02:44444/Documents/CommercialBilling.aspx, Billing</Field>
+					<Field Name="Category">Commercial</Field>
+					<Field Name="ID">1</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">100.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">1_.000</Field>
+					<Field Name="MetaInfo">1;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x010500450ED17AA6A7BF468E97203016E45E23</Field>
+					<Field Name="URL">http://devshpt02:44444/Documents/CommercialGeneral.aspx, General</Field>
+					<Field Name="Category">Commercial</Field>
+					<Field Name="ID">2</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">200.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">2_.000</Field>
+					<Field Name="MetaInfo">2;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x010500450ED17AA6A7BF468E97203016E45E23</Field>
+					<Field Name="URL">http://devshpt02:44444/Documents/CommercialSales.aspx, Sales</Field>
+					<Field Name="Category">Commercial</Field>
+					<Field Name="ID">3</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">300.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">3_.000</Field>
+					<Field Name="MetaInfo">3;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x010500450ED17AA6A7BF468E97203016E45E23</Field>
+					<Field Name="URL">http://devshpt02:44444/Documents/ResidentialBilling.aspx, Billing</Field>
+					<Field Name="Category">Residential</Field>
+					<Field Name="ID">4</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">400.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">4_.000</Field>
+					<Field Name="MetaInfo">4;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x010500450ED17AA6A7BF468E97203016E45E23</Field>
+					<Field Name="URL">http://devshpt02:44444/Documents/ResidentialGeneral.aspx, General</Field>
+					<Field Name="Category">Residential</Field>
+					<Field Name="ID">5</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">500.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">5_.000</Field>
+					<Field Name="MetaInfo">5;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x010500450ED17AA6A7BF468E97203016E45E23</Field>
+					<Field Name="URL">http://devshpt02:44444/documents/ResidentialSales.aspx, Sales</Field>
+					<Field Name="Category">Residential</Field>
+					<Field Name="ID">6</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">600.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">6_.000</Field>
+					<Field Name="MetaInfo">6;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x010500450ED17AA6A7BF468E97203016E45E23</Field>
+					<Field Name="URL">http://devshpt02:44444/Documents/naslas.aspx, Service Level Agreements</Field>
+					<Field Name="Category">National Accounts</Field>
+					<Field Name="ID">7</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">700.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">7_.000</Field>
+					<Field Name="MetaInfo">7;#</Field>
+				</Row>
+			</Rows>
+		</Data>
+	</ListInstance>
+</Elements>

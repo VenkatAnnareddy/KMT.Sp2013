@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="_catalogsmasterpage_Features\PublishingResources" HyperlinkBaseUrl="http://devshpt02:44444" Url="_catalogs/masterpage" SetupPath="Features\PublishingResources" RootWebOnly="FALSE" Path="Files\_catalogs\masterpage" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="PageLayoutTemplate.aspx" Type="GhostableInLibrary" Path="PageLayoutTemplate.aspx">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="PageLayoutTemplate.aspx" />
+			<Property Name="UIVersion" Value="4" />
+			<Property Name="PublishingHidden" Value="TRUE" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="23" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="23;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;ContentType:SR|Page Layout&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;ContentTypeId:SW|0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_setuppath:SR|Features\\PublishingResources\\PageLayoutTemplate.aspx&#xD;&#xA;PublishingHidden:SR|true&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;" />
+			<Property Name="Order" Value="2300.00000000000" />
+		</File>
+		<File Url="WelcomeLinks.aspx" Type="GhostableInLibrary" Path="WelcomeLinks.aspx">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="WelcomeLinks.aspx" />
+			<Property Name="MasterPageDescription" Value="The welcome page with summary links contains an image field on left, a rich text field, 2 summary links, and Web Part zones arranged in a header, a footer, and 2 columns." />
+			<Property Name="UIVersion" Value="4" />
+			<Property Name="Title" Value="Summary links" />
+			<Property Name="PublishingPreviewImage" Value="http://devshpt02:44444/_catalogs/masterpage/en-US/Preview%20Images/WelcomeLinks.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/WelcomeLinks.png" />
+			<Property Name="PublishingAssociatedContentType" Value="Welcome Page, 0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="24" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="24;#vti_encoding:SR|utf8-nl&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;PublishingPreviewImage:SW|/_catalogs/masterpage/en-US/Preview%20Images/WelcomeLinks.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/WelcomeLinks.png&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_title:SR|Summary links&#xD;&#xA;MasterPageDescription:SR|The welcome page with summary links contains an image field on left, a rich text field, 2 summary links, and Web Part zones arranged in a header, a footer, and 2 columns.&#xD;&#xA;ContentType:SR|Page Layout&#xD;&#xA;ContentTypeId:SW|0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C&#xD;&#xA;PublishingAssociatedContentType:SR|;#Welcome Page;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4;#&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_setuppath:SR|Features\\PublishingResources\\WelcomeLinks.aspx&#xD;&#xA;vti_cachedzones:VR|TopColumnZone LeftColumnZone RightColumnZone&#xD;&#xA;" />
+			<Property Name="Order" Value="2400.00000000000" />
+		</File>
+	</Module>
+</Elements>

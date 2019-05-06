@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="DivisionalDocuments_" HyperlinkBaseUrl="http://devshpt02:44444" Url="DivisionalDocuments" RootWebOnly="FALSE" Path="Files\DivisionalDocuments" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="Service Locator - InfoWebpart Tabs.xlsx" Type="GhostableInLibrary" Path="3ServiceLocator-InfoWebpartTabs.xlsx">
+			<Property Name="ContentTypeId" Value="0x0101008107C169C12797498B8C12157791AB19" />
+			<Property Name="FileLeafRef" Value="Service Locator - InfoWebpart Tabs.xlsx" />
+			<Property Name="DivisionNo" Value="101" />
+			<Property Name="DivisionName" Value="Div-101" />
+			<Property Name="SearchTags" Value="101; Div-101" />
+			<Property Name="Comments" Value="Div-101 Comments" />
+			<Property Name="DocumentType" Value="XL" />
+			<Property Name="_ModerationStatus" Value="3" />
+			<Property Name="CityOrEntity" Value="City1" />
+			<Property Name="Rank" Value="1.00000000000000" />
+			<Property Name="LOB" Value="Industrial" />
+			<Property Name="ID" Value="6" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="FileDirRef" Value="DivisionalDocuments" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="6;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_thumbnailexists:BW|false&#xD;&#xA;vti_lmt:SW|Fri, 18 Jan 2013 13:22:18 GMT&#xD;&#xA;vti_contenttag:SW|{010B38CE-3F2C-4920-9845-1C8B90FAB46D},4,6&#xD;&#xA;_Category:EW|&#xD;&#xA;vti_stickycachedpluggableparserprops:VX|Subject DocumentType OptionalText1 Keywords _Status SearchTags LOB CityOrEntity vti_title _Author _Category ContentType ContentTypeId DivisionNo DivisionName OptionalText2 _Comments Comments Rank&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_winfileattribs:SW|00000000&#xD;&#xA;vti_previewexists:BW|false&#xD;&#xA;DocumentType:SW|XL&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;_Status:EW|&#xD;&#xA;Keywords:EW|&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;CityOrEntity:SW|City1&#xD;&#xA;SearchTags:SW|101; Div-101&#xD;&#xA;vti_docstoreversion:IR|4&#xD;&#xA;vti_metainfoversion:IW|5&#xD;&#xA;ContentTypeId:SW|0x0101008107C169C12797498B8C12157791AB19&#xD;&#xA;vti_ct:SW|Fri, 18 Jan 2013 13:22:18 GMT&#xD;&#xA;vti_lat:SW|Wed, 12 Jun 2013 11:54:58 GMT&#xD;&#xA;vti_title:SW|&#xD;&#xA;_Author:SW|Delta - Udatha, Suresh&#xD;&#xA;ContentType:EW|&#xD;&#xA;DivisionNo:SW|101&#xD;&#xA;OptionalText2:EW|&#xD;&#xA;_Comments:EW|&#xD;&#xA;Rank:DW|1.00000000000000&#xD;&#xA;Comments:LW|Div-101 Comments&#xD;&#xA;Subject:EW|&#xD;&#xA;OptionalText1:EW|&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;LOB:SW|Industrial&#xD;&#xA;DivisionName:SW|Div-101&#xD;&#xA;" />
+			<Property Name="Order" Value="600.000000000000" />
+		</File>
+		<File Url="Service Locator - Unit Test Cases Document.xlsx" Type="GhostableInLibrary" Path="4ServiceLocator-UnitTestCasesDocument.xlsx">
+			<Property Name="ContentTypeId" Value="0x0101008107C169C12797498B8C12157791AB19" />
+			<Property Name="FileLeafRef" Value="Service Locator - Unit Test Cases Document.xlsx" />
+			<Property Name="Title" Value="PMM Test Log Template v2.0" />
+			<Property Name="DivisionNo" Value="102" />
+			<Property Name="DivisionName" Value="Div-102" />
+			<Property Name="SearchTags" Value="102; Div-102" />
+			<Property Name="Comments" Value="Test Comments for 102" />
+			<Property Name="DocumentType" Value="XL" />
+			<Property Name="_ModerationStatus" Value="3" />
+			<Property Name="CityOrEntity" Value="City1" />
+			<Property Name="Rank" Value="1.00000000000000" />
+			<Property Name="LOB" Value="Operational" />
+			<Property Name="ID" Value="4" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="FileDirRef" Value="DivisionalDocuments" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="4;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_thumbnailexists:BW|false&#xD;&#xA;vti_lmt:SW|Fri, 28 Dec 2012 15:26:14 GMT&#xD;&#xA;vti_contenttag:SW|{A8B8105F-5335-4144-9C5D-6FF9EC13B368},4,6&#xD;&#xA;_Category:EW|&#xD;&#xA;vti_stickycachedpluggableparserprops:VX|Subject OptionalText1 Keywords _Status SearchTags LOB CityOrEntity vti_title _Author _Category ContentType _NewReviewCycle ContentTypeId DivisionNo DivisionName OptionalText2 _Comments Project\\ Status Status Comments Rank DocumentType&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_winfileattribs:SW|00000000&#xD;&#xA;vti_previewexists:BW|false&#xD;&#xA;DocumentType:SW|XL&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;_Status:EW|&#xD;&#xA;Keywords:EW|&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;CityOrEntity:SW|City1&#xD;&#xA;SearchTags:SW|102; Div-102&#xD;&#xA;vti_docstoreversion:IR|4&#xD;&#xA;vti_metainfoversion:IW|5&#xD;&#xA;ContentTypeId:SW|0x0101008107C169C12797498B8C12157791AB19&#xD;&#xA;vti_ct:SW|Fri, 28 Dec 2012 15:26:14 GMT&#xD;&#xA;vti_lat:SW|Wed, 12 Jun 2013 11:54:49 GMT&#xD;&#xA;vti_title:SW|PMM Test Log Template v2.0&#xD;&#xA;_Author:SW|Delta - Udatha, Suresh&#xD;&#xA;ContentType:EW|&#xD;&#xA;_NewReviewCycle:SW|&#xD;&#xA;DivisionNo:SW|102&#xD;&#xA;OptionalText2:EW|&#xD;&#xA;Status:SW|Not Approved&#xD;&#xA;_Comments:EW|&#xD;&#xA;Rank:DW|1.00000000000000&#xD;&#xA;Comments:LW|Test Comments for 102&#xD;&#xA;Subject:SW|&lt;&lt;xxxx Project Name&gt;&gt;&#xD;&#xA;OptionalText1:EW|&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;LOB:SW|Operational&#xD;&#xA;DivisionName:SW|Div-102&#xD;&#xA;Project Status:SW|Active&#xD;&#xA;" />
+			<Property Name="Order" Value="400.000000000000" />
+		</File>
+		<File Url="Aadhaar enrolmentform.pdf" Type="GhostableInLibrary" Path="5Aadhaarenrolmentform.pdf">
+			<Property Name="ContentTypeId" Value="0x0101008107C169C12797498B8C12157791AB19" />
+			<Property Name="FileLeafRef" Value="Aadhaar enrolmentform.pdf" />
+			<Property Name="DivisionNo" Value="101" />
+			<Property Name="DivisionName" Value="Div-101" />
+			<Property Name="SearchTags" Value="101; Div-101" />
+			<Property Name="Comments" Value="Comments" />
+			<Property Name="DocumentType" Value="PDF" />
+			<Property Name="_ModerationStatus" Value="3" />
+			<Property Name="CityOrEntity" Value="City1" />
+			<Property Name="Rank" Value="1.00000000000000" />
+			<Property Name="LOB" Value="Residential" />
+			<Property Name="ID" Value="2" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="FileDirRef" Value="DivisionalDocuments" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="2;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_lmt:SW|Mon, 04 Feb 2013 09:27:02 GMT&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;LOB:SW|Residential&#xD;&#xA;vti_contenttag:SW|{FDD579FA-7509-4959-8770-BA2DF09F071A},4,2&#xD;&#xA;DivisionName:SW|Div-101&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_winfileattribs:SW|00000000&#xD;&#xA;DocumentType:SW|PDF&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;CityOrEntity:SW|City1&#xD;&#xA;SearchTags:SW|101; Div-101&#xD;&#xA;vti_docstoreversion:IR|4&#xD;&#xA;vti_metainfoversion:IW|5&#xD;&#xA;ContentTypeId:SW|0x0101008107C169C12797498B8C12157791AB19&#xD;&#xA;vti_ct:SW|Mon, 04 Feb 2013 09:27:02 GMT&#xD;&#xA;vti_lat:SW|Wed, 12 Jun 2013 11:54:43 GMT&#xD;&#xA;vti_title:SW|&#xD;&#xA;DivisionNo:SW|101&#xD;&#xA;OptionalText2:SW|&#xD;&#xA;Rank:DW|1.00000000000000&#xD;&#xA;Comments:SW|Comments&#xD;&#xA;OptionalText1:SW|&#xD;&#xA;" />
+			<Property Name="Order" Value="200.000000000000" />
+		</File>
+		<File Url="Form19.pdf" Type="GhostableInLibrary" Path="Form19.pdf">
+			<Property Name="ContentTypeId" Value="0x0101008107C169C12797498B8C12157791AB19" />
+			<Property Name="FileLeafRef" Value="Form19.pdf" />
+			<Property Name="DivisionNo" Value="102" />
+			<Property Name="DivisionName" Value="Div-102" />
+			<Property Name="SearchTags" Value="102;Div-102" />
+			<Property Name="Comments" Value="Comments again" />
+			<Property Name="DocumentType" Value="PDF" />
+			<Property Name="_ModerationStatus" Value="3" />
+			<Property Name="CityOrEntity" Value="City2" />
+			<Property Name="Rank" Value="1.00000000000000" />
+			<Property Name="LOB" Value="Commercial" />
+			<Property Name="ID" Value="3" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="FileDirRef" Value="DivisionalDocuments" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="3;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_lmt:SW|Mon, 18 Feb 2013 13:36:58 GMT&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;LOB:SW|Commercial&#xD;&#xA;vti_contenttag:SW|{74E50D68-9C64-4B5C-BACF-1792B6A0E553},4,2&#xD;&#xA;DivisionName:SW|Div-102&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_winfileattribs:SW|00000000&#xD;&#xA;DocumentType:SW|PDF&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;CityOrEntity:SW|City2&#xD;&#xA;SearchTags:SW|102;Div-102&#xD;&#xA;vti_docstoreversion:IR|4&#xD;&#xA;vti_metainfoversion:IW|5&#xD;&#xA;ContentTypeId:SW|0x0101008107C169C12797498B8C12157791AB19&#xD;&#xA;vti_ct:SW|Mon, 18 Feb 2013 13:36:58 GMT&#xD;&#xA;vti_lat:SW|Wed, 12 Jun 2013 11:54:47 GMT&#xD;&#xA;vti_title:SW|&#xD;&#xA;DivisionNo:SW|102&#xD;&#xA;OptionalText2:SW|&#xD;&#xA;Rank:DW|1.00000000000000&#xD;&#xA;Comments:SW|Comments again&#xD;&#xA;OptionalText1:SW|&#xD;&#xA;" />
+			<Property Name="Order" Value="300.000000000000" />
+		</File>
+		<File Url="Intranet_Sites.xlsx" Type="GhostableInLibrary" Path="Intranet_Sites.xlsx">
+			<Property Name="ContentTypeId" Value="0x0101008107C169C12797498B8C12157791AB19" />
+			<Property Name="FileLeafRef" Value="Intranet_Sites.xlsx" />
+			<Property Name="DivisionNo" Value="101" />
+			<Property Name="DivisionName" Value="Div-101" />
+			<Property Name="SearchTags" Value="101; Div-101" />
+			<Property Name="Comments" Value="101 Comments" />
+			<Property Name="DocumentType" Value="XL" />
+			<Property Name="_ModerationStatus" Value="3" />
+			<Property Name="CityOrEntity" Value="City1" />
+			<Property Name="Rank" Value="1.00000000000000" />
+			<Property Name="LOB" Value="Commercial" />
+			<Property Name="ID" Value="5" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="FileDirRef" Value="DivisionalDocuments" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="5;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_thumbnailexists:BW|false&#xD;&#xA;vti_lmt:SW|Fri, 15 Mar 2013 06:07:25 GMT&#xD;&#xA;vti_contenttag:SW|{429239A3-E857-4F3F-8F18-DEB49D61C0CF},4,6&#xD;&#xA;_Category:EW|&#xD;&#xA;vti_stickycachedpluggableparserprops:VX|Subject DocumentType OptionalText1 Keywords _Status SearchTags LOB CityOrEntity vti_title _Author _Category ContentType ContentTypeId DivisionNo DivisionName OptionalText2 _Comments Comments Rank&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_winfileattribs:SW|00000000&#xD;&#xA;vti_previewexists:BW|false&#xD;&#xA;DocumentType:SW|XL&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;_Status:EW|&#xD;&#xA;Keywords:EW|&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;CityOrEntity:SW|City1&#xD;&#xA;SearchTags:SW|101; Div-101&#xD;&#xA;vti_docstoreversion:IR|4&#xD;&#xA;vti_metainfoversion:IW|5&#xD;&#xA;ContentTypeId:SW|0x0101008107C169C12797498B8C12157791AB19&#xD;&#xA;vti_ct:SW|Fri, 15 Mar 2013 06:07:25 GMT&#xD;&#xA;vti_lat:SW|Wed, 12 Jun 2013 11:54:56 GMT&#xD;&#xA;vti_title:SW|&#xD;&#xA;_Author:SW|Shaik, Shakir&#xD;&#xA;ContentType:EW|&#xD;&#xA;DivisionNo:SW|101&#xD;&#xA;OptionalText2:EW|&#xD;&#xA;_Comments:EW|&#xD;&#xA;Rank:DW|1.00000000000000&#xD;&#xA;Comments:LW|101 Comments&#xD;&#xA;Subject:EW|&#xD;&#xA;OptionalText1:EW|&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;LOB:SW|Commercial&#xD;&#xA;DivisionName:SW|Div-101&#xD;&#xA;" />
+			<Property Name="Order" Value="500.000000000000" />
+		</File>
+		<File Url="ServiceLocatorTaskList_12172012.xlsx" Type="GhostableInLibrary" Path="ServiceLocatorTaskList_12172012.xlsx">
+			<Property Name="ContentTypeId" Value="0x0101008107C169C12797498B8C12157791AB19" />
+			<Property Name="FileLeafRef" Value="ServiceLocatorTaskList_12172012.xlsx" />
+			<Property Name="DivisionNo" Value="102" />
+			<Property Name="DivisionName" Value="Div-102" />
+			<Property Name="SearchTags" Value="102; Div-102" />
+			<Property Name="Comments" Value="Search Comments for Div-102" />
+			<Property Name="DocumentType" Value="XL" />
+			<Property Name="_ModerationStatus" Value="3" />
+			<Property Name="CityOrEntity" Value="City2" />
+			<Property Name="Rank" Value="1.00000000000000" />
+			<Property Name="LOB" Value="Operational" />
+			<Property Name="ID" Value="1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="FileDirRef" Value="DivisionalDocuments" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="1;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_thumbnailexists:BW|false&#xD;&#xA;vti_lmt:SW|Mon, 24 Dec 2012 07:18:59 GMT&#xD;&#xA;_CheckOutSrcUrl:SW|http://itpmo-2012projects/Web Enhancements  CR AAAF/Release Month/Business Services Locator Enhancements/2.2 Project Management and Control/ServiceLocatorTaskList_12172012.xlsx&#xD;&#xA;vti_contenttag:SW|{2493ED84-B2E1-4301-A79E-FF96D44BAE0F},5,6&#xD;&#xA;_Category:EW|&#xD;&#xA;vti_stickycachedpluggableparserprops:VX|Subject DocumentType OptionalText1 Keywords _Status _CheckOutSrcUrl SearchTags LOB CityOrEntity vti_title _Author _Category ContentType ContentTypeId DivisionNo DivisionName OptionalText2 _Comments Comments Rank&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_winfileattribs:SW|00000000&#xD;&#xA;vti_previewexists:BW|false&#xD;&#xA;DocumentType:SW|XL&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;_Status:EW|&#xD;&#xA;Keywords:EW|&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;CityOrEntity:SW|City2&#xD;&#xA;SearchTags:SW|102; Div-102&#xD;&#xA;vti_docstoreversion:IR|5&#xD;&#xA;vti_metainfoversion:IW|6&#xD;&#xA;ContentTypeId:SW|0x0101008107C169C12797498B8C12157791AB19&#xD;&#xA;vti_ct:SW|Mon, 24 Dec 2012 07:18:59 GMT&#xD;&#xA;vti_lat:SW|Wed, 12 Jun 2013 11:54:40 GMT&#xD;&#xA;vti_title:SW|&#xD;&#xA;_Author:SW|Narayan, Rupa&#xD;&#xA;ContentType:EW|&#xD;&#xA;DivisionNo:SW|102&#xD;&#xA;OptionalText2:EW|&#xD;&#xA;_Comments:EW|&#xD;&#xA;Rank:DW|1.00000000000000&#xD;&#xA;Comments:LW|Search Comments for Div-102&#xD;&#xA;Subject:EW|&#xD;&#xA;OptionalText1:EW|&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;LOB:SW|Operational&#xD;&#xA;DivisionName:SW|Div-102&#xD;&#xA;" />
+			<Property Name="Order" Value="100.000000000000" />
+		</File>
+	</Module>
+</Elements>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Files\Documents\JQuery\jquery-1.9.1.min.js" Target="Files\Documents\JQuery\" Type="ElementFile" />
+    <ProjectItemFile Source="Files\Documents\JQuery\jquery-ui.css" Target="Files\Documents\JQuery\" Type="ElementFile" />
+    <ProjectItemFile Source="Files\Documents\JQuery\jquery-ui.js" Target="Files\Documents\JQuery\" Type="ElementFile" />
+    <ProjectItemFile Source="Elements.xml" Target="DocumentsJQuery_\" Type="ElementManifest" />
+  </Files>
+</ProjectItem>

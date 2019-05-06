@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance FeatureId="{00bfea71-de22-43b2-a848-c05709900100}" TemplateType="100" Title="Cache Profiles" Description="This system list was created by the Publishing Resources feature to store profiles for configuring caching in your site." Url="Cache Profiles" CustomSchema="Files\Cache Profiles\Schema.xml" HyperlinkBaseUrl="http://devshpt02:44444" RootWebOnly="FALSE" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<Data>
+			<Rows>
+				<Row>
+					<Field Name="ContentTypeId">0x010087D89D279834C94E98E5E1B4A913C67E0043EDE487F45FFD4C99BBA9F556489EB2</Field>
+					<Field Name="Title">Disabled</Field>
+					<Field Name="PublishingCacheDisplayDescriptio">Caching is not enabled</Field>
+					<Field Name="PublishingCacheEnabled">false</Field>
+					<Field Name="PublishingCacheability">Private</Field>
+					<Field Name="PublishingAuthenticatedUse">TRUE</Field>
+					<Field Name="ID">1</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">100.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">1_.000</Field>
+					<Field Name="MetaInfo">1;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x010087D89D279834C94E98E5E1B4A913C67E0043EDE487F45FFD4C99BBA9F556489EB2</Field>
+					<Field Name="Title">Public Internet (Purely Anonymous)</Field>
+					<Field Name="PublishingCacheDisplayDescriptio">Optimized for public Internet facing sites or areas that are meant to serve the same content to all users.  No authentication check is done and any user requesting a page recieves the same page as any other user.</Field>
+					<Field Name="PublishingCachePerformACLCheck">false</Field>
+					<Field Name="PublishingCacheEnabled">TRUE</Field>
+					<Field Name="PublishingCacheDuration">180.000000000000</Field>
+					<Field Name="PublishingCacheCheckForChanges">false</Field>
+					<Field Name="PublishingVaryByCustom">Browser</Field>
+					<Field Name="PublishingCacheability">ServerAndPrivate</Field>
+					<Field Name="PublishingAuthenticatedUse">false</Field>
+					<Field Name="ID">2</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">200.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">2_.000</Field>
+					<Field Name="MetaInfo">2;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x010087D89D279834C94E98E5E1B4A913C67E0043EDE487F45FFD4C99BBA9F556489EB2</Field>
+					<Field Name="Title">Extranet (Published Site)</Field>
+					<Field Name="PublishingCacheDisplayDescriptio">Optimized for public extranet site with the following characteristics: authoring does not take place on the tier; only major versions of pages are deployed to the tier; and users can not customize web parts on a page in the tier.</Field>
+					<Field Name="PublishingCachePerformACLCheck">TRUE</Field>
+					<Field Name="PublishingCacheEnabled">TRUE</Field>
+					<Field Name="PublishingCacheDuration">180.000000000000</Field>
+					<Field Name="PublishingCacheCheckForChanges">false</Field>
+					<Field Name="PublishingVaryByCustom">Browser</Field>
+					<Field Name="PublishingVaryByRights">TRUE</Field>
+					<Field Name="PublishingCacheability">ServerAndPrivate</Field>
+					<Field Name="PublishingAuthenticatedUse">TRUE</Field>
+					<Field Name="ID">3</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">300.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">3_.000</Field>
+					<Field Name="MetaInfo">3;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x010087D89D279834C94E98E5E1B4A913C67E0043EDE487F45FFD4C99BBA9F556489EB2</Field>
+					<Field Name="Title">Intranet (Collaboration Site)</Field>
+					<Field Name="PublishingCacheDisplayDescriptio">Optimized for collaboration sites where authoring, web part cusomization, and minor version are enabled.</Field>
+					<Field Name="PublishingCachePerformACLCheck">TRUE</Field>
+					<Field Name="PublishingCacheEnabled">TRUE</Field>
+					<Field Name="PublishingCacheDuration">180.000000000000</Field>
+					<Field Name="PublishingCacheCheckForChanges">TRUE</Field>
+					<Field Name="PublishingVaryByCustom">Browser</Field>
+					<Field Name="PublishingVaryByRights">TRUE</Field>
+					<Field Name="PublishingCacheability">ServerAndPrivate</Field>
+					<Field Name="PublishingAuthenticatedUse">TRUE</Field>
+					<Field Name="ID">4</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">400.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">4_.000</Field>
+					<Field Name="MetaInfo">4;#</Field>
+				</Row>
+			</Rows>
+		</Data>
+	</ListInstance>
+</Elements>

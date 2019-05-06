@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance FeatureId="{00bfea71-d1ce-42de-9c63-a44004ce0104}" TemplateType="104" Title="Announcements" Description="Announcements" Url="Lists/Announcements" CustomSchema="Files\Lists\Announcements\Schema.xml" HyperlinkBaseUrl="http://devshpt02:44444" RootWebOnly="FALSE" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<Data>
+			<Rows>
+				<Row>
+					<Field Name="ContentTypeId">0x010400CFBAED2C4BE506498E1B9D5435A2D816</Field>
+					<Field Name="Title">Get Started with Microsoft SharePoint Foundation!</Field>
+					<Field Name="Body">&lt;div class="ExternalClassF9666A0218A144A7AF24778D83507B80"&gt;Microsoft SharePoint Foundation helps you to be more effective by connecting people, information, and documents. For information on getting started, see Help.&lt;/div&gt;</Field>
+					<Field Name="Expires">2013-07-06T07:00:00Z</Field>
+					<Field Name="Category">DailyUpdates</Field>
+					<Field Name="ID">1</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">100.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">1_.000</Field>
+					<Field Name="MetaInfo">1;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x010400CFBAED2C4BE506498E1B9D5435A2D816</Field>
+					<Field Name="Title">Daily Updates Test</Field>
+					<Field Name="Body">&lt;div class="ExternalClass5D3B53F56039458C8A4E9A9435BD31E2"&gt;&lt;div&gt;&lt;div&gt;Daily Updates Test​ Daily Updates Test​ Daily Updates Test​ Daily Updates Test​ Daily Updates Test​ Daily Updates Test​ Daily Updates Test​ Daily Updates Test​ Daily Updates Test​ Daily Updates Test​ Daily Updates Test​ Daily Updates Test​ Daily Updates Test​ Daily Updates Test​ Daily Updates Test​ Daily Updates Test​ Daily Updates Test​ Daily Updates Test​ Daily Updates Test​ Daily Updates Test&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;</Field>
+					<Field Name="Expires">2013-05-24T07:00:00Z</Field>
+					<Field Name="Category">DailyUpdates</Field>
+					<Field Name="ID">8</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">800.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">8_.000</Field>
+					<Field Name="MetaInfo">8;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x010400CFBAED2C4BE506498E1B9D5435A2D816</Field>
+					<Field Name="Title">Staff Absenses</Field>
+					<Field Name="Body">&lt;div class="ExternalClassC13738526FC245E18269EAA5DCAA725B"&gt;&lt;p&gt;Staff Absenses ​Staff AbsensesStaff AbsensesStaff AbsensesStaff AbsensesStaff AbsensesStaff AbsensesStaff AbsensesStaff AbsensesStaff AbsensesStaff AbsensesStaff AbsensesStaff AbsensesStaff AbsensesStaff AbsensesStaff AbsensesStaff AbsensesStaff AbsensesStaff AbsensesStaff Absenses&lt;/p&gt;&lt;/div&gt;</Field>
+					<Field Name="Expires">2013-06-30T07:00:00Z</Field>
+					<Field Name="Category">StaffAbsenses</Field>
+					<Field Name="ID">9</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">900.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">9_.000</Field>
+					<Field Name="MetaInfo">9;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x010400CFBAED2C4BE506498E1B9D5435A2D816</Field>
+					<Field Name="Title">Daily Hot Topics</Field>
+					<Field Name="Body">&lt;div class="ExternalClass71161FA010374AA1A95C9CA7DFC2080E"&gt;&lt;div class="ExternalClassF161186618B146E8A315308EBF1E4274" style="color:blue"&gt;&lt;p&gt;Daily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot TopicsDaily Hot Topics​&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</Field>
+					<Field Name="Expires">2013-06-24T07:00:00Z</Field>
+					<Field Name="Category">DailyHotTopics</Field>
+					<Field Name="ID">10</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">1000.00000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">10_.000</Field>
+					<Field Name="MetaInfo">10;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x010400CFBAED2C4BE506498E1B9D5435A2D816</Field>
+					<Field Name="Title">RSI Updates</Field>
+					<Field Name="Expires">2013-06-30T07:00:00Z</Field>
+					<Field Name="Category">StaffAbsenses</Field>
+					<Field Name="ID">11</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">1100.00000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">11_.000</Field>
+					<Field Name="MetaInfo">11;#</Field>
+				</Row>
+			</Rows>
+		</Data>
+	</ListInstance>
+</Elements>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance FeatureId="{00bfea71-e717-4e80-aa17-d0c71b360101}" TemplateType="101" Title="Style Library" Description="Use the style library to store style sheets, such as CSS or XSL files. The style sheets in this gallery can be used by this site or any of its subsites." Url="Style Library" CustomSchema="Files\Style Library\Schema.xml" HyperlinkBaseUrl="http://devshpt02:44444" RootWebOnly="TRUE" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<Data>
+			<Rows>
+				<Row>
+					<Field Name="ID">1</Field>
+					<Field Name="ContentTypeId">0x012000E4577A743B757F4CB942CE77AA414190</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="FSObjType">1</Field>
+					<Field Name="FileLeafRef">XSL Style Sheets</Field>
+					<Field Name="MetaInfo">1;#</Field>
+					<Field Name="Order">100.000000000000</Field>
+				</Row>
+				<Row>
+					<Field Name="ID">9</Field>
+					<Field Name="ContentTypeId">0x012000E4577A743B757F4CB942CE77AA414190</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="FSObjType">1</Field>
+					<Field Name="FileLeafRef">en-us</Field>
+					<Field Name="MetaInfo">9;#</Field>
+					<Field Name="Order">900.000000000000</Field>
+				</Row>
+				<Row>
+					<Field Name="ID">11</Field>
+					<Field Name="ContentTypeId">0x012000E4577A743B757F4CB942CE77AA414190</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="FileDirRef">en-us</Field>
+					<Field Name="FSObjType">1</Field>
+					<Field Name="FileLeafRef">Core Styles</Field>
+					<Field Name="MetaInfo">11;#</Field>
+					<Field Name="Order">1100.00000000000</Field>
+				</Row>
+				<Row>
+					<Field Name="ID">13</Field>
+					<Field Name="ContentTypeId">0x012000E4577A743B757F4CB942CE77AA414190</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="FSObjType">1</Field>
+					<Field Name="FileLeafRef">Media Player</Field>
+					<Field Name="MetaInfo">13;#</Field>
+					<Field Name="Order">1300.00000000000</Field>
+				</Row>
+				<Row>
+					<Field Name="ID">21</Field>
+					<Field Name="ContentTypeId">0x012000E4577A743B757F4CB942CE77AA414190</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="FSObjType">1</Field>
+					<Field Name="FileLeafRef">Images</Field>
+					<Field Name="MetaInfo">21;#</Field>
+					<Field Name="Order">2100.00000000000</Field>
+				</Row>
+				<Row>
+					<Field Name="ID">32</Field>
+					<Field Name="ContentTypeId">0x012000E4577A743B757F4CB942CE77AA414190</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="FileDirRef">en-us</Field>
+					<Field Name="FSObjType">1</Field>
+					<Field Name="FileLeafRef">Themable</Field>
+					<Field Name="MetaInfo">32;#</Field>
+					<Field Name="Order">3200.00000000000</Field>
+				</Row>
+				<Row>
+					<Field Name="ID">33</Field>
+					<Field Name="ContentTypeId">0x012000E4577A743B757F4CB942CE77AA414190</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="FileDirRef">en-us/Themable</Field>
+					<Field Name="FSObjType">1</Field>
+					<Field Name="FileLeafRef">Core Styles</Field>
+					<Field Name="MetaInfo">33;#</Field>
+					<Field Name="Order">3300.00000000000</Field>
+				</Row>
+			</Rows>
+		</Data>
+	</ListInstance>
+</Elements>

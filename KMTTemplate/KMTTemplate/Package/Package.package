@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="682226ff-d4db-43af-8e4f-044203ab4871" solutionId="cc992176-f8f4-42d2-80bc-f99f8b4d10ec" resetWebServer="false" name="KMTTemplate" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="6f1b71fc-73dc-4ac5-af81-4095c6ef05ac" />
+    <featureReference itemId="0fdb7455-82d8-4ca2-abef-e3e806e0c643" />
+    <featureReference itemId="83b5eaae-2525-44aa-82b9-976e89021e70" />
+    <featureReference itemId="7cb0c54c-55d6-44bc-b7a2-05e7027d9699" />
+  </features>
+</package>

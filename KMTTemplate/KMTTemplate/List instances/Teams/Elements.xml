@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance FeatureId="{00bfea71-de22-43b2-a848-c05709900100}" TemplateType="100" Title="Teams" Description="" Url="Lists/Teams" CustomSchema="Files\Lists\Teams\Schema.xml" HyperlinkBaseUrl="http://devshpt02:44444" RootWebOnly="FALSE" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<Data>
+			<Rows>
+				<Row>
+					<Field Name="ContentTypeId">0x01005856AC644433F841B05284F968F45544</Field>
+					<Field Name="Title">Team1</Field>
+					<Field Name="TeamName">Team1</Field>
+					<Field Name="ID">1</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">100.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">1_.000</Field>
+					<Field Name="MetaInfo">1;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x01005856AC644433F841B05284F968F45544</Field>
+					<Field Name="Title">Team2</Field>
+					<Field Name="TeamName">Team2</Field>
+					<Field Name="ID">2</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">200.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">2_.000</Field>
+					<Field Name="MetaInfo">2;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x01005856AC644433F841B05284F968F45544</Field>
+					<Field Name="Title">Team3</Field>
+					<Field Name="TeamName">Team3</Field>
+					<Field Name="ID">3</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">300.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">3_.000</Field>
+					<Field Name="MetaInfo">3;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x01005856AC644433F841B05284F968F45544</Field>
+					<Field Name="Title">Team4</Field>
+					<Field Name="TeamName">Team4</Field>
+					<Field Name="ID">4</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">400.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">4_.000</Field>
+					<Field Name="MetaInfo">4;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x01005856AC644433F841B05284F968F45544</Field>
+					<Field Name="Title">Team5</Field>
+					<Field Name="TeamName">Team5</Field>
+					<Field Name="ID">5</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">500.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">5_.000</Field>
+					<Field Name="MetaInfo">5;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x01005856AC644433F841B05284F968F45544</Field>
+					<Field Name="Title">Team6</Field>
+					<Field Name="TeamName">Team6</Field>
+					<Field Name="ID">6</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">600.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">6_.000</Field>
+					<Field Name="MetaInfo">6;#</Field>
+				</Row>
+			</Rows>
+		</Data>
+	</ListInstance>
+</Elements>

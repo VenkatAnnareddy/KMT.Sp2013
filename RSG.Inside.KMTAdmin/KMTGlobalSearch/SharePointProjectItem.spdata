@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="KMTGlobalSearchUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="KMTGlobalSearch\" Type="ElementManifest" />
+    <ProjectItemFile Source="KMTGlobalSearch.webpart" Target="KMTGlobalSearch\" Type="ElementFile" />
+    <ProjectItemFile Source="KMTGlobalSearchUserControl.ascx" Target="CONTROLTEMPLATES\RSG.Inside.KMTAdmin\KMTGlobalSearch\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="RSG.Inside.KMTAdmin.KMTGlobalSearch" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

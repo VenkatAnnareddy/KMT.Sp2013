@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="_catalogsmasterpage_Features\EnterpriseWikiLayouts\PageLayouts" HyperlinkBaseUrl="http://devshpt02:44444" Url="_catalogs/masterpage" SetupPath="Features\EnterpriseWikiLayouts\PageLayouts" RootWebOnly="FALSE" Path="Files\_catalogs\masterpage" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="EnterpriseWiki.aspx" Type="GhostableInLibrary" Path="EnterpriseWiki.aspx">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="EnterpriseWiki.aspx" />
+			<Property Name="MasterPageDescription" Value="A basic page layout containing a single content area." />
+			<Property Name="Title" Value="Basic Page" />
+			<Property Name="PublishingPreviewImage" Value="http://devshpt02:44444/_catalogs/masterpage/en-US/Preview%20Images/ArticleBodyOnly.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/ArticleBodyOnly.png" />
+			<Property Name="PublishingAssociatedContentType" Value="Enterprise Wiki Page, 0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF39004C1F8B46085B4d22B1CDC3DE08CFFB9C" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="75" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="75;#vti_encoding:SR|utf8-nl&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;PublishingPreviewImage:SW|/_catalogs/masterpage/en-US/Preview%20Images/ArticleBodyOnly.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/ArticleBodyOnly.png&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_title:SR|Basic Page&#xD;&#xA;MasterPageDescription:SR|A basic page layout containing a single content area.&#xD;&#xA;ContentType:SR|Page Layout&#xD;&#xA;ContentTypeId:SW|0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_setuppath:SR|Features\\EnterpriseWikiLayouts\\PageLayouts\\EnterpriseWiki.aspx&#xD;&#xA;PublishingAssociatedContentType:SR|;#Enterprise Wiki Page;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF39004C1F8B46085B4d22B1CDC3DE08CFFB9C;#&#xD;&#xA;" />
+			<Property Name="Order" Value="7500.00000000000" />
+		</File>
+		<File Url="ProjectPage.aspx" Type="GhostableInLibrary" Path="ProjectPage.aspx">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="ProjectPage.aspx" />
+			<Property Name="MasterPageDescription" Value="A basic page layout containing a single content area." />
+			<Property Name="Title" Value="Basic Project Page" />
+			<Property Name="PublishingPreviewImage" Value="http://devshpt02:44444/_catalogs/masterpage/en-US/Preview%20Images/ArticleLinks.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/ArticleLinks.png" />
+			<Property Name="PublishingAssociatedContentType" Value="Project Page, 0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF39004C1F8B46085B4d22B1CDC3DE08CFFB9C0055EF50AAFF2E4badA437E4BAE09A30F8" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="76" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="76;#vti_encoding:SR|utf8-nl&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;PublishingPreviewImage:SW|/_catalogs/masterpage/en-US/Preview%20Images/ArticleLinks.png, /sites/KMTNewBase/_catalogs/masterpage/en-US/Preview Images/ArticleLinks.png&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_title:SR|Basic Project Page&#xD;&#xA;MasterPageDescription:SR|A basic page layout containing a single content area.&#xD;&#xA;ContentType:SR|Page Layout&#xD;&#xA;ContentTypeId:SW|0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_setuppath:SR|Features\\EnterpriseWikiLayouts\\PageLayouts\\ProjectPage.aspx&#xD;&#xA;PublishingAssociatedContentType:SR|;#Project Page;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF39004C1F8B46085B4d22B1CDC3DE08CFFB9C0055EF50AAFF2E4badA437E4BAE09A30F8;#&#xD;&#xA;" />
+			<Property Name="Order" Value="7600.00000000000" />
+		</File>
+	</Module>
+</Elements>

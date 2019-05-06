@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="_catalogsmasterpagePreview Images_Features\PortalLayouts\Images" Url="_catalogs/masterpage/Preview Images" SetupPath="Features\PortalLayouts\Images" RootWebOnly="FALSE" Path="Files\_catalogs\masterpage\6PreviewImages" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="advancedsearch.gif" Type="GhostableInLibrary" Path="advancedsearch.gif">
+			<Property Name="ContentTypeId" Value="0x0101050073B05BC1B91F7449B50610204C2FF973" />
+			<Property Name="FileLeafRef" Value="advancedsearch.gif" />
+			<Property Name="UIVersion" Value="4" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="19" />
+			<Property Name="ContentType" Value="Master Page" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/Preview Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="19;#" />
+			<Property Name="Order" Value="1900.00000000000" />
+		</File>
+		<File Url="advancedsearch.png" Type="GhostableInLibrary" Path="advancedsearch.png">
+			<Property Name="ContentTypeId" Value="0x0101050073B05BC1B91F7449B50610204C2FF973" />
+			<Property Name="FileLeafRef" Value="advancedsearch.png" />
+			<Property Name="UIVersion" Value="4" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="15" />
+			<Property Name="ContentType" Value="Master Page" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/Preview Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="15;#" />
+			<Property Name="Order" Value="1500.00000000000" />
+		</File>
+		<File Url="peoplesearchpage.gif" Type="GhostableInLibrary" Path="peoplesearchpage.gif">
+			<Property Name="ContentTypeId" Value="0x0101050073B05BC1B91F7449B50610204C2FF973" />
+			<Property Name="FileLeafRef" Value="peoplesearchpage.gif" />
+			<Property Name="UIVersion" Value="4" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="20" />
+			<Property Name="ContentType" Value="Master Page" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/Preview Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="20;#" />
+			<Property Name="Order" Value="2000.00000000000" />
+		</File>
+		<File Url="peoplesearchpage.png" Type="GhostableInLibrary" Path="peoplesearchpage.png">
+			<Property Name="ContentTypeId" Value="0x0101050073B05BC1B91F7449B50610204C2FF973" />
+			<Property Name="FileLeafRef" Value="peoplesearchpage.png" />
+			<Property Name="UIVersion" Value="4" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="16" />
+			<Property Name="ContentType" Value="Master Page" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/Preview Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="16;#" />
+			<Property Name="Order" Value="1600.00000000000" />
+		</File>
+		<File Url="searchpage.gif" Type="GhostableInLibrary" Path="searchpage.gif">
+			<Property Name="ContentTypeId" Value="0x0101050073B05BC1B91F7449B50610204C2FF973" />
+			<Property Name="FileLeafRef" Value="searchpage.gif" />
+			<Property Name="UIVersion" Value="4" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="22" />
+			<Property Name="ContentType" Value="Master Page" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/Preview Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="22;#" />
+			<Property Name="Order" Value="2200.00000000000" />
+		</File>
+		<File Url="searchpage.png" Type="GhostableInLibrary" Path="searchpage.png">
+			<Property Name="ContentTypeId" Value="0x0101050073B05BC1B91F7449B50610204C2FF973" />
+			<Property Name="FileLeafRef" Value="searchpage.png" />
+			<Property Name="UIVersion" Value="4" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="18" />
+			<Property Name="ContentType" Value="Master Page" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/Preview Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="18;#" />
+			<Property Name="Order" Value="1800.00000000000" />
+		</File>
+		<File Url="searchresults.gif" Type="GhostableInLibrary" Path="searchresults.gif">
+			<Property Name="ContentTypeId" Value="0x0101050073B05BC1B91F7449B50610204C2FF973" />
+			<Property Name="FileLeafRef" Value="searchresults.gif" />
+			<Property Name="UIVersion" Value="4" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="21" />
+			<Property Name="ContentType" Value="Master Page" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/Preview Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="21;#" />
+			<Property Name="Order" Value="2100.00000000000" />
+		</File>
+		<File Url="searchresults.png" Type="GhostableInLibrary" Path="searchresults.png">
+			<Property Name="ContentTypeId" Value="0x0101050073B05BC1B91F7449B50610204C2FF973" />
+			<Property Name="FileLeafRef" Value="searchresults.png" />
+			<Property Name="UIVersion" Value="4" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="17" />
+			<Property Name="ContentType" Value="Master Page" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/Preview Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="17;#" />
+			<Property Name="Order" Value="1700.00000000000" />
+		</File>
+		<File Url="sitedir_layout.gif" Type="GhostableInLibrary" Path="sitedir_layout.gif">
+			<Property Name="ContentTypeId" Value="0x0101050073B05BC1B91F7449B50610204C2FF973" />
+			<Property Name="FileLeafRef" Value="sitedir_layout.gif" />
+			<Property Name="UIVersion" Value="4" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="14" />
+			<Property Name="ContentType" Value="Master Page" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/Preview Images" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="14;#" />
+			<Property Name="Order" Value="1400.00000000000" />
+		</File>
+	</Module>
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.VisualWebPart" DefaultFile="KMTAdmin_SCRequestUserControl.ascx" SupportedTrustLevels="FullTrust" SupportedDeploymentScopes="Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="KMTAdmin_SCRequest\" Type="ElementManifest" />
+    <ProjectItemFile Source="KMTAdmin_SCRequest.webpart" Target="KMTAdmin_SCRequest\" Type="ElementFile" />
+    <ProjectItemFile Source="KMTAdmin_SCRequestUserControl.ascx" Target="CONTROLTEMPLATES\RSG.Inside.KMTAdmin\KMTAdmin_SCRequest\" Type="TemplateFile" />
+  </Files>
+  <SafeControls>
+    <SafeControl Name="SafeControlEntry1" Assembly="$SharePoint.Project.AssemblyFullName$" Namespace="RSG.Inside.KMTAdmin.KMTAdmin_SCRequest" TypeName="*" IsSafe="true" IsSafeAgainstScript="false" />
+  </SafeControls>
+</ProjectItem>

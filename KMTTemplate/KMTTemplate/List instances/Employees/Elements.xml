@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance FeatureId="{00bfea71-de22-43b2-a848-c05709900100}" TemplateType="100" Title="Employees" Description="" Url="Lists/Employees" CustomSchema="Files\Lists\Employees\Schema.xml" HyperlinkBaseUrl="http://devshpt02:44444" RootWebOnly="FALSE" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<Data>
+			<Rows>
+				<Row>
+					<Field Name="ContentTypeId">0x0100F09771E2D31CAF4FBDD1EEF36B989A5A</Field>
+					<Field Name="Title">CS Associates</Field>
+					<Field Name="EmployeeNetworkID">user 1</Field>
+					<Field Name="Name">Thomas</Field>
+					<Field Name="Email_x0020_Personal">User1@republicservices.com</Field>
+					<Field Name="WorkPhoneNumber">876-125-1487</Field>
+					<Field Name="MobileNumber">9848275849.00000</Field>
+					<Field Name="DOJ">2013-03-05T07:00:00Z</Field>
+					<Field Name="DOB">2012-08-01T07:00:00Z</Field>
+					<Field Name="Personal_x0020_Interests">Games</Field>
+					<Field Name="ID">1</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">100.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">1_.000</Field>
+					<Field Name="MetaInfo">1;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0100F09771E2D31CAF4FBDD1EEF36B989A5A</Field>
+					<Field Name="Title">CS Specialists</Field>
+					<Field Name="EmployeeNetworkID">user2</Field>
+					<Field Name="Name">shakir</Field>
+					<Field Name="Email_x0020_Personal">user2@republicservices.com</Field>
+					<Field Name="WorkPhoneNumber">123-098-7458</Field>
+					<Field Name="MobileNumber">9798765530.00000</Field>
+					<Field Name="DOJ">2012-06-06T07:00:00Z</Field>
+					<Field Name="DOB">2011-05-04T07:00:00Z</Field>
+					<Field Name="Personal_x0020_Interests">Watching Movices</Field>
+					<Field Name="ID">2</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">200.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">2_.000</Field>
+					<Field Name="MetaInfo">2;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0100F09771E2D31CAF4FBDD1EEF36B989A5A</Field>
+					<Field Name="Title">CS Consultants</Field>
+					<Field Name="EmployeeNetworkID">user3</Field>
+					<Field Name="Name">Raj</Field>
+					<Field Name="Email_x0020_Personal">Raj@republicservices.com</Field>
+					<Field Name="WorkPhoneNumber">456-764-2378</Field>
+					<Field Name="MobileNumber">786789563.000000</Field>
+					<Field Name="DOJ">2012-08-15T07:00:00Z</Field>
+					<Field Name="DOB">2012-04-10T07:00:00Z</Field>
+					<Field Name="Personal_x0020_Interests">Reading Books</Field>
+					<Field Name="ID">3</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">300.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">3_.000</Field>
+					<Field Name="MetaInfo">3;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0100F09771E2D31CAF4FBDD1EEF36B989A5A</Field>
+					<Field Name="Title">National Accounts</Field>
+					<Field Name="EmployeeNetworkID">user4</Field>
+					<Field Name="Name">Suresh</Field>
+					<Field Name="Email_x0020_Personal">Suresh@republicservices.com</Field>
+					<Field Name="WorkPhoneNumber">550-430-7865</Field>
+					<Field Name="MobileNumber">4308884564.00000</Field>
+					<Field Name="DOJ">2011-12-06T07:00:00Z</Field>
+					<Field Name="DOB">2012-01-11T07:00:00Z</Field>
+					<Field Name="Personal_x0020_Interests">Games</Field>
+					<Field Name="ID">4</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">400.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">4_.000</Field>
+					<Field Name="MetaInfo">4;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0100F09771E2D31CAF4FBDD1EEF36B989A5A</Field>
+					<Field Name="Title">Support Team</Field>
+					<Field Name="EmployeeNetworkID">user5</Field>
+					<Field Name="Name">vijay</Field>
+					<Field Name="Email_x0020_Personal">vijay@republicservices.com</Field>
+					<Field Name="WorkPhoneNumber">134-987-9789</Field>
+					<Field Name="MobileNumber">7890987893.00000</Field>
+					<Field Name="DOJ">2013-02-05T07:00:00Z</Field>
+					<Field Name="DOB">2012-05-30T07:00:00Z</Field>
+					<Field Name="ID">5</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">500.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">5_.000</Field>
+					<Field Name="MetaInfo">5;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0100F09771E2D31CAF4FBDD1EEF36B989A5A</Field>
+					<Field Name="Title">National Accounts</Field>
+					<Field Name="EmployeeNetworkID">user6</Field>
+					<Field Name="Name">sridhar</Field>
+					<Field Name="Email_x0020_Personal">sri@republicservices.com</Field>
+					<Field Name="WorkPhoneNumber">156-980-8763</Field>
+					<Field Name="MobileNumber">950892423.000000</Field>
+					<Field Name="DOJ">2013-04-08T07:00:00Z</Field>
+					<Field Name="DOB">2012-08-08T07:00:00Z</Field>
+					<Field Name="ID">6</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">600.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">6_.000</Field>
+					<Field Name="MetaInfo">6;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0100F09771E2D31CAF4FBDD1EEF36B989A5A</Field>
+					<Field Name="Title">CS Associates</Field>
+					<Field Name="EmployeeNetworkID">user7</Field>
+					<Field Name="Name">Ramesh</Field>
+					<Field Name="Email_x0020_Personal">ramesh@republicservices.com</Field>
+					<Field Name="WorkPhoneNumber">345-098-8765</Field>
+					<Field Name="MobileNumber">9803456598.00000</Field>
+					<Field Name="DOJ">2013-05-13T07:00:00Z</Field>
+					<Field Name="DOB">2012-12-04T07:00:00Z</Field>
+					<Field Name="ID">7</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">700.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">7_.000</Field>
+					<Field Name="MetaInfo">7;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0100F09771E2D31CAF4FBDD1EEF36B989A5A</Field>
+					<Field Name="Title">CS Specialists</Field>
+					<Field Name="EmployeeNetworkID">User8</Field>
+					<Field Name="Name">sandeep</Field>
+					<Field Name="Email_x0020_Personal">sandeep@republicservices.com</Field>
+					<Field Name="WorkPhoneNumber">876-984-6543</Field>
+					<Field Name="MobileNumber">974435785.000000</Field>
+					<Field Name="DOJ">2013-05-21T07:00:00Z</Field>
+					<Field Name="DOB">2013-05-05T07:00:00Z</Field>
+					<Field Name="ID">8</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">800.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">8_.000</Field>
+					<Field Name="MetaInfo">8;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0100F09771E2D31CAF4FBDD1EEF36B989A5A</Field>
+					<Field Name="Title">CS Consultants</Field>
+					<Field Name="EmployeeNetworkID">user9</Field>
+					<Field Name="Name">rakesh</Field>
+					<Field Name="Email_x0020_Personal">rakesh@republicservices.com</Field>
+					<Field Name="WorkPhoneNumber">097-097-9754</Field>
+					<Field Name="MobileNumber">987789006.000000</Field>
+					<Field Name="DOJ">2013-05-15T07:00:00Z</Field>
+					<Field Name="DOB">2013-01-08T07:00:00Z</Field>
+					<Field Name="ID">9</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">900.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">9_.000</Field>
+					<Field Name="MetaInfo">9;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0100F09771E2D31CAF4FBDD1EEF36B989A5A</Field>
+					<Field Name="Title">Support Team</Field>
+					<Field Name="EmployeeNetworkID">user10</Field>
+					<Field Name="Name">pradeep</Field>
+					<Field Name="Email_x0020_Personal">pradeep@republicservoces.com</Field>
+					<Field Name="WorkPhoneNumber">098-764-7644</Field>
+					<Field Name="MobileNumber">985444336.000000</Field>
+					<Field Name="DOJ">2013-05-15T07:00:00Z</Field>
+					<Field Name="DOB">2013-04-02T07:00:00Z</Field>
+					<Field Name="ID">10</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">1000.00000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">10_.000</Field>
+					<Field Name="MetaInfo">10;#</Field>
+				</Row>
+			</Rows>
+		</Data>
+	</ListInstance>
+</Elements>

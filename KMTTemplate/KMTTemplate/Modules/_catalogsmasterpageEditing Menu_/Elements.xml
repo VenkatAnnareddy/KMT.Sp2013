@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="_catalogsmasterpageEditing Menu_" Url="_catalogs/masterpage/Editing Menu" RootWebOnly="FALSE" Path="Files\_catalogs\masterpage\1EditingMenu" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="CustomEditingMenu.xml" Type="GhostableInLibrary" Path="CustomEditingMenu.xml">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="CustomEditingMenu.xml" />
+			<Property Name="Title" Value="CustomEditingMenu.xml" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="37" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/Editing Menu" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="37;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_contenttag:SW|{A912067B-9463-4D11-B714-B1DD8109F7A8},1,1&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title ContentTypeId ContentType&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_docstoreversion:IR|1&#xD;&#xA;vti_metainfoversion:IW|1&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_cachedtitle:SR|CustomEditingMenu.xml&#xD;&#xA;vti_title:SR|CustomEditingMenu.xml&#xD;&#xA;ContentTypeId:SW|0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C&#xD;&#xA;ContentType:SW|Page Layout&#xD;&#xA;" />
+			<Property Name="Order" Value="3700.00000000000" />
+		</File>
+		<File Url="CustomQuickAccess.xml" Type="GhostableInLibrary" Path="CustomQuickAccess.xml">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="CustomQuickAccess.xml" />
+			<Property Name="Title" Value="CustomQuickAccess.xml" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="38" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/Editing Menu" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="38;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_contenttag:SW|{4E0095DD-BD14-4D51-BCCC-6EF674FBAD01},1,1&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title ContentTypeId ContentType&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_docstoreversion:IR|1&#xD;&#xA;vti_metainfoversion:IW|1&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_cachedtitle:SR|CustomQuickAccess.xml&#xD;&#xA;vti_title:SR|CustomQuickAccess.xml&#xD;&#xA;ContentTypeId:SW|0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C&#xD;&#xA;ContentType:SW|Page Layout&#xD;&#xA;" />
+			<Property Name="Order" Value="3800.00000000000" />
+		</File>
+		<File Url="CustomSiteAction.xml" Type="GhostableInLibrary" Path="CustomSiteAction.xml">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="CustomSiteAction.xml" />
+			<Property Name="Title" Value="CustomSiteAction.xml" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="39" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/Editing Menu" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="39;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_contenttag:SW|{ACB92BF2-F7AE-4A25-9BA0-099FFC10241A},1,1&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title ContentTypeId ContentType&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_docstoreversion:IR|1&#xD;&#xA;vti_metainfoversion:IW|1&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_cachedtitle:SR|CustomSiteAction.xml&#xD;&#xA;vti_title:SR|CustomSiteAction.xml&#xD;&#xA;ContentTypeId:SW|0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C&#xD;&#xA;ContentType:SW|Page Layout&#xD;&#xA;" />
+			<Property Name="Order" Value="3900.00000000000" />
+		</File>
+		<File Url="RTE2ToolbarExtension.xml" Type="GhostableInLibrary" Path="RTE2ToolbarExtension.xml">
+			<Property Name="ContentTypeId" Value="0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C" />
+			<Property Name="FileLeafRef" Value="RTE2ToolbarExtension.xml" />
+			<Property Name="Title" Value="RTE2ToolbarExtension.xml" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="40" />
+			<Property Name="ContentType" Value="Page Layout" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage/Editing Menu" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="40;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_contenttag:SW|{D2ACBDB3-1242-4F72-8A4C-0975ADB6B15B},1,1&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title ContentTypeId ContentType&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_docstoreversion:IR|1&#xD;&#xA;vti_metainfoversion:IW|1&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_cachedtitle:SR|RTE2ToolbarExtension.xml&#xD;&#xA;vti_title:SR|RTE2ToolbarExtension.xml&#xD;&#xA;ContentTypeId:SW|0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE811009AD5E9DB001D564CA31CF3FE9D6B265C&#xD;&#xA;ContentType:SW|Page Layout&#xD;&#xA;" />
+			<Property Name="Order" Value="4000.00000000000" />
+		</File>
+	</Module>
+</Elements>

@@ -1,0 +1,2422 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title>Commercial - Billing</title>
+<link href="JQuery/jquery-ui.css" rel="stylesheet" />
+<script src="JQuery/jquery-1.9.1.min.js"></script>
+<script src="JQuery/jquery-ui.js"></script>
+<script>
+            $(function () {
+                $("#tabs").tabs().addClass("ui-tabs-vertical ui-helper-clearfix");
+                $("#tabs li").removeClass("ui-corner-top").addClass("ui-corner-left");
+            });
+        </script>
+</head>
+
+<body>
+
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">Before Invoice Due Date</a> </li>
+		<li><a href="#tabs-2">New Account </a></li>
+		<li><a href="#tabs-3">Promise to Pay</a> </li>
+		<li><a href="#tabs-4">Missing Payment </a></li>
+		<li><a href="#tabs-5">Toll-Free Bill Pay Phone Line</a> </li>
+		<li><a href="#tabs-6">Past Due, Not Service Interrupted</a> </li>
+		<li><a href="#tabs-7">Service Interrupted</a> </li>
+		<li><a href="#tabs-8">Account Closed or Written Off </a></li>
+		<li><a href="#tabs-9">Misapplied Payment​​</a> </li>
+		<li><a href="#tabs-10">Lockbox Address Info</a> </li>
+		<li><a href="#tabs-11">Refund Balance on Account</a> </li>
+		<li><a href="#tabs-12">Fee Issue or Credit Request Not Service Interrupted</a>
+		</li>
+		<li><a href="#tabs-13">Invoice Question Charge or Issue</a> </li>
+		<li><a href="#tabs-14">Auto Billing Authorization Agreement</a> </li>
+	</ul>
+	<div id="tabs-1">
+		<a id="Before"><br type="_moz"><br type="_moz"><br type="_moz">
+		<br type="_moz"><br type="_moz"><br type="_moz"></a>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<b><span style="COLOR: rgb(102,102,102)">Payment – Before Invoice Due Date</span></b>
+		</p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">Process payment via
+		<a href="https://secure3.billerweb.com/alw/billerconsole.html" target="_blank" title="EBPP">
+		<span style="COLOR: rgb(79,129,189)">EBPP</span> </a>and key F2 <b>
+		<span style="BACKGROUND: lime">CSIN</span></b> </span></p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">- If payment will not process on customer&#39;s
+		<a href="https://secure3.billerweb.com/alw/billerconsole.html" target="_blank" title="EBPP">
+		<span style="COLOR: rgb(79,129,189)">EBPP</span> </a>account, process payment 
+		on Division&#39;s Holding Account (9999991) and key F2 <b>
+		<span style="BACKGROUND: lime">CSIN</span></b> on customer&#39;s account</span>
+		</p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<b><span style="BACKGROUND: yellow; COLOR: rgb(192,0,0)">*</span></b>
+		<span style="BACKGROUND: yellow; COLOR: rgb(192,0,0)">Reminder - must place<b> 
+		site name, address, and acct# </b>(if applies) in CSR Memo field<b>*</b></span>
+		</p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 3pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="WIDTH: 598.75pt; BORDER-COLLAPSE: collapse; MARGIN-LEFT: -0.65pt" width="798">
+			<tr style="HEIGHT: 4pt">
+				<td colspan="4" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 598.75pt; PADDING-RIGHT: 5.4pt; BACKGROUND: rgb(31,73,125); HEIGHT: 4pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="798">
+				<div>
+					<p class="MsoNormal"><b><span style="COLOR: white">F2 NOTE EXAMPLES</span></b>
+					</p>
+				</div>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 13.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" valign="bottom" width="18">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 309.95pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="413">
+				<p class="MsoNormal"><span style="color: rgb(103,103,103)">
+				<input name="John Doe " size="20" type="text" /> made payment of 
+				$<span style="background: yellow"><input name="XX.XX" size="10" type="text"></span>.
+				<br type="_moz" />
+				<span class="SpellE">Ref#<span style="background: yellow"><input name="XXXXXXXXXXX " size="10" type="text" /></span></span>
+				</span></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">NOTE TYPE: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">CSIN</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">STATUS: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">CLOSED</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">PRIORITY: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">REPORTED BY:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">EBPP PMT $<span style="BACKGROUND: yellow">XX.XX</span></span></b>
+				</p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">ASSOC ID:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N/A</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="147">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="220">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+			</tr>
+		</table>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<p><br type="_moz"></p>
+		<p><br type="_moz"></p>
+		<p><br type="_moz"></p>
+		<p><br type="_moz"></p>
+		<p><br type="_moz"></p>
+	</div>
+	<div id="tabs-3">
+		<a id="Pay"></a>
+		<p><br type="_moz"></p>
+		<p class="MsoNormal ms-rteFontSize-2" style="line-height: normal; margin-bottom: 0pt; background: white; vertical-align: top">
+		<b><span style="color: rgb(102,102,102)">Payment - Promise to Pay</span></b>
+		</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="line-height: normal; margin-bottom: 0pt; background: white; vertical-align: top">
+		<br type="_moz" />
+		</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="line-height: normal; margin-bottom: 0pt; background: white; vertical-align: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<ol style="margin-top: 0in" type="1">
+			<li class="MsoNormal ms-rteFontSize-2" style="line-height: normal; margin-bottom: 0pt; background: white; color: rgb(102,102,102); vertical-align: top">
+			<span>Advise customer of Service Interrupt process, if applicable.</span>
+			</li>
+			<span class="ms-rteFontSize-2"></span>
+			<li class="MsoNormal" style="line-height: normal; margin-bottom: 0pt; background: white; color: rgb(102,102,102); vertical-align: top">
+			<span class="ms-rteFontSize-2">Key Closed F2 <b>
+			<span style="background: lime">CSIN</span> </b></span></li>
+		</ol>
+		<p class="MsoNormal" style="line-height: normal; margin-bottom: 3pt; background: white; vertical-align: top">&nbsp;</p>
+		<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="width: 603.25pt; border-collapse: collapse; margin-left: -0.65pt" width="804">
+			<tr style="height: 4pt">
+				<td colspan="4" style="border-bottom: 1pt solid; border-left: 1pt solid; padding-bottom: 0in; padding-left: 5.4pt; width: 603.25pt; padding-right: 5.4pt; background: rgb(31,73,125); height: 4pt; border-top: medium none; border-right: 1pt solid; padding-top: 0in" width="804">
+				<div>
+					<p class="MsoNormal"><b><span style="color: white">F2 NOTE EXAMPLES</span></b>
+					</p>
+				</div>
+				</td>
+			</tr>
+			<tr style="height: 3.5pt">
+				<td style="border-bottom: medium none; border-left: 1pt solid; padding-bottom: 0in; padding-left: 5.4pt; width: 110.2pt; padding-right: 5.4pt; height: 3.5pt; border-top: medium none; border-right: medium none; padding-top: 0in" valign="bottom" width="147">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz" />
+				</td>
+				<td style="padding-bottom: 0in; padding-left: 5.4pt; width: 164.8pt; padding-right: 5.4pt; height: 3.5pt; padding-top: 0in" valign="bottom" width="220">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz" />
+				</td>
+				<td rowspan="7" style="border-bottom: 1pt solid; border-left: medium none; padding-bottom: 0in; padding-left: 5.4pt; width: 13.8pt; padding-right: 5.4pt; height: 3.5pt; border-top: medium none; border-right: 1pt solid; padding-top: 0in" valign="bottom" width="18">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz" />
+				</td>
+				<td rowspan="7" style="border-bottom: 1pt solid; border-left: medium none; padding-bottom: 0in; padding-left: 5.4pt; width: 314.45pt; padding-right: 5.4pt; background: white; height: 3.5pt; border-top: medium none; border-right: 1pt solid; padding-top: 0in" width="419">
+				<p class="MsoNormal ms-rteFontSize-2">
+				<span style="color: rgb(103,103,103)">Informed customer of SI process.</span>
+				</p>
+				<span class="ms-rteFontSize-2"></span>
+				<p class="MsoNormal ms-rteFontSize-2">
+				<span style="color: rgb(103,103,103)">
+				<input name="John Doe" size="20" type="text" /> will mail
+				<span class="SpellE">check#<span style="background: yellow"><input name="XXXX" size="10" type="text" /></span></span>on
+				<span style="background: yellow">
+				<input name="mm" size="10" type="text" />mm/<span class="SpellE">dd</span>/
+				<span class="SpellE">yy</span></span>to lockbox for $<br />
+				<span style="background: yellow">
+				<input name="XX.XX" size="10" type="text" /></span></span> </p>
+				</td>
+			</tr>
+			<tr style="height: 20.1pt">
+				<td style="border-bottom: medium none; border-left: 1pt solid; padding-bottom: 0in; padding-left: 5.4pt; width: 110.2pt; padding-right: 5.4pt; background: white; height: 20.1pt; border-top: medium none; border-right: medium none; padding-top: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="line-height: normal"><b>
+				<span style="color: rgb(31,73,125)">NOTE TYPE: </span></b></p>
+				</td>
+				<td style="border-bottom: 1pt solid; border-left: medium none; padding-bottom: 0in; padding-left: 5.4pt; width: 164.8pt; padding-right: 5.4pt; background: white; height: 20.1pt; border-top: medium none; border-right: medium none; padding-top: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="line-height: normal"><b>
+				<span style="color: rgb(103,103,103)">CSIN</span></b> </p>
+				</td>
+			</tr>
+			<tr style="height: 20.1pt">
+				<td style="border-bottom: medium none; border-left: 1pt solid; padding-bottom: 0in; padding-left: 5.4pt; width: 110.2pt; padding-right: 5.4pt; background: white; height: 20.1pt; border-top: medium none; border-right: medium none; padding-top: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="line-height: normal"><b>
+				<span style="color: rgb(31,73,125)">STATUS: </span></b></p>
+				</td>
+				<td style="border-bottom: 1pt solid; border-left: medium none; padding-bottom: 0in; padding-left: 5.4pt; width: 164.8pt; padding-right: 5.4pt; background: white; height: 20.1pt; border-top: medium none; border-right: medium none; padding-top: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="line-height: normal"><b>
+				<span style="color: rgb(103,103,103)">CLOSED</span></b> </p>
+				</td>
+			</tr>
+			<tr style="height: 20.1pt">
+				<td style="border-bottom: medium none; border-left: 1pt solid; padding-bottom: 0in; padding-left: 5.4pt; width: 110.2pt; padding-right: 5.4pt; height: 20.1pt; border-top: medium none; border-right: medium none; padding-top: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="line-height: normal"><b>
+				<span style="color: rgb(31,73,125)">PRIORITY: </span></b></p>
+				</td>
+				<td style="border-bottom: 1pt solid; border-left: medium none; padding-bottom: 0in; padding-left: 5.4pt; width: 164.8pt; padding-right: 5.4pt; background: white; height: 20.1pt; border-top: medium none; border-right: medium none; padding-top: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="line-height: normal"><b>
+				<span style="color: rgb(103,103,103)">N</span></b> </p>
+				</td>
+			</tr>
+			<tr style="height: 20.1pt">
+				<td style="border-bottom: medium none; border-left: 1pt solid; padding-bottom: 0in; padding-left: 5.4pt; width: 110.2pt; padding-right: 5.4pt; background: white; height: 20.1pt; border-top: medium none; border-right: medium none; padding-top: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="line-height: normal"><b>
+				<span style="color: rgb(31,73,125)">REPORTED BY:</span></b> </p>
+				</td>
+				<td style="border-bottom: 1pt solid; border-left: medium none; padding-bottom: 0in; padding-left: 5.4pt; width: 164.8pt; padding-right: 5.4pt; background: white; height: 20.1pt; border-top: medium none; border-right: medium none; padding-top: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="line-height: normal"><b>
+				<span style="color: rgb(103,103,103)">PROMISE TO PAY</span></b>
+				</p>
+				</td>
+			</tr>
+			<tr style="height: 20.1pt">
+				<td style="border-bottom: medium none; border-left: 1pt solid; padding-bottom: 0in; padding-left: 5.4pt; width: 110.2pt; padding-right: 5.4pt; background: white; height: 20.1pt; border-top: medium none; border-right: medium none; padding-top: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="line-height: normal"><b>
+				<span style="color: rgb(31,73,125)">ASSOC ID:</span></b> </p>
+				</td>
+				<td style="border-bottom: 1pt solid; border-left: medium none; padding-bottom: 0in; padding-left: 5.4pt; width: 164.8pt; padding-right: 5.4pt; background: white; height: 20.1pt; border-top: medium none; border-right: medium none; padding-top: 0in" valign="bottom" width="220">
+				<br type="_moz" />
+				</td>
+			</tr>
+			<tr style="height: 3.5pt">
+				<td style="border-bottom: 1pt solid; border-left: 1pt solid; padding-bottom: 0in; padding-left: 5.4pt; width: 110.2pt; padding-right: 5.4pt; background: white; height: 3.5pt; border-top: medium none; border-right: medium none; padding-top: 0in" valign="top" width="147">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz" />
+				</td>
+				<td style="border-bottom: 1pt solid; border-left: medium none; padding-bottom: 0in; padding-left: 5.4pt; width: 164.8pt; padding-right: 5.4pt; background: white; height: 3.5pt; border-top: medium none; border-right: medium none; padding-top: 0in" valign="top" width="220">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz" />
+				</td>
+			</tr>
+		</table>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<p><br type="_moz"></p>
+		<p><br type="_moz"></p>
+		<p><br type="_moz"></p>
+	</div>
+	<div id="tabs-4">
+		<a id="MPayment"></a>
+		<p class="ms-rteFontSize-2"><br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<b><span style="COLOR: rgb(102,102,102)">Payment - Missing</span></b>
+		</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt 9pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">Review
+		<a href="https://secure3.billerweb.com/alw/billerconsole.html" target="_blank" title="EBPP">
+		<span style="COLOR: rgb(79,129,189)">EBPP</span> </a>messages and Customer 
+		A/R notes in InfoPro.</span> </p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 27pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="color: rgb(102,102,102)">-<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><span style="COLOR: rgb(102,102,102)">If no notes present 
+		ask if payment cleared customer&#39;s bank. </span>&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 27pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<b><span style="COLOR: rgb(102,102,102)">If payment has not cleared, customer 
+		needs to re-issue payment - no research required then:</span></b> </p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 27pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="color: rgb(102,102,102)">A.<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><span style="COLOR: rgb(102,102,102)">Ask the customer if 
+		they would like to make a payment over the phone with you now.</span>
+		</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 31.5pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="color: rgb(102,102,102)">-<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><span style="COLOR: rgb(102,102,102)">If NO, </span></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 45pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="font-family: wingdings; color: rgb(102,102,102)">§<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><span style="COLOR: rgb(102,102,102)">Advise customer of Service 
+		Interrupt process, if applicable </span></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 45pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="font-family: wingdings; color: rgb(102,102,102)">§<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><span style="COLOR: rgb(102,102,102)">Key F2 <b>
+		<span style="BACKGROUND: lime">CSIN</span> </b>.</span> </p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 31.5pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="color: rgb(102,102,102)">-<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><span style="COLOR: rgb(102,102,102)">If YES, process payment 
+		via
+		<a href="https://secure3.billerweb.com/alw/billerconsole.html" target="_blank" title="EBPP">
+		<span style="COLOR: rgb(79,129,189)">EBPP</span> </a>.</span> </p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 31.5pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<b><span style="COLOR: rgb(102,102,102)">If payment has cleared then:</span></b>
+		</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 27pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="color: rgb(102,102,102)">A.<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><span style="COLOR: rgb(102,102,102)">Ask customer for payment 
+		type (credit/debit, EFT, check, MO), amount, date of payment and date cleared.</span>
+		</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 27pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="color: rgb(102,102,102)">-<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><span style="COLOR: rgb(102,102,102)">Request that the customer 
+		fax the front and back of cancelled check or account statement showing debit 
+		to A/R Dept.</span> </p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt 9pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt 9pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">B. Key F2 <b>
+		<span style="BACKGROUND: lime">ADRS</span> </b>with information above for 
+		A/R Dept. to research</span> </p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt 9pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt 9pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">C. Inform customer they will be contacted 
+		after research is completed by A/R Dept.</span> </p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt 9pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 3pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="WIDTH: 598.75pt; BORDER-COLLAPSE: collapse; MARGIN-LEFT: -0.65pt" width="798">
+			<tr style="HEIGHT: 4pt">
+				<td colspan="4" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 598.75pt; PADDING-RIGHT: 5.4pt; BACKGROUND: rgb(31,73,125); HEIGHT: 4pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="798">
+				<div>
+					<p class="MsoNormal"><b><span style="COLOR: white">F2 NOTE EXAMPLES</span></b>
+					</p>
+				</div>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 13.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" valign="bottom" width="18">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 309.95pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="413">
+				<p class="MsoNormal ms-rteFontSize-2">
+				<span style="COLOR: rgb(103,103,103)">
+				<input name="John Doe" size="20" type="text"> thought payment made. 
+				Payment did not clear bank.
+				<input name="john Doe" size="20" type="text"> will reissue payment 
+				today check #<span style="BACKGROUND: yellow"><input name="XXXX" size="10" type="text"></span> 
+				in the amount of $ <span style="BACKGROUND: yellow">
+				<input name="XX.XX" size="10" type="text"></span>.</span> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">NOTE TYPE: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">CSIN</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">STATUS: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">CLOSED</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">PRIORITY: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">REPORTED BY:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">MISSING PMT</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">ASSOC ID:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<br type="_moz"></td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; PADDING-TOP: 0in" valign="top" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: 1pt solid; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: 1pt solid; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 13.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: 1pt solid; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" valign="bottom" width="18">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 309.95pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="413">
+				<p class="MsoNormal ms-rteFontSize-2">
+				<span style="COLOR: rgb(103,103,103)">
+				<input name="Jane Doe" size="20" type="text"> made payment by check 
+				#<span style="BACKGROUND: yellow"><input name="XXXX" size="10" type="text"></span> 
+				in the amount of $ <span style="BACKGROUND: yellow">
+				<input name="XX.XX" size="10" type="text"></span>. Check was dated
+				<span style="BACKGROUND: yellow">
+				<input name="mm" size="10" type="text">mm/<span class="SpellE">dd</span>/
+				<span class="SpellE">yy</span></span>and cleared her bank on mm/
+				<span class="SpellE">dd</span>/ <span class="SpellE">yy</span>. 
+				Advised her to fax a copy of front/back of cancelled check to A/R 
+				Department. Please contact
+				<input name="John Doe" size="20" type="text"> at
+				<span style="BACKGROUND: yellow">
+				<input name="XXX-XXX-XXXX" size="10" type="text"></span> after research 
+				is complete.</span> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">NOTE TYPE:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">ADRS</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">STATUS:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">OPEN</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">PRIORITY: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">REPORTED BY:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">MISSING PMT</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">ASSOC ID:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N/A</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+			</tr>
+		</table>
+		<p><br type="_moz"></p>
+		<p><br type="_moz"></p>
+		<p><br type="_moz"></p>
+		<p><br type="_moz"></p>
+		<p><br type="_moz"></p>
+	</div>
+	<div id="tabs-5">
+		<a id="TollFree"></a>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<b><span style="COLOR: rgb(102,102,102)">Payment - Toll-Free Bill Pay Phone 
+		Line</span></b> </p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">There is an alternate method for customers 
+		to pay their invoice, other than regular mail (lockbox) or Online Bill Pay:</span>
+		</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span class="GramE">
+		<span style="FONT-FAMILY: symbol; COLOR: rgb(102,102,102)">·</span>
+		<span style="COLOR: rgb(102,102,102)">The Bill Pay Toll-Free number <b>(877) 
+		692-9729</b>.</span></span> <span style="COLOR: rgb(102,102,102)">This system 
+		will post payments within 24 business hours. </span></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="FONT-FAMILY: symbol; COLOR: rgb(102,102,102)">·</span>
+		<span style="COLOR: rgb(102,102,102)">Payment can still be made using
+		<a href="https://secure3.billerweb.com/alw/billerconsole.html" target="_blank" title="EBPP">
+		<span style="COLOR: rgb(79,129,189)">EBPP</span> </a>,
+		<span class="GramE">advise</span> customer of this option for future payment 
+		use.</span> </p>
+		<p><br type="_moz"></p>
+	</div>
+	<div id="tabs-6">
+		<a id="PastDue"></a>
+		<p><br type="_moz"></p>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<b><span style="COLOR: rgb(102,102,102)">Payment - Past Due, Not Service 
+		Interrupted</span></b> </p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">Process payment via
+		<a href="https://secure3.billerweb.com/alw/billerconsole.html" target="_blank" title="EBPP">
+		<span style="COLOR: rgb(79,129,189)">EBPP</span> </a>and key F2 <b>
+		<span style="BACKGROUND: lime">CCPD</span></b> </span></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 0.25in; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="color: rgb(102,102,102)">-<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><span style="COLOR: rgb(102,102,102)">If payment will not 
+		process on customer&#39;s EBPP account, process payment on Division&#39;s Holding 
+		Account (9999991) and key F2 CCPD on customer&#39;s account</span> </p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 0.25in; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="color: rgb(102,102,102)">-<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><span style="COLOR: rgb(102,102,102)">If waiving fees, key 
+		F2 <b><span style="BACKGROUND: lime">ADCR</span> </b></span></p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 0.25in; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 3pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="WIDTH: 594.25pt; BORDER-COLLAPSE: collapse; MARGIN-LEFT: -0.65pt" width="792">
+			<tr style="HEIGHT: 4pt">
+				<td colspan="4" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 594.25pt; PADDING-RIGHT: 5.4pt; BACKGROUND: rgb(31,73,125); HEIGHT: 4pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="792">
+				<div>
+					<p class="MsoNormal"><b><span style="COLOR: white">F2 NOTE EXAMPLES</span></b>
+					</p>
+				</div>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 13.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" valign="bottom" width="18">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 305.45pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="407">
+				<p class="MsoNormal ms-rteFontSize-2">
+				<span style="COLOR: rgb(103,103,103)">
+				<input name="John Doe" size="20" type="text"> paid past due
+				<span class="SpellE">amt</span> of $
+				<span style="BACKGROUND: yellow">
+				<input name="XX.XX" size="10" type="text"></span>. Please remove 
+				from any potential collection status.</span> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">NOTE TYPE: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">CCPD</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">STATUS: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">OPEN</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">PRIORITY: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">REPORTED BY:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">PMT $<span style="BACKGROUND: yellow">XX.XX</span></span></b>
+				</p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">ASSOC ID:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">Division Specific</span></b>
+				</p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; PADDING-TOP: 0in" valign="top" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: 1pt solid; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: 1pt solid; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 13.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: 1pt solid; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" valign="bottom" width="18">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 305.45pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="407">
+				<p class="MsoNormal ms-rteFontSize-2">
+				<span style="COLOR: rgb(103,103,103)">Please credit $<span style="BACKGROUND: yellow"><input name="XX.XX" size="10" type="text"></span> 
+				for waived SI fee as one time courtesy</span> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">NOTE TYPE:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">ADCR</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">STATUS:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">OPEN</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">PRIORITY: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">REPORTED BY:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">Waive Fee $<span style="BACKGROUND: yellow">XX.XX</span></span></b>
+				</p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">ASSOC ID:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<br type="_moz"></td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="147">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="220">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+			</tr>
+		</table>
+		<p><br type="_moz"></p>
+		<p><br type="_moz"></p>
+	</div>
+	<div id="tabs-7">
+		<a id="Service"></a>
+		<p><br type="_moz"></p>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<b><span style="COLOR: rgb(102,102,102)">Payment - Service Interrupted</span></b>
+		</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">If customer requests credit or refuses 
+		to pay SI fee and it is their first offense, CSR may waive the fee as a
+		</span><span style="BACKGROUND: yellow; COLOR: rgb(192,0,0)">ONE TIME COURTESY 
+		PER CALENDAR YEAR</span> <span style="COLOR: rgb(102,102,102)">and collect 
+		all past due amounts (<b>try to negotiate partial fee before crediting entire 
+		amount</b>).</span> </p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">Process payment via
+		<a href="https://secure3.billerweb.com/alw/billerconsole.html" target="_blank" title="EBPP">
+		<span style="COLOR: rgb(79,129,189)">EBPP</span> </a>and key F2 closed
+		<b><span style="BACKGROUND: lime">CSIN</span></b> </span></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">- If waiving fees, key F2 <b>
+		<span style="BACKGROUND: lime">ADCR</span> </b></span></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">- If resuming from SI within 24
+		<span class="SpellE">hrs</span> from pick up day, key F2 <b>
+		<span style="BACKGROUND: lime">OPIN</span></b> and call dispatch</span>
+		</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<u><span style="COLOR: rgb(79,129,189)">Lift Service Interrupt Flag</span></u>
+		<span style="COLOR: rgb(102,102,102)">upon payment approval</span> </p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 3pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="WIDTH: 500pt; BORDER-COLLAPSE: collapse; MARGIN-LEFT: -0.65pt" width="916">
+			<tr style="HEIGHT: 6.75pt">
+				<td colspan="4" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 687pt; PADDING-RIGHT: 5.4pt; BACKGROUND: rgb(31,73,125); HEIGHT: 6.75pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="916">
+				<div>
+					<p class="MsoNormal"><b><span style="COLOR: white">F2 NOTE EXAMPLES</span></b>
+					</p>
+				</div>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 6.25pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 6.25pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 6.25pt; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 3.5pt; PADDING-RIGHT: 5.4pt; HEIGHT: 6.25pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" valign="bottom" width="5">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 408.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 6.25pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="545">
+				<p class="MsoNormal ms-rteFontSize-2">
+				<span style="COLOR: rgb(103,103,103)">
+				<input name="John Doe" size="20" type="text"> paid past due
+				<span class="SpellE">amt</span> of $
+				<span style="BACKGROUND: yellow">
+				<input name="XX.XX" size="10" type="text"></span> and SI fee of 
+				$ <span style="BACKGROUND: yellow">
+				<input name="XX.XX" size="10" type="text"></span>. Removed SI flag 
+				from account.</span> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">NOTE TYPE: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">CSIN</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">STATUS: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">CSIN</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">PRIORITY: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">REPORTED BY:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">SI PMT</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">ASSOC ID:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<br type="_moz"></td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="147">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; PADDING-TOP: 0in" valign="top" width="220">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: 1pt solid; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: 1pt solid; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 3.5pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: 1pt solid; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" valign="bottom" width="5">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 408.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="545">
+				<p class="MsoNormal ms-rteFontSize-2">
+				<span style="COLOR: rgb(103,103,103)">Please credit $<span style="BACKGROUND: yellow"><input name="XX.XX" size="10" type="text"></span> 
+				for waived SI fee as one time courtesy</span> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">NOTE TYPE:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">ADCR</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">STATUS:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">OPEN</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">PRIORITY: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">REPORTED BY:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">Waive Fee $XX.XX</span></b>
+				</p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">ASSOC ID:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N/A</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 8.5pt">
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 8.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 8.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 3.5pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" valign="bottom" width="5">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 408.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="545">
+				<p class="MsoNormal ms-rteFontSize-2">
+				<span style="COLOR: rgb(103,103,103)">
+				<input name="John Doe" size="20" type="text"> paid past due
+				<span class="SpellE">amt</span>, and removed account from SI. Please 
+				add to <span style="BACKGROUND: yellow">mm/<span class="SpellE">dd</span>/
+				<span class="SpellE">yy</span> route</span>.</span> </p>
+				<span class="ms-rteFontSize-2"></span>
+				<p class="MsoNormal ms-rteFontSize-2">
+				<span style="COLOR: rgb(103,103,103)">Notified dispatch to route 
+				for pick up</span> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">NOTE TYPE:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">OPIN</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">STATUS:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">OPEN</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">PRIORITY: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">H</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">REPORTED BY:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">SI RESUME</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 12.75pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 12.75pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">ASSOC ID:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 12.75pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N/A</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 12.75pt">
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 12.75pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 12.75pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+			</tr>
+		</table>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<p><br type="_moz"></p>
+	</div>
+	<div id="tabs-8">
+		<a id="AccountClosed"></a>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<b><span style="COLOR: rgb(102,102,102)">Payment – Account Closed/Written 
+		Off</span></b> </p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">1. Check </span>
+		<span style="COLOR: rgb(79,129,189)">
+		<a href="/sites/_layouts/listfeed.aspx?List=%7B98D093D7%2DC6BC%2D48E3%2DA69A%2D5BC56FD33F7D%7D&amp;Source=http%3A%2F%2Ferooms%2Fsites%2FKMT%2FMoroccoCSC%2FLists%2FDivision%2520Homepage1%2FAllItems%2Easpx" target="_blank">
+		division information page</a></span>
+		<span style="COLOR: rgb(102,102,102)">for Reinstatement/Write-Off Policy 
+		and follow that process.</span> </p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">2. Process payment on customer&#39;s
+		<a href="https://secure3.billerweb.com/alw/billerconsole.html" target="_blank" title="EBPP">
+		<span style="COLOR: rgb(79,129,189)">EBPP</span> </a>account and key F2
+		<b><span style="BACKGROUND: lime">CCPD</span></b> for payment and F2 <b>
+		<span style="BACKGROUND: lime">ADDM</span> </b>for debit of fee(s) and write-off 
+		amount.</span> </p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt 13.5pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<b><span style="COLOR: rgb(102,102,102)">Must collect:</span></b> </p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt 13.5pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 31.5pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="font-family: wingdings; color: rgb(102,102,102)">§<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><span style="COLOR: rgb(102,102,102)">All past due amounts 
+		(include all write-off amounts)</span> </p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 31.5pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="font-family: wingdings; color: rgb(102,102,102)">§<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><span style="COLOR: rgb(102,102,102)">Reinstatement and/or 
+		collection fee (if applicable)</span> </p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 31.5pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="font-family: wingdings; color: rgb(102,102,102)">§<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><span style="COLOR: rgb(102,102,102)">One quarter in advance 
+		for service, trash/recycling/yard waste/rental, if applicable (If customer 
+		has cart rental only, collect 1 <span class="SpellE">yr</span> in advance)</span>
+		</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 31.5pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="font-family: wingdings; color: rgb(102,102,102)">§<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><span style="COLOR: rgb(102,102,102)">Cart redelivery fee 
+		(if applicable)</span> </p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 31.5pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">3. If payment is made, key F2 <b>
+		<span style="BACKGROUND: lime">CSIN</span> </b>to reopen account.</span>
+		</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 0.5in; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="color: rgb(102,102,102)">-<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><span style="COLOR: rgb(102,102,102)">If payment will not 
+		process on customer&#39;s
+		<a href="https://secure3.billerweb.com/alw/billerconsole.html" target="_blank" title="EBPP">
+		<span style="COLOR: rgb(79,129,189)">EBPP</span> </a>account then process 
+		payment on Division&#39;s Holding Account (9999991)</span> </p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 0.5in; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="color: rgb(102,102,102)">-<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><span style="COLOR: rgb(102,102,102)">Key closed F2 <b>
+		<span style="BACKGROUND: lime">CSIN</span> </b>on customer&#39;s account</span>
+		</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 0.5in; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt 0.25in; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<b><span style="BACKGROUND: yellow; COLOR: rgb(192,0,0)">*Reminder-must 
+		place on CSR Memo field*:</span></b> </p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt 0.25in; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<ul class="ms-rteFontSize-2" style="MARGIN-TOP: 0in" type="square">
+			<li class="MsoNormal" style="MARGIN-BOTTOM: 0pt"><strong>
+			<span style="FONT-FAMILY: 'calibri', 'sans-serif'; FONT-WEIGHT: normal">
+			Site Name</span></strong> </li>
+			<li class="MsoNormal" style="MARGIN-BOTTOM: 0pt"><strong>
+			<span style="FONT-FAMILY: 'calibri', 'sans-serif'; FONT-WEIGHT: normal">
+			Site Address</span></strong> </li>
+			<li class="MsoNormal" style="MARGIN-BOTTOM: 0pt"><strong>
+			<span style="FONT-FAMILY: 'calibri', 'sans-serif'; FONT-WEIGHT: normal">
+			Container Size</span></strong> </li>
+			<li class="MsoNormal" style="MARGIN-BOTTOM: 0pt"><strong>
+			<span style="FONT-FAMILY: 'calibri', 'sans-serif'; FONT-WEIGHT: normal">
+			Acct# (if applies)</span></strong> </li>
+		</ul>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt 0.25in; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">4. If customer informs you that they 
+		have made payment to a Collection Agency key F2 <b>
+		<span style="BACKGROUND: lime">CCPD</span> </b>.</span> </p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 3pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="WIDTH: 598.5pt; BORDER-COLLAPSE: collapse; MARGIN-LEFT: -0.4pt" width="798">
+			<tr style="HEIGHT: 4pt">
+				<td colspan="4" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 598.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: rgb(31,73,125); HEIGHT: 4pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="798">
+				<div>
+					<p class="MsoNormal"><b><span style="COLOR: white">F2 NOTE EXAMPLES</span></b>
+					</p>
+				</div>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="114">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 15.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" valign="bottom" width="21">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 365.65pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="488">
+				<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal">
+				<span style="COLOR: rgb(103,103,103)">(PAID TO REPUBLIC SERVICES)
+				<input name="John Doe" size="20" type="text"> paid Write off
+				<span class="SpellE">amt</span> of $
+				<span style="BACKGROUND: yellow">
+				<input name="XX.XX" size="10" type="text"></span> and $
+				<span style="BACKGROUND: yellow">
+				<input name="XX.XX" size="10" type="text"></span> reinstatement
+				<span class="GramE">fee</span> <br type="_moz"><br type="_moz">(PAID 
+				TO COLLECTION AGENCY)
+				<input name="John Doe" size="20" type="text"> states they paid directly 
+				to the Collection Agency. Please advise if payment was made and 
+				account can be reopened</span> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="114">
+				<p class="MsoNormal"><b><span style="COLOR: rgb(31,73,125)">NOTE 
+				TYPE: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal"><b><span style="COLOR: rgb(103,103,103)">CCPD</span></b>
+				</p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="114">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">STATUS: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">OPEN</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="114">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">PRIORITY: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="114">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">REPORTED BY:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">WO PMT $XX.XX</span></b>
+				</p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="114">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">ASSOC ID:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">Division Specific</span></b>
+				</p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="114">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; PADDING-TOP: 0in" valign="top" width="175">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; BORDER-TOP: 1pt solid; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="114">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; BORDER-TOP: 1pt solid; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 15.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; BORDER-TOP: 1pt solid; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" valign="bottom" width="21">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 365.65pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="488">
+				<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal">
+				<span style="COLOR: rgb(103,103,103)">Transferred
+				<input name="John doe" size="20" type="text"> to Collections,
+				<input name="John Doe" size="20" type="text"> to discuss account. 
+				Was closed due to non-payment.</span> </p>
+				<span class="ms-rteFontSize-2"></span>
+				<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal">
+				<span style="COLOR: rgb(103,103,103)">Phone Number:
+				<span style="BACKGROUND: yellow">
+				<input name="XXX-XXX-XXXX" size="15" type="text"></span></span>
+				</p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="114">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">NOTE TYPE:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">CSIN</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="114">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">STATUS:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">CLOSED</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="114">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">PRIORITY: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="114">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">REPORTED BY:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">TRANS TO CC</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="114">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">ASSOC ID:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N/A</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="114">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="175">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="114">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 15.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" valign="bottom" width="21">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 365.65pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="488">
+				<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt">
+				<span style="COLOR: rgb(103,103,103)">Reopen account</span> </p>
+				<span class="ms-rteFontSize-2"></span>
+				<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt">
+				<span style="COLOR: rgb(103,103,103)">Effective Date:
+				<input name="XX/XX/XX" size="10" type="text"></span> </p>
+				<span class="ms-rteFontSize-2"></span>
+				<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt">
+				<span style="COLOR: rgb(103,103,103)">DEL: (Y or N)</span> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="114">
+				<p class="MsoNormal"><b><span style="COLOR: rgb(31,73,125)">NOTE 
+				TYPE: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal"><b><span style="COLOR: rgb(103,103,103)">CSIN</span></b>
+				</p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="114">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">STATUS: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">OPEN</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="114">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">PRIORITY: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="114">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">REPORTED BY:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">REOPEN ACCT</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="114">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">ASSOC ID:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">DIV#SUPPORT</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 85.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="114">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131.55pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="175">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+			</tr>
+		</table>
+	</div>
+	<div id="tabs-9">
+		<a id="Misapplied"></a>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<b><span style="COLOR: rgb(102,102,102)"><br type="_moz"></span></b></p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<b><span style="COLOR: rgb(102,102,102)">Payment - Misapplied </span>
+		</b>&nbsp;</p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">Key F2 <b>
+		<span style="BACKGROUND: lime">ADIN</span> </b></span></p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<b><span style="BACKGROUND: yellow; COLOR: rgb(192,0,0)">*Reminder - must 
+		include the account number that payment was applied to in error*</span></b>
+		</p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 3pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="WIDTH: 500pt; BORDER-COLLAPSE: collapse; MARGIN-LEFT: -0.65pt" width="916">
+			<tr style="HEIGHT: 20.1pt">
+				<td colspan="4" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 687pt; PADDING-RIGHT: 5.4pt; BACKGROUND: rgb(31,73,125); HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="916">
+				<div>
+					<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+					<span style="COLOR: white">F2 NOTE EXAMPLES</span></b> </p>
+				</div>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 3.5pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" valign="bottom" width="5">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 408.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="545">
+				<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal">
+				<span style="COLOR: rgb(103,103,103)">
+				<input name="Jane Doe" size="15" type="text"> called in concerned 
+				that payment has not been applied to the right account number. Payment 
+				was applied to account <span style="BACKGROUND: yellow">
+				<input name="#######" size="15" type="text"></span>. Please apply 
+				payment in the amount of $ <span style="BACKGROUND: yellow">
+				<input name="XX.XX" size="10" type="text"></span> to this account.</span>
+				</p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">NOTE TYPE: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">ADIN</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">STATUS: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">OPEN</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">PRIORITY: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">REPORTED BY:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">Misapplied PMT</span></b>
+				</p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">ASSOC ID:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N/A</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+			</tr>
+		</table>
+	</div>
+	<div id="tabs-10">
+		<a id="LockboxAI"></a>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<b><span style="COLOR: rgb(102,102,102)">Payment - Lockbox Address Info</span></b>
+		</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 0.25in; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="color: rgb(102,102,102)">A.<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><span style="COLOR: rgb(102,102,102)">Refer to </span>
+		<span style="COLOR: rgb(79,129,189)">
+		<a href="/sites/_layouts/listfeed.aspx?List=%7B98D093D7%2DC6BC%2D48E3%2DA69A%2D5BC56FD33F7D%7D&amp;Source=http%3A%2F%2Ferooms%2Fsites%2FKMT%2FMoroccoCSC%2FLists%2FDivision%2520Homepage1%2FAllItems%2Easpx" target="_blank">
+		division information page</a> </span>
+		<span style="COLOR: rgb(102,102,102)">for lockbox address to inform customer.</span>
+		</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 0.25in; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="color: rgb(102,102,102)">B.<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><span style="COLOR: rgb(102,102,102)">Provide customer with 
+		their 12 digit acct. # to place on their payment</span> </p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 0.25in; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="color: rgb(102,102,102)">C.<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><span style="COLOR: rgb(102,102,102)">Key F2 closed <b>
+		<span style="BACKGROUND: lime">CSIN</span> </b>in the customer’s account.</span>
+		</p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 0.25in; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 3pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="WIDTH: 490.5pt; BORDER-COLLAPSE: collapse; MARGIN-LEFT: -0.4pt" width="798">
+			<tr style="HEIGHT: 4pt">
+				<td colspan="4" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 598.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: rgb(31,73,125); HEIGHT: 4pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="798">
+				<div>
+					<p class="MsoNormal"><b><span style="COLOR: white">F2 NOTE EXAMPLES</span></b>
+					</p>
+				</div>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.35pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="120">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.35pt; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 49pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" valign="bottom" width="65">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 328.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="438">
+				<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal">
+				<span style="COLOR: rgb(103,103,103)">Provided
+				<input name="John Doe" size="20" type="text"> lockbox information. 
+				Informed him to make sure he puts his account number on their payment 
+				and provided him his 12 digit acct number.</span> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="120">
+				<p class="MsoNormal"><b><span style="COLOR: rgb(31,73,125)">NOTE 
+				TYPE: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal"><b><span style="COLOR: rgb(103,103,103)">CSIN</span></b>
+				</p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.35pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="120">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">STATUS: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">CLOSED</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.35pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="120">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">PRIORITY: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.35pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="120">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">REPORTED BY:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">PMT LOCKBOX</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.35pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="120">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">ASSOC ID:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<br type="_moz"></td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="120">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="175">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+			</tr>
+		</table>
+	</div>
+	<div id="tabs-11">
+		<a id="RefundBalance"></a>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<b><span style="COLOR: rgb(102,102,102)">Refund - Balance on Account</span></b>
+		</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">If there is a balance on the account 
+		after the account has been closed and there is nothing in the TBI:</span>
+		</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">- Key F2 <b>
+		<span style="BACKGROUND: lime">ADRF</span> </b>and inform customer that 
+		the refund may take <b>7-10 business days</b> </span></p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 3pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="WIDTH: 603.25pt; BORDER-COLLAPSE: collapse; MARGIN-LEFT: -0.65pt" width="804">
+			<tr style="HEIGHT: 4pt">
+				<td colspan="4" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 603.25pt; PADDING-RIGHT: 5.4pt; BACKGROUND: rgb(31,73,125); HEIGHT: 4pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="804">
+				<div>
+					<p class="MsoNormal"><b><span style="COLOR: white">F2 NOTE EXAMPLES</span></b>
+					</p>
+				</div>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 13.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" valign="bottom" width="18">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 314.45pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="419">
+				<p class="MsoNormal ms-rteFontSize-2">
+				<span style="COLOR: rgb(103,103,103)">
+				<input name="Jane Doe" size="15" type="text"> called asking for 
+				refund of $<span style="BACKGROUND: yellow"><input name="XX.XX" size="15" type="text"></span> 
+				on account</span> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">NOTE TYPE: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">ADRF</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">STATUS: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">OPEN</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">PRIORITY: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N</span></b> </p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">REPORTED BY:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">REFUND REQUEST</span></b>
+				</p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">ASSOC ID:</span></b> </p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<br type="_moz"></td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="147">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="220">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+			</tr>
+		</table>
+	</div>
+	<div id="tabs-12">
+		<a id="FeeIssue"></a>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<b><span style="COLOR: rgb(102,102,102)">Fee Issue or Credit Request - Not 
+		Service Interrupted</span></b></p>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">Review invoice for accuracy, then:</span></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">A.</span><span style="FONT-FAMILY: 'times new roman', 'serif'; COLOR: rgb(102,102,102)">
+		</span><span style="COLOR: rgb(102,102,102)">For credits granted less than 
+		$75, key F2 <b><span style="BACKGROUND: lime">ADCR</span></b></span></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 0.5in; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="color: rgb(192,0,0)">-<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><b><span style="COLOR: rgb(192,0,0)">Supervisor or Manager 
+		(only) closes F2 CSEI</span></b></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 0.5in; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 0.75in; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="font-family: wingdings; color: rgb(192,0,0)">§<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><b><span style="COLOR: rgb(192,0,0)">If approved, keys F2
+		</span><span style="BACKGROUND: lime; COLOR: rgb(102,102,102)">ADCR</span><span style="COLOR: rgb(192,0,0)">, 
+		and closes F2 </span>
+		<span style="BACKGROUND: lime; COLOR: rgb(102,102,102)">CSEI</span></b></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -27pt; MARGIN: 0in 0in 0pt 81pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="font-family: wingdings; color: rgb(192,0,0)">ü<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><b><span style="COLOR: rgb(192,0,0)">F10 action on F2 CSEI 
+		must include:</span></b></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 94.5pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="font-family: symbol; color: rgb(192,0,0)">·<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><span class="SpellE"><b><span style="COLOR: rgb(192,0,0)">
+		Supvr</span></b></span><b><span style="COLOR: rgb(192,0,0)">/Manager approval</span></b></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 94.5pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="font-family: symbol; color: rgb(192,0,0)">·<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><b><span style="COLOR: rgb(192,0,0)">USER ID</span></b></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 94.5pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="font-family: symbol; color: rgb(192,0,0)">·<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal; font-size-adjust: none; font-stretch: normal; -moz-font-feature-settings: normal; -moz-font-language-override: normal">
+		</span></span><b><span style="COLOR: rgb(192,0,0)">Date of approval</span></b></p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0pt 94.5pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 3pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="WIDTH: 603.25pt; BORDER-COLLAPSE: collapse; MARGIN-LEFT: -0.65pt" width="804">
+			<tr style="HEIGHT: 4pt">
+				<td colspan="4" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 603.25pt; PADDING-RIGHT: 5.4pt; BACKGROUND: rgb(31,73,125); HEIGHT: 4pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="804">
+				<div>
+					<p class="MsoNormal"><b><span style="COLOR: white">F2 NOTE EXAMPLES</span></b></p>
+				</div>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 13.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" valign="bottom" width="18">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 314.45pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="419">
+				<p class="MsoNormal ms-rteFontSize-2">
+				<span style="COLOR: rgb(103,103,103)">
+				<input name="Jone Doe" size="15" type="text"> called and stated 
+				he was supposed to be on Seasonal Stop for 60 not 30 days and confirmed 
+				with ops this was true.
+				<input name="Jone Doe" size="15" type="text"> is due credit of $<span style="BACKGROUND: yellow"><input name="XX.XX" size="10" type="text">
+				</span>for 30 days of no service. Please review and forward to division 
+				for credit.</span></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">NOTE TYPE: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">CSEI</span></b></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">STATUS: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">OPEN</span></b></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">PRIORITY: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">H</span></b></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">REPORTED BY:</span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">Review Credit Request</span></b></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">ASSOC ID:</span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">SUPV ID</span></b></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="147">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; PADDING-TOP: 0in" valign="top" width="220">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: 1pt solid; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: 1pt solid; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 13.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: 1pt solid; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" valign="bottom" width="18">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 314.45pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="419">
+				<p class="MsoNormal">
+				<span style="FONT-FAMILY: 'verdana', 'sans-serif'; COLOR: rgb(103,103,103)">
+				<br type="_moz"></span><span style="COLOR: rgb(103,103,103)">(MISSED 
+				SERVICE) Please credit $<span style="BACKGROUND: yellow"><input name="XX.XX" size="15" type="text"></span> 
+				- one week credit - <input name="Jone Doe" size="15" type="text"> 
+				was missed on mm/<span class="SpellE">dd</span>/<span class="SpellE">yy</span> 
+				and scheduled RTM was never done. Fee breakdown: Service $<span style="BACKGROUND: yellow"><input name="XX.XX" size="15" type="text"></span>, 
+				ERF $<span style="BACKGROUND: yellow"><input name="XX.XX" size="15" type="text"></span>, 
+				FRF $<span style="BACKGROUND: yellow"><input name="XX.XX" size="15" type="text"></span>.<br type="_moz">
+				<br type="_moz">(WAIVE FEE) Please credit $<span style="BACKGROUND: yellow"><input name="XX.XX" size="15" type="text"></span> 
+				late fee - one time courtesy</span></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">NOTE TYPE:</span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">ADCR</span></b></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">STATUS:</span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">OPEN</span></b></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">PRIORITY: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N</span></b></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">REPORTED BY:</span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">Credit Request $<span style="BACKGROUND: yellow">XX.XX</span></span></b></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.1pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">ASSOC ID:</span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N/A</span></b></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="147">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="220">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+			</tr>
+		</table>
+	</div>
+	<div id="tabs-13">
+		<a id="AutoBilling"></a>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<b><span style="COLOR: rgb(102,102,102)">Invoice Question, Charge or Issue
+		</span></b></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">Review invoice, TBI and accounting 
+		screens with customer, key F2 closed <b><span style="BACKGROUND: lime">CSIN</span></b></span></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<span class="ms-rteFontSize-2"></span>
+		<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<span style="COLOR: rgb(102,102,102)">If all attempts to assist caller have 
+		been made by CSR and customer requires extended research of account history 
+		see Supervisor before keying F2 <b><span style="BACKGROUND: lime">CSEI</span></b></span></p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 0pt; BACKGROUND: white; VERTICAL-ALIGN: top">
+		<br type="_moz"></p>
+		<p class="MsoNormal" style="LINE-HEIGHT: normal; MARGIN-BOTTOM: 3pt; BACKGROUND: white; VERTICAL-ALIGN: top">&nbsp;</p>
+		<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="WIDTH: 598.5pt; BORDER-COLLAPSE: collapse; MARGIN-LEFT: -0.4pt" width="798">
+			<tr style="HEIGHT: 4pt">
+				<td colspan="4" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 598.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: rgb(31,73,125); HEIGHT: 4pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="798">
+				<div>
+					<p class="MsoNormal"><b><span style="COLOR: white">F2 NOTE EXAMPLES</span></b></p>
+				</div>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.35pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="120">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.35pt; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 49pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" valign="bottom" width="65">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 328.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="438">
+				<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal">
+				<span style="COLOR: rgb(103,103,103)">
+				<input name="John Doe" size="20" type="text"> had questioned the 
+				FRF/ERF charges. Gave explanation to customer&#39;s satisfaction.</span></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="120">
+				<p class="MsoNormal"><b><span style="COLOR: rgb(31,73,125)">NOTE 
+				TYPE: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal"><b><span style="COLOR: rgb(103,103,103)">CSIN</span></b></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.35pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="120">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">STATUS: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">CLOSED</span></b></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.35pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="120">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">PRIORITY: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">N</span></b></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.35pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="120">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">REPORTED BY:</span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">INV QUESTIONS</span></b></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.35pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="120">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">ASSOC ID:</span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<br type="_moz"></td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="120">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; PADDING-TOP: 0in" valign="top" width="175">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+			</tr>
+			<tr style="HEIGHT: 20.35pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; HEIGHT: 20.35pt; BORDER-TOP: 1pt solid; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="120">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.35pt; BORDER-TOP: 1pt solid; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 49pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.35pt; BORDER-TOP: 1pt solid; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" valign="bottom" width="65">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td rowspan="7" style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 328.5pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid; PADDING-TOP: 0in" width="438">
+				<p class="MsoNormal ms-rteFontSize-2" style="LINE-HEIGHT: normal">
+				<span style="COLOR: rgb(103,103,103)">
+				<input name="John Doe" size="20" type="text">states invoice charges 
+				and payments do not match and is not satisfied with explanation 
+				of invoice and proration process. Please contact
+				<input name="John Doe" size="20" type="text"> at
+				<span style="BACKGROUND: yellow">
+				<input name="XX.XX" size="10" type="text"></span> to further explain 
+				invoice charges.</span></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.35pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="120">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">NOTE TYPE:</span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">CSEI</span></b></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.35pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="120">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">STATUS:</span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">OPEN</span></b></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.35pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="120">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">PRIORITY: </span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">H</span></b></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 20.35pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="120">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">REPORTED BY:</span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.35pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">INV DISPUTE</span></b></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 7.7pt">
+				<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 7.7pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="120">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(31,73,125)">ASSOC ID:</span></b></p>
+				</td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 7.7pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="175">
+				<p class="MsoNormal" style="LINE-HEIGHT: normal"><b>
+				<span style="COLOR: rgb(103,103,103)">SUPV ID</span></b></p>
+				</td>
+			</tr>
+			<tr style="HEIGHT: 3.5pt">
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 1.25in; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="120">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+				<td style="BORDER-BOTTOM: 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 131pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="175">
+				<p class="MsoNormal">&nbsp;</p>
+				<br type="_moz"></td>
+			</tr>
+		</table>
+	</div>
+	<div id="tabs-2">
+		<div class="ms-rteFontSize-2">
+			<b><span style="color: #666666">Payment - New Account</span></b></div>
+		<div class="ms-rteFontSize-2">
+			<span style="color: #666666">&nbsp;</span></div>
+		<ol class="ms-rteFontSize-2" style="margin-top: 0in" type="1">
+			<li class="MsoNormal" style="line-height: normal; margin-bottom: 0pt; background: white; color: #666666; vertical-align: top">
+			<span>Process payment via
+			<a href="https://secure3.billerweb.com/alw/billerconsole.html" target="_blank" title="EBPP">
+			<span style="color: #4f81bd">EBPP</span></a> on Division&#39;s Holding Account 
+			(9999991)</span> </li>
+			<li class="MsoNormal" style="line-height: normal; margin-bottom: 0pt; background: white; color: #666666; vertical-align: top">
+			<span>Complete
+			<a href="http://erooms/KMT/morocco_ccc/Tools/Redesigned%20RESI%20ORDER%20FORM.xls" target="_blank" title="Resi Order Form">
+			<font color="#0072bc">Residential Order Form</font></a></span> </li>
+		</ol>
+		<div class="ms-rteFontSize-2">
+			<span style="color: #666666">&nbsp;</span></div>
+		<div class="ms-rteFontSize-2">
+			<b><span style="background: yellow; color: #c00000">*Reminder-must place 
+			on CSR Memo field*:</span></b></div>
+		<ul class="ms-rteFontSize-2" style="margin-top: 0in" type="square">
+			<li class="MsoNormal" style="margin-bottom: 0pt"><strong>
+			<span style="font-family: &quot;calibri&quot;, &quot;sans-serif&quot;; font-weight: normal">
+			Site Name</span></strong> </li>
+			<li class="MsoNormal" style="margin-bottom: 0pt"><strong>
+			<span style="font-family: &quot;calibri&quot;, &quot;sans-serif&quot;; font-weight: normal">
+			Site Address</span></strong> </li>
+			<li class="MsoNormal" style="margin-bottom: 0pt"><strong>
+			<span style="font-family: &quot;calibri&quot;, &quot;sans-serif&quot;; font-weight: normal">
+			Container Size</span></strong> </li>
+			<li class="MsoNormal" style="margin-bottom: 0pt"><strong>
+			<span style="font-family: &quot;calibri&quot;, &quot;sans-serif&quot;; font-weight: normal">
+			Acct# (if applies)</span></strong> </li>
+		</ul>
+		<div class="ms-rteFontSize-2">
+			<span style="color: #666666">&nbsp;</span></div>
+		<div class="ms-rteFontSize-2">
+			<span style="color: #666666">-&nbsp; If making payment at the division, 
+			review payment methods and follow process on </span>
+			<span style="color: #4f81bd">
+			<a href="http://erooms/sites/KMT/MoroccoCSC/_layouts/listfeed.aspx?List=%7B98D093D7%2DC6BC%2D48E3%2DA69A%2D5BC56FD33F7D%7D&amp;Source=http%3A%2F%2Ferooms%2Fsites%2FKMT%2FMoroccoCSC%2FLists%2FDivision%2520Homepage1%2FAllItems%2Easpx" target="_blank">
+			<font color="#0072bc">division information page</font></a></span></div>
+		<div class="ms-rteFontSize-2">
+			<span style="color: #666666">&nbsp;</span></div>
+		<div class="ms-rteFontSize-2">
+			<span style="color: #666666">-&nbsp; If mailing payment - encourage 
+			customer not to use this option, if necessary give <b>division mailing 
+			address</b>.</span></div>
+	</div>
+	<div id="tabs-14">
+		<a id="RefundBalance"></a>
+		<div id="WebPartWPQ3" allowdelete="false" class="ms-WPBody noindex ms-wpContentDivSpace" haspers="false" webpartid="6381ae5d-627e-4045-bee2-4cfe088fa216" width="100%">
+			<p>&nbsp;</p>
+			<div class="ms-rteFontSize-2">
+				<b><span style="COLOR: #666666">Auto Billing Authorization Agreement</span></b></div>
+			<p class="ms-rteFontSize-2">&nbsp;</p>
+			<div class="ms-rteFontSize-2">
+				<span style="COLOR: #666666">&nbsp;</span></div>
+			<div class="ms-rteFontSize-2">
+				<span style="COLOR: #666666">Customer </span><b>
+				<span style="COLOR: darkred">MUST</span></b><span style="COLOR: #666666"> 
+				complete a new form before account information can be changed by 
+				CSR.</span></div>
+			<div class="ms-rteFontSize-2">
+				<span style="color: #666666">-<span style="LINE-HEIGHT: normal; FONT-VARIANT: normal; FONT-STYLE: normal; FONT-FAMILY: 'times new roman'; FONT-WEIGHT: normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</span></span><span style="COLOR: #666666">Only change expiration 
+				date on current credit/debit cards. </span></div>
+			<div class="ms-rteFontSize-2">
+				<span style="COLOR: #666666">&nbsp;</span></div>
+			<div class="ms-rteFontSize-2">
+				<span style="COLOR: #666666">Inform Customer that they can also 
+				log onto Online Bill Pay and update their own account information 
+				if that is a more convenient option. </span></div>
+			<div class="ms-rteFontSize-2">
+				<span style="FONT-FAMILY: symbol; COLOR: #666666">·</span><span style="FONT-FAMILY: 'times new roman', 'serif'; COLOR: #666666">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</span><span class="GramE"><span style="COLOR: #666666">If</span></span><span style="COLOR: #666666"> 
+				assisted customer with changes or mailing form to customer key F2
+				<b><span style="BACKGROUND: lime">CSIN</span></b>.</span></div>
+			<div class="ms-rteFontSize-2">
+				<span style="COLOR: #666666">&nbsp;</span></div>
+			<div class="ms-rteFontSize-2">
+				<i><span style="COLOR: #666666">Refer to
+				<a href="http://erooms/sites/Tools/EBPP-Quick%20Ref%20Guide.htm" target="_blank" title="EBPP Quick Reference Guide">
+				<span style="COLOR: #4f81bd">EBPP Quick Reference Guide </span>
+				</a>for further questions or troubleshooting.</span></i></div>
+			<div class="ms-rteFontSize-2">
+				<span style="COLOR: #666666">&nbsp;</span></div>
+			<table border="0" cellpadding="0" cellspacing="0" class="MsoNormalTable" style="WIDTH: 603.25pt; BORDER-COLLAPSE: collapse; MARGIN-LEFT: -0.65pt" width="804">
+				<tr class="ms-rteFontSize-2" style="HEIGHT: 4pt">
+					<td colspan="4" style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 603.25pt; PADDING-RIGHT: 5.4pt; BACKGROUND: #1f497d; HEIGHT: 4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; PADDING-TOP: 0in" width="804">
+					<div>
+						<b><span style="COLOR: white">F2 NOTE EXAMPLES</span></b></div>
+					</td>
+				</tr>
+				<tr class="ms-rteFontSize-2" style="HEIGHT: 3.5pt">
+					<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+					<div>
+						<span style="COLOR: #676767">&nbsp;</span></div>
+					</td>
+					<td style="PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; PADDING-TOP: 0in" valign="bottom" width="220">
+					<div>
+						<span style="COLOR: #676767">&nbsp;</span></div>
+					</td>
+					<td rowspan="7" style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 13.8pt; PADDING-RIGHT: 5.4pt; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0in" valign="bottom" width="18">
+					<div>
+						<span style="COLOR: #676767">&nbsp;</span></div>
+					</td>
+					<td rowspan="7" style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 314.45pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0in" width="419">
+					<div>
+						<span style="COLOR: #676767">
+						<input name="Jane Doe" size="20" type="text"> called asking 
+						update expiration date of CC on OBP. Sent form.</span></div>
+					</td>
+				</tr>
+				<tr class="ms-rteFontSize-2" style="HEIGHT: 20.1pt">
+					<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+					<div>
+						<b><span style="COLOR: #1f497d">NOTE TYPE: </span></b>
+					</div>
+					</td>
+					<td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+					<div>
+						<b><span style="COLOR: #676767">CSIN</span></b></div>
+					</td>
+				</tr>
+				<tr class="ms-rteFontSize-2" style="HEIGHT: 20.1pt">
+					<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+					<div>
+						<b><span style="COLOR: #1f497d">STATUS:&nbsp; </span>
+						</b></div>
+					</td>
+					<td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+					<div>
+						<b><span style="COLOR: #676767">CLOSED</span></b></div>
+					</td>
+				</tr>
+				<tr class="ms-rteFontSize-2" style="HEIGHT: 20.1pt">
+					<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+					<div>
+						<b><span style="COLOR: #1f497d">PRIORITY:&nbsp; </span>
+						</b></div>
+					</td>
+					<td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+					<div>
+						<b><span style="COLOR: #676767">N</span></b></div>
+					</td>
+				</tr>
+				<tr class="ms-rteFontSize-2" style="HEIGHT: 20.1pt">
+					<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+					<div>
+						<b><span style="COLOR: #1f497d">REPORTED BY:</span></b></div>
+					</td>
+					<td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+					<div>
+						<b><span style="COLOR: #676767">OBP UPDATE</span></b></div>
+					</td>
+				</tr>
+				<tr class="ms-rteFontSize-2" style="HEIGHT: 20.1pt">
+					<td style="BORDER-BOTTOM: medium none; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="147">
+					<div>
+						<b><span style="COLOR: #1f497d">ASSOC ID:</span></b></div>
+					</td>
+					<td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 20.1pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="bottom" width="220">
+					</td>
+				</tr>
+				<tr style="HEIGHT: 3.5pt">
+					<td class="ms-rteFontSize-2" style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 1pt solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 110.2pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="147">
+					<div>
+						<b><span style="COLOR: #1f497d">&nbsp;</span></b></div>
+					</td>
+					<td style="BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 164.8pt; PADDING-RIGHT: 5.4pt; BACKGROUND: white; HEIGHT: 3.5pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in" valign="top" width="220">
+					<div>
+						<span style="COLOR: #676767">&nbsp;</span></div>
+					</td>
+				</tr>
+			</table>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2B5949D1-164D-42A5-9E35-5FEA383EAD42}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RSG.Inside.KMTTemplateWebParts</RootNamespace>
+    <AssemblyName>RSG.Inside.KMTTemplateWebParts</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ProjectMode>SharePointCustomization</ProjectMode>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint.WorkflowActions, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Security" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CitiesLeftNavigation\CitiesLeftNavigation.cs" />
+    <Compile Include="CitiesLeftNavigation\CitiesLeftNavigationUserControl.ascx.cs">
+      <DependentUpon>CitiesLeftNavigationUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CitiesLeftNavigation\CitiesLeftNavigationUserControl.ascx.designer.cs">
+      <DependentUpon>CitiesLeftNavigationUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewCityPageWebPart\NewCityPageWebPart.cs" />
+    <Compile Include="NewCityPageWebPart\NewCityPageWebPartUserControl.ascx.cs">
+      <DependentUpon>NewCityPageWebPartUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewCityPageWebPart\NewCityPageWebPartUserControl.ascx.designer.cs">
+      <DependentUpon>NewCityPageWebPartUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TopDocumentsFromDocumentLibrary\TopDocumentsFromDocumentLibrary.cs" />
+    <Compile Include="TopDocumentsFromDocumentLibrary\TopDocumentsFromDocumentLibraryUserControl.ascx.cs">
+      <DependentUpon>TopDocumentsFromDocumentLibraryUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TopDocumentsFromDocumentLibrary\TopDocumentsFromDocumentLibraryUserControl.ascx.designer.cs">
+      <DependentUpon>TopDocumentsFromDocumentLibraryUserControl.ascx.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CitiesLeftNavigation\CitiesLeftNavigation.webpart" />
+    <None Include="CitiesLeftNavigation\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f6e274fb-bd9a-4a9c-a4f7-7641c4eadaa2}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\KMTTemplateWebParts_Feature\KMTTemplateWebParts_Feature.feature">
+      <FeatureId>{2423bb2e-727f-4b14-b462-9c43a1e57048}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\RSG.Inside.KMTTemplateWebParts\WebParts\CitiesLeftNavigation.webpart" />
+    <None Include="Layouts\RSG.Inside.KMTTemplateWebParts\WebParts\CityPageSummaryLinks.webpart" />
+    <None Include="Layouts\RSG.Inside.KMTTemplateWebParts\WebParts\Commercial CEWP.dwp" />
+    <None Include="Layouts\RSG.Inside.KMTTemplateWebParts\WebParts\Industrial CEWP.dwp" />
+    <None Include="Layouts\RSG.Inside.KMTTemplateWebParts\WebParts\NewCityDivisionHeader.dwp" />
+    <None Include="Layouts\RSG.Inside.KMTTemplateWebParts\WebParts\NewCityDummyDescription.dwp" />
+    <None Include="Layouts\RSG.Inside.KMTTemplateWebParts\WebParts\NewCityLOBs.dwp" />
+    <None Include="Layouts\RSG.Inside.KMTTemplateWebParts\WebParts\Operational CEWP.dwp" />
+    <None Include="Layouts\RSG.Inside.KMTTemplateWebParts\WebParts\Residential CEWP.dwp" />
+    <None Include="Layouts\RSG.Inside.KMTTemplateWebParts\WebParts\TopDocumentsFromDocumentLibrary.webpart" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4e1ef953-3bc6-44e1-bb89-20b39971478f}</SharePointProjectItemId>
+    </None>
+    <None Include="NewCityPageWebPart\NewCityPageWebPart.webpart" />
+    <None Include="NewCityPageWebPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e0d89694-0f70-46f2-b15a-8d8a0bc82b3f}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{4e3d9ee1-110f-45c1-8398-a7ee24fe0df9}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="SMARTPGS\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b29acccc-7440-4a60-afa2-07c607c7af50}</SharePointProjectItemId>
+    </None>
+    <None Include="TopDocumentsFromDocumentLibrary\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5d195dd5-1011-4d89-9f1f-efe1597add73}</SharePointProjectItemId>
+    </None>
+    <None Include="TopDocumentsFromDocumentLibrary\TopDocumentsFromDocumentLibrary.webpart" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CitiesLeftNavigation\CitiesLeftNavigationUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="CitiesLeftNavigation\Elements.xml" />
+    <Content Include="Features\KMTTemplateWebParts_Feature\KMTTemplateWebParts_Feature.Template.xml">
+      <DependentUpon>KMTTemplateWebParts_Feature.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\RSG.Inside.KMTTemplateWebParts\HTMLPages\AllCities.html" />
+    <Content Include="Layouts\RSG.Inside.KMTTemplateWebParts\HTMLPages\Commercial.html" />
+    <Content Include="Layouts\RSG.Inside.KMTTemplateWebParts\HTMLPages\Industrial.html" />
+    <Content Include="Layouts\RSG.Inside.KMTTemplateWebParts\HTMLPages\Operational.html" />
+    <Content Include="Layouts\RSG.Inside.KMTTemplateWebParts\HTMLPages\Residential.html" />
+    <Content Include="Layouts\RSG.Inside.KMTTemplateWebParts\Images\ui-icons_222222_256x240.png" />
+    <Content Include="Layouts\RSG.Inside.KMTTemplateWebParts\Images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Layouts\RSG.Inside.KMTTemplateWebParts\Images\ui-icons_454545_256x240.png" />
+    <Content Include="Layouts\RSG.Inside.KMTTemplateWebParts\Images\ui-icons_888888_256x240.png" />
+    <Content Include="Layouts\RSG.Inside.KMTTemplateWebParts\Images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Layouts\RSG.Inside.KMTTemplateWebParts\JS\jquery-1.10.2.js" />
+    <Content Include="Layouts\RSG.Inside.KMTTemplateWebParts\JS\jquery-ui.css" />
+    <Content Include="Layouts\RSG.Inside.KMTTemplateWebParts\JS\jquery-ui.js" />
+    <Content Include="NewCityPageWebPart\Elements.xml" />
+    <Content Include="NewCityPageWebPart\NewCityPageWebPartUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="SMARTPGS\NewCityPageLayout.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="TopDocumentsFromDocumentLibrary\Elements.xml" />
+    <Content Include="TopDocumentsFromDocumentLibrary\TopDocumentsFromDocumentLibraryUserControl.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="false" />
+</Project>

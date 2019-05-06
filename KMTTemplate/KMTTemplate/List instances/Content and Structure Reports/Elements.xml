@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance FeatureId="{00bfea71-de22-43b2-a848-c05709900100}" TemplateType="100" Title="Content and Structure Reports" Description="Use the reports list to customize the queries that appear in the Content and Structure Tool views" Url="Reports List" CustomSchema="Files\Reports List\Schema.xml" HyperlinkBaseUrl="http://devshpt02:44444" RootWebOnly="FALSE" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<Data>
+			<Rows>
+				<Row>
+					<Field Name="ContentTypeId">0x0100F1CEC87684BCDB41BC53580C2EFF649A</Field>
+					<Field Name="Title">Checked Out To Me</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x">SmtCheckOutUser</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x0">SmtCheckedOutReportDescription</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x2">&lt;Where&gt;&lt;Eq&gt;&lt;FieldRef Name="CheckoutUser" LookupId="TRUE"/&gt;&lt;Value Type="Integer"&gt;&lt;UserID/&gt;&lt;/Value&gt;&lt;/Eq&gt;&lt;/Where&gt;</Field>
+					<Field Name="Report_x0020_Description">All documents and pages checked out to me in this site and subsites</Field>
+					<Field Name="ID">1</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">100.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">1_.000</Field>
+					<Field Name="MetaInfo">1;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0100F1CEC87684BCDB41BC53580C2EFF649A</Field>
+					<Field Name="Title">Last Modified By Me</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x">SmtMyDrafts</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x0">SmtLastModifiedReportDescription</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x2">&lt;Where&gt;&lt;Eq&gt;&lt;FieldRef Name="Editor" LookupId="TRUE"/&gt;&lt;Value Type="Integer"&gt;&lt;UserID/&gt;&lt;/Value&gt;&lt;/Eq&gt;&lt;/Where&gt;</Field>
+					<Field Name="Report_x0020_Description">All documents and pages last modified by me in this site and subsites</Field>
+					<Field Name="ID">2</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">200.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">2_.000</Field>
+					<Field Name="MetaInfo">2;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0100F1CEC87684BCDB41BC53580C2EFF649A</Field>
+					<Field Name="Title">Pending Approval</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x">SmtMyPendingDocs</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x0">SmtPendingReportDescription</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x2">&lt;Where&gt;&lt;Eq&gt;&lt;FieldRef ID="{fdc3b2ed-5bf2-4835-a4bc-b885f3396a61}"&gt;&lt;/FieldRef&gt;&lt;Value Type="Number"&gt;2&lt;/Value&gt;&lt;/Eq&gt;&lt;/Where&gt;</Field>
+					<Field Name="Report_x0020_Description">All documents and pages submitted by me and waiting for approval in this site and subsites</Field>
+					<Field Name="ID">3</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">300.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">3_.000</Field>
+					<Field Name="MetaInfo">3;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0100F1CEC87684BCDB41BC53580C2EFF649A</Field>
+					<Field Name="Title">My Tasks</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x">SmtMyPendingTasks</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x0">SmtMyTasksReportDescription</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x1">&lt;Lists ServerTemplate="107"/&gt;</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x2">&lt;Where&gt;&lt;Or&gt;&lt;Eq&gt;&lt;FieldRef Name="AssignedTo" LookupId="TRUE"/&gt;&lt;Value Type="Integer"&gt;&lt;UserID /&gt;&lt;/Value&gt;&lt;/Eq&gt;&lt;Membership Type="CurrentUserGroups"&gt;&lt;FieldRef Name="AssignedTo"/&gt;&lt;/Membership&gt;&lt;/Or&gt;&lt;/Where&gt;&lt;OrderBy&gt;&lt;FieldRef Name="DueDate"/&gt;&lt;/OrderBy&gt;</Field>
+					<Field Name="Report_x0020_Description">All tasks assigned to me in this site and subsites</Field>
+					<Field Name="ID">4</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">400.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">4_.000</Field>
+					<Field Name="MetaInfo">4;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0100F1CEC87684BCDB41BC53580C2EFF649A</Field>
+					<Field Name="Title">All Draft Documents</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x">SmtAllDraftDocs</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x0">SmtAllDraftsReportDescription</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x2">&lt;Where&gt;&lt;Eq&gt;&lt;FieldRef ID="{fdc3b2ed-5bf2-4835-a4bc-b885f3396a61}"&gt;&lt;/FieldRef&gt;&lt;Value Type="Number"&gt;3&lt;/Value&gt;&lt;/Eq&gt;&lt;/Where&gt;</Field>
+					<Field Name="Report_x0020_Description">All documents and pages not yet published in this site and subsites</Field>
+					<Field Name="ID">5</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">500.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">5_.000</Field>
+					<Field Name="MetaInfo">5;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0100F1CEC87684BCDB41BC53580C2EFF649A</Field>
+					<Field Name="Title">Going Live Within Next Seven Days</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x">SmtAllLiveDocs</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x0">SmtLiveDocsReportDescription</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x2">&lt;Where&gt;&lt;And&gt;&lt;Leq&gt;&lt;FieldRef ID="{51d39414-03dc-4bd0-b777-d3e20cb350f7}"&gt;&lt;/FieldRef&gt;&lt;Value Type="DateTime"&gt;[Today + 7]&lt;/Value&gt;&lt;/Leq&gt;&lt;Geq&gt;&lt;FieldRef ID="{51d39414-03dc-4bd0-b777-d3e20cb350f7}"/&gt;&lt;Value Type="DateTime"&gt;&lt;Today /&gt;&lt;/Value&gt;&lt;/Geq&gt;&lt;/And&gt;&lt;/Where&gt;</Field>
+					<Field Name="Report_x0020_Description">All documents and pages that will be published and visible to readers within the next seven days in this site and subsites</Field>
+					<Field Name="ID">6</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">600.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">6_.000</Field>
+					<Field Name="MetaInfo">6;#</Field>
+				</Row>
+				<Row>
+					<Field Name="ContentTypeId">0x0100F1CEC87684BCDB41BC53580C2EFF649A</Field>
+					<Field Name="Title">Expiring Within Next Seven Days</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x">SmtAllExpireDocs</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x0">SmtExpiringDocsReportDescription</Field>
+					<Field Name="_x0024_Resources_x003a_cmscore_x2">&lt;Where&gt;&lt;And&gt;&lt;Leq&gt;&lt;FieldRef ID="{a990e64f-faa3-49c1-aafa-885fda79de62}"&gt;&lt;/FieldRef&gt;&lt;Value Type="DateTime"&gt;[Today + 7]&lt;/Value&gt;&lt;/Leq&gt;&lt;Geq&gt;&lt;FieldRef ID="{a990e64f-faa3-49c1-aafa-885fda79de62}"/&gt;&lt;Value Type="DateTime"&gt;&lt;Today /&gt;&lt;/Value&gt;&lt;/Geq&gt;&lt;/And&gt;&lt;/Where&gt;</Field>
+					<Field Name="Report_x0020_Description">All documents and pages that will only be visible to authorized users within the next seven days in this site and subsites</Field>
+					<Field Name="ID">7</Field>
+					<Field Name="_ModerationStatus">0</Field>
+					<Field Name="Order">700.000000000000</Field>
+					<Field Name="FSObjType">0</Field>
+					<Field Name="FileLeafRef">7_.000</Field>
+					<Field Name="MetaInfo">7;#</Field>
+				</Row>
+			</Rows>
+		</Data>
+	</ListInstance>
+</Elements>

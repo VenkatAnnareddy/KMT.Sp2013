@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="Style Libraryen-usThemableCore Styles_Features\PublishingLayouts\en-us" Url="Style Library/en-us/Themable/Core Styles" SetupPath="Features\PublishingLayouts\en-us" RootWebOnly="TRUE" Path="Files\12StyleLibrary\en-us\Themable\13CoreStyles" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="controls.css" Type="GhostableInLibrary" Path="controls.css">
+			<Property Name="ID" Value="60" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/en-us/Themable/Core Styles" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="controls.css" />
+			<Property Name="MetaInfo" Value="60;#" />
+			<Property Name="Order" Value="6000.00000000000" />
+		</File>
+		<File Url="htmleditorstyles.css" Type="GhostableInLibrary" Path="htmleditorstyles.css">
+			<Property Name="ID" Value="34" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/en-us/Themable/Core Styles" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="htmleditorstyles.css" />
+			<Property Name="MetaInfo" Value="34;#" />
+			<Property Name="Order" Value="3400.00000000000" />
+		</File>
+		<File Url="nightandday.css" Type="GhostableInLibrary" Path="nightandday.css">
+			<Property Name="ID" Value="38" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/en-us/Themable/Core Styles" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="nightandday.css" />
+			<Property Name="MetaInfo" Value="38;#" />
+			<Property Name="Order" Value="3800.00000000000" />
+		</File>
+	</Module>
+</Elements>

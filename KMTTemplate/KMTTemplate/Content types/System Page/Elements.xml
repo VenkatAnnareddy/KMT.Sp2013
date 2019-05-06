@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ContentType ID="0x010100C568DB52D9D0A14D9B2FDCC96666E9F2" Name="System Page" Group="_Hidden" Description="System Page is a system content type template created by the Publishing Resources feature, and it cannot be modified. To add columns to the Pages library, update the Page content type template." Sealed="TRUE" Overwrite="TRUE" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<Folder TargetName="_cts/System Page" />
+		<FieldRefs>
+			<FieldRef ID="{c042a256-787d-4a6f-8a8a-cf6ab767f12d}" Name="ContentType" />
+			<FieldRef ID="{5f47e085-2150-41dc-b661-442f3027f552}" Name="SelectFilename" />
+			<FieldRef ID="{8553196d-ec8d-4564-9861-3dbe931050c8}" Name="FileLeafRef" Required="TRUE" />
+			<FieldRef ID="{8c06beca-0777-48f7-91c7-6da68bc07b69}" Name="Created" Hidden="TRUE" />
+			<FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" Required="FALSE" ShowInNewForm="FALSE" ShowInEditForm="TRUE" />
+			<FieldRef ID="{28cf69c5-fa48-462a-b5cd-27b6f9d2bd5f}" Name="Modified" Hidden="TRUE" />
+			<FieldRef ID="{822c78e3-1ea9-4943-b449-57863ad33ca9}" Name="Modified_x0020_By" Hidden="FALSE" />
+			<FieldRef ID="{4dd7e525-8d6b-4cb4-9d3e-44ee25f973eb}" Name="Created_x0020_By" Hidden="FALSE" />
+			<FieldRef ID="{9da97a8a-1da5-4a77-98d3-4bc10456e700}" Name="Comments" />
+			<FieldRef ID="{51d39414-03dc-4bd0-b777-d3e20cb350f7}" Name="PublishingStartDate" />
+			<FieldRef ID="{a990e64f-faa3-49c1-aafa-885fda79de62}" Name="PublishingExpirationDate" />
+			<FieldRef ID="{aea1a4dd-0f19-417d-8721-95a1d28762ab}" Name="PublishingContact" />
+			<FieldRef ID="{c79dba91-e60b-400e-973d-c6d06f192720}" Name="PublishingContactEmail" />
+			<FieldRef ID="{7546ad0d-6c33-4501-b470-fb3003ca14ba}" Name="PublishingContactName" />
+			<FieldRef ID="{dc47d55f-9bf9-494a-8d5b-e619214dd19a}" Name="PublishingContactPicture" />
+			<FieldRef ID="{0f800910-b30d-4c8f-b011-8189b2297094}" Name="PublishingPageLayout" />
+			<FieldRef ID="{914fdb80-7d4f-4500-bf4c-ce46ad7484a4}" Name="PublishingVariationGroupID" />
+			<FieldRef ID="{766da693-38e5-4b1b-997f-e830b6dfcc7b}" Name="PublishingVariationRelationshipLinkFieldID" />
+			<FieldRef ID="{543bc2cf-1f30-488e-8f25-6fe3b689d9ac}" Name="PublishingRollupImage" />
+			<FieldRef ID="{61cbb965-1e04-4273-b658-eedaa662f48d}" Name="Audience" />
+		</FieldRefs>
+		<XmlDocuments>
+			<XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+				<FormTemplates xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+					<Display>DocumentLibraryForm</Display>
+					<Edit>DocumentLibraryForm</Edit>
+					<New>DocumentLibraryForm</New>
+				</FormTemplates>
+			</XmlDocument>
+		</XmlDocuments>
+	</ContentType>
+</Elements>

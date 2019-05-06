@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="_catalogswp_Features\PublishingResources\dwp" Url="_catalogs/wp" SetupPath="Features\PublishingResources\dwp" RootWebOnly="TRUE" Path="Files\_catalogs\wp" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="ContentQuery.webpart" Type="GhostableInLibrary" Path="ContentQuery.webpart">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="ContentQuery.webpart" />
+			<Property Name="Title" Value="Content Query" />
+			<Property Name="WebPartDescription" Value="Displays a dynamic view of content from your site." />
+			<Property Name="Group" Value="Content Rollup" />
+			<Property Name="QuickAddGroups" Value=";#Default;#" />
+			<Property Name="ID" Value="41" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="41;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Content Rollup&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Default;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PublishingResources\\dwp\\ContentQuery.webpart&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartTypeName:SW|Microsoft.SharePoint.Publishing.WebControls.ContentByQueryWebPart&#xD;&#xA;WebPartAssembly:SW|Microsoft.SharePoint.Publishing,Version=14.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartDescription:SW|Displays a dynamic view of content from your site.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartTypeName WebPartAssembly WebPartDescription&#xD;&#xA;ContentTypeName:SR|Article Page&#xD;&#xA;vti_cachedtitle:SR|Content Query&#xD;&#xA;vti_title:SR|Content Query&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="4100.00000000000" />
+		</File>
+		<File Url="Media.webpart" Type="GhostableInLibrary" Path="Media.webpart">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="Media.webpart" />
+			<Property Name="Title" Value="Media Web Part" />
+			<Property Name="WebPartDescription" Value="Use to embed media clips (video and audio) in a web page." />
+			<Property Name="Group" Value="Media and Content" />
+			<Property Name="QuickAddGroups" Value=";#Default;#" />
+			<Property Name="ID" Value="44" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="44;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Media and Content&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Default;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PublishingResources\\dwp\\Media.webpart&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartTypeName:SW|Microsoft.SharePoint.Publishing.WebControls.MediaWebPart&#xD;&#xA;WebPartAssembly:SW|Microsoft.SharePoint.Publishing,Version=14.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartDescription:SW|Use to embed media clips (video and audio) in a web page.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartTypeName WebPartAssembly WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Media Web Part&#xD;&#xA;vti_title:SR|Media Web Part&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="4400.00000000000" />
+		</File>
+		<File Url="SummaryLink.webpart" Type="GhostableInLibrary" Path="SummaryLink.webpart">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="SummaryLink.webpart" />
+			<Property Name="Title" Value="Summary Links" />
+			<Property Name="WebPartDescription" Value="Allows authors to create links that can be grouped and styled." />
+			<Property Name="Group" Value="Content Rollup" />
+			<Property Name="QuickAddGroups" Value=";#Default;#" />
+			<Property Name="ID" Value="42" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="42;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Content Rollup&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Default;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PublishingResources\\dwp\\SummaryLink.webpart&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartTypeName:SW|Microsoft.SharePoint.Publishing.WebControls.SummaryLinkWebPart&#xD;&#xA;WebPartAssembly:SW|Microsoft.SharePoint.Publishing,Version=14.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartDescription:SW|Allows authors to create links that can be grouped and styled.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartTypeName WebPartAssembly WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Summary Links&#xD;&#xA;vti_title:SR|Summary Links&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="4200.00000000000" />
+		</File>
+		<File Url="TableOfContents.webpart" Type="GhostableInLibrary" Path="TableOfContents.webpart">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="TableOfContents.webpart" />
+			<Property Name="Title" Value="Table Of Contents" />
+			<Property Name="WebPartDescription" Value="Displays the navigation hierarchy of your site." />
+			<Property Name="Group" Value="Content Rollup" />
+			<Property Name="QuickAddGroups" Value=";#Default;#" />
+			<Property Name="ID" Value="43" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="43;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Content Rollup&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Default;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PublishingResources\\dwp\\TableOfContents.webpart&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartTypeName:SW|Microsoft.SharePoint.Publishing.WebControls.TableOfContentsWebPart&#xD;&#xA;WebPartAssembly:SW|Microsoft.SharePoint.Publishing,Version=14.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartDescription:SW|Displays the navigation hierarchy of your site.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartTypeName WebPartAssembly WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Table Of Contents&#xD;&#xA;vti_title:SR|Table Of Contents&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="4300.00000000000" />
+		</File>
+	</Module>
+</Elements>

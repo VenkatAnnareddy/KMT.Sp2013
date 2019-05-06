@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Files\_catalogs\masterpage\1EditingMenu\CustomEditingMenu.xml" Target="Files\_catalogs\masterpage\1EditingMenu\" Type="ElementFile" />
+    <ProjectItemFile Source="Files\_catalogs\masterpage\1EditingMenu\CustomQuickAccess.xml" Target="Files\_catalogs\masterpage\1EditingMenu\" Type="ElementFile" />
+    <ProjectItemFile Source="Files\_catalogs\masterpage\1EditingMenu\CustomSiteAction.xml" Target="Files\_catalogs\masterpage\1EditingMenu\" Type="ElementFile" />
+    <ProjectItemFile Source="Files\_catalogs\masterpage\1EditingMenu\RTE2ToolbarExtension.xml" Target="Files\_catalogs\masterpage\1EditingMenu\" Type="ElementFile" />
+    <ProjectItemFile Source="Elements.xml" Target="_catalogsmasterpageEditing Menu_\" Type="ElementManifest" />
+  </Files>
+  <ExtensionData>
+    <ExtensionDataItem Key="DeploymentConflictResolutionBehavior" Value="None" />
+  </ExtensionData>
+</ProjectItem>

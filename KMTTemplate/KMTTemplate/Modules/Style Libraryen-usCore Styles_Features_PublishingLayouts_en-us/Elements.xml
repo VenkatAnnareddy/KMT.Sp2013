@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="Style Libraryen-usCore Styles_Features\PublishingLayouts\en-us" Url="Style Library/en-us/Core Styles" SetupPath="Features\PublishingLayouts\en-us" RootWebOnly="TRUE" Path="Files\12StyleLibrary\en-us\13CoreStyles" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="edit-mode-21.css" Type="GhostableInLibrary" Path="edit-mode-21.css">
+			<Property Name="ID" Value="30" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/en-us/Core Styles" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="edit-mode-21.css" />
+			<Property Name="MetaInfo" Value="30;#" />
+			<Property Name="Order" Value="3000.00000000000" />
+		</File>
+		<File Url="page-layouts-21.css" Type="GhostableInLibrary" Path="page-layouts-21.css">
+			<Property Name="ID" Value="27" />
+			<Property Name="ContentTypeId" Value="0x01010076562F22BB1C0D428DDBE86148616CE1" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Style Library/en-us/Core Styles" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="page-layouts-21.css" />
+			<Property Name="MetaInfo" Value="27;#" />
+			<Property Name="Order" Value="2700.00000000000" />
+		</File>
+	</Module>
+</Elements>

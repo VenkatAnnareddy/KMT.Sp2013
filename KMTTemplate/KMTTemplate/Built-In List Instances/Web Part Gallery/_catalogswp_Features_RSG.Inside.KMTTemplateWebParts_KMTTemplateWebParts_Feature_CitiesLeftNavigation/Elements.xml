@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="_catalogswp_Features\RSG.Inside.KMTTemplateWebParts_KMTTemplateWebParts_Feature\CitiesLeftNavigation" Url="_catalogs/wp" SetupPath="Features\RSG.Inside.KMTTemplateWebParts_KMTTemplateWebParts_Feature\CitiesLeftNavigation" RootWebOnly="TRUE" Path="Files\_catalogs\wp" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="CitiesLeftNavigation.webpart" Type="GhostableInLibrary" Path="CitiesLeftNavigation.webpart">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="CitiesLeftNavigation.webpart" />
+			<Property Name="Title" Value="CitiesLeftNavigation" />
+			<Property Name="WebPartDescription" Value="My Visual WebPart" />
+			<Property Name="Group" Value="Custom" />
+			<Property Name="ID" Value="76" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="76;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Custom&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\RSG.Inside.KMTTemplateWebParts_KMTTemplateWebParts_Feature\\CitiesLeftNavigation\\CitiesLeftNavigation.webpart&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartTypeName:SW|RSG.Inside.KMTTemplateWebParts.CitiesLeftNavigation.CitiesLeftNavigation&#xD;&#xA;WebPartAssembly:SW|RSG.Inside.KMTTemplateWebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7889d2b3af6fbf88&#xD;&#xA;WebPartDescription:SW|My Visual WebPart&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartTypeName WebPartAssembly WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|CitiesLeftNavigation&#xD;&#xA;vti_title:SR|CitiesLeftNavigation&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="7600.00000000000" />
+		</File>
+	</Module>
+</Elements>

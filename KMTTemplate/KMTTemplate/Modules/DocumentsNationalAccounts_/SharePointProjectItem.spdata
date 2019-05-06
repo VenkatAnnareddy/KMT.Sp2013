@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Files\Documents\NationalAccounts\SLAs.html" Target="Files\Documents\NationalAccounts\" Type="ElementFile" />
+    <ProjectItemFile Source="Elements.xml" Target="DocumentsNationalAccounts_\" Type="ElementManifest" />
+  </Files>
+</ProjectItem>

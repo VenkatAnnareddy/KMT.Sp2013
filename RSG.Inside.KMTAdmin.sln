@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSG.Inside.KMTAdmin", "RSG.Inside.KMTAdmin\RSG.Inside.KMTAdmin.csproj", "{53B3CAF9-AE65-441B-B276-57BB51F952FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSG.Inside.KMTTemplateWebParts", "RSG.Inside.KMTTemplateWebParts\RSG.Inside.KMTTemplateWebParts.csproj", "{2B5949D1-164D-42A5-9E35-5FEA383EAD42}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.repsrv.com:8060/rsgtfs/rsgspcollection
+		SccProjectUniqueName0 = RSG.Inside.KMTTemplateWebParts\\RSG.Inside.KMTTemplateWebParts.csproj
+		SccProjectName0 = RSG.Inside.KMTTemplateWebParts
+		SccLocalPath0 = RSG.Inside.KMTTemplateWebParts
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = RSG.Inside.KMTAdmin\\RSG.Inside.KMTAdmin.csproj
+		SccProjectName2 = RSG.Inside.KMTAdmin
+		SccLocalPath2 = RSG.Inside.KMTAdmin
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53B3CAF9-AE65-441B-B276-57BB51F952FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B3CAF9-AE65-441B-B276-57BB51F952FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B3CAF9-AE65-441B-B276-57BB51F952FD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{53B3CAF9-AE65-441B-B276-57BB51F952FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B3CAF9-AE65-441B-B276-57BB51F952FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B3CAF9-AE65-441B-B276-57BB51F952FD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2B5949D1-164D-42A5-9E35-5FEA383EAD42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5949D1-164D-42A5-9E35-5FEA383EAD42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5949D1-164D-42A5-9E35-5FEA383EAD42}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2B5949D1-164D-42A5-9E35-5FEA383EAD42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5949D1-164D-42A5-9E35-5FEA383EAD42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B5949D1-164D-42A5-9E35-5FEA383EAD42}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance FeatureId="{00bfea71-a83e-497e-9ba0-7a5c597d0107}" TemplateType="107" Title="Workflow Tasks" Description="This system library was created by the Publishing feature to store workflow tasks that are created in this site." Url="WorkflowTasks" CustomSchema="Files\WorkflowTasks\Schema.xml" HyperlinkBaseUrl="http://devshpt02:44444" RootWebOnly="FALSE" xmlns="http://schemas.microsoft.com/sharepoint/" />
+</Elements>

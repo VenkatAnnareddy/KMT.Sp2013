@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance FeatureId="{00bfea71-f600-43f6-a895-40c0de7b0117}" TemplateType="122" Title="wfpub" Description="wfpub" Url="_catalogs/wfpub" CustomSchema="Files\_catalogs\wfpub\Schema.xml" HyperlinkBaseUrl="http://devshpt02:44444" RootWebOnly="TRUE" xmlns="http://schemas.microsoft.com/sharepoint/" />
+</Elements>

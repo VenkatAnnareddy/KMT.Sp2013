@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="_catalogstheme_global\lists\themes" Url="_catalogs/theme" SetupPath="global\lists\themes" RootWebOnly="TRUE" Path="Files\_catalogs\theme" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="Azure.thmx" Type="GhostableInLibrary" Path="Azure.thmx">
+			<Property Name="ID" Value="1" />
+			<Property Name="ContentTypeId" Value="0x00292DBCE2346BF245B41465E6031FD8D7" />
+			<Property Name="ContentType" Value="Theme Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/theme" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Azure.thmx" />
+			<Property Name="MetaInfo" Value="1;#" />
+			<Property Name="Order" Value="100.000000000000" />
+		</File>
+		<File Url="Berry.thmx" Type="GhostableInLibrary" Path="Berry.thmx">
+			<Property Name="ID" Value="2" />
+			<Property Name="ContentTypeId" Value="0x00292DBCE2346BF245B41465E6031FD8D7" />
+			<Property Name="ContentType" Value="Theme Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/theme" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Berry.thmx" />
+			<Property Name="MetaInfo" Value="2;#" />
+			<Property Name="Order" Value="200.000000000000" />
+		</File>
+		<File Url="Bittersweet.thmx" Type="GhostableInLibrary" Path="Bittersweet.thmx">
+			<Property Name="ID" Value="3" />
+			<Property Name="ContentTypeId" Value="0x00292DBCE2346BF245B41465E6031FD8D7" />
+			<Property Name="ContentType" Value="Theme Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/theme" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Bittersweet.thmx" />
+			<Property Name="MetaInfo" Value="3;#" />
+			<Property Name="Order" Value="300.000000000000" />
+		</File>
+		<File Url="Cay.thmx" Type="GhostableInLibrary" Path="Cay.thmx">
+			<Property Name="ID" Value="4" />
+			<Property Name="ContentTypeId" Value="0x00292DBCE2346BF245B41465E6031FD8D7" />
+			<Property Name="ContentType" Value="Theme Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/theme" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Cay.thmx" />
+			<Property Name="MetaInfo" Value="4;#" />
+			<Property Name="Order" Value="400.000000000000" />
+		</File>
+		<File Url="Classic.thmx" Type="GhostableInLibrary" Path="Classic.thmx">
+			<Property Name="ID" Value="5" />
+			<Property Name="ContentTypeId" Value="0x00292DBCE2346BF245B41465E6031FD8D7" />
+			<Property Name="ContentType" Value="Theme Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/theme" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Classic.thmx" />
+			<Property Name="MetaInfo" Value="5;#" />
+			<Property Name="Order" Value="500.000000000000" />
+		</File>
+		<File Url="Construct.thmx" Type="GhostableInLibrary" Path="Construct.thmx">
+			<Property Name="ID" Value="6" />
+			<Property Name="ContentTypeId" Value="0x00292DBCE2346BF245B41465E6031FD8D7" />
+			<Property Name="ContentType" Value="Theme Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/theme" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Construct.thmx" />
+			<Property Name="MetaInfo" Value="6;#" />
+			<Property Name="Order" Value="600.000000000000" />
+		</File>
+		<File Url="Convention.thmx" Type="GhostableInLibrary" Path="Convention.thmx">
+			<Property Name="ID" Value="7" />
+			<Property Name="ContentTypeId" Value="0x00292DBCE2346BF245B41465E6031FD8D7" />
+			<Property Name="ContentType" Value="Theme Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/theme" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Convention.thmx" />
+			<Property Name="MetaInfo" Value="7;#" />
+			<Property Name="Order" Value="700.000000000000" />
+		</File>
+		<File Url="Felt.thmx" Type="GhostableInLibrary" Path="Felt.thmx">
+			<Property Name="ID" Value="8" />
+			<Property Name="ContentTypeId" Value="0x00292DBCE2346BF245B41465E6031FD8D7" />
+			<Property Name="ContentType" Value="Theme Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/theme" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Felt.thmx" />
+			<Property Name="MetaInfo" Value="8;#" />
+			<Property Name="Order" Value="800.000000000000" />
+		</File>
+		<File Url="Graham.thmx" Type="GhostableInLibrary" Path="Graham.thmx">
+			<Property Name="ID" Value="9" />
+			<Property Name="ContentTypeId" Value="0x00292DBCE2346BF245B41465E6031FD8D7" />
+			<Property Name="ContentType" Value="Theme Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/theme" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Graham.thmx" />
+			<Property Name="MetaInfo" Value="9;#" />
+			<Property Name="Order" Value="900.000000000000" />
+		</File>
+		<File Url="Grapello.thmx" Type="GhostableInLibrary" Path="Grapello.thmx">
+			<Property Name="ID" Value="10" />
+			<Property Name="ContentTypeId" Value="0x00292DBCE2346BF245B41465E6031FD8D7" />
+			<Property Name="ContentType" Value="Theme Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/theme" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Grapello.thmx" />
+			<Property Name="MetaInfo" Value="10;#" />
+			<Property Name="Order" Value="1000.00000000000" />
+		</File>
+		<File Url="Laminate.thmx" Type="GhostableInLibrary" Path="Laminate.thmx">
+			<Property Name="ID" Value="11" />
+			<Property Name="ContentTypeId" Value="0x00292DBCE2346BF245B41465E6031FD8D7" />
+			<Property Name="ContentType" Value="Theme Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/theme" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Laminate.thmx" />
+			<Property Name="MetaInfo" Value="11;#" />
+			<Property Name="Order" Value="1100.00000000000" />
+		</File>
+		<File Url="Mission.thmx" Type="GhostableInLibrary" Path="Mission.thmx">
+			<Property Name="ID" Value="12" />
+			<Property Name="ContentTypeId" Value="0x00292DBCE2346BF245B41465E6031FD8D7" />
+			<Property Name="ContentType" Value="Theme Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/theme" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Mission.thmx" />
+			<Property Name="MetaInfo" Value="12;#" />
+			<Property Name="Order" Value="1200.00000000000" />
+		</File>
+		<File Url="Modern Rose.thmx" Type="GhostableInLibrary" Path="ModernRose.thmx">
+			<Property Name="ID" Value="13" />
+			<Property Name="ContentTypeId" Value="0x00292DBCE2346BF245B41465E6031FD8D7" />
+			<Property Name="ContentType" Value="Theme Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/theme" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Modern Rose.thmx" />
+			<Property Name="MetaInfo" Value="13;#" />
+			<Property Name="Order" Value="1300.00000000000" />
+		</File>
+		<File Url="Municipal.thmx" Type="GhostableInLibrary" Path="Municipal.thmx">
+			<Property Name="ID" Value="14" />
+			<Property Name="ContentTypeId" Value="0x00292DBCE2346BF245B41465E6031FD8D7" />
+			<Property Name="ContentType" Value="Theme Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/theme" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Municipal.thmx" />
+			<Property Name="MetaInfo" Value="14;#" />
+			<Property Name="Order" Value="1400.00000000000" />
+		</File>
+		<File Url="Pinnate.thmx" Type="GhostableInLibrary" Path="Pinnate.thmx">
+			<Property Name="ID" Value="15" />
+			<Property Name="ContentTypeId" Value="0x00292DBCE2346BF245B41465E6031FD8D7" />
+			<Property Name="ContentType" Value="Theme Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/theme" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Pinnate.thmx" />
+			<Property Name="MetaInfo" Value="15;#" />
+			<Property Name="Order" Value="1500.00000000000" />
+		</File>
+		<File Url="Ricasso.thmx" Type="GhostableInLibrary" Path="Ricasso.thmx">
+			<Property Name="ID" Value="16" />
+			<Property Name="ContentTypeId" Value="0x00292DBCE2346BF245B41465E6031FD8D7" />
+			<Property Name="ContentType" Value="Theme Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/theme" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Ricasso.thmx" />
+			<Property Name="MetaInfo" Value="16;#" />
+			<Property Name="Order" Value="1600.00000000000" />
+		</File>
+		<File Url="Summer.thmx" Type="GhostableInLibrary" Path="Summer.thmx">
+			<Property Name="ID" Value="17" />
+			<Property Name="ContentTypeId" Value="0x00292DBCE2346BF245B41465E6031FD8D7" />
+			<Property Name="ContentType" Value="Theme Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/theme" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Summer.thmx" />
+			<Property Name="MetaInfo" Value="17;#" />
+			<Property Name="Order" Value="1700.00000000000" />
+		</File>
+		<File Url="Vantage.thmx" Type="GhostableInLibrary" Path="Vantage.thmx">
+			<Property Name="ID" Value="18" />
+			<Property Name="ContentTypeId" Value="0x00292DBCE2346BF245B41465E6031FD8D7" />
+			<Property Name="ContentType" Value="Theme Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/theme" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Vantage.thmx" />
+			<Property Name="MetaInfo" Value="18;#" />
+			<Property Name="Order" Value="1800.00000000000" />
+		</File>
+		<File Url="Viewpoint.thmx" Type="GhostableInLibrary" Path="Viewpoint.thmx">
+			<Property Name="ID" Value="19" />
+			<Property Name="ContentTypeId" Value="0x00292DBCE2346BF245B41465E6031FD8D7" />
+			<Property Name="ContentType" Value="Theme Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/theme" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Viewpoint.thmx" />
+			<Property Name="MetaInfo" Value="19;#" />
+			<Property Name="Order" Value="1900.00000000000" />
+		</File>
+		<File Url="Yoshi.thmx" Type="GhostableInLibrary" Path="Yoshi.thmx">
+			<Property Name="ID" Value="20" />
+			<Property Name="ContentTypeId" Value="0x00292DBCE2346BF245B41465E6031FD8D7" />
+			<Property Name="ContentType" Value="Theme Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/theme" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="FileLeafRef" Value="Yoshi.thmx" />
+			<Property Name="MetaInfo" Value="20;#" />
+			<Property Name="Order" Value="2000.00000000000" />
+		</File>
+	</Module>
+</Elements>

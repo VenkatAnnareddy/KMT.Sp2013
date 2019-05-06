@@ -1,0 +1,41 @@
+﻿<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="RSG.Inside.KMTTemplateWebParts.TopDocumentsFromDocumentLibrary.TopDocumentsFromDocumentLibrary, RSG.Inside.KMTTemplateWebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7889d2b3af6fbf88" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="NoDocumentsMessage" type="string">No Documents Exists...!</property>
+        <property name="HelpUrl" type="string" />
+        <property name="CityorEntityColumnValue" type="string">City1</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="Description" type="string">My Visual WebPart</property>
+        <property name="LOBColumnName" type="string">LOB</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="CityorEntityColumnName" type="string">CityOrEntity</property>
+        <property name="Height" type="unit" />
+        <property name="DocumentLibraryName" type="string">DivisionalDocuments</property>
+        <property name="Hidden" type="bool">False</property>
+        <property name="DocumentFullURL" type="string">/DivisionalDocuments/</property>
+        <property name="RankColumnValue" type="string">15</property>
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="Width" type="unit" />
+        <property name="RankColumnName" type="string">Rank</property>
+        <property name="Title" type="string">TopDocumentsFromDocumentLibrary</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+        <property name="TitleUrl" type="string" />
+        <property name="LOBColumnValue" type="string">Residential</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

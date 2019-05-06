@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Files\Documents\2CustomerServiceContactList4213.xls" Target="Files\Documents\" Type="ElementFile" />
+    <ProjectItemFile Source="Files\Documents\CommercialBilling.aspx" Target="Files\Documents\" Type="ElementFile" />
+    <ProjectItemFile Source="Files\Documents\CommercialGeneral.aspx" Target="Files\Documents\" Type="ElementFile" />
+    <ProjectItemFile Source="Files\Documents\CommercialSales.aspx" Target="Files\Documents\" Type="ElementFile" />
+    <ProjectItemFile Source="Files\Documents\NaSLAs.aspx" Target="Files\Documents\" Type="ElementFile" />
+    <ProjectItemFile Source="Files\Documents\ReportingSource.xlsx" Target="Files\Documents\" Type="ElementFile" />
+    <ProjectItemFile Source="Files\Documents\ResidentialBilling.aspx" Target="Files\Documents\" Type="ElementFile" />
+    <ProjectItemFile Source="Files\Documents\ResidentialGeneral.aspx" Target="Files\Documents\" Type="ElementFile" />
+    <ProjectItemFile Source="Files\Documents\ResidentialSales.aspx" Target="Files\Documents\" Type="ElementFile" />
+    <ProjectItemFile Source="Elements.xml" Target="Documents_\" Type="ElementManifest" />
+  </Files>
+</ProjectItem>

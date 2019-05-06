@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance FeatureId="{00bfea71-de22-43b2-a848-c05709900100}" TemplateType="100" Title="TaxonomyHiddenList" Description="The description for the hidden list for the taxonomy feature." Url="Lists/TaxonomyHiddenList" CustomSchema="Files\Lists\TaxonomyHiddenList\Schema.xml" HyperlinkBaseUrl="http://devshpt02:44444" RootWebOnly="TRUE" xmlns="http://schemas.microsoft.com/sharepoint/" />
+</Elements>

@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="_catalogswp_Features\PortalLayouts\dwp" Url="_catalogs/wp" SetupPath="Features\PortalLayouts\dwp" RootWebOnly="TRUE" Path="Files\_catalogs\wp" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="AdvancedSearchBox.dwp" Type="GhostableInLibrary" Path="AdvancedSearchBox.dwp">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="AdvancedSearchBox.dwp" />
+			<Property Name="Title" Value="Advanced Search Box" />
+			<Property Name="WebPartDescription" Value="Displays parameterized search options based on properties and combinations of words." />
+			<Property Name="Group" Value="Search" />
+			<Property Name="QuickAddGroups" Value=";#Search;#" />
+			<Property Name="ID" Value="19" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="19;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Search&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Search;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\AdvancedSearchBox.dwp&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartDescription:SW|Displays parameterized search options based on properties and combinations of words.&#xD;&#xA;WebPartAssembly:SW|Microsoft.Office.Server.Search, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartTypeName:SW|Microsoft.Office.Server.Search.WebControls.AdvancedSearchBox&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartDescription WebPartAssembly WebPartTypeName&#xD;&#xA;vti_cachedtitle:SR|Advanced Search Box&#xD;&#xA;vti_title:SR|Advanced Search Box&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="1900.00000000000" />
+		</File>
+		<File Url="CategoryResultsWebPart.webpart" Type="GhostableInLibrary" Path="CategoryResultsWebPart.webpart">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="CategoryResultsWebPart.webpart" />
+			<Property Name="Title" Value="Sites in Category" />
+			<Property Name="WebPartDescription" Value="Displays sites from the Site Directory within a specific category." />
+			<Property Name="Group" Value="Content Rollup" />
+			<Property Name="QuickAddGroups" Value=";#Site Directory;#" />
+			<Property Name="ID" Value="35" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="35;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Content Rollup&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Site Directory;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\CategoryResultsWebPart.webpart&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartTypeName:SW|Microsoft.SharePoint.Portal.WebControls.CategoryResultsWebPart&#xD;&#xA;WebPartAssembly:SW|Microsoft.SharePoint.Portal,Version=14.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartDescription:SW|Displays sites from the Site Directory within a specific category.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartTypeName WebPartAssembly WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Sites in Category&#xD;&#xA;vti_title:SR|Sites in Category&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="3500.00000000000" />
+		</File>
+		<File Url="CategoryWebPart.webpart" Type="GhostableInLibrary" Path="CategoryWebPart.webpart">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="CategoryWebPart.webpart" />
+			<Property Name="Title" Value="Categories" />
+			<Property Name="WebPartDescription" Value="Displays categories from the Site Directory." />
+			<Property Name="Group" Value="Content Rollup" />
+			<Property Name="QuickAddGroups" Value=";#Site Directory;#" />
+			<Property Name="ID" Value="34" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="34;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Content Rollup&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Site Directory;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\CategoryWebPart.webpart&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartTypeName:SW|Microsoft.SharePoint.Portal.WebControls.CategoryWebPart&#xD;&#xA;WebPartAssembly:SW|Microsoft.SharePoint.Portal,Version=14.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartDescription:SW|Displays categories from the Site Directory.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartTypeName WebPartAssembly WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Categories&#xD;&#xA;vti_title:SR|Categories&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="3400.00000000000" />
+		</File>
+		<File Url="contactwp.dwp" Type="GhostableInLibrary" Path="contactwp.dwp">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="contactwp.dwp" />
+			<Property Name="Title" Value="Contact Details" />
+			<Property Name="WebPartDescription" Value="Displays details about a contact for this page or site." />
+			<Property Name="Group" Value="Social Collaboration" />
+			<Property Name="QuickAddGroups" Value=";#Miscellaneous;#" />
+			<Property Name="ID" Value="18" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="18;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Social Collaboration&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;WebPartPartImageLarge:SW|/_layouts/images/wp_pers.gif&#xD;&#xA;QuickAddGroups:SR|;#Miscellaneous;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\contactwp.dwp&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartAssembly:SW|Microsoft.SharePoint.Portal, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartTypeName:SW|Microsoft.SharePoint.Portal.WebControls.ContactFieldControl&#xD;&#xA;WebPartDescription:SW|Displays details about a contact for this page or site.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|WebPartPartImageLarge vti_title WebPartAssembly WebPartTypeName WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Contact Details&#xD;&#xA;vti_title:SR|Contact Details&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="1800.00000000000" />
+		</File>
+		<File Url="DualChineseSearch.dwp" Type="GhostableInLibrary" Path="DualChineseSearch.dwp">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="DualChineseSearch.dwp" />
+			<Property Name="Title" Value="Dual Chinese Search" />
+			<Property Name="WebPartDescription" Value="Used to search Dual Chinese document and items at the same time." />
+			<Property Name="Group" Value="Search" />
+			<Property Name="QuickAddGroups" Value=";#Search;#" />
+			<Property Name="ID" Value="40" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="40;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Search&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Search;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\DualChineseSearch.dwp&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartAssembly:SW|Microsoft.Office.Server.Search, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartTypeName:SW|Microsoft.SharePoint.Portal.WebControls.DualChineseWebpart&#xD;&#xA;WebPartDescription:SW|Used to search Dual Chinese document and items at the same time.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartAssembly WebPartTypeName WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Dual Chinese Search&#xD;&#xA;vti_title:SR|Dual Chinese Search&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="4000.00000000000" />
+		</File>
+		<File Url="owa.dwp" Type="GhostableInLibrary" Path="owa.dwp">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="owa.dwp" />
+			<Property Name="Title" Value="My Mail Folder" />
+			<Property Name="WebPartDescription" Value="Displays your mail folder using Outlook Web Access for Microsoft Exchange Server 2000." />
+			<Property Name="Group" Value="Outlook Web App" />
+			<Property Name="ID" Value="13" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="13;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Outlook Web App&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;WebPartPartImageLarge:SW|/_layouts/images/wp_pers.gif&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\owa.dwp&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartAssembly:SW|Microsoft.SharePoint.Portal, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartTypeName:SW|Microsoft.SharePoint.Portal.WebControls.OWAPart&#xD;&#xA;WebPartDescription:SW|Displays your mail folder using Outlook Web Access for Microsoft Exchange Server 2000.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|WebPartPartImageLarge vti_title WebPartAssembly WebPartTypeName WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|My Mail Folder&#xD;&#xA;vti_title:SR|My Mail Folder&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="1300.00000000000" />
+		</File>
+		<File Url="owacalendar.dwp" Type="GhostableInLibrary" Path="owacalendar.dwp">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="owacalendar.dwp" />
+			<Property Name="Title" Value="My Calendar" />
+			<Property Name="WebPartDescription" Value="Displays your calendar using Outlook Web Access for Microsoft Exchange Server 2003 or later." />
+			<Property Name="Group" Value="Outlook Web App" />
+			<Property Name="ID" Value="15" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="15;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Outlook Web App&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;WebPartPartImageLarge:SW|/_layouts/images/wp_pers.gif&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\owacalendar.dwp&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartAssembly:SW|Microsoft.SharePoint.Portal, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartTypeName:SW|Microsoft.SharePoint.Portal.WebControls.OWACalendarPart&#xD;&#xA;WebPartDescription:SW|Displays your calendar using Outlook Web Access for Microsoft Exchange Server 2003 or later.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|WebPartPartImageLarge vti_title WebPartAssembly WebPartTypeName WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|My Calendar&#xD;&#xA;vti_title:SR|My Calendar&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="1500.00000000000" />
+		</File>
+		<File Url="owacontacts.dwp" Type="GhostableInLibrary" Path="owacontacts.dwp">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="owacontacts.dwp" />
+			<Property Name="Title" Value="My Contacts" />
+			<Property Name="WebPartDescription" Value="Displays your contacts using Outlook Web Access for Microsoft Exchange Server 2003 or later." />
+			<Property Name="Group" Value="Outlook Web App" />
+			<Property Name="ID" Value="17" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="17;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Outlook Web App&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;WebPartPartImageLarge:SW|/_layouts/images/wp_pers.gif&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\owacontacts.dwp&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartAssembly:SW|Microsoft.SharePoint.Portal, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartTypeName:SW|Microsoft.SharePoint.Portal.WebControls.OWAContactsPart&#xD;&#xA;WebPartDescription:SW|Displays your contacts using Outlook Web Access for Microsoft Exchange Server 2003 or later.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|WebPartPartImageLarge vti_title WebPartAssembly WebPartTypeName WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|My Contacts&#xD;&#xA;vti_title:SR|My Contacts&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="1700.00000000000" />
+		</File>
+		<File Url="owainbox.dwp" Type="GhostableInLibrary" Path="owainbox.dwp">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="owainbox.dwp" />
+			<Property Name="Title" Value="My Inbox" />
+			<Property Name="WebPartDescription" Value="Displays your inbox using Outlook Web Access for Microsoft Exchange Server 2003 or later." />
+			<Property Name="Group" Value="Outlook Web App" />
+			<Property Name="ID" Value="14" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="14;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Outlook Web App&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;WebPartPartImageLarge:SW|/_layouts/images/wp_pers.gif&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\owainbox.dwp&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartAssembly:SW|Microsoft.SharePoint.Portal, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartTypeName:SW|Microsoft.SharePoint.Portal.WebControls.OWAInboxPart&#xD;&#xA;WebPartDescription:SW|Displays your inbox using Outlook Web Access for Microsoft Exchange Server 2003 or later.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|WebPartPartImageLarge vti_title WebPartAssembly WebPartTypeName WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|My Inbox&#xD;&#xA;vti_title:SR|My Inbox&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="1400.00000000000" />
+		</File>
+		<File Url="owatasks.dwp" Type="GhostableInLibrary" Path="owatasks.dwp">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="owatasks.dwp" />
+			<Property Name="Title" Value="My Tasks" />
+			<Property Name="WebPartDescription" Value="Displays your tasks using Outlook Web Access for Microsoft Exchange Server 2003 or later." />
+			<Property Name="Group" Value="Outlook Web App" />
+			<Property Name="ID" Value="16" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="16;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Outlook Web App&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;WebPartPartImageLarge:SW|/_layouts/images/wp_pers.gif&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\owatasks.dwp&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartAssembly:SW|Microsoft.SharePoint.Portal, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartTypeName:SW|Microsoft.SharePoint.Portal.WebControls.OWATasksPart&#xD;&#xA;WebPartDescription:SW|Displays your tasks using Outlook Web Access for Microsoft Exchange Server 2003 or later.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|WebPartPartImageLarge vti_title WebPartAssembly WebPartTypeName WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|My Tasks&#xD;&#xA;vti_title:SR|My Tasks&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="1600.00000000000" />
+		</File>
+		<File Url="PeopleRefinement.webpart" Type="GhostableInLibrary" Path="PeopleRefinement.webpart">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="PeopleRefinement.webpart" />
+			<Property Name="Title" Value="People Refinement Panel" />
+			<Property Name="WebPartDescription" Value="This webpart helps the users to refine people search results" />
+			<Property Name="Group" Value="Search" />
+			<Property Name="QuickAddGroups" Value=";#Search;#" />
+			<Property Name="ID" Value="32" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="32;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Search&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Search;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\PeopleRefinement.webpart&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartTypeName:SW|Microsoft.Office.Server.Search.WebControls.PeopleRefinementWebPart&#xD;&#xA;WebPartAssembly:SW|Microsoft.Office.Server.Search,Version=14.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartDescription:SW|This webpart helps the users to refine people search results&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartTypeName WebPartAssembly WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|People Refinement Panel&#xD;&#xA;vti_title:SR|People Refinement Panel&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="3200.00000000000" />
+		</File>
+		<File Url="PeopleSearchBox.dwp" Type="GhostableInLibrary" Path="PeopleSearchBox.dwp">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="PeopleSearchBox.dwp" />
+			<Property Name="Title" Value="People Search Box" />
+			<Property Name="WebPartDescription" Value="Presents a search box that allows users to search for people." />
+			<Property Name="Group" Value="Search" />
+			<Property Name="QuickAddGroups" Value=";#Search;#" />
+			<Property Name="ID" Value="20" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="20;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Search&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Search;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\PeopleSearchBox.dwp&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartAssembly:SW|Microsoft.Sharepoint.Portal, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartTypeName:SW|Microsoft.SharePoint.Portal.WebControls.PeopleSearchBoxEx&#xD;&#xA;WebPartDescription:SW|Presents a search box that allows users to search for people.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartAssembly WebPartTypeName WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|People Search Box&#xD;&#xA;vti_title:SR|People Search Box&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="2000.00000000000" />
+		</File>
+		<File Url="PeopleSearchCoreResults.webpart" Type="GhostableInLibrary" Path="PeopleSearchCoreResults.webpart">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="PeopleSearchCoreResults.webpart" />
+			<Property Name="Title" Value="People Search Core Results" />
+			<Property Name="WebPartDescription" Value="Displays the people search results and the properties associated with them." />
+			<Property Name="Group" Value="Search" />
+			<Property Name="QuickAddGroups" Value=";#Search;#" />
+			<Property Name="ID" Value="26" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="26;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Search&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Search;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\PeopleSearchCoreResults.webpart&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartTypeName:SW|Microsoft.Office.Server.Search.WebControls.PeopleCoreResultsWebPart&#xD;&#xA;WebPartAssembly:SW|Microsoft.Office.Server.Search,Version=14.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartDescription:SW|Displays the people search results and the properties associated with them.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartTypeName WebPartAssembly WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|People Search Core Results&#xD;&#xA;vti_title:SR|People Search Core Results&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="2600.00000000000" />
+		</File>
+		<File Url="ProfileBrowser.dwp" Type="GhostableInLibrary" Path="ProfileBrowser.dwp">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="ProfileBrowser.dwp" />
+			<Property Name="Title" Value="Organization Browser" />
+			<Property Name="WebPartDescription" Value="This Web Part displays each person in the reporting chain in an interactive view optimized for browsing organization charts." />
+			<Property Name="Group" Value="Social Collaboration" />
+			<Property Name="QuickAddGroups" Value=";#Default;#" />
+			<Property Name="ID" Value="39" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="39;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Social Collaboration&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;WebPartPartImageLarge:SW|/_layouts/images/wp_orgchart.gif&#xD;&#xA;QuickAddGroups:SR|;#Default;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\ProfileBrowser.dwp&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartDescription:SW|This Web Part displays each person in the reporting chain in an interactive view optimized for browsing organization charts.&#xD;&#xA;WebPartAssembly:SW|Microsoft.SharePoint.Portal, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartTypeName:SW|Microsoft.SharePoint.Portal.WebControls.ProfileBrowser&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|WebPartPartImageLarge vti_title WebPartDescription WebPartAssembly WebPartTypeName&#xD;&#xA;vti_cachedtitle:SR|Organization Browser&#xD;&#xA;vti_title:SR|Organization Browser&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="3900.00000000000" />
+		</File>
+		<File Url="QuerySuggestions.webpart" Type="GhostableInLibrary" Path="QuerySuggestions.webpart">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="QuerySuggestions.webpart" />
+			<Property Name="Title" Value="Related Queries" />
+			<Property Name="WebPartDescription" Value="This webpart displays related queries to a user query." />
+			<Property Name="Group" Value="Search" />
+			<Property Name="QuickAddGroups" Value=";#Search;#" />
+			<Property Name="ID" Value="33" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="33;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Search&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Search;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\QuerySuggestions.webpart&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartTypeName:SW|Microsoft.Office.Server.Search.WebControls.QuerySuggestionsWebPart&#xD;&#xA;WebPartAssembly:SW|Microsoft.Office.Server.Search,Version=14.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartDescription:SW|This webpart displays related queries to a user query.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartTypeName WebPartAssembly WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Related Queries&#xD;&#xA;vti_title:SR|Related Queries&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="3300.00000000000" />
+		</File>
+		<File Url="Refinement.webpart" Type="GhostableInLibrary" Path="Refinement.webpart">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="Refinement.webpart" />
+			<Property Name="Title" Value="Refinement Panel" />
+			<Property Name="WebPartDescription" Value="This webpart helps the users to refine search results" />
+			<Property Name="Group" Value="Search" />
+			<Property Name="QuickAddGroups" Value=";#Search;#" />
+			<Property Name="ID" Value="31" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="31;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Search&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Search;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\Refinement.webpart&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartTypeName:SW|Microsoft.Office.Server.Search.WebControls.RefinementWebPart&#xD;&#xA;WebPartAssembly:SW|Microsoft.Office.Server.Search,Version=14.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartDescription:SW|This webpart helps the users to refine search results&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartTypeName WebPartAssembly WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Refinement Panel&#xD;&#xA;vti_title:SR|Refinement Panel&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="3100.00000000000" />
+		</File>
+		<File Url="RssViewer.webpart" Type="GhostableInLibrary" Path="RssViewer.webpart">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="RssViewer.webpart" />
+			<Property Name="Title" Value="RSS Viewer" />
+			<Property Name="WebPartDescription" Value="Displays an RSS feed." />
+			<Property Name="Group" Value="Content Rollup" />
+			<Property Name="QuickAddGroups" Value=";#Default;#" />
+			<Property Name="ID" Value="36" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="36;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Content Rollup&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Default;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\RssViewer.webpart&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartTypeName:SW|Microsoft.SharePoint.Portal.WebControls.RSSAggregatorWebPart&#xD;&#xA;WebPartAssembly:SW|Microsoft.SharePoint.Portal,Version=14.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartDescription:SW|Displays an RSS feed.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartTypeName WebPartAssembly WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|RSS Viewer&#xD;&#xA;vti_title:SR|RSS Viewer&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="3600.00000000000" />
+		</File>
+		<File Url="SearchActionLinks.webpart" Type="GhostableInLibrary" Path="SearchActionLinks.webpart">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="SearchActionLinks.webpart" />
+			<Property Name="Title" Value="Search Action Links" />
+			<Property Name="WebPartDescription" Value="Displays the search action links on the search results page." />
+			<Property Name="Group" Value="Search" />
+			<Property Name="QuickAddGroups" Value=";#Search;#" />
+			<Property Name="ID" Value="28" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="28;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Search&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Search;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\SearchActionLinks.webpart&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartTypeName:SW|Microsoft.Office.Server.Search.WebControls.CoreResultsWebPart&#xD;&#xA;WebPartAssembly:SW|Microsoft.Office.Server.Search,Version=14.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartDescription:SW|Displays the search action links on the search results page.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartTypeName WebPartAssembly WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Search Action Links&#xD;&#xA;vti_title:SR|Search Action Links&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="2800.00000000000" />
+		</File>
+		<File Url="SearchBestBets.webpart" Type="GhostableInLibrary" Path="SearchBestBets.webpart">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="SearchBestBets.webpart" />
+			<Property Name="Title" Value="Search Best Bets" />
+			<Property Name="WebPartDescription" Value="Displays high-confidence results on a search results page." />
+			<Property Name="Group" Value="Search" />
+			<Property Name="QuickAddGroups" Value=";#Search;#" />
+			<Property Name="ID" Value="27" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="27;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Search&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Search;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\SearchBestBets.webpart&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartTypeName:SW|Microsoft.Office.Server.Search.WebControls.HighConfidenceWebPart&#xD;&#xA;WebPartAssembly:SW|Microsoft.Office.Server.Search,Version=14.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartDescription:SW|Displays high-confidence results on a search results page.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartTypeName WebPartAssembly WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Search Best Bets&#xD;&#xA;vti_title:SR|Search Best Bets&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="2700.00000000000" />
+		</File>
+		<File Url="SearchBox.dwp" Type="GhostableInLibrary" Path="SearchBox.dwp">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="SearchBox.dwp" />
+			<Property Name="Title" Value="Search Box" />
+			<Property Name="WebPartDescription" Value="Displays a search box that allows users to search for information." />
+			<Property Name="Group" Value="Search" />
+			<Property Name="QuickAddGroups" Value=";#Search;#" />
+			<Property Name="ID" Value="21" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="21;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Search&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Search;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\SearchBox.dwp&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartAssembly:SW|Microsoft.Office.Server.Search, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartTypeName:SW|Microsoft.SharePoint.Portal.WebControls.SearchBoxEx&#xD;&#xA;WebPartDescription:SW|Displays a search box that allows users to search for information.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartAssembly WebPartTypeName WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Search Box&#xD;&#xA;vti_title:SR|Search Box&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="2100.00000000000" />
+		</File>
+		<File Url="SearchCoreResults.webpart" Type="GhostableInLibrary" Path="SearchCoreResults.webpart">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="SearchCoreResults.webpart" />
+			<Property Name="Title" Value="Search Core Results" />
+			<Property Name="WebPartDescription" Value="Displays the search results and the properties associated with them." />
+			<Property Name="Group" Value="Search" />
+			<Property Name="QuickAddGroups" Value=";#Search;#" />
+			<Property Name="ID" Value="22" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="22;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Search&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Search;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\SearchCoreResults.webpart&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartTypeName:SW|Microsoft.Office.Server.Search.WebControls.CoreResultsWebPart&#xD;&#xA;WebPartAssembly:SW|Microsoft.Office.Server.Search,Version=14.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartDescription:SW|Displays the search results and the properties associated with them.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartTypeName WebPartAssembly WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Search Core Results&#xD;&#xA;vti_title:SR|Search Core Results&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="2200.00000000000" />
+		</File>
+		<File Url="searchpaging.dwp" Type="GhostableInLibrary" Path="searchpaging.dwp">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="searchpaging.dwp" />
+			<Property Name="Title" Value="Search Paging" />
+			<Property Name="WebPartDescription" Value="Display links for navigating pages containing search results." />
+			<Property Name="Group" Value="Search" />
+			<Property Name="QuickAddGroups" Value=";#Search;#" />
+			<Property Name="ID" Value="25" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="25;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Search&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Search;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\searchpaging.dwp&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartAssembly:SW|Microsoft.Office.Server.Search, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartTypeName:SW|Microsoft.Office.Server.Search.WebControls.SearchPagingWebPart&#xD;&#xA;WebPartDescription:SW|Display links for navigating pages containing search results.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartAssembly WebPartTypeName WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Search Paging&#xD;&#xA;vti_title:SR|Search Paging&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="2500.00000000000" />
+		</File>
+		<File Url="searchstats.dwp" Type="GhostableInLibrary" Path="searchstats.dwp">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="searchstats.dwp" />
+			<Property Name="Title" Value="Search Statistics" />
+			<Property Name="WebPartDescription" Value="Displays the search statistics such as the number of results shown on the current page, total number of results and time taken to perform the search." />
+			<Property Name="Group" Value="Search" />
+			<Property Name="QuickAddGroups" Value=";#Search;#" />
+			<Property Name="ID" Value="24" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="24;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Search&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Search;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\searchstats.dwp&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartAssembly:SW|Microsoft.Office.Server.Search, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartTypeName:SW|Microsoft.Office.Server.Search.WebControls.SearchStatsWebPart&#xD;&#xA;WebPartDescription:SW|Displays the search statistics such as the number of results shown on the current page, total number of results and time taken to perform the search.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartAssembly WebPartTypeName WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Search Statistics&#xD;&#xA;vti_title:SR|Search Statistics&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="2400.00000000000" />
+		</File>
+		<File Url="searchsummary.dwp" Type="GhostableInLibrary" Path="searchsummary.dwp">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="searchsummary.dwp" />
+			<Property Name="Title" Value="Search Summary" />
+			<Property Name="WebPartDescription" Value="Displays suggestions for current search query." />
+			<Property Name="Group" Value="Search" />
+			<Property Name="QuickAddGroups" Value=";#Search;#" />
+			<Property Name="ID" Value="23" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="23;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Search&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Search;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\searchsummary.dwp&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartAssembly:SW|Microsoft.Office.Server.Search, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartTypeName:SW|Microsoft.Office.Server.Search.WebControls.SearchSummaryWebPart&#xD;&#xA;WebPartDescription:SW|Displays suggestions for current search query.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartAssembly WebPartTypeName WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Search Summary&#xD;&#xA;vti_title:SR|Search Summary&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="2300.00000000000" />
+		</File>
+		<File Url="siteFramer.dwp" Type="GhostableInLibrary" Path="siteFramer.dwp">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="siteFramer.dwp" />
+			<Property Name="Title" Value="Site Aggregator" />
+			<Property Name="WebPartDescription" Value="Displays sites of your choice." />
+			<Property Name="Group" Value="Content Rollup" />
+			<Property Name="QuickAddGroups" Value=";#Miscellaneous;#" />
+			<Property Name="ID" Value="12" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="12;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Content Rollup&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;WebPartPartImageLarge:SW|/_layouts/images/wp_doc.gif&#xD;&#xA;QuickAddGroups:SR|;#Miscellaneous;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\siteFramer.dwp&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartAssembly:SW|Microsoft.SharePoint.Portal, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartTypeName:SW|Microsoft.SharePoint.Portal.WebControls.SiteDocuments&#xD;&#xA;WebPartDescription:SW|Displays sites of your choice.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|WebPartPartImageLarge vti_title WebPartAssembly WebPartTypeName WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Site Aggregator&#xD;&#xA;vti_title:SR|Site Aggregator&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="1200.00000000000" />
+		</File>
+		<File Url="SocialComment.dwp" Type="GhostableInLibrary" Path="SocialComment.dwp">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="SocialComment.dwp" />
+			<Property Name="Title" Value="Note Board" />
+			<Property Name="WebPartDescription" Value="Enable users to leave short, publicly-viewable notes about this page." />
+			<Property Name="Group" Value="Social Collaboration" />
+			<Property Name="QuickAddGroups" Value=";#Default;#" />
+			<Property Name="ID" Value="38" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="38;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Social Collaboration&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Default;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\SocialComment.dwp&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartDescription:SW|Enable users to leave short, publicly-viewable notes about this page.&#xD;&#xA;WebPartAssembly:SW|Microsoft.SharePoint.Portal, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartTypeName:SW|Microsoft.SharePoint.Portal.WebControls.SocialCommentWebPart&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartDescription WebPartAssembly WebPartTypeName&#xD;&#xA;vti_cachedtitle:SR|Note Board&#xD;&#xA;vti_title:SR|Note Board&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="3800.00000000000" />
+		</File>
+		<File Url="SummaryResults.webpart" Type="GhostableInLibrary" Path="SummaryResults.webpart">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="SummaryResults.webpart" />
+			<Property Name="Title" Value="Federated Results" />
+			<Property Name="WebPartDescription" Value="Displays search results from a configured location." />
+			<Property Name="Group" Value="Search" />
+			<Property Name="QuickAddGroups" Value=";#Search;#" />
+			<Property Name="ID" Value="30" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="30;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Search&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Search;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\SummaryResults.webpart&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartTypeName:SW|Microsoft.Office.Server.Search.WebControls.FederatedResultsWebPart&#xD;&#xA;WebPartAssembly:SW|Microsoft.Office.Server.Search,Version=14.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartDescription:SW|Displays search results from a configured location.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartTypeName WebPartAssembly WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Federated Results&#xD;&#xA;vti_title:SR|Federated Results&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="3000.00000000000" />
+		</File>
+		<File Url="TagCloud.dwp" Type="GhostableInLibrary" Path="TagCloud.dwp">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="TagCloud.dwp" />
+			<Property Name="Title" Value="Tag Cloud" />
+			<Property Name="WebPartDescription" Value="Displays the most popular subjects being tagged inside your organization." />
+			<Property Name="Group" Value="Social Collaboration" />
+			<Property Name="QuickAddGroups" Value=";#Default;#" />
+			<Property Name="ID" Value="37" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="37;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Social Collaboration&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Default;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\TagCloud.dwp&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartDescription:SW|Displays the most popular subjects being tagged inside your organization.&#xD;&#xA;WebPartAssembly:SW|Microsoft.SharePoint.Portal, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartTypeName:SW|Microsoft.SharePoint.Portal.WebControls.TagCloudWebPart&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartDescription WebPartAssembly WebPartTypeName&#xD;&#xA;vti_cachedtitle:SR|Tag Cloud&#xD;&#xA;vti_title:SR|Tag Cloud&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="3700.00000000000" />
+		</File>
+		<File Url="TopAnswer.webpart" Type="GhostableInLibrary" Path="TopAnswer.webpart">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="TopAnswer.webpart" />
+			<Property Name="Title" Value="Top Federated Results" />
+			<Property Name="WebPartDescription" Value="Displays the Top Federated result from the configured location." />
+			<Property Name="Group" Value="Search" />
+			<Property Name="QuickAddGroups" Value=";#Search;#" />
+			<Property Name="ID" Value="29" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="29;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Search&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;QuickAddGroups:SR|;#Search;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\PortalLayouts\\dwp\\TopAnswer.webpart&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartTypeName:SW|Microsoft.Office.Server.Search.WebControls.TopFederatedResultsWebPart&#xD;&#xA;WebPartAssembly:SW|Microsoft.Office.Server.Search,Version=14.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartDescription:SW|Displays the Top Federated result from the configured location.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|vti_title WebPartTypeName WebPartAssembly WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Top Federated Results&#xD;&#xA;vti_title:SR|Top Federated Results&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="2900.00000000000" />
+		</File>
+	</Module>
+</Elements>

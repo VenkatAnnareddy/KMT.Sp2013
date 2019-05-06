@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="_catalogswp_Features\ExcelServerWebPart" Url="_catalogs/wp" SetupPath="Features\ExcelServerWebPart" RootWebOnly="TRUE" Path="Files\_catalogs\wp" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="Microsoft.Office.Excel.WebUI.dwp" Type="GhostableInLibrary" Path="Microsoft.Office.Excel.WebUI.dwp">
+			<Property Name="ContentTypeId" Value="0x00CF9A8953D370D94E913246C06C817435" />
+			<Property Name="FileLeafRef" Value="Microsoft.Office.Excel.WebUI.dwp" />
+			<Property Name="Title" Value="Excel Web Access" />
+			<Property Name="WebPartDescription" Value="Use the Excel Web Access Web Part to interact with an Excel workbook as a Web page." />
+			<Property Name="Group" Value="Business Data" />
+			<Property Name="QuickAddGroups" Value=";#Dashboard;#" />
+			<Property Name="ID" Value="64" />
+			<Property Name="ContentType" Value="Web Part Gallery" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="_catalogs/wp" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="64;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;Group:SR|Business Data&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;WebPartPartImageLarge:SW|/_layouts/images/ewr023.gif&#xD;&#xA;QuickAddGroups:SR|;#Dashboard;#&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_setuppath:SR|Features\\ExcelServerWebPart\\Microsoft.Office.Excel.WebUI.dwp&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;WebPartAssembly:SW|Microsoft.Office.Excel.WebUI, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c&#xD;&#xA;WebPartTypeName:SW|Microsoft.Office.Excel.WebUI.ExcelWebRenderer&#xD;&#xA;WebPartDescription:SW|Use the Excel Web Access Web Part to interact with an Excel workbook as a Web page.&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedcustomprops:VX|WebPartPartImageLarge vti_title WebPartAssembly WebPartTypeName WebPartDescription&#xD;&#xA;vti_cachedtitle:SR|Excel Web Access&#xD;&#xA;vti_title:SR|Excel Web Access&#xD;&#xA;ContentType:SW|Web Part Gallery&#xD;&#xA;ContentTypeId:SW|0x00CF9A8953D370D94E913246C06C817435&#xD;&#xA;" />
+			<Property Name="Order" Value="6400.00000000000" />
+		</File>
+	</Module>
+</Elements>

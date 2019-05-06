@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="_catalogsmasterpage_Features\PublishingLayouts\MasterPages" Url="_catalogs/masterpage" SetupPath="Features\PublishingLayouts\MasterPages" RootWebOnly="FALSE" Path="Files\_catalogs\masterpage" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="nightandday.master" Type="GhostableInLibrary" Path="nightandday.master">
+			<Property Name="ContentTypeId" Value="0x0101000F1C8B9E0EB4BE489F09807B2C53288F0054AD6EF48B9F7B45A142F8173F171BD10032DF3A86B073E2409C0CE802A04B672D" />
+			<Property Name="FileLeafRef" Value="nightandday.master" />
+			<Property Name="UIVersion" Value="4" />
+			<Property Name="Title" Value="&lt;asp:ContentPlaceHolder id=&quot;PlaceHolderPageTitle&quot; runat=&quot;server&quot;/&gt;" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="ID" Value="74" />
+			<Property Name="ContentType" Value="Publishing Master Page" />
+			<Property Name="FileDirRef" Value="_catalogs/masterpage" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="74;#vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_charset:SR|utf-8&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_setuppath:SR|Features\\PublishingLayouts\\MasterPages\\nightandday.master&#xD;&#xA;UIVersion:SR|4&#xD;&#xA;vti_cachedneedsrewrite:BR|false&#xD;&#xA;vti_generator:SR|Microsoft SharePoint&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_cachedhastheme:BR|false&#xD;&#xA;vti_cachedcustomprops:VX|vti_title&#xD;&#xA;ContentType:SR|Publishing Master Page&#xD;&#xA;vti_cachedtitle:SR|&lt;asp:ContentPlaceHolder id=&quot;PlaceHolderPageTitle&quot; runat=&quot;server&quot;/&gt;&#xD;&#xA;vti_metatags:VR|HTTP-EQUIV=X-UA-Compatible IE=8 GENERATOR Microsoft\\ SharePoint progid SharePoint.WebPartPage.Document HTTP-EQUIV=Content-Type text/html;\\ charset=utf-8 HTTP-EQUIV=Expires 0&#xD;&#xA;vti_title:SR|&lt;asp:ContentPlaceHolder id=&quot;PlaceHolderPageTitle&quot; runat=&quot;server&quot;/&gt;&#xD;&#xA;ContentTypeId:SW|0x0101000F1C8B9E0EB4BE489F09807B2C53288F0054AD6EF48B9F7B45A142F8173F171BD10032DF3A86B073E2409C0CE802A04B672D&#xD;&#xA;vti_cachedbodystyle:SR|&lt;body scroll=&quot;no&quot; onload=&quot;if (typeof(_spBodyOnLoadWrapper) != 'undefined') _spBodyOnLoadWrapper();&quot; class=&quot;nightandday&quot;&gt;&#xD;&#xA;" />
+			<Property Name="Order" Value="7400.00000000000" />
+		</File>
+	</Module>
+</Elements>

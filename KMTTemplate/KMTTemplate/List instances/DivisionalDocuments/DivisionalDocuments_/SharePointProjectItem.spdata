@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Files\DivisionalDocuments\3ServiceLocator-InfoWebpartTabs.xlsx" Target="Files\DivisionalDocuments\" Type="ElementFile" />
+    <ProjectItemFile Source="Files\DivisionalDocuments\4ServiceLocator-UnitTestCasesDocument.xlsx" Target="Files\DivisionalDocuments\" Type="ElementFile" />
+    <ProjectItemFile Source="Files\DivisionalDocuments\5Aadhaarenrolmentform.pdf" Target="Files\DivisionalDocuments\" Type="ElementFile" />
+    <ProjectItemFile Source="Files\DivisionalDocuments\Form19.pdf" Target="Files\DivisionalDocuments\" Type="ElementFile" />
+    <ProjectItemFile Source="Files\DivisionalDocuments\Intranet_Sites.xlsx" Target="Files\DivisionalDocuments\" Type="ElementFile" />
+    <ProjectItemFile Source="Files\DivisionalDocuments\ServiceLocatorTaskList_12172012.xlsx" Target="Files\DivisionalDocuments\" Type="ElementFile" />
+    <ProjectItemFile Source="Elements.xml" Target="DivisionalDocuments_\" Type="ElementManifest" />
+  </Files>
+</ProjectItem>

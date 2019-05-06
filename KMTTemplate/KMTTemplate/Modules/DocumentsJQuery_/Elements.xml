@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<Module Name="DocumentsJQuery_" HyperlinkBaseUrl="http://devshpt02:44444" Url="Documents/JQuery" RootWebOnly="FALSE" Path="Files\Documents\JQuery" xmlns="http://schemas.microsoft.com/sharepoint/">
+		<File Url="jquery-1.9.1.min.js" Type="GhostableInLibrary" Path="jquery-1.9.1.min.js">
+			<Property Name="ContentTypeId" Value="0x010100F50BB2863D1B4E46987D570D42A4B628" />
+			<Property Name="FileLeafRef" Value="jquery-1.9.1.min.js" />
+			<Property Name="ID" Value="10" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Documents/JQuery" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="10;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_lmt:SW|Wed, 22 May 2013 15:01:48 GMT&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_contenttag:SW|{84655C5F-9BAB-4A57-90C0-FD60B527835B},3,2&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_winfileattribs:SW|00000000&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_docstoreversion:IR|3&#xD;&#xA;vti_metainfoversion:IW|3&#xD;&#xA;ContentTypeId:SW|0x010100F50BB2863D1B4E46987D570D42A4B628&#xD;&#xA;vti_ct:SW|Wed, 22 May 2013 15:01:48 GMT&#xD;&#xA;vti_lat:SW|Thu, 13 Jun 2013 08:00:23 GMT&#xD;&#xA;vti_sourcecontrolmultiuserchkoutby:VR|REPSRV\\\\udhatsu&#xD;&#xA;" />
+			<Property Name="Order" Value="1000.00000000000" />
+		</File>
+		<File Url="jquery-ui.css" Type="GhostableInLibrary" Path="jquery-ui.css">
+			<Property Name="ContentTypeId" Value="0x010100F50BB2863D1B4E46987D570D42A4B628" />
+			<Property Name="FileLeafRef" Value="jquery-ui.css" />
+			<Property Name="ID" Value="12" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Documents/JQuery" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="12;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_lmt:SW|Mon, 13 May 2013 07:41:36 GMT&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_contenttag:SW|{034D3D6D-E045-4FC7-8565-32F3C9DA3E1E},3,2&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_winfileattribs:SW|00000000&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_docstoreversion:IR|3&#xD;&#xA;vti_metainfoversion:IW|3&#xD;&#xA;ContentTypeId:SW|0x010100F50BB2863D1B4E46987D570D42A4B628&#xD;&#xA;vti_ct:SW|Mon, 13 May 2013 07:41:36 GMT&#xD;&#xA;vti_lat:SW|Thu, 13 Jun 2013 08:00:31 GMT&#xD;&#xA;vti_sourcecontrolmultiuserchkoutby:VR|REPSRV\\\\udhatsu&#xD;&#xA;vti_linkinfo:VX|NSUS|JQueryLib/images/animated-overlay.gif NSUS|JQueryLib/images/ui-bg_flat_75_ffffff_40x100.png NSUS|JQueryLib/images/ui-bg_highlight-soft_75_cccccc_1x100.png NSUS|JQueryLib/images/ui-bg_glass_75_e6e6e6_1x400.png NSUS|JQueryLib/images/ui-bg_glass_75_dadada_1x400.png NSUS|JQueryLib/images/ui-bg_glass_65_ffffff_1x400.png NSUS|JQueryLib/images/ui-bg_glass_55_fbf9ee_1x400.png NSUS|JQueryLib/images/ui-bg_glass_95_fef1ec_1x400.png NSUS|JQueryLib/images/ui-icons_222222_256x240.png NSUS|JQueryLib/images/ui-icons_222222_256x240.png NSUS|JQueryLib/images/ui-icons_888888_256x240.png NSUS|JQueryLib/images/ui-icons_454545_256x240.png NSUS|JQueryLib/images/ui-icons_454545_256x240.png NSUS|JQueryLib/images/ui-icons_2e83ff_256x240.png NSUS|JQueryLib/images/ui-icons_cd0a0a_256x240.png NSUS|JQueryLib/images/ui-bg_flat_0_aaaaaa_40x100.png NSUS|JQueryLib/images/ui-bg_flat_0_aaaaaa_40x100.png&#xD;&#xA;" />
+			<Property Name="Order" Value="1200.00000000000" />
+		</File>
+		<File Url="jquery-ui.js" Type="GhostableInLibrary" Path="jquery-ui.js">
+			<Property Name="ContentTypeId" Value="0x010100F50BB2863D1B4E46987D570D42A4B628" />
+			<Property Name="FileLeafRef" Value="jquery-ui.js" />
+			<Property Name="ID" Value="11" />
+			<Property Name="ContentType" Value="Document" />
+			<Property Name="_ModerationStatus" Value="0" />
+			<Property Name="FileDirRef" Value="Documents/JQuery" />
+			<Property Name="FSObjType" Value="0" />
+			<Property Name="MetaInfo" Value="11;#vti_contentversionisdirty:BW|false&#xD;&#xA;vti_parserversion:SR|14.0.0.6029&#xD;&#xA;vti_lmt:SW|Wed, 22 May 2013 15:01:49 GMT&#xD;&#xA;vti_folderitemcount:IR|0&#xD;&#xA;vti_contenttag:SW|{846A49C5-EC64-4791-962A-00A251CB3A1B},3,2&#xD;&#xA;vti_author:SR|REPSRV\\udhatsu&#xD;&#xA;vti_winfileattribs:SW|00000000&#xD;&#xA;vti_foldersubfolderitemcount:IR|0&#xD;&#xA;vti_modifiedby:SR|REPSRV\\udhatsu&#xD;&#xA;vti_docstoreversion:IR|3&#xD;&#xA;vti_metainfoversion:IW|3&#xD;&#xA;ContentTypeId:SW|0x010100F50BB2863D1B4E46987D570D42A4B628&#xD;&#xA;vti_ct:SW|Wed, 22 May 2013 15:01:49 GMT&#xD;&#xA;vti_lat:SW|Thu, 13 Jun 2013 08:00:27 GMT&#xD;&#xA;vti_sourcecontrolmultiuserchkoutby:VR|REPSRV\\\\udhatsu&#xD;&#xA;" />
+			<Property Name="Order" Value="1100.00000000000" />
+		</File>
+	</Module>
+</Elements>
